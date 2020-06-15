@@ -2339,12 +2339,11 @@ wPartyDataEnd::
 wMainDataStart::
 
 wPokedexOwned:: ; d2f7
-	flag_array NUM_POKEMON
+    flag_array NUM_POKEMON
 wPokedexOwnedEnd::
 
-wPokedexSeen:: ; d30a
-	flag_array NUM_POKEMON
-wPokedexSeenEnd::
+    flag_array 2 * 151 - NUM_POKEMON
+wPokedexSeenEndOld::
 
 
 wNumBagItems:: ; d31d
@@ -2575,7 +2574,12 @@ wDestinationWarpID:: ; d42f
 ; if $ff, the player's coordinates are not updated when entering the map
 	ds 1
 
-	ds 128
+wPokedexSeen::
+    flag_array NUM_POKEMON
+wPokedexSeenEnd::
+
+
+    ds 128 - (wPokedexSeenEnd - wPokedexSeen)
 
 wNumSigns:: ; d4b0
 ; number of signs in the current map (up to 16)

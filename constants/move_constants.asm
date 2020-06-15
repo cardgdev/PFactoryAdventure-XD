@@ -164,10 +164,48 @@ const_value = 1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	const STRUGGLE     ; a5
+	const H_BOMB       ; a6
+	const SPITFIRE     ; a7
+	const FIREWALL     ; a8
+	const EVAPORATE    ; a9
+	const CURRENT      ; aa
+	const SHADOW       ; ab
+	const DARKENING    ; ac
+	const BUZZSAW      ; ad
+	const MEGABURP     ; ae
+	const COMATOSE     ; af
+	const PSYCHOSHOCK  ; b0
+	const PARALYZER    ; b1
+	const BUG_SWARM    ; b2
+	const PHANTOM_FIRE ; b3
+	const WEB_SPIN     ; b4
+	const TYRANT_FANG  ; b5
+	const FILTHY_CLAW  ; b6
+	const ICE_BLADE    ; b7
+	const GAS_SHOCK    ; b8
+	const GLASSBREAKER ; b9
+	const MEGACUT      ; ba
+	const INVISIBILITY ; bb
+	const PRISMFIRE    ; bc
+	const ICY_BREATH   ; bd
+	const REDHOT_CLAW  ; be
+	const MAGIC_MISSILE ; bf
+	const SHROOM_BOOM ; c0
+	const VOODOO      ; c1
+	const MECHA_DRAIN ; c2
+	const ARMOR_TAIL  ; c3
+	const CYBER_DRILL ; c4
+	const JETWING     ; c5
+	const DEATH_ROLL  ; c6
+	const NUTCRACKER  ; c7
+	const PSYBREAK    ; c8
+	const ARMOR_CLAW  ; c9
+	const AURA_SPHERE ; ca
+	const CORRUPT     ; cb
 
-NUM_ATTACKS EQU const_value + -1
-
-	const STRUGGLE
+NUM_ATTACKS EQU const_value
+const_value = STRUGGLE + 1
 
 	; Moves do double duty as animation identifiers.
 

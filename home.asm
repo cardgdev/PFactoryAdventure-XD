@@ -731,58 +731,21 @@ UncompressMonSprite::
 	ld [wSpriteInputPtr],a    ; fetch sprite input pointer
 	ld a,[hl]
 	ld [wSpriteInputPtr+1],a
-; define (by index number) the bank that a pokemon's image is in
-; index = Mew, bank 1
-; index = Kabutops fossil, bank $B
-; index < $1F, bank 9
-; $1F ≤ index < $4A, bank $A
-; $4A ≤ index < $74, bank $B
-; $74 ≤ index < $99, bank $C
-; $99 ≤ index,       bank $D
-	ld a,[wcf91] ; XXX name for this ram location
-	ld [wd11e], a
-	ld b,a	
-	ld a, b	
-	cp MEW
-	ld a,BANK(MewPicFront)
-	jr z,.GotBank
-	ld a,b
-	cp MON_GHOST
-	ld a,BANK(GhostPic)
-	jr z,.GotBank
-	ld a,b
+
+	; HAX: code from Danny-E33's hack
+	; Each pokemon's picture bank is defined with an unused byte in its stats.
+	ld a, [wcf91] ; get Pokémon ID
+	ld b, BANK(FossilKabutopsPic)
 	cp FOSSIL_KABUTOPS
-	ld a,BANK(FossilKabutopsPic)
-	jr z,.GotBank
-	push af
-	push bc
-	push de
-	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
-	pop de
-	pop bc
-	pop af
-	ld a,[wd11e]
-	cp 0
-	ld a, BANK(MissingnoFrontPicBlob)
-	jr z,.GotBank
+	jr z,.RecallBank
+	cp FOSSIL_AERODACTYL
+	jr z,.RecallBank
+	cp MON_GHOST
+	jr z,.RecallBank
+	ld a, [wMonSpritesBank] ; Get bank from base stats
+	jr .GotBank
+.RecallBank
 	ld a,b
-	cp TANGELA + 1
-	ld a,BANK(TangelaPicFront)
-	jr c,.GotBank
-	ld a,b
-	cp MOLTRES + 1
-	ld a,BANK(MoltresPicFront)
-	jr c,.GotBank
-	ld a,b
-	cp BEEDRILL + 2
-	ld a,BANK(BeedrillPicFront)
-	jr c,.GotBank
-	ld a,b
-	cp STARMIE + 1
-	ld a,BANK(StarmiePicFront)
-	jr c,.GotBank  
-	
-	ld a,BANK(VictreebelPicFront)
 .GotBank
 	jp UncompressSpriteData
 
