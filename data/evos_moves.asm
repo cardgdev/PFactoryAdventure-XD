@@ -2392,16 +2392,28 @@ AeroboomEvosMoves:
 	
 ChrystalEvosMoves:
 ; evolutions
-	db EV_LEVEL, 42, CHRYSALISS
+	db EV_LEVEL, 43, CHRYSALISS
 	db 0
 ; learnset 
-	(come back to these two later)
+	;tackle
+	;sharpen
+	;conversion
+	;invisibility
+	db 0
 
 ChrysalissEvosMoves:
 ; evolutions
 	db 0
 ; learnset
-	(soontm)
+	;tackle
+	;sharpen
+	;conversion
+	;invisibility
+	db 43, PRISMFIRE
+	db 45, SOLARBEAM
+	db 50, TRI_ATTACK
+	db 55, RECOVER
+	db 0
 
 MagifartEvosMoves:
 ; evolutions
