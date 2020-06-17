@@ -1,13 +1,13 @@
 IslandMonsB3:
 	db $0A	
-	db 31,SLOWPOKE
-	db 31,SEEL
-	db 33,PSYDUCK
-	db 33,SEEL
-	db 29,KRABBY
-	db 31,STARYU
-	db 31,HORSEA
+	db 31,PIKABLU
+	db 31,FREEZY
+	db 33,ERCHIN
+	db 33,FREEZY
 	db 29,SHELLDER
-	db 39,SEADRA
-	db 37,DEWGONG	
+	db 31,STARYU
+	db 31,ICEPICK
+	db 29,ICEPICK
+	db 39,FREEZAP
+	db 37,FREEZAP	
 	db $00

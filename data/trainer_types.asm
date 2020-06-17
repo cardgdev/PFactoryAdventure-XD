@@ -12,6 +12,6 @@ EvilTrainerList::
 	db OPP_JUGGLER
 	db OPP_CHIEF
 	db OPP_SCIENTIST
-	db OPP_GIOVANNI
-	db OPP_ROCKET
+	db OPP_BLAINE
+	db OPP_SOLDIER
 	db $FF

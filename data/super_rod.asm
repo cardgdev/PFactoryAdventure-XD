@@ -40,75 +40,75 @@ SuperRodData:
 ; number of monsters, followed by level/monster pairs
 FishingGroup1:
 	db 2
-	db 15,TENTACOOL
-	db 15,POLIWAG
+	db 15,ALGAEZ
+	db 15,FROGGLET
 
 FishingGroup2:
 	db 2
-	db 15,GOLDEEN
-	db 15,POLIWAG
+	db 15,SHELLRY
+	db 15,FROGGLET
 
 FishingGroup3:
 	db 3
-	db 15,PSYDUCK
-	db 15,GOLDEEN
-	db 15,KRABBY
+	db 15,CYDUCK
+	db 15,ERCHIN
+	db 15,SHELLRY
 
 FishingGroup4:
 	db 2
-	db 15,KRABBY
+	db 15,ERCHIN
 	db 15,SHELLDER
 
 FishingGroup5:
 	db 2
-	db 23,MUK
-	db 15,GRIMER
+	db 23,GLOOB
+	db 15,GLOOB
 
 FishingGroup6:
 	db 4
-	db 15,DRATINI
-	db 15,KRABBY
-	db 15,PSYDUCK
-	db 15,SLOWPOKE
+	db 15,DRAKOR
+	db 15,ERCHIN
+	db 15,CYDUCK
+	db 15,OCEANEEL
 
 FishingGroup7:
 	db 4
-	db 5,TENTACOOL
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 5,ALGAEZ
+	db 15,ERCHIN
+	db 15,SHELLRY
+	db 15,MAGIFART
 
 FishingGroup8:
 	db 4
 	db 15,STARYU
-	db 15,HORSEA
+	db 15,SHELLRY
 	db 15,SHELLDER
-	db 15,GOLDEEN
+	db 15,ERCHIN
 
 FishingGroup9:
 	db 4
-	db 23,SLOWBRO
-	db 23,SEAKING
-	db 23,KINGLER
-	db 23,SEADRA
+	db 23,STARMIE
+	db 23,CRESTIX
+	db 23,OCEANEEL
+	db 23,OCEANEEL
 
 FishingGroup10:
 	db 4
-	db 23,SEAKING
-	db 23,GYARADOS
-	db 15,KRABBY
-	db 15,GOLDEEN
+	db 23,OCEANEEL
+	db 23,OCEANEEL
+	db 15,ERCHIN
+	db 15,DRAKOR
 
 FishingGroup11:
 	db 4
-	db 30,KRABBY
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 30,ERCHIN
+	db 15,ERCHIN
+	db 15,CRESTIX
+	db 15,MAGIFART
 
 FishingGroup12:
 	db 4
-	db 30,OMANYTE
-	db 30,KABUTO
-	db 23,GOLDUCK
-	db 23,SEADRA
+	db 30,PIKABLU
+	db 30,PIKABLU
+	db 23,CYDUCK
+	db 23,OCEANEEL

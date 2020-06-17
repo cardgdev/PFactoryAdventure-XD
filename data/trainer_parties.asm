@@ -10,7 +10,7 @@ TrainerDataPointers:
 	dw HikerData
 	dw BikerData
 	dw BurglarData
-	dw EngineerData
+	dw DojoCoupleData
 	dw Juggler1Data
 	dw FisherData
 	dw SwimmerData
@@ -27,25 +27,25 @@ TrainerDataPointers:
 	dw ProfOakData
 	dw ChiefData
 	dw ScientistData
-	dw GiovanniData
-	dw RocketData
+	dw BlaineData
+	dw SoldierData
 	dw CooltrainerMData
 	dw CooltrainerFData
 	dw BrunoData
-	dw BrockData
-	dw MistyData
-	dw LtSurgeData
-	dw ErikaData
-	dw KogaData
-	dw BlaineData
-	dw SabrinaData
-	dw GentlemanData
+	dw IchitarouData
+	dw HayatoData
+	dw EnokiData
+	dw MikanData
+	dw TuskushiData
+	dw JuniorData
+	dw JackData
+	dw SurgeData
 	dw Green2Data
 	dw Green3Data
-	dw LoreleiData
+	dw WillData
 	dw ChannelerData
-	dw AgathaData
-	dw LanceData
+	dw KogaData
+	dw KarenData
 
 ; if first byte != FF, then
 	; first byte is level (of all pokemon on this team)
@@ -68,7 +68,7 @@ YoungsterData:
 	db 15,RATTATA,SPEAROW,0
 	db 17,SLOWPOKE,0
 	db 14,EKANS,SANDSHREW,0
-; SS Anne 1F Rooms
+; SS Anne 1F Rooms (REPLACE WITH SOLDIER)
 	db 21,NIDORAN_M,0
 ; Route 11
 	db 21,EKANS,0
@@ -115,9 +115,9 @@ LassData:
 ; Route 25
 	db 15,NIDORAN_M,NIDORAN_F,0
 	db 13,ODDISH,PIDGEY,ODDISH,0
-; SS Anne 1F Rooms
+; SS Anne 1F Rooms (REPLACE WITH SOLDIER)
 	db 18,PIDGEY,NIDORAN_F,0
-; SS Anne 2F Rooms
+; SS Anne 2F Rooms (REPLACE WITH SOLDIER)
 	db 18,RATTATA,PIKACHU,0
 ; Route 8
 	db 23,NIDORAN_F,NIDORINA,0
@@ -282,12 +282,9 @@ BurglarData:
 	db 38,NINETALES,0
 ; Mansion B1F
 	db 34,GROWLITHE,PONYTA,0
-EngineerData:
-; Unused
+DojoCoupleData:
+; Dojo
 	db 21,VOLTORB,MAGNEMITE,0
-; Route 11
-	db 21,MAGNEMITE,0
-	db 18,MAGNEMITE,MAGNEMITE,MAGNETON,0
 Juggler1Data:
 ; none
 FisherData:
@@ -485,14 +482,14 @@ ScientistData:
 	db 33,MAGNEMITE,MAGNETON,VOLTORB,0
 ; Mansion B1F
 	db 34,MAGNEMITE,ELECTRODE,0
-GiovanniData:
+BlaineData:
 ; Rocket Hideout B4F
 	db $FF,25,ONIX,24,RHYHORN,29,KANGASKHAN,0
 ; Silph Co. 11F
 	db $FF,37,NIDORINO,35,KANGASKHAN,37,RHYHORN,41,NIDOQUEEN,0
 ; Viridian Gym
 	db $FF,45,RHYHORN,42,DUGTRIO,44,NIDOQUEEN,45,NIDOKING,50,RHYDON,0
-RocketData:
+SoldierData:
 ; Mt. Moon B2F
 	db 13,RATTATA,ZUBAT,0
 	db 11,SANDSHREW,RATTATA,ZUBAT,0
@@ -587,30 +584,23 @@ CooltrainerFData:
 	db 43,PERSIAN,NINETALES,RAICHU,0
 BrunoData:
 	db $FF,53,ONIX,55,HITMONCHAN,55,HITMONLEE,56,ONIX,58,MACHAMP,0
-BrockData:
+IchitarouData:
 	db $FF,12,GEODUDE,14,ONIX,0
-MistyData:
+HayatoData:
 	db $FF,18,STARYU,21,STARMIE,0
-LtSurgeData:
+EnokiData:
 	db $FF,21,VOLTORB,18,PIKACHU,24,RAICHU,0
-ErikaData:
+MikanData:
 	db $FF,29,VICTREEBEL,24,TANGELA,29,VILEPLUME,0
-KogaData:
+TuskushiData:
 	db $FF,37,KOFFING,39,MUK,37,KOFFING,43,WEEZING,0
-BlaineData:
+JuniorData:
 	db $FF,42,GROWLITHE,40,PONYTA,42,RAPIDASH,47,ARCANINE,0
-SabrinaData:
+JackData:
 	db $FF,38,KADABRA,37,MR_MIME,38,VENOMOTH,43,ALAKAZAM,0
-GentlemanData:
-; SS Anne 1F Rooms
+SurgeData:
+; SS Anne
 	db 18,GROWLITHE,GROWLITHE,0
-	db 19,NIDORAN_M,NIDORAN_F,0
-; SS Anne 2F Rooms/Vermilion Gym
-	db 23,PIKACHU,0
-; Unused
-	db 48,PRIMEAPE,0
-; SS Anne 2F Rooms
-	db 17,GROWLITHE,PONYTA,0
 Green2Data:
 	db $FF,1,PIDGEY,1,ABRA,1,GROWLITHE,1,EXEGGCUTE,0 ; padding, never used but needed
 	db $FF,1,PIDGEY,1,ABRA,1,GROWLITHE,1,EXEGGCUTE,0
@@ -622,7 +612,7 @@ Green3Data:
 	db $FF,1,PIDGEY,1,ABRA,1,GROWLITHE,1,EXEGGCUTE,1,RHYHORN,1,MAGIKARP,0
 	db $FF,1,PIDGEY,1,ABRA,1,GROWLITHE,1,EXEGGCUTE,1,RHYHORN,1,MAGIKARP,0
 	db $FF,1,PIDGEY,1,ABRA,1,GROWLITHE,1,EXEGGCUTE,1,RHYHORN,1,MAGIKARP,0
-LoreleiData:
+WillData:
 	db $FF,54,DEWGONG,53,CLOYSTER,54,SLOWBRO,56,JYNX,56,LAPRAS,0
 ChannelerData:
 ; Unused
@@ -662,7 +652,8 @@ ChannelerData:
 	db 34,GASTLY,HAUNTER,0
 	db 38,HAUNTER,0
 	db 33,GASTLY,GASTLY,HAUNTER,0
-AgathaData:
+KogaData:
 	db $FF,56,GENGAR,56,GOLBAT,55,HAUNTER,58,ARBOK,60,GENGAR,0
-LanceData:
+KarenData:
 	db $FF,58,GYARADOS,56,DRAGONAIR,56,DRAGONAIR,60,AERODACTYL,62,DRAGONITE,0
+

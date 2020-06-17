@@ -25,8 +25,8 @@ TeamMoves:
 ; first byte: trainer (all trainers in this class have this move)
 ; second byte: move
 ; ff-terminated
-	db LORELEI,BLIZZARD
+	db WILL,BLIZZARD
 	db BRUNO,FISSURE
-	db AGATHA,TOXIC
-	db LANCE,BARRIER
+	db KOGA,TOXIC
+	db KAREN,BARRIER
 	db $FF

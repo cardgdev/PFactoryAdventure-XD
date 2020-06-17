@@ -1,13 +1,13 @@
 IslandMonsB2:
 	db $0A
-	db 30,SEEL
-	db 30,SLOWPOKE
-	db 32,SEEL
-	db 32,PSYDUCK
-	db 28,HORSEA
+	db 30,PIKABLU
+	db 30,ERCHIN
+	db 32,PIKABLU
+	db 32,ERCHIN
+	db 28,SHELLRY
 	db 30,STARYU
-	db 30,KRABBY
+	db 30,FREEZY
 	db 28,SHELLDER
-	db 30,GOLBAT
-	db 37,SLOWBRO	
+	db 30,FREEZY
+	db 37,ICEPICK	
 	db $00

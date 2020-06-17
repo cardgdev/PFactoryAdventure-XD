@@ -926,7 +926,7 @@ INCLUDE "engine/randomization.asm"
 
 INCLUDE "engine/menu/randomizer.asm"
 
-INCLUDE "data/baseStats/missingno.asm"
+;INCLUDE "data/baseStats/missingno.asm"
 
 SECTION "bank11",ROMX,BANK[$11]
 
@@ -1283,43 +1283,32 @@ JugglerPic::       INCBIN "pic/trainer/juggler.pic"
 TamerPic::         INCBIN "pic/trainer/tamer.pic"
 BirdKeeperPic::    INCBIN "pic/trainer/birdkeeper.pic"
 BlackbeltPic::     INCBIN "pic/trainer/blackbelt.pic"
+Rival2Pic::
 Rival1Pic::        INCBIN "pic/trainer/rival1.pic"
 ProfOakPic::       INCBIN "pic/trainer/prof.oak.pic"
 ChiefPic::
 ScientistPic::     INCBIN "pic/trainer/scientist.pic"
-GiovanniPic::      INCBIN "pic/trainer/giovanni.pic"
+BlainePic::      INCBIN "pic/trainer/blaine.pic"
 RocketPic::        INCBIN "pic/trainer/rocket.pic"
 CooltrainerMPic::  INCBIN "pic/trainer/cooltrainerm.pic"
 CooltrainerFPic::  INCBIN "pic/trainer/cooltrainerf.pic"
 BrunoPic::         INCBIN "pic/trainer/bruno.pic"
-BrockPic::         INCBIN "pic/trainer/brock.pic"
-MistyPic::         INCBIN "pic/trainer/misty.pic"
-LtSurgePic::       INCBIN "pic/trainer/lt.surge.pic"
-ErikaPic::         INCBIN "pic/trainer/erika.pic"
-KogaPic::          INCBIN "pic/trainer/koga.pic"
-BlainePic::        INCBIN "pic/trainer/blaine.pic"
-SabrinaPic::       INCBIN "pic/trainer/sabrina.pic"
+IchitarouPic::         INCBIN "pic/trainer/ichitarou.pic"
+HayatoPic::         INCBIN "pic/trainer/hayato.pic"
+EnokiPic::       INCBIN "pic/trainer/enoki.pic"
+MikanPic::         INCBIN "pic/trainer/mikan.pic"
+TsukushiPic::          INCBIN "pic/trainer/tsukushi.pic"
+JuniorPic::        INCBIN "pic/trainer/junior.pic"
+JackPic::       INCBIN "pic/trainer/jack.pic"
 GentlemanPic::     INCBIN "pic/trainer/gentleman.pic"
-Rival2Pic::        INCBIN "pic/trainer/rival2.pic"
 Rival3Pic::        INCBIN "pic/trainer/rival3.pic"
-LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
+WillPic::       INCBIN "pic/trainer/will.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
-AgathaPic::        INCBIN "pic/trainer/agatha.pic"
-LancePic::         INCBIN "pic/trainer/lance.pic"
+KogaPic::        INCBIN "pic/trainer/koga.pic"
+KarenPic::         INCBIN "pic/trainer/karen.pic"
 
-INCLUDE "data/mapHeaders/tradecenter.asm"
-INCLUDE "scripts/tradecenter.asm"
-INCLUDE "data/mapObjects/tradecenter.asm"
-TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
 
-INCLUDE "data/mapHeaders/colosseum.asm"
-INCLUDE "scripts/colosseum.asm"
-INCLUDE "data/mapObjects/colosseum.asm"
-ColosseumBlocks: INCBIN "maps/colosseum.blk"
 
-INCLUDE "engine/give_pokemon.asm"
-
-INCLUDE "engine/predefs.asm"
 
 
 SECTION "bank14",ROMX,BANK[$14]
@@ -2206,4 +2195,21 @@ LuxorPicFront:: INCBIN "pic/pfmon/luxor.pic"
 LuxorPicBack:: INCBIN "pic/monback/luxorb.pic"
 TropMewPicFront:: INCBIN "pic/pfmon/tropmew.pic"
 TropMewPicBack:: INCBIN "pic/monback/tropmewb.pic"
+
+SECTION "movedStuff",ROMX,BANK[$30]
+
+;moved from bank 13
+INCLUDE "data/mapHeaders/tradecenter.asm"
+INCLUDE "scripts/tradecenter.asm"
+INCLUDE "data/mapObjects/tradecenter.asm"
+TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
+
+INCLUDE "data/mapHeaders/colosseum.asm"
+INCLUDE "scripts/colosseum.asm"
+INCLUDE "data/mapObjects/colosseum.asm"
+ColosseumBlocks: INCBIN "maps/colosseum.blk"
+
+INCLUDE "engine/give_pokemon.asm"
+
+INCLUDE "engine/predefs.asm"
 

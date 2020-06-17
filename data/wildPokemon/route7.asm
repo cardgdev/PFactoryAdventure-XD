@@ -1,13 +1,13 @@
 Route7Mons:
 	db $0F	
-	db 19,PIDGEY
-	db 19,ODDISH
-	db 17,MANKEY
+	db 19,FIREBIRD
+	db 19,SEEDLING
+	db 17,ZIPPO
 	db 22,MEOWTH
 	db 22,MEOWTH
-	db 18,MANKEY
-	db 18,GROWLITHE
+	db 18,ZIPPO
+	db 18,SHOCKRA
 	db 20,VULPIX
-	db 19,MANKEY
-	db 20,MANKEY	
+	db 19,SHOCKRA
+	db 20,GRIFF	
 	db $00

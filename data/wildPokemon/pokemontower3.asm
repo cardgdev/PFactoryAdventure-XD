@@ -7,7 +7,7 @@ TowerMons3:
 	db 19,GASTLY
 	db 18,GASTLY
 	db 24,GASTLY
-	db 20,CUBONE
-	db 22,CUBONE
-	db 25,HAUNTER
+	db 20,GASTLY
+	db 22,GASTLY
+	db 25,GASTLY
 	db $00

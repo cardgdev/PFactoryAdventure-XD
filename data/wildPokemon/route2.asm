@@ -1,11 +1,11 @@
 Route2Mons:
 	db $19
 	db 3,RATTATA
-	db 3,PIDGEY
-	db 4,PIDGEY
+	db 3,FIREBIRD
+	db 4,FIREBIRD
 	db 4,RATTATA
-	db 5,PIDGEY	
-	db 3,WEEDLE	
+	db 5,FIREBIRD	
+	db 3,SPINNERET	
 	db 2,CATERPIE
 	db 5,RATTATA	
 	db 4,CATERPIE
