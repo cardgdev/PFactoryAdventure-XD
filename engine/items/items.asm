@@ -1878,7 +1878,7 @@ ItemUseOldRod:
 	jp c, ItemUseNotTime
 	ld a, 5
 	ld b, a
-	ld a, MAGIKARP
+	ld a, MAGIFART
 	ld c, a
 	ld a, $1 ; set bite
 	jr RodResponse

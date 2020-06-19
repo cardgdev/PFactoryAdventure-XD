@@ -58,8 +58,8 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11,RATTATA,EKANS,0
-	db 14,SPEAROW,0
+	db 11,RATICLAW,ARBOK,MEGAPHON,0
+	db 14,LORMERAK,FIREBIRD,0
 ; Mt. Moon 1F
 	db 10,RATTATA,RATTATA,ZUBAT,0
 ; Route 24

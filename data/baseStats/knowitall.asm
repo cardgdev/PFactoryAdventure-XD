@@ -1,22 +1,22 @@
-db DEX_MEW ; pokedex id
-db 100 ; base hp
-db 100 ; base attack
-db 100 ; base defense
-db 100 ; base speed
-db 100 ; base special
+db DEX_KNOWITALL ; pokedex id
+db 48 ; base hp
+db 48 ; base attack
+db 48 ; base defense
+db 48 ; base speed
+db 48 ; base special
 db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
-db 45 ; catch rate
+db 180 ; catch rate
 db 64 ; base exp yield
-INCBIN "pic/pfmon/mew.pic",0,1 ; 55, sprite dimensions
-dw MewPicFront
-dw MewPicBack
+INCBIN "pic/pfmon/knowitall.pic",0,1 ; 55, sprite dimensions
+dw KnowitallPicFront
+dw KnowitallPicBack
 ; attacks known at lvl 0
-db POUND
+db TELEPORT
+db TRANSFORM
+db MIMIC
 db 0
-db 0
-db 0
-db 3 ; growth rate
+db 4 ; growth rate
 ; learnset
 	tmlearn 1,2,3,4,5,6,7,8
 	tmlearn 9,10,11,12,13,14,15,16
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,35,36,37,38,39,40
 	tmlearn 41,42,43,44,45,46,47,48
 	tmlearn 49,50,51,52,53,54,55
-db BANK(MewPicFront)
+db BANK(KnowitallPicFront)

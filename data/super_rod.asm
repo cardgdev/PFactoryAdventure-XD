@@ -94,9 +94,9 @@ FishingGroup9:
 
 FishingGroup10:
 	db 4
+	db 23,ERCHIN
 	db 23,OCEANEEL
-	db 23,OCEANEEL
-	db 15,ERCHIN
+	db 15,ALPHA
 	db 15,DRAKOR
 
 FishingGroup11:
