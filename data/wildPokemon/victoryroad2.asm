@@ -5,9 +5,9 @@ PlateauMons2:
 	db 26,MECHTROID
 	db 36,GORK
 	db 39,GORK
-	db 42,GORK
+	db 42,MAROWAK
 	db 41,MAZILLA
 	db 40,KILIANSH
-	db 40,MAROWAK
-	db 43,KILIANSH
+	db 40,ALTROX
+	db 43,ALTROX
 	db $00

@@ -8,6 +8,6 @@ PlateauMons3:
 	db 45,GORK
 	db 43,GRANITE
 	db 41,MAROWAK
-	db 42,MAZILLA
-	db 45,MAZILLA
+	db 42,ALTROX
+	db 45,ALTROX
 	db $00
