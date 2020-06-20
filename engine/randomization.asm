@@ -331,6 +331,8 @@ ValidMonIdxs:
 	db 28
 	db 29
 	db 30
+	db 31
+	db 32
 	db 33
 	db 34
 	db 35
@@ -348,17 +350,26 @@ ValidMonIdxs:
 	db 47
 	db 48
 	db 49
+	db 50
 	db 51
+	db 52
 	db 53
 	db 54
 	db 55
+	db 56
 	db 57
 	db 58
 	db 59
 	db 60
+	db 61
+	db 62
+	db 63
 	db 64
 	db 65
 	db 66
+	db 67
+	db 68
+	db 69
 	db 70
 	db 71
 	db 72
@@ -368,16 +379,23 @@ ValidMonIdxs:
 	db 76
 	db 77
 	db 78
+	db 79
+	db 80
+	db 81
 	db 82
 	db 83
 	db 84
 	db 85
+	db 86
+	db 87
 	db 88
 	db 89
 	db 90
 	db 91
 	db 92
 	db 93
+	db 94
+	db 95
 	db 96
 	db 97
 	db 98
@@ -397,29 +415,38 @@ ValidMonIdxs:
 	db 112
 	db 113
 	db 114
+	db 115
 	db 116
 	db 117
 	db 118
 	db 119
 	db 120
+	db 121
+	db 122
 	db 123
 	db 124
 	db 125
 	db 126
+	db 127
 	db 128
 	db 129
 	db 130
 	db 131
 	db 132
 	db 133
+	db 134
+	db 135
 	db 136
+	db 137
 	db 138
 	db 139
+	db 140
 	db 141
 	db 142
 	db 143
 	db 144
 	db 145
+	db 146
 	db 147
 	db 148
 	db 149
@@ -429,8 +456,13 @@ ValidMonIdxs:
 	db 153
 	db 154
 	db 155
+	db 156
 	db 157
 	db 158
+	db 159
+	db 160
+	db 161
+	db 162
 	db 163
 	db 164
 	db 165
@@ -440,12 +472,19 @@ ValidMonIdxs:
 	db 169
 	db 170
 	db 171
+	db 172
 	db 173
+	db 174
+	db 175
 	db 176
 	db 177
 	db 178
 	db 179
 	db 180
+	db 181
+	db 182
+	db 183
+	db 184
 	db 185
 	db 186
 	db 187

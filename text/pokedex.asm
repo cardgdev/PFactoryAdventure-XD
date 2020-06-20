@@ -802,7 +802,7 @@ _StarmishDexEntry::
 
 _SuperchuDexEntry::
 	text "Hard to find. Only"
-	next "ever seen it the"
+	next "ever seen in the"
 	next "UNKNOWN DUNGEON"
 
 	page "at nighttime. Said"

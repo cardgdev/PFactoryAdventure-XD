@@ -56,44 +56,48 @@ ApplyStageChange:
 	ret
 	
 Stage1ToStage2:
+	db 0 ; missingno 00
+	db ELECTRAMEW ; pikachu -> electramew
+	db MEWEE ; eevee -> mewee
+	db METAPOD
 	db 0
+	db RATICATE
 	db 0
 	db 0
-	db 167
-	db 142
-	db 35
-	db 141
 	db 0
+	db SANDSLASH
 	db 0
+	db PERSIAN
 	db 0
+	db NINETALES
 	db 0
+	db MAROWAK
 	db 0
-	db 10
-	db 136
+	db ELECTRODE
 	db 0
-	db 168
+	db STARMIE
 	db 0
-	db 145
-	db 1
+	db CLOYSTER
 	db 0
+	db HELLRAISER
+	db MR_PSY
+	db PINSIRE
+	db BAISEN
+	db CLEGNYANA
+	db 0 ; pikamars, PF mons start here
 	db 0
 	db 0
 	db 0
-	db 139
-	db 155
-	db 147
 	db 0
-	db 152
 	db 0
 	db 0
 	db 0
+	db TOGETWO
 	db 0
 	db 0
-	db 20
 	db 0
 	db 0
-	db 150
-	db 7
+	db EKANS
 	db 0
 	db 0
 	db 0
@@ -103,74 +107,64 @@ Stage1ToStage2:
 	db 0
 	db 0
 	db 0
-	db 128
-	db 129
 	db 0
 	db 0
 	db 0
 	db 0
+	db MEGAPHON
 	db 0
+	db CHARTOISE
 	db 0
-	db 143
+	db CUTIEPIE
 	db 0
-	db 117
-	db 120
-	db 118
+	db MATOPSIS
 	db 0
+	db BATRACHIAN
 	db 0
+	db CLOWDROJEN
 	db 0
 	db 0
+	db BARKANITE
 	db 0
-	db 119
 	db 0
 	db 0
 	db 0
 	db 0
-	db 116
-	db 110
+	db XBRAIN
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 144
-	db 138
+	db DRYAD
 	db 0
 	db 0
 	db 0
-	db 83
 	db 0
-	db 85
+	db SPINNSTER
 	db 0
 	db 0
 	db 0
-	db 89
+	db BINGO
 	db 0
-	db 91
+	db POOF
 	db 0
-	db 93
 	db 0
 	db 0
 	db 0
-	db 97
 	db 0
-	db 99
 	db 0
-	db 101
 	db 0
-	db 105
 	db 0
+	db DIMINOX
 	db 0
 	db 0
-	db 41
-	db 130
-	db 45
-	db 46
 	db 0
 	db 0
-	db 113
+	db FREEZEL
 	db 0
 	db 0
+	db SLASHA
 	db 0
 	db 0
 	db 0
@@ -179,7 +173,6 @@ Stage1ToStage2:
 	db 0
 	db 0
 	db 0
-	db 124
 	db 0
 	db 0
 	db 0
@@ -189,14 +182,15 @@ Stage1ToStage2:
 	db 0
 	db 0
 	db 0
-	db 22
 	db 0
 	db 0
+	db CHARMA
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
+	db MATCHILIO
 	db 0
 	db 0
 	db 0
@@ -204,68 +198,88 @@ Stage1ToStage2:
 	db 0
 	db 0
 	db 0
-	db 38
 	db 0
 	db 0
 	db 0
 	db 0
-	db 9
 	db 0
 	db 0
 	db 0
-	db 158
 	db 0
+	db AURABLU
 	db 0
 	db 0
 	db 0
 	db 0
-	db 164
+	db DAISYSAUR
 	db 0
-	db 166
+	db SKELOZARD
 	db 0
+	db FLARETH
 	db 0
 	db 0
-	db 39
 	db 0
 	db 0
 	db 0
-	db 54
 	db 0
+	db CHRYSALISS
 	db 0
-	db 178
-	db 179
+	db GYARADEATH
 	db 0
 	db 0
+	db WIZWAR
 	db 0
+	db TYRANTICUS
 	db 0
+	db DRAGOR
 	db 0
 	db 0
 	db 0
-	db 186
 	db 0
+	db DOOMSDAY_A
 	db 0
-	db 189
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 0 ;MISSINGNOS
 	db 0
 	db 0
 Stage2ToStage3:
+	db 0 ; missingno
 	db 0
 	db 0
 	db 0
+	db LOCAFREE
 	db 0
+	db RATICLAW
+	db ARBOK
 	db 0
 	db 0
+	db DOSET
 	db 0
+	db FELIFLAME
 	db 0
+	db NINETIMES
 	db 0
-	db 154
+	db FRACTURE
 	db 0
+	db ALACTRODE
 	db 0
+	db STARMISH
 	db 0
+	db CLAMMLER
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
+	db 0 ; pf starts
 	db 0
 	db 0
 	db 0
@@ -286,10 +300,7 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 149
-	db 49
 	db 0
-	db 126
 	db 0
 	db 0
 	db 0
@@ -306,6 +317,7 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
+	db MIDNIGHT
 	db 0
 	db 0
 	db 0
@@ -325,6 +337,7 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
+	db CENTIDEATH
 	db 0
 	db 0
 	db 0
@@ -337,7 +350,6 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 66
 	db 0
 	db 0
 	db 0
@@ -358,10 +370,8 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 111
 	db 0
 	db 0
-	db 114
 	db 0
 	db 0
 	db 0
@@ -372,7 +382,6 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 125
 	db 0
 	db 0
 	db 0
@@ -395,10 +404,8 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 14
 	db 0
 	db 0
-	db 151
 	db 0
 	db 0
 	db 0
@@ -415,8 +422,6 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 7
-	db 16
 	db 0
 	db 0
 	db 0
@@ -426,45 +431,60 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 180
-	db 28
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 187
 	db 0
 	db 0
-	db 190
+	db 0
+	db 0
+	db 0
+	db 0 ; MISSINGNOs
+	db 0
 	db 0
 
 Stage2ToStage1:
+	db 0 ; missingno 00
 	db 0
-	db 18
 	db 0
 	db 0
+	db CATERPIE
 	db 0
+	db RATTATA
+	db REDDA
 	db 0
 	db 0
+	db SANDSHREW
 	db 0
-	db 37
-	db 153
-	db 12
+	db MEOWTH
 	db 0
+	db VULPIX
 	db 0
+	db CUBONE
 	db 0
+	db VOLTORB
 	db 0
+	db STARYU
 	db 0
+	db SHELLDER
 	db 0
 	db 0
 	db 0
 	db 0
-	db 33
 	db 0
-	db 133
+	db PIKACHU ; pf starts
+	db PIKACHU
+	db PIKACHU
+	db PIKACHU
+	db EEVEE
+	db EEVEE
+	db EEVEE
+	db EEVEE
 	db 0
+	db TOGEPI
 	db 0
 	db 0
 	db 0
@@ -476,37 +496,50 @@ Stage2ToStage1:
 	db 0
 	db 0
 	db 0
-	db 5
+	db GASTLY
+	db GASTLY
+	db MR_MIME
+	db PINSIR
+	db TAUROS
+	db CHANSEY
 	db 0
+	db AUDIOR
 	db 0
-	db 148
-	db 169
+	db CHARBULBLE
 	db 0
-	db 106
+	db JIGLYFAIRY
 	db 0
+	db FIREBIRD
 	db 0
+	db FROGGLET
 	db 0
-	db 108
-	db 109
+	db NIGHTROJEN
 	db 0
 	db 0
+	db SHOCKRA
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 173
+	db VOOTWO
+	db VOOTWO
 	db 0
 	db 0
 	db 0
 	db 0
+	db SEEDLING
+	db SEEDLING
 	db 0
 	db 0
 	db 0
+	db SPINNERET
 	db 0
 	db 0
 	db 0
+	db GLOOB
 	db 0
+	db DUSTY
 	db 0
 	db 0
 	db 0
@@ -515,125 +548,102 @@ Stage2ToStage1:
 	db 0
 	db 0
 	db 0
+	db GRANITE
+	db GRANITE
 	db 0
 	db 0
 	db 0
+	db FREEZY
 	db 0
 	db 0
+	db SCYTHEPER
+	db SCYTHEPER
 	db 0
 	db 0
 	db 0
 	db 0
-	db 82
 	db 0
-	db 84
 	db 0
 	db 0
 	db 0
-	db 88
 	db 0
-	db 90
 	db 0
-	db 92
 	db 0
 	db 0
 	db 0
-	db 96
 	db 0
-	db 98
 	db 0
-	db 100
 	db 0
 	db 0
 	db 0
-	db 102
+	db CHAIRON
 	db 0
 	db 0
 	db 0
 	db 0
-	db 71
 	db 0
+	db KILIANSH
 	db 0
-	db 112
 	db 0
 	db 0
-	db 70
-	db 57
-	db 59
-	db 65
-	db 58
 	db 0
 	db 0
 	db 0
-	db 123
 	db 0
 	db 0
 	db 0
-	db 47
-	db 48
-	db 107
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 13
 	db 0
-	db 78
-	db 23
+	db PIKABLU
 	db 0
-	db 6
-	db 4
-	db 55
-	db 77
-	db 17
 	db 0
-	db 25
 	db 0
 	db 0
-	db 36
+	db FORESAUR
 	db 0
-	db 27
+	db CHARAITH
 	db 0
+	db PYROMANIAC
 	db 0
-	db 24
 	db 0
 	db 0
-	db 157
 	db 0
 	db 0
 	db 0
+	db CHRYSTAL
 	db 0
+	db MAGIFART
 	db 0
-	db 163
 	db 0
-	db 165
-	db 3
-	db 15
+	db KRUNO
 	db 0
+	db SARAGOTCHI
 	db 0
+	db DRAKOR
+	db DRAKOR
+	db DRAKOR
+	db DRAKOR
 	db 0
+	db DOOMSAY
+	db DOOMSAY
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 176
-	db 177
 	db 0
 	db 0
+	db 0 ; MISSINGNOs
 	db 0
-	db 0
-	db 0
-	db 0
-	db 185
-	db 0
-	db 0
-	db 188
 	db 0
 
 Stage3ToStage2:
+	db 0 ; missingno 00
 	db 0
 	db 0
 	db 0
@@ -641,16 +651,14 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 167
+	db EKANS
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 147
 	db 0
-	db 168
 	db 0
 	db 0
 	db 0
@@ -662,8 +670,8 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 179
 	db 0
+	db 0 ; pf starts
 	db 0
 	db 0
 	db 0
@@ -673,7 +681,16 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
+	db METAPOD
+	db METAPOD
+	db RATICATE
 	db 0
+	db SANDSLASH
+	db PERSIAN
+	db MAROWAK
+	db ELECTRODE
+	db STARMIE
+	db CLOYSTER
 	db 0
 	db 0
 	db 0
@@ -683,7 +700,6 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 39
 	db 0
 	db 0
 	db 0
@@ -693,6 +709,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
+	db CLOUDROJEN
 	db 0
 	db 0
 	db 0
@@ -700,7 +717,6 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 89
 	db 0
 	db 0
 	db 0
@@ -713,6 +729,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
+	db SPINNSTER
 	db 0
 	db 0
 	db 0
@@ -745,10 +762,8 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 110
 	db 0
 	db 0
-	db 113
 	db 0
 	db 0
 	db 0
@@ -759,8 +774,6 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 124
-	db 41
 	db 0
 	db 0
 	db 0
@@ -782,10 +795,6 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 0
-	db 38
-	db 0
-	db 150
 	db 0
 	db 0
 	db 9
@@ -814,57 +823,38 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 178
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 186
 	db 0
 	db 0
-	db 189
+	db 0
+	db 0
+	db 0
+	db 0 ; MISSINGNOs
+	db 0
+	db 0
 	
-IsTwoStageMon:
-	db 0
-	db 1
-	db 0
-	db 0
-	db 1
-	db 1
+IsTwoStageMon: ; check w/ 1 if it's either stage in a 2 stage line, but not if it's in a 3 stage line
+	db 0 ; missingno 00
 	db 1
-	db 0
-	db 1
-	db 0
 	db 1
-	db 0
-	db 1
-	db 1
-	db 0
 	db 0
 	db 0
-	db 1
-	db 1
-	db 0
-	db 1
 	db 0
 	db 0
-	db 1
-	db 1
 	db 0
 	db 0
-	db 1
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 1
 	db 0
-	db 1
 	db 0
-	db 1
 	db 0
 	db 0
 	db 0
@@ -876,75 +866,59 @@ IsTwoStageMon:
 	db 1
 	db 1
 	db 1
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
 	db 1
+	db 1 ; pf starts
 	db 1
-	db 0
 	db 1
 	db 1
 	db 1
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
 	db 1
-	db 0
-	db 0
+	db 1
+	db 1
+	db 1
+	db 1
 	db 0
 	db 0
-	db 1
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 1
-	db 1
 	db 0
 	db 0
 	db 0
+	db 1 ; HELLRAISER
 	db 1
 	db 1
 	db 1
 	db 1
-	db 0
-	db 0
-	db 0
-	db 0
 	db 1
 	db 1
 	db 1
 	db 1
-	db 0
-	db 0
 	db 1
 	db 1
 	db 1
 	db 1
 	db 1
 	db 1
-	db 0
-	db 0
-	db 0
+	db 1
+	db 0 ; NIGHTROJEN
 	db 0
 	db 0
 	db 1
 	db 1
-	db 1
-	db 0
 	db 0
 	db 0
 	db 0
 	db 0
-	db 0
 	db 1
 	db 1
+	db 1 ; ALENKAR
+	db 0
+	db 0
+	db 0
 	db 1
 	db 1
 	db 1
@@ -954,7 +928,7 @@ IsTwoStageMon:
 	db 0
 	db 0
 	db 0
-	db 0
+	db 1 ; GLOOB
 	db 1
 	db 1
 	db 1
@@ -963,13 +937,16 @@ IsTwoStageMon:
 	db 0
 	db 0
 	db 0
-	db 1
 	db 0
+	db 0
+	db 1 ; GRANITE
 	db 1
 	db 1
 	db 0
+	db 0
 	db 1
 	db 1
+	db 0
 	db 1
 	db 1
 	db 1
@@ -979,34 +956,72 @@ IsTwoStageMon:
 	db 0
 	db 0
 	db 0
-	db 1
 	db 0
 	db 0
-	db 1
 	db 0
-	db 1
-	db 1
 	db 0
 	db 0
 	db 0
 	db 0
-	db 1
-	db 1
+	db 0
+	db 0
+	db 0
+	db 0
+	db 1 ; CHAIRON
 	db 1
+	db 0
+	db 0
+	db 0
+	db 0
+	db 1 ; KILIANSH
 	db 1
+	db 0
+	db 0
+	db 0
+	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
+	db 0
+	db 0
+	db 0
+	db 0
+	db 1 ; PIKABLU
+	db 1
+	db 0
+	db 0
+	db 0
+	db 1
+	db 1
 	db 1
+	db 1
+	db 1
+	db 1
 	db 0
 	db 0
 	db 0
 	db 0
 	db 0
+	db 1 ; CHRYSTAL
+	db 1
+	db 1
+	db 1
 	db 0
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
+	db 1
 	db 0
 	db 0
 	db 0
@@ -1015,6 +1030,6 @@ IsTwoStageMon:
 	db 0
 	db 0
 	db 0
+	db 0 ; MISSINGNOs
 	db 0
 	db 0
-	db 0		
