@@ -2,12 +2,12 @@ ForestMons:
 	db $08
 	db 4,CATERPIE
 	db 5,METAPOD
-	db 3,CATERPIE
+	db 3,SPINNERET
 	db 5,SPINNERET
-	db 4,SPINNERET
-	db 6,SUNNY
 	db 4,SUNNY
+	db 6,SUNNY
+	db 4,PIKACHU
+	db 3,PIKACHU
 	db 3,MISCHU
-	db 3,SCYTHERO
-	db 5,MISCHU
+	db 5,SCYTHERO
 	db $00
