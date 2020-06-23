@@ -1,8 +1,14 @@
 new maps to be made:
 >Viridian Forest part 2 - Lotusan area
->Dragon Dungeon, 4 or so floors - Luxor & Lance battle
+>Dragon Dungeon, 4 or so floors - Luxor area
 >Bill's Secret Garden - obvious, Trop-Mew area
 >Factory Floor - Mewthree/Gauntlet area, 4th floor of cerulean cave
+
+new indoor/minor areas:
+>Vermillion Trading Club - where the old man was making a building
+>Battle Tent - ported from AnnivRed/Periwinkle, same place
+>Cinnabar Evolution House - cafe where NPCs teach you about all the new stone evos, replaces blaine's gym
+which is now moved to the basement of the mansion.
 
 legend locations
 Viridian Forest 2 - Lotusan (new)

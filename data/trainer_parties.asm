@@ -10,7 +10,7 @@ TrainerDataPointers:
 	dw HikerData
 	dw BikerData
 	dw BurglarData
-	dw DojoCoupleData
+	dw EngineerData
 	dw Juggler1Data
 	dw FisherData
 	dw SwimmerData
@@ -31,7 +31,7 @@ TrainerDataPointers:
 	dw SoldierData
 	dw CooltrainerMData
 	dw CooltrainerFData
-	dw BrunoData
+	dw KogaData
 	dw IchitarouData
 	dw HayatoData
 	dw EnokiData
@@ -44,8 +44,8 @@ TrainerDataPointers:
 	dw Green3Data
 	dw WillData
 	dw ChannelerData
-	dw KogaData
 	dw KarenData
+	dw LanceData
 
 ; if first byte != FF, then
 	; first byte is level (of all pokemon on this team)
@@ -282,9 +282,12 @@ BurglarData:
 	db 38,STARMISH,0
 ; Mansion B1F
 	db 34,CHARNOLE,CHARTOISE,0
-DojoCoupleData:
-; Dojo
-	db 50,HUNTER,POOF,WENDIGO,MR_PSY,PEANUT,SPIROCATE,0
+EngineerData:
+; Unused
+	db 21,VOLTORB,METALSAUR,0
+; Route 11
+	db 21,PIKAIRON,0
+	db 18,METALSAUR,METALSAUR,PIKAIRON,0
 Juggler1Data:
 ; none
 FisherData:
@@ -436,7 +439,7 @@ BirdKeeperData:
 	db 28,ZIPPO,LORMERAK,ZIPPO,0
 BlackbeltData:
 ; Fighting Dojo
-	db 37,DIMINOX,FRACTURE,0 ; REPLACED BY DOJO COUPLE
+	db 60,MAZILLA,DIMINOX,FRACTURE,WENDIGO,HUNTER,0
 	db 31,MAZILLA,MAZILLA,HUNTER,0
 	db 32,MAZILLA,PEANUT,0
 	db 36,FRACTURE,0
@@ -580,8 +583,8 @@ CooltrainerFData:
 	db 45,DAISYSAUR,PEGAZEUS,JIGGLYPLUM,DRAGUR,0
 	db 45,MEPHER,RIPCLAW,MIDNIGHT,WIZWAR,0
 	db 43,LEGION,POOF,OCEANEEL,STARMISH,0
-BrunoData:
-	db 60,MAZILLA,DIMINOX,FRACTURE,WENDIGO,HUNTER,ALPHA,0
+KogaData:
+	db 60,MEPHER,BINGO,CEREBU,CENTIDEATH,MORPHUS,POOF,0
 IchitarouData:
 	db 50,SHELLRY,DIMINOX,APACOLYPSE,DRAGONDON,DIMOTRITE,0
 HayatoData:
@@ -650,8 +653,8 @@ ChannelerData:
 	db 34,LEGION,EXODUS,0
 	db 38,EXODUS,0
 	db 33,LEGION,FROZONE,LEGION,0
-KogaData:
-	db 60,MEPHER,BINGO,CEREBU,CENTIDEATH,MORPHUS,POOF,0
 KarenData:
 	db 60,CYIL,MIDNIGHT,MISCHU,ALENKAR,JIGGLYPLUM,MATCHILIO,0
+LanceData:
+	db 60,DRAKEN,AEROBOOM,DRAGOR,CHARTOISE,GYARADEATH,DRAGUR,0
 

@@ -1,0 +1,25 @@
+TODO LIST:
+
+>Import crysadudio, adjust all music constants & data
+>Finish making all the cries/port to crystal format
+>Insert the TM/HM learnsets
+>Fix the back and/or front sprite colors for the compiler
+>set which mons are available as starters, make sure all are obtainable otherwise.
+>Set up the new evolution stones (honey, ice, mist stones)
+>disable revives in battle :^)
+>remove badge boosts
+>Finish the new maps, implement
+>Fix the gym trainers/leaders for new plot
+>Write in the new text
+
+>Add the yellow/blue and yellow/green palettes for oceaneel/aspenth/trop-mew
+
+>add in the new OW sprites
+>replace the trash cans on gym tileset with gravestones for enoki's gym
+>port the battle tent in from periwinkle
+>do the ancillary graphics (titlescreen, professor blue, etc.)
+>scripting for lt. surge on the SS Anne
+>replace the trainers that aren't the fishermen and sailors on SS Anne with soldiers
+>replace ghost sprite with buried alive
+>dimotrite/dragondon skeletons for pewter museum
+>Edits to maps & new flavor bits (do this last)

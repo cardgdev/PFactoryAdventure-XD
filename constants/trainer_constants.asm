@@ -17,7 +17,7 @@ const_value = 1
 	trainer_const HIKER         ; $09
 	trainer_const BIKER         ; $0A
 	trainer_const BURGLAR       ; $0B
-	trainer_const DOJO_COUPLE      ; $0C
+	trainer_const ENGINEER      ; $0C
 	trainer_const JUGGLER_X     ; $0D
 	trainer_const FISHER        ; $0E
 	trainer_const SWIMMER       ; $0F
@@ -38,7 +38,7 @@ const_value = 1
 	trainer_const SOLDIER        ; $1E
 	trainer_const COOLTRAINER_M ; $1F
 	trainer_const COOLTRAINER_F ; $20
-	trainer_const BRUNO         ; $21
+	trainer_const KOGA         ; $21
 	trainer_const ICHITAROU         ; $22
 	trainer_const HAYATO         ; $23
 	trainer_const ENOKI      ; $24
@@ -51,5 +51,5 @@ const_value = 1
 	trainer_const SONY3         ; $2B
 	trainer_const WILL       ; $2C
 	trainer_const CHANNELER     ; $2D
-	trainer_const KOGA        ; $2E
-	trainer_const KAREN         ; $2F
+	trainer_const KAREN        ; $2E
+	trainer_const LANCE         ; $2F
