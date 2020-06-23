@@ -14,7 +14,7 @@ Mansion4Object:
 	object SPRITE_BALL, $13, $19, STAY, NONE, $5, TM_14
 	object SPRITE_BALL, $5, $4, STAY, NONE, $6, TM_22
 	object SPRITE_BOOK_MAP_DEX, $10, $14, STAY, NONE, $7 ; person
-	object SPRITE_BALL, $5, $d, STAY, NONE, $8, SECRET_KEY
+	object SPRITE_BALL, $5, $e, STAY, NONE, $8, SECRET_KEY
 
 	; warp-to
 	EVENT_DISP MANSION_4_WIDTH, $16, $17 ; MANSION_1

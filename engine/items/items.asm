@@ -59,17 +59,17 @@ ItemUsePtrTable:
 	dw UnusableItem      ; DOME_FOSSIL
 	dw UnusableItem      ; HELIX_FOSSIL
 	dw UnusableItem      ; SECRET_KEY
-	dw UnusableItem
+	dw ItemUseEvoStone   ; ICE_STONE
 	dw UnusableItem      ; BIKE_VOUCHER
 	dw ItemUseXAccuracy  ; X_ACCURACY
 	dw ItemUseEvoStone   ; LEAF_STONE
 	dw ItemUseCardKey    ; CARD_KEY
 	dw UnusableItem      ; NUGGET
-	dw UnusableItem      ; ??? PP_UP
+	dw ItemUseEvoStone   ; HONEY STONE
 	dw ItemUsePokedoll   ; POKE_DOLL
 	dw ItemUseMedicine   ; FULL_HEAL
 	dw ItemUseMedicine   ; REVIVE
-	dw ItemUseMedicine   ; MAX_REVIVE
+	dw ItemUseEvoStone   ; MIST_STONE
 	dw ItemUseGuardSpec  ; GUARD_SPEC
 	dw ItemUseSuperRepel ; SUPER_REPL
 	dw ItemUseMaxRepel   ; MAX_REPEL
@@ -932,8 +932,8 @@ ItemUseMedicine:
 	ld a,[wcf91]
 	cp a,REVIVE
 	jr z,.updateInBattleFaintedData
-	cp a,MAX_REVIVE
-	jr z,.updateInBattleFaintedData
+	;cp a,MAX_REVIVE
+	;jr z,.updateInBattleFaintedData
 	jp .healingItemNoEffect
 .updateInBattleFaintedData
 	ld a,[wIsInBattle]
@@ -964,8 +964,8 @@ ItemUseMedicine:
 	ld a,[wcf91]
 	cp a,REVIVE
 	jp z,.healingItemNoEffect
-	cp a,MAX_REVIVE
-	jp z,.healingItemNoEffect
+	;cp a,MAX_REVIVE
+	;jp z,.healingItemNoEffect
 .compareCurrentHPToMaxHP
 	push hl
 	push bc
@@ -1130,8 +1130,8 @@ ItemUseMedicine:
 	ld a,[wcf91]
 	cp a,HYPER_POTION
 	jr c,.setCurrentHPToMaxHp ; if using a Full Restore or Max Potion
-	cp a,MAX_REVIVE
-	jr z,.setCurrentHPToMaxHp ; if using a Max Revive
+	;cp a,MAX_REVIVE
+	;jr z,.setCurrentHPToMaxHp ; if using a Max Revive
 	jr .updateInBattleData
 .setCurrentHPToHalfMaxHP
 	dec hl
@@ -1222,8 +1222,8 @@ ItemUseMedicine:
 	ld a,[wcf91]
 	cp a,REVIVE
 	jr z,.showHealingItemMessage
-	cp a,MAX_REVIVE
-	jr z,.showHealingItemMessage
+	;cp a,MAX_REVIVE
+	;jr z,.showHealingItemMessage
 	ld a,POTION_MSG
 	ld [wPartyMenuTypeOrMessageID],a
 	jr .showHealingItemMessage

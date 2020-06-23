@@ -8,7 +8,7 @@ CeladonGymObject:
 	db $0 ; signs
 
 	db $8 ; objects
-	object SPRITE_ERIKA, $4, $1, STAY, DOWN, $1, OPP_ERIKA, $1
+	object SPRITE_ERIKA, $4, $1, STAY, DOWN, $1, OPP_MIKAN, $1
 	object SPRITE_LASS, $6, $3, STAY, RIGHT, $2, OPP_LASS, $11
 	object SPRITE_FOULARD_WOMAN, $0, $c, STAY, LEFT, $3, OPP_BEAUTY, $1
 	object SPRITE_LASS, $6, $9, STAY, DOWN, $4, OPP_JR_TRAINER_F, $b

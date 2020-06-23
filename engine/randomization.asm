@@ -537,17 +537,17 @@ ValidItemIdxs:
 	db 2
 	db 2
 	db 2
-	db 0
+	db 1 ; ice stone
 	db 2
 	db 1
 	db 1
 	db 2
 	db 1
-	db 0
+	db 1 ; honey stone
 	db 1
 	db 1
 	db 1
-	db 1
+	db 1 ; mist stone
 	db 1
 	db 1
 	db 1

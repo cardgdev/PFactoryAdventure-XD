@@ -12,10 +12,10 @@ SSAnne8Object:
 	db $0 ; signs
 
 	db $b ; objects
-	object SPRITE_GENTLEMAN, $2, $3, STAY, LEFT, $1, OPP_GENTLEMAN, $1
-	object SPRITE_GENTLEMAN, $b, $4, STAY, UP, $2, OPP_GENTLEMAN, $2
-	object SPRITE_BUG_CATCHER, $b, $e, STAY, UP, $3, OPP_YOUNGSTER, $8
-	object SPRITE_LASS, $d, $b, STAY, LEFT, $4, OPP_LASS, $b
+	object SPRITE_ROCKET, $2, $3, STAY, LEFT, $1, OPP_SOLDIER, $16
+	object SPRITE_ROCKET, $b, $4, STAY, UP, $2, OPP_SOLDIER, $2A
+	object SPRITE_ROCKET, $b, $e, STAY, UP, $3, OPP_SOLDIER, $2B
+	object SPRITE_ROCKET, $d, $b, STAY, LEFT, $4, OPP_SOLDIER, $2C
 	object SPRITE_GIRL, $16, $3, WALK, $1, $5 ; person
 	object SPRITE_FAT_BALD_GUY, $0, $e, STAY, NONE, $6 ; person
 	object SPRITE_LITTLE_GIRL, $2, $b, STAY, DOWN, $7 ; person
