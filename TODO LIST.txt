@@ -4,13 +4,11 @@ TODO LIST:
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
 >Fix the back and/or front sprite colors for the compiler
->add new 16x16 foliage in the 4 unused tiles on overworld
 >disable revives in battle :^)
 >Finish the new maps, implement
 >Fix the gym trainers/leaders for new plot
 >Write in the new text
 >add in the new OW sprites
->replace the trash cans on gym tileset with gravestones for enoki's gym
 >port the battle tent in from periwinkle
 >do the ancillary graphics (titlescreen, professor blue, etc.)
 >scripting for lt. surge on the SS Anne, change OW sprites and add new text
