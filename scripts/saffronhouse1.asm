@@ -14,7 +14,7 @@ SaffronHouse1Text1:
 SaffronHouse1Text2:
 	TX_FAR _SaffronHouse1Text2
 	TX_ASM
-	ld a, PIDGEY
+	ld a, FIREBIRD
 	call PlayCry
 	jp TextScriptEnd
 

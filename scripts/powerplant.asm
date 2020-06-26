@@ -173,7 +173,7 @@ ZapdosBattleText:
 	ld hl, wMapSpriteExtraData+$11
 	ld a, [wReferenceLevel]
 	ld [hl], a
-	ld a, ZAPDOS
+	ld a, ASPENTH
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

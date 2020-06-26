@@ -8,9 +8,9 @@ UnknownDungeon3Object:
 	db $0 ; signs
 
 	db $3 ; objects
-	object SPRITE_SLOWBRO, $1b, $d, STAY, DOWN, $1, MEWTWO, 70
+	object SPRITE_SLOWBRO, $1b, $d, STAY, DOWN, $1, MEWTHREE, 70
 	object SPRITE_BALL, $10, $9, STAY, NONE, $2, ULTRA_BALL
-	object SPRITE_BALL, $12, $1, STAY, NONE, $3, MAX_REVIVE
+	object SPRITE_BALL, $12, $1, STAY, NONE, $3, MIST_STONE
 
 	; warp-to
 	EVENT_DISP UNKNOWN_DUNGEON_3_WIDTH, $6, $3 ; UNKNOWN_DUNGEON_1

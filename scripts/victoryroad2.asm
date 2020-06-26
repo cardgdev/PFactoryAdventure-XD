@@ -182,7 +182,7 @@ MoltresText:
 MoltresBattleText:
 	TX_FAR _MoltresBattleText
 	TX_ASM
-	ld a, MOLTRES
+	ld a, GEOBIRD
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

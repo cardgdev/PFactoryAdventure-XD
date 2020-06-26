@@ -9,5 +9,5 @@ Route2Mons:
 	db 2,CATERPIE
 	db 5,RATTATA	
 	db 4,CATERPIE
-	db 5,WEEDLE	
+	db 5,SPINNERET	
 	db $00

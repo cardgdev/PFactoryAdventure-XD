@@ -660,7 +660,7 @@ Mansion2HiddenObjects:
 	dw Mansion2Script_Switches
 	db $FF
 Mansion3HiddenObjects:
-	db $09,$01,MAX_REVIVE
+	db $09,$01,MIST_STONE
 	dbw BANK(HiddenItems),HiddenItems
 	db $05,$0a,$04
 	db BANK(Mansion3Script_Switches)
@@ -814,7 +814,7 @@ Route17HiddenObjects:
 	dbw BANK(HiddenItems),HiddenItems
 	db $48,$11,PP_UP
 	dbw BANK(HiddenItems),HiddenItems
-	db $5b,$04,MAX_REVIVE
+	db $5b,$04,MIST_STONE
 	dbw BANK(HiddenItems),HiddenItems
 	db $79,$08,MAX_ELIXER
 	dbw BANK(HiddenItems),HiddenItems

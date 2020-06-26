@@ -53,7 +53,7 @@ INCLUDE "engine/oak_speech.asm"
 
 INCLUDE "engine/special_warps.asm"
 
-INCLUDE "engine/debug1.asm"
+;INCLUDE "engine/debug1.asm"
 
 INCLUDE "engine/menu/naming_screen.asm"
 

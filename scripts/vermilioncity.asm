@@ -222,7 +222,7 @@ VermilionCityText4:
 VermilionCityText5:
 	TX_FAR _VermilionCityText5
 	TX_ASM
-	ld a, MACHOP
+	ld a, MAZILLA
 	call PlayCry
 	call WaitForSoundToFinish
 	ld hl, VermilionCityText14

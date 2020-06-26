@@ -164,7 +164,7 @@ ArticunoText:
 ArticunoBattleText:
 	TX_FAR _ArticunoBattleText
 	TX_ASM
-	ld a, ARTICUNO
+	ld a, HIFISHI
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

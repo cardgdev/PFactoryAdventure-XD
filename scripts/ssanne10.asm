@@ -120,7 +120,7 @@ SSAnne10Text6:
 SSAnne10Text8:
 	TX_FAR _SSAnne10Text8
 	TX_ASM
-	ld a, MACHOKE
+	ld a, GRANITE
 	call PlayCry
 	jp TextScriptEnd
 

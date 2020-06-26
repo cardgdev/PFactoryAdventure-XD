@@ -11,7 +11,7 @@ CeladonMansion5Text1:
 
 CeladonMansion5Text2:
 	TX_ASM
-	ld a, EEVEE
+	ld a, TOGEPI
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon

@@ -42,17 +42,17 @@ ItemPrices:
 	money 0     ; DOME_FOSSIL
 	money 0     ; HELIX_FOSSIL
 	money 0     ; SECRET_KEY
-	money 0     ; XXX
+	money 2100  ; HONEY_STONE
 	money 0     ; BIKE_VOUCHER
 	money 950   ; X_ACCURACY
 	money 2100  ; LEAF_STONE
 	money 0     ; CARD_KEY
 	money 10000 ; NUGGET
-	money 9800  ; XXX PP_UP
+	money 2100  ; ICE_STONE
 	money 1000  ; POKE_DOLL
 	money 600   ; FULL_HEAL
 	money 1500  ; REVIVE
-	money 4000  ; MAX_REVIVE
+	money 4000  ; MIST_STONE
 	money 700   ; GUARD_SPEC
 	money 500   ; SUPER_REPEL
 	money 700   ; MAX_REPEL

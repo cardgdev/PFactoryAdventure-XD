@@ -316,7 +316,7 @@ SilphCo7Text1:
 .givelapras
 	ld hl, .MeetLaprasGuyText
 	call PrintText
-	ld a, LAPRAS
+	ld a, LAPRINCE
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon

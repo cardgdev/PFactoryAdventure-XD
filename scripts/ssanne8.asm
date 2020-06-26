@@ -90,7 +90,7 @@ SSAnne8Text4:
 SSAnne8Text8:
 	TX_FAR _SSAnne8Text8
 	TX_ASM
-	ld a, WIGGLYTUFF
+	ld a, CUTIEPIE
 	call PlayCry
 	jp TextScriptEnd
 

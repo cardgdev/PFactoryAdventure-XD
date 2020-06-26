@@ -7,6 +7,6 @@ TradeMons:
 	db SUNNY,     DRUNKEE,  2,"WHISKEY@@@@"
 	db ELECTRODE, AMPHAROS, 0,"DENRYUU@@@@"
 	db MAROWAK,   DONPHAN,  1,"DONFAN@@@@@"
-	db RAICHU,    ELECTRODE,1,"DORIS@@@@@@"
+	db BATRACHIAN,BINGO,    1,"BORIS@@@@@@"
 	db EXPLO,     ENERGUY,  2,"FIREWALL@@@"
 	db SUNNY,     PIKABLU,  2,"MARILL?@@@@"

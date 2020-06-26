@@ -63,7 +63,7 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a,NIDORINO
+	ld a,AQUATRES
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader

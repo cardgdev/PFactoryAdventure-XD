@@ -257,7 +257,7 @@ FightingDojoText6:
 	call PrintText
 	jr .done
 .GetMon	
-	ld a, HITMONLEE
+	ld a, WENDIGO
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon
@@ -297,7 +297,7 @@ FightingDojoText7:
 	call PrintText
 	jr .done
 .GetMon
-	ld a, HITMONCHAN
+	ld a, HUNTER
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon

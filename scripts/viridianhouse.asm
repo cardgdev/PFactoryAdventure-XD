@@ -19,7 +19,7 @@ ViridianHouseText3:
 	TX_ASM
 	ld hl, ViridianHouseText_1d5b1
 	call PrintText
-	ld a, SPEAROW
+	ld a, FIREBIRD
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

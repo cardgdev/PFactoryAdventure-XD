@@ -29,7 +29,7 @@ Route16Script0:
 	ld a, $a
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	ld a, SNORLAX
+	ld a, WAKKAZOID
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon

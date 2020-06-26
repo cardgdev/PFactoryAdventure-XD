@@ -471,7 +471,9 @@ UsableItems_PartyMenu:
 	db LEAF_STONE
 	db FULL_HEAL
 	db REVIVE
-	db MAX_REVIVE
+	db MIST_STONE
+	db ICE_STONE
+	db HONEY_STONE
 	db FRESH_WATER
 	db SODA_POP
 	db LEMONADE

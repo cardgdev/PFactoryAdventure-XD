@@ -25,13 +25,13 @@ CeladonMansion1Text2:
 CeladonMansion1Text3:
 	TX_FAR _CeladonMansion1Text3
 	TX_ASM
-	ld a, CLEFAIRY
+	ld a, JIGLYFAIRY
 	jp CeladonMansion1_486a1
 
 CeladonMansion1Text4:
 	TX_FAR _CeladonMansion1Text4
 	TX_ASM
-	ld a, NIDORAN_F
+	ld a, VULPIX
 	jp CeladonMansion1_486a1
 
 CeladonMansion1Text5:

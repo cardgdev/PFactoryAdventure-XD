@@ -43,7 +43,7 @@ MagikarpSalesmanText:
 	ld hl, .NoMoneyText
 	jr .printText
 .enoughMoney	
-	ld a, MAGIKARP
+	ld a, MAGIFART
 	ld [wcf91], a
 	ld [wUnusedCD3D], a
 	call RandomizeMon

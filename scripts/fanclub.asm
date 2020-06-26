@@ -74,7 +74,7 @@ FanClubText3:
 	TX_ASM
 	ld hl, .text
 	call PrintText
-	ld a, PIKACHU
+	ld a, PIKAMARS
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -88,7 +88,7 @@ FanClubText4:
 	TX_ASM
 	ld hl, .text
 	call PrintText
-	ld a, SEEL
+	ld a, OCEANEEL
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

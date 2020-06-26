@@ -1,5 +1,7 @@
 TODO LIST:
 
+>Constants cleanup: trainer constant changes & unknown dungeon tables (everything else done)
+>change names of fossil items
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets

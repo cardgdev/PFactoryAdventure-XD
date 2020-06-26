@@ -98,7 +98,7 @@ SSAnne9Text5:
 	ld hl, SSAnne9Text_61bf2
 	call PrintText
 	call LoadScreenTilesFromBuffer1
-	ld a, SNORLAX
+	ld a, WAKKAZOID
 	call DisplayPokedex
 	jp TextScriptEnd
 

@@ -420,14 +420,14 @@ BillsHousePokemonList:
 	bit 1, a ; pressed b
 	jr nz, .cancel
 	ld a, [wCurrentMenuItem]
-	add EEVEE
-	cp EEVEE
+	add FOLEON
+	cp FOLEON
 	jr z, .displayPokedex
-	cp FLAREON
+	cp BUGEON
 	jr z, .displayPokedex
-	cp JOLTEON
+	cp LUNAREON
 	jr z, .displayPokedex
-	cp VAPOREON
+	cp MEWEE
 	jr z, .displayPokedex
 	jr .cancel
 .displayPokedex
@@ -445,10 +445,10 @@ BillsHousePokemonListText1:
 	db "@"
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
+	db   "FOLEON"
+	next "BUGEON"
+	next "LUNAREON"
+	next "MEWEE"
 	next "CANCEL@"
 
 BillsHousePokemonListText2:
