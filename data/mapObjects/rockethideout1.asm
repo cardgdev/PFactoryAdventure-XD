@@ -11,11 +11,11 @@ RocketHideout1Object:
 	db $0 ; signs
 
 	db $7 ; objects
-	object SPRITE_ROCKET, $1a, $8, STAY, LEFT, $1, OPP_ROCKET, $8
-	object SPRITE_ROCKET, $c, $6, STAY, RIGHT, $2, OPP_ROCKET, $9
-	object SPRITE_ROCKET, $12, $11, STAY, DOWN, $3, OPP_ROCKET, $a
-	object SPRITE_ROCKET, $f, $19, STAY, RIGHT, $4, OPP_ROCKET, $b
-	object SPRITE_ROCKET, $1c, $12, STAY, LEFT, $5, OPP_ROCKET, $c
+	object SPRITE_ROCKET, $1a, $8, STAY, LEFT, $1, OPP_SOLDIER, $8
+	object SPRITE_ROCKET, $c, $6, STAY, RIGHT, $2, OPP_SOLDIER, $9
+	object SPRITE_ROCKET, $12, $11, STAY, DOWN, $3, OPP_SOLDIER, $a
+	object SPRITE_ROCKET, $f, $19, STAY, RIGHT, $4, OPP_SOLDIER, $b
+	object SPRITE_ROCKET, $1c, $12, STAY, LEFT, $5, OPP_SOLDIER, $c
 	object SPRITE_BALL, $b, $e, STAY, NONE, $6, ESCAPE_ROPE
 	object SPRITE_BALL, $9, $11, STAY, NONE, $7, HYPER_POTION
 

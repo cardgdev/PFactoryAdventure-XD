@@ -13,8 +13,8 @@ NoThanksText:
 
 PrizeMenuMon1Entries:
 	db VOOTWO
-	db JIGLYFAIRY
 	db GLOOB
+	db GAMBLE
 	db "@"
 
 PrizeMenuMon1Cost:

@@ -1,12 +1,9 @@
 TODO LIST:
 
->Constants cleanup: trainer constant changes & unknown dungeon tables (everything else done)
->change names of fossil items
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
 >Fix the back and/or front sprite colors for the compiler
->disable revives in battle :^)
 >Finish the new maps, implement
 >Fix the gym trainers/leaders for new plot
 >Write in the new text

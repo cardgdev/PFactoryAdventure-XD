@@ -16,8 +16,8 @@ SilphCo2Object:
 	object SPRITE_ERIKA, $a, $1, STAY, UP, $1 ; person
 	object SPRITE_OAK_AIDE, $5, $c, STAY, DOWN, $2, OPP_SCIENTIST, $2
 	object SPRITE_OAK_AIDE, $18, $d, STAY, LEFT, $3, OPP_SCIENTIST, $3
-	object SPRITE_ROCKET, $10, $b, STAY, UP, $4, OPP_ROCKET, $17
-	object SPRITE_ROCKET, $18, $7, STAY, UP, $5, OPP_ROCKET, $18
+	object SPRITE_ROCKET, $10, $b, STAY, UP, $4, OPP_SOLDIER, $17
+	object SPRITE_ROCKET, $18, $7, STAY, UP, $5, OPP_SOLDIER, $18
 
 	; warp-to
 	EVENT_DISP SILPH_CO_2F_WIDTH, $0, $18 ; SILPH_CO_1F

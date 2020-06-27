@@ -1,11 +1,15 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Yo! RED! Are"
+	line "you there pal?"
+	cont "Welcome back to"
+	cont "the world of"
+	cont "#MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Bet you're"
+	line "surprised to see"
+	cont "me in a labcoat"
+	cont "huh? Let's get"
+	cont "down to buisness."
 	prompt
 
 _OakSpeechText2A::
@@ -15,59 +19,68 @@ _OakSpeechText2A::
 	cont "#MON!@@"
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"But lately these"
+	line "#MON have"
+	cont "changed and mutated"
+	cont "into shocking"
+	cont "new forms!"
 
-	para "Myself..."
+	para "Our home region"
+	line "was locked down and"
+	cont "declared an excl-"
+	cont "usion zone because"
+	cont "of the incident!"
 
-	para "I study #MON"
-	line "as a profession."
+	para "Gramps is out of"
+	line "commission, so"
+	cont "it looks like it's"
+	cont "up to us to solve"
+	cont "this mystery!"
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "We'll need to"
+	line "give you a new"
+	cont "codename, so the"
+	cont "locals don't"
+	cont "get suspicious!"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This weird guy"
+	line "in a cloak was"
+	cont "seen wandering"
+	cont "around lately."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "Rumors say his"
+	line "name is..."
 	prompt
 
 _AskStartLocationText::
-	text "Now..."
-	line "Which town were"
-	cont "you from again?"
+	text "Alright so"
+	line "where are we"
+	cont "dropping?"
 	prompt
 
 _AskStarterText::
-	text "My aide already"
-	line "sent you your"
-	cont "starter #MON."
-	cont "Which one did"
-	cont "you choose?"
+	text "You won't be"
+	line "able to bring"
+	cont "the #MON you"
+	cont "already have into"
+	cont "the exclusion"
+	cont "zone, so you'll"
+	cont "have to take one"
+	cont "of these!"
 	prompt	
 
 _ConfirmStarterText::
-	text "Was it this"	
+	text "It'll be that"
 	line "#MON?"
 	done	
 _OakSpeechText3::
-	text "<PLAYER>!"
-
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
-
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	text "This is it!"
+	line "Preparing for"
+	cont "launch!"
+	
+	para "Good luck!"
 	done
