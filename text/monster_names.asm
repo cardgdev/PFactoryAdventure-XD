@@ -144,6 +144,7 @@ MonsterNames:
 	db "MECHTROID@"
 	db "MISCHU@@@@"
 	db "EXODUS@@@@"
+	db "ALTROX@@@@"
 	db "WHITE HAND"
 	db "MEWBLU@@@@"
 	db "MEWNINE@@@"

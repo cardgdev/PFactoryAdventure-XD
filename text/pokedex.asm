@@ -1148,6 +1148,7 @@ _WakkazoidDexEntry::
 	page "crazy house. Its"
 	next "attacks are very"
 	next "strange"
+	dex
 	
 _AeroboomDexEntry::
 	text "Whenever a trainer"
