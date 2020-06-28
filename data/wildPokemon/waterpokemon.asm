@@ -1,12 +1,12 @@
 WaterMons:
 	db $00
 	db $05
-	db 5,ALAGEZ
-	db 10,ALAGEZ
-	db 15,ALAGEZ
-	db 5,ALAGEZ
-	db 10,ALAGEZ
-	db 15,ALAGEZ
+	db 5,ALGAEZ
+	db 10,ALGAEZ
+	db 15,ALGAEZ
+	db 5,ALGAEZ
+	db 10,ALGAEZ
+	db 15,ALGAEZ
 	db 20,CRESTIX
 	db 30,CRESTIX
 	db 35,POKEWRAITH

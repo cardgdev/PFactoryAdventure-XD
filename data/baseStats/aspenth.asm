@@ -12,7 +12,7 @@ INCBIN "pic/pfmon/aspenth.pic",0,1 ; 55, sprite dimensions
 dw AspenthPicFront
 dw AspenthPicBack
 ; attacks known at lvl 0
-db TWINNEEDLE
+db TWINEEDLE
 db SLASH
 db ARMOR_CLAW
 db HARDEN

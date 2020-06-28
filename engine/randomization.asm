@@ -563,7 +563,7 @@ ValidItemIdxs:
 	db 1
 	db 1
 	db 2
-	db 2
+	db 1 ; nintendium
 	db 2
 	db 2
 	db 2

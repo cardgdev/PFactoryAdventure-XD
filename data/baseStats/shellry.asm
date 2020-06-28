@@ -10,7 +10,7 @@ db 190 ; catch rate
 db 110 ; base exp yield
 INCBIN "pic/pfmon/shellry.pic",0,1 ; 55, sprite dimensions
 dw ShellryPicFront
-dw ShelryPicBack
+dw ShellryPicBack
 ; attacks known at lvl 0
 db BIDE
 db WITHDRAW

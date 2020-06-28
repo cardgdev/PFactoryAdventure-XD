@@ -26,7 +26,7 @@ TeamMoves:
 ; second byte: move
 ; ff-terminated
 	db WILL,BLIZZARD
-	db BRUNO,FISSURE
-	db KOGA,TOXIC
-	db KAREN,BARRIER
+	db KOGA,FISSURE
+	db KAREN,TOXIC
+	db LANCE,BARRIER
 	db $FF

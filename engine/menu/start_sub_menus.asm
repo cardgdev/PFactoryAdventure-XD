@@ -474,6 +474,7 @@ UsableItems_PartyMenu:
 	db MIST_STONE
 	db ICE_STONE
 	db HONEY_STONE
+	db NINTENDIUM
 	db FRESH_WATER
 	db SODA_POP
 	db LEMONADE

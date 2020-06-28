@@ -71,7 +71,7 @@ SAFARI_ROCK           EQU $16 ; overload
 	const X_SPEED       ; $43
 	const X_SPECIAL     ; $44
 	const COIN_CASE     ; $45
-	const OAKS_PARCEL   ; $46
+	const NINTENDIUM   ; $46
 	const ITEMFINDER    ; $47
 	const SILPH_SCOPE   ; $48
 	const POKE_FLUTE    ; $49

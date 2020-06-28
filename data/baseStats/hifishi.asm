@@ -14,7 +14,7 @@ dw HifishiPicBack
 ; attacks known at lvl 0
 db WATERFALL
 db SLUDGE
-db TWINNEEDLE
+db TWINEEDLE
 db SPIKE_CANNON
 db 5 ; growth rate
 ; learnset

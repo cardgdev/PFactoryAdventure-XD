@@ -2091,6 +2091,10 @@ wMonHLearnset:: ; d0cc
 	flag_array 50 + 5
 	ds 1
 
+wMonSpritesBank:: ; d0d3
+	ds 1
+;for sprites bank checking, may need to subtract one from somewhere else?
+
 wSavedTilesetType:: ; d0d4
 ; saved at the start of a battle and then written back at the end of the battle
 	ds 1

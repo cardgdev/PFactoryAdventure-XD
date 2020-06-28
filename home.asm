@@ -575,9 +575,7 @@ GetMonHeader::
 	ld de,FossilAerodactylPic
 	ld b,$77 ; size of Aerodactyl fossil sprite
 	cp FOSSIL_AERODACTYL ; Aerodactyl fossil
-	jr z,.specialID
-	cp a,MEW
-	jr z,.mew	
+	jr z,.specialID	
 	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a,[wd11e]
 	cp a,0
@@ -598,13 +596,6 @@ GetMonHeader::
 	inc hl
 	ld [hl],d
 	jr .done
-.mew
-	ld hl,MewBaseStats
-	ld de,wMonHeader
-	ld bc,MonBaseStatsEnd - MonBaseStats
-	ld a,BANK(MewBaseStats)
-	call FarCopyData
-	jr .done 
 .missingno
 	ld hl, MissingnoBaseStats
 	ld de,wMonHeader

@@ -689,7 +689,7 @@ OaksLabScript_RemoveParcel:
 	ld a, [hli]
 	cp $ff
 	ret z
-	cp OAKS_PARCEL
+	cp NINTENDIUM ; uses old parcel ID
 	jr z, .foundParcel
 	inc hl
 	inc c
@@ -1033,7 +1033,7 @@ OaksLabText5:
 	call PrintText
 	jr .asm_1d2ed
 .asm_1d2a9
-	ld b, OAKS_PARCEL
+	ld b, NINTENDIUM ; dummying
 	call IsItemInBag
 	jr nz, .asm_1d2b8
 	ld hl, OaksLabText_1d2fa

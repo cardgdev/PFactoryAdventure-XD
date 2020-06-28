@@ -1,6 +1,6 @@
 DungeonMons2:
 	db $0F
-	db 51,APACOLYSPE
+	db 51,APACOLYPSE
 	db 51,MECHTROID
 	db 51,ALENKAR
 	db 52,DIMOTRITE

@@ -1447,7 +1447,7 @@ PidgeautoEvosMoves:
 	;quick attack
 	db 21, WHIRLWIND
 	db 27, WING_ATTACK
-	db 31, JET_WING
+	db 31, JETWING
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
 	db 0

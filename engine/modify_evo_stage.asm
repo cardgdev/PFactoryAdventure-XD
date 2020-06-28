@@ -709,7 +709,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db CLOUDROJEN
+	db CLOWDROJEN
 	db 0
 	db 0
 	db 0

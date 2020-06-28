@@ -43,7 +43,7 @@ const_value = 1
 	trainer_const HAYATO         ; $23
 	trainer_const ENOKI      ; $24
 	trainer_const MIKAN         ; $25
-	trainer_const TUSKUSHI          ; $26
+	trainer_const TSUKUSHI          ; $26
 	trainer_const JUNIOR        ; $27
 	trainer_const JACK       ; $28
 	trainer_const SURGE     ; $29

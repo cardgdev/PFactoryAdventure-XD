@@ -235,7 +235,7 @@ GainExperience:
 	ld [wCalculateWhoseStats], a
 	callab CalculateModifiedStats
 	callab ApplyBurnAndParalysisPenaltiesToPlayer
-	callab ApplyBadgeStatBoosts
+	;callab ApplyBadgeStatBoosts
 	callab DrawPlayerHUDAndHPBar
 	callab PrintEmptyString
 	call SaveScreenTilesToBuffer1

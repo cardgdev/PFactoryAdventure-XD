@@ -4,7 +4,7 @@ Route4Mons:
 	db 10,AUDIOR
 	db 8,RATTATA
 	db 6,AUDIOR
-	db 8,SPEAROW
+	db 8,MUSHBOOM
 	db 10,SANDSHREW
 	db 12,SANDSHREW
 	db 12,MEPHER

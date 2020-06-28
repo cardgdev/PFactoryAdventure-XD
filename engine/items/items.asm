@@ -85,7 +85,7 @@ ItemUsePtrTable:
 	dw ItemUseXStat      ; X_SPEED
 	dw ItemUseXStat      ; X_SPECIAL
 	dw ItemUseCoinCase   ; COIN_CASE
-	dw ItemUseOaksParcel ; OAKS_PARCEL
+	dw ItemUseEvoStone ; NINTENDIUM
 	dw ItemUseItemfinder ; ITEMFINDER
 	dw UnusableItem      ; SILPH_SCOPE
 	dw ItemUsePokeflute  ; POKE_FLUTE

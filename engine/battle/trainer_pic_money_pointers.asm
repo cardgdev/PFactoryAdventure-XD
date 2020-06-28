@@ -85,10 +85,10 @@ TrainerPicAndMoneyPointers:
 	dw ScientistPic
 	money 5000
 
-	dw GiovanniPic
+	dw BlainePic
 	money 9900
 
-	dw RocketPic
+	dw SoldierPic
 	money 3000
 
 	dw CooltrainerMPic
@@ -97,31 +97,31 @@ TrainerPicAndMoneyPointers:
 	dw CooltrainerFPic
 	money 3500
 
-	dw BrunoPic
-	money 9900
-
-	dw BrockPic
-	money 9900
-
-	dw MistyPic
-	money 9900
-
-	dw LtSurgePic
-	money 9900
-
-	dw ErikaPic
-	money 9900
-
 	dw KogaPic
 	money 9900
 
-	dw BlainePic
+	dw IchitarouPic
 	money 9900
 
-	dw SabrinaPic
+	dw HayatoPic
 	money 9900
 
-	dw GentlemanPic
+	dw EnokiPic
+	money 9900
+
+	dw MikanPic
+	money 9900
+
+	dw TsukushiPic
+	money 9900
+
+	dw JuniorPic
+	money 9900
+
+	dw JackPic
+	money 9900
+
+	dw SurgePic
 	money 7000
 
 	dw Rival2Pic
@@ -130,13 +130,13 @@ TrainerPicAndMoneyPointers:
 	dw Rival3Pic
 	money 9900
 
-	dw LoreleiPic
+	dw WillPic
 	money 9900
 
 	dw ChannelerPic
 	money 3000
 
-	dw AgathaPic
+	dw KarenPic
 	money 9900
 
 	dw LancePic

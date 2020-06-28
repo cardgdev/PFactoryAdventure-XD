@@ -51,6 +51,9 @@ INCLUDE "engine/special_warps.asm"
 
 ;INCLUDE "engine/debug1.asm"
 
+EmptyFunc:
+	ret
+
 INCLUDE "engine/menu/naming_screen.asm"
 
 INCLUDE "engine/oak_speech2.asm"
@@ -525,8 +528,8 @@ CaterpiePicFront:: INCBIN "pic/pfmon/caterpie.pic"
 CaterpiePicBack:: INCBIN "pic/monback/caterpieb.pic"
 MetapodPicFront:: INCBIN "pic/pfmon/metapod.pic"
 MetapodPicBack:: INCBIN "pic/monback/metapodb.pic"
-RatattaPicFront:: INCBIN "pic/pfmon/rattata.pic"
-RatattaPicBack:: INCBIN "pic/monback/ratattab.pic"
+RattataPicFront:: INCBIN "pic/pfmon/rattata.pic"
+RattataPicBack:: INCBIN "pic/monback/rattatab.pic"
 RaticatePicFront:: INCBIN "pic/pfmon/raticate.pic"
 RaticatePicBack:: INCBIN "pic/monback/raticateb.pic"
 EkansPicFront:: INCBIN "pic/pfmon/ekans.pic"
@@ -642,12 +645,7 @@ JiglyfairyPicFront:: INCBIN "pic/pfmon/jiglyfairy.pic"
 JiglyfairyPicBack:: INCBIN "pic/monback/jiglyfairyb.pic"
 CutiepiePicFront:: INCBIN "pic/pfmon/cutiepie.pic"
 CutiepiePicBack:: INCBIN "pic/monback/cutiepieb.pic"
-FirebirdPicFront:: INCBIN "pic/pfmon/firebird.pic"
-FirebirdPicBack:: INCBIN "pic/monback/firebirdb.pic"
-MatopsisPicFront:: INCBIN "pic/pfmon/matopsis.pic"
-MatopsisPicBack:: INCBIN "pic/monback/matopsisb.pic"
-FroggletPicFront:: INCBIN "pic/pfmon/frogglet.pic"
-FroggletPicBack:: INCBIN "pic/monback/froggletb.pic"
+
 
 
 SECTION "Battle (bank A)", ROMX, BANK[$A]
@@ -682,7 +680,7 @@ XbrainPicFront:: INCBIN "pic/pfmon/xbrain.pic"
 XbrainPicBack:: INCBIN "pic/monback/xbrainb.pic"
 AlenkarPicFront:: INCBIN "pic/pfmon/alenkar.pic"
 AlenkarPicBack:: INCBIN "pic/monback/alenkarb.pic"
-AlgaezPicFront:: INCBIN "pic/pfmon/alagez.pic"
+AlgaezPicFront:: INCBIN "pic/pfmon/algaez.pic"
 AlgaezPicBack:: INCBIN "pic/monback/algaezb.pic"
 ShellryPicFront:: INCBIN "pic/pfmon/shellry.pic"
 ShellryPicBack:: INCBIN "pic/monback/shellryb.pic"
@@ -717,7 +715,7 @@ PoofPicBack:: INCBIN "pic/monback/poofb.pic"
 MetalsaurPicFront:: INCBIN "pic/pfmon/metalsaur.pic"
 MetalsaurPicBack:: INCBIN "pic/monback/metalsaurb.pic"
 
-FossilKabutopsPic::   INCBIN "pic/bmon/fossilkabutops.pic"
+FossilKabutopsPic::   INCBIN "pic/other/fossilkabutops.pic"
 
 
 SECTION "Battle (bank B)", ROMX, BANK[$B]
@@ -850,15 +848,10 @@ DrunkeePicFront:: INCBIN "pic/pfmon/drunkee.pic"
 DrunkeePicBack:: INCBIN "pic/monback/drunkeeb.pic"
 MechtroidPicFront:: INCBIN "pic/pfmon/mechtroid.pic"
 MechtroidPicBack:: INCBIN "pic/monback/mechtroidb.pic"
-MischuPicFront:: INCBIN "pic/pfmon/mischu.pic"
-MischuPicBack:: INCBIN "pic/monback/mischub.pic"
-ExodusPicFront:: INCBIN "pic/pfmon/exodus.pic"
-ExodusPicBack:: INCBIN "pic/monback/exodusb.pic"
-AltroxPicFront:: INCBIN "pic/pfmon/altrox.pic"
-AltroxPicBack:: INCBIN "pic/monback/altroxb.pic"
 
 
-FossilAerodactylPic::  INCBIN "pic/bmon/fossilaerodactyl.pic"
+
+FossilAerodactylPic::  INCBIN "pic/other/fossilaerodactyl.pic"
 GhostPic::             INCBIN "pic/other/ghost.pic"
 
 
@@ -922,7 +915,7 @@ INCLUDE "engine/randomization.asm"
 
 INCLUDE "engine/menu/randomizer.asm"
 
-;INCLUDE "data/baseStats/missingno.asm"
+INCLUDE "data/baseStats/missingno.asm"
 
 SECTION "bank11",ROMX,BANK[$11]
 
@@ -2209,3 +2202,25 @@ INCLUDE "engine/give_pokemon.asm"
 
 INCLUDE "engine/predefs.asm"
 
+INCLUDE "text/pokedex2.asm"
+
+MischuPicFront:: INCBIN "pic/pfmon/mischu.pic"
+MischuPicBack:: INCBIN "pic/monback/mischub.pic"
+ExodusPicFront:: INCBIN "pic/pfmon/exodus.pic"
+ExodusPicBack:: INCBIN "pic/monback/exodusb.pic"
+AltroxPicFront:: INCBIN "pic/pfmon/altrox.pic"
+AltroxPicBack:: INCBIN "pic/monback/altroxb.pic"
+
+;I can't believe I forgot sandslash
+SandslashPicFront:: INCBIN "pic/pfmon/sandslash.pic"
+SandslashPicBack:: INCBIN "pic/monback/sandslashb.pic"
+
+LunareonPicFront:: INCBIN "pic/pfmon/lunareon.pic"
+LunareonPicBack:: INCBIN "pic/monback/lunareonb.pic"
+
+FroggletPicFront:: INCBIN "pic/pfmon/frogglet.pic"
+FroggletPicBack:: INCBIN "pic/monback/froggletb.pic"
+FirebirdPicFront:: INCBIN "pic/pfmon/firebird.pic"
+FirebirdPicBack:: INCBIN "pic/monback/firebirdb.pic"
+MatopsisPicFront:: INCBIN "pic/pfmon/matopsis.pic"
+MatopsisPicBack:: INCBIN "pic/monback/matopsisb.pic"

@@ -48,7 +48,7 @@ ViridianMartScript1:
 	ld a, $5
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	lb bc, OAKS_PARCEL, 1
+	lb bc, POKE_BALL, 1 ; dummied out
 	call GiveItem
 	SetEvent EVENT_GOT_OAKS_PARCEL
 	ld a, $2

@@ -162,7 +162,7 @@ RedrawPartyMenu_:
 	ld l,a
 	ld de,wcd6d
 	ld a,BANK(EvosMovesPointerTable)
-	ld bc,Mon133_EvosEnd - Mon133_EvosMoves
+	ld bc, wTileMapBackup2 - wcd6d ; "jumpeon fix" copied from periwinkle
 	call FarCopyData
 	ld hl,wcd6d
 	ld de,.notAbleToEvolveText

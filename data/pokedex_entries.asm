@@ -1297,7 +1297,7 @@ DoomsdayADexEntry:
 	db "REVENANT@"
 	db 6,8
 	dw 257
-	TX_FAR _DoomsayADexEntry
+	TX_FAR _DoomsdayADexEntry
 	db "@"
 	
 DragurDexEntry:
@@ -1517,6 +1517,20 @@ TogepiDexEntry:
 	TX_FAR _TogepiDexEntry
 	db "@"
 	
+DrakorDexEntry:
+	db "SEA DRAGON@"
+	db 33,0
+	dw 6730
+	TX_FAR _DrakorDexEntry
+	db "@"
+
+KilianshDexEntry:
+	db "ELEGANT@"
+	db 5,6
+	dw 220
+	TX_FAR _KilianshDexEntry
+	db "@"
+
 MissingNoDexEntry:
 	db "???@"
 	db 10 ; 1.0 m

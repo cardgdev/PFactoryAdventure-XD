@@ -10,7 +10,7 @@ db 45 ; catch rate
 db 230 ; base exp yield
 INCBIN "pic/pfmon/tyranticus.pic",0,1 ; 55, sprite dimensions
 dw TyranticusPicFront
-dw TyrnaticusPicBack
+dw TyranticusPicBack
 ; attacks known at lvl 0
 db EMBER
 db LEER

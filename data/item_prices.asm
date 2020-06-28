@@ -68,7 +68,7 @@ ItemPrices:
 	money 350   ; X_SPEED
 	money 350   ; X_SPECIAL
 	money 0     ; COIN_CASE
-	money 0     ; OAKS_PARCEL
+	money 5000  ; NINTENDIUM
 	money 0     ; ITEMFINDER
 	money 0     ; SILPH_SCOPE
 	money 0     ; POKE_FLUTE
