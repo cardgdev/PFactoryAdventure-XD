@@ -444,7 +444,7 @@ ChooseStarter:
 .pressedRightInStarterSelect
 	ld a, [wUnusedD08A]
 	add 1
-	cp 75
+	cp 11 ; was 75 in RR
 	jp nz, .noOverflow
 	ld a, 0
 .noOverflow	
@@ -454,7 +454,7 @@ ChooseStarter:
 	ld a, [wUnusedD08A]
 	sub 1
 	jp nc, .noUnderflow
-	ld a, 74
+	ld a, 10 ; was 74 in RR
 .noUnderflow	
 	ld [wUnusedD08A], a	
 	jp .drawSelectionScreen	

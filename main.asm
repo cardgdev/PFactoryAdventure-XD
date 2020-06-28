@@ -715,7 +715,7 @@ PoofPicBack:: INCBIN "pic/monback/poofb.pic"
 MetalsaurPicFront:: INCBIN "pic/pfmon/metalsaur.pic"
 MetalsaurPicBack:: INCBIN "pic/monback/metalsaurb.pic"
 
-FossilKabutopsPic::   INCBIN "pic/other/fossilkabutops.pic"
+
 
 
 SECTION "Battle (bank B)", ROMX, BANK[$B]
@@ -850,7 +850,7 @@ MechtroidPicFront:: INCBIN "pic/pfmon/mechtroid.pic"
 MechtroidPicBack:: INCBIN "pic/monback/mechtroidb.pic"
 
 
-
+FossilKabutopsPic::   INCBIN "pic/other/fossilkabutops.pic"
 FossilAerodactylPic::  INCBIN "pic/other/fossilaerodactyl.pic"
 GhostPic::             INCBIN "pic/other/ghost.pic"
 

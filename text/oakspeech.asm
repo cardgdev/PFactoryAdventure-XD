@@ -21,7 +21,7 @@ _OakSpeechText2A::
 _OakSpeechText2B::
 	text $51,"But lately these"
 	line "#MON have"
-	cont "changed and mutated"
+	cont "changed, mutated"
 	cont "into shocking"
 	cont "new forms!"
 
