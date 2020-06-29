@@ -2224,3 +2224,7 @@ FirebirdPicFront:: INCBIN "pic/pfmon/firebird.pic"
 FirebirdPicBack:: INCBIN "pic/monback/firebirdb.pic"
 MatopsisPicFront:: INCBIN "pic/pfmon/matopsis.pic"
 MatopsisPicBack:: INCBIN "pic/monback/matopsisb.pic"
+
+HayatoSprite:           INCBIN "gfx/sprites/hayato.2bpp"
+TsukushiSprite:           INCBIN "gfx/sprites/tsukushi.2bpp"
+EnokiSprite:           INCBIN "gfx/sprites/enoki.2bpp"

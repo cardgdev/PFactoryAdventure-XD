@@ -490,6 +490,21 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(SeelSprite)
 
+	; SPRITE_HAYATO
+	dw HayatoSprite
+	db $c0 ; byte count
+	db BANK(HayatoSprite)
+
+	; SPRITE_TSUKUSHI
+	dw TsukushiSprite
+	db $c0 ; byte count
+	db BANK(TsukushiSprite)
+
+	;SPRITE_ENOKI
+	dw EnokiSprite
+	db $c0 ; byte count
+	db BANK(EnokiSprite)
+
 	; SPRITE_BALL
 	dw BallSprite
 	db $40 ; byte count

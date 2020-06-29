@@ -1,8 +1,6 @@
 TODO LIST:
 
 >Red sprite in the intro smear glitch
->spin tiles in celadon gym don't actually work, similarly the spinners are probably still there in viridian gym
-	>THESE ARE ACTUALLY IN MAP SCRIPTS SMH
 >TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
 
