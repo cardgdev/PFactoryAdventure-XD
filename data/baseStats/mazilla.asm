@@ -5,7 +5,7 @@ db 75 ; base defense
 db 118 ; base speed
 db 63 ; base special
 db FIGHTING ; species type 1
-db FLYING ; species type 2
+db ROCK ; species type 2
 db 150 ; catch rate
 db 120 ; base exp yield
 INCBIN "pic/pfmon/mazilla.pic",0,1 ; 55, sprite dimensions

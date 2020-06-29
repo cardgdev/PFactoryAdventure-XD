@@ -855,7 +855,7 @@ _ApacolypseDexEntry::
 	next "said to be a"
 	next "legend by many"
 
-	page "trainer. Evidence"
+	page "trainers. Evidence"
 	next "was supposedly"
 	next "found on CARIBDIS"
 	dex

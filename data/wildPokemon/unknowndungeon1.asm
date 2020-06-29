@@ -8,6 +8,6 @@ DungeonMons1:
 	db 52,DOSET	
 	db 49,ALENKAR
 	db 52,MECHTROID
-	db 53,ELECTRAMEW
+	db 53,SUPERCHU
 	db 53,KNOWITALL
 	db $00

@@ -26,10 +26,10 @@ _OakSpeechText2B::
 	cont "new forms!"
 
 	para "Our home region"
-	line "was locked down and"
-	cont "declared an excl-"
-	cont "usion zone because"
-	cont "of the incident!"
+	line "was locked down"
+	cont "and declared an"
+	cont "exclusion zone"
+	cont "because of it!"
 
 	para "Gramps is out of"
 	line "commission, so"
