@@ -7,7 +7,7 @@ AIEnemyTrainerChooseMoves: ; 39719 (e:5719)
 	ld [hli], a   ; move 2
 	ld [hli], a   ; move 3
 	ld [hl], a    ; move 4
-	ld a, [W_ENEMYDISABLEDMOVE] ; forbid disabled move (if any)
+	ld a, [wEnemyDisabledMove] ; forbid disabled move (if any)
 	swap a
 	and $f
 	jr z, .noMoveDisabled
@@ -19,7 +19,7 @@ AIEnemyTrainerChooseMoves: ; 39719 (e:5719)
 	ld [hl], $50  ; forbid (highly discourage) disabled move
 .noMoveDisabled
 	ld hl, TrainerClassMoveChoiceModifications ; 589B
-	ld a, [W_TRAINERCLASS]
+	ld a, [wTrainerClass]
 	ld b, a
 .loopTrainerClasses
 	dec b
@@ -51,7 +51,7 @@ AIEnemyTrainerChooseMoves: ; 39719 (e:5719)
 	ld l, a
 	ld de, .nextMoveChoiceModification  ; set return address
 	push de
-	jp [hl]       ; execute modification function
+	jp hl       ; execute modification function
 .loopFindMinimumEntries ; all entries will be decremented sequentially until one of them is zero
 	ld hl, wHPBarMaxHP  ; temp move selection array
 	ld de, wEnemyMonMoves  ; enemy moves
@@ -126,10 +126,10 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	jr z,.confusionCheck ; no more moves in move set
 	inc de
 	call ReadMove
-	ld a, [W_ENEMYMOVEPOWER]
+	ld a, [wEnemyMovePower]
 	and a
 	jr nz, .nextMove
-	ld a, [W_ENEMYMOVEEFFECT]
+	ld a, [wEnemyMoveEffect]
 	push hl
 	push de
 	push bc
@@ -145,13 +145,13 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl], a
 	jr .nextMove
 .confusionCheck
-	ld a,[W_PLAYERBATTSTATUS1]
+	ld a,[wPlayerBattleStatus1]
 	bit Confused,a
 	jr z,.digOrFlyCheck
 	ld hl,ConfusionMoves
 	ld b,$20
 	call AlterMovePriorityArray
-	ld a,[W_PLAYERBATTSTATUS1]
+	ld a,[wPlayerBattleStatus1]
 .digOrFlyCheck
 	bit Invulnerable,a
 	jr z,.usingChargingMoveCheck
@@ -183,10 +183,10 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
     jr z, .bideCheck
     inc de
     call ReadMove
-	ld a, [W_ENEMYMOVEPOWER]
+	ld a, [wEnemyMovePower]
 	cp 10
     jr c, .invLoop
-    ld a, [W_ENEMYMOVEEFFECT]
+    ld a, [wEnemyMoveEffect]
     cp MIRROR_MOVE_EFFECT
 	jr c, .invLoop
 	cp PAY_DAY_EFFECT
@@ -211,7 +211,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .invLoop
 .usingChargingMoveCheck
-	ld a,[W_PLAYERBATTSTATUS1]
+	ld a,[wPlayerBattleStatus1]
 	bit ChargingUp,a
 	jr z, .bideCheck
 	call Random
@@ -222,7 +222,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld hl,ParalyzeOrSleepMoves
 .digorfly
 	call AlterMovePriorityArray
-	ld a,[W_PLAYERBATTSTATUS1]
+	ld a,[wPlayerBattleStatus1]
 .bideCheck
 	bit StoringEnergy,a
 	jr z,.mistCheck
@@ -238,10 +238,10 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
     jr z, .mistCheck
     inc de
     call ReadMove
-	ld a, [W_ENEMYMOVEPOWER]
+	ld a, [wEnemyMovePower]
 	cp 10
 	jr nc,.discourageDamagingMove
-	ld a, [W_ENEMYMOVEEFFECT]
+	ld a, [wEnemyMoveEffect]
 	cp SPECIAL_DAMAGE_EFFECT
 	jr nz,.doesDamageLoop
 .discourageDamagingMove
@@ -250,7 +250,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .doesDamageLoop
 .mistCheck
-	ld a,[W_PLAYERBATTSTATUS2]
+	ld a,[wPlayerBattleStatus2]
 	bit ProtectedByMist,a
 	jr z, .substituteCheck
 	ld hl, wBuffer - 1
@@ -265,7 +265,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
     jr z, .substituteCheck
     inc de
     call ReadMove
-	ld a,[W_ENEMYMOVEEFFECT]
+	ld a,[wEnemyMoveEffect]
 	ld c,-8
 	cp ATTACK_DOWN1_EFFECT
 	jr c,.statLoweringMoveLoop
@@ -285,7 +285,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .statLoweringMoveLoop
 .substituteCheck
-	ld a,[W_PLAYERBATTSTATUS2]
+	ld a,[wPlayerBattleStatus2]
 	bit HasSubstituteUp,a
 	jr z,.seededCheck
 	ld hl, wBuffer - 1
@@ -320,7 +320,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .doesNotEffectSubstituteLoop
 .seededCheck
-	ld a,[W_PLAYERBATTSTATUS2]
+	ld a,[wPlayerBattleStatus2]
 	bit Seeded,a
 	jr z,.lightScreenCheck
 	ld a,LEECH_SEED
@@ -328,7 +328,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld b,$20
 	call AlterMovePriority
 .lightScreenCheck
-	ld a,[W_PLAYERBATTSTATUS3]
+	ld a,[wPlayerBattleStatus3]
 	bit HasLightScreenUp,a
 	jr z,.reflectCheck
 	ld hl, wBuffer - 1
@@ -343,7 +343,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
     jr z, .reflectCheck
     inc de
     call ReadMove
-	ld a,[W_ENEMYMOVETYPE]
+	ld a,[wEnemyMoveType]
 	cp FIRE
 	jr c,.discourageSpecialMovesLoop
 	ld a,[hl]
@@ -351,7 +351,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .discourageSpecialMovesLoop
 .reflectCheck
-	ld a,[W_PLAYERBATTSTATUS3]
+	ld a,[wPlayerBattleStatus3]
 	bit HasReflectUp,a
 	jr z,.enemySubstituteCheck
 	ld hl, wBuffer - 1
@@ -366,7 +366,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
     jr z,.enemySubstituteCheck
     inc de
     call ReadMove
-	ld a,[W_ENEMYMOVETYPE]
+	ld a,[wEnemyMoveType]
 	cp FIRE
 	jr nc,.discouragePhysicalMovesLoop
 	ld a,[hl]
@@ -374,7 +374,7 @@ AIMoveChoiceModification1: ; 397ab (e:57ab)
 	ld [hl],a
 	jr .discouragePhysicalMovesLoop
 .enemySubstituteCheck
-	ld a,[W_ENEMYBATTSTATUS2]
+	ld a,[wEnemyBattleStatus2]
 	bit HasSubstituteUp,a
 	ret z
 	ld a,SUBSTITUTE
@@ -441,7 +441,7 @@ SmartAI:
     jr z, .healingcheck
     inc de
     call ReadMove
-    ld a, [W_ENEMYMOVEPOWER]
+    ld a, [wEnemyMovePower]
 	and a
     jr z, .damageloop
 ; encourage by 2
@@ -573,12 +573,12 @@ SmartAI:
     jr z, .selfbuffcheck
     inc de
     call ReadMove
-    ld a, [W_ENEMYMOVEEFFECT]
+    ld a, [wEnemyMoveEffect]
     cp SUPER_FANG_EFFECT
     jr z, .seloop
     cp SPECIAL_DAMAGE_EFFECT
     jr z, .seloop
-    ld a, [W_ENEMYMOVEPOWER]
+    ld a, [wEnemyMovePower]
 	cp 10
     jr c, .seloop
     push hl
@@ -776,7 +776,7 @@ AIMoveChoiceModification2: ; 397e7 (e:57e7)
 	ret z ; no more moves in move set
 	inc de
 	call ReadMove
-	ld a, [W_ENEMYMOVEEFFECT]
+	ld a, [wEnemyMoveEffect]
 	cp ATTACK_UP1_EFFECT
 	jr c, .nextMove
 	cp BIDE_EFFECT
@@ -823,7 +823,7 @@ AIMoveChoiceModification3: ; 39817 (e:5817)
 	push hl
 	push de
 	push bc
-	ld a, [W_ENEMYMOVETYPE]
+	ld a, [wEnemyMoveType]
 	ld d, a
 	ld hl, wEnemyMonMoves  ; enemy moves
 	ld b, NUM_MOVES + 1
@@ -835,17 +835,17 @@ AIMoveChoiceModification3: ; 39817 (e:5817)
 	and a
 	jr z, .done
 	call ReadMove
-	ld a, [W_ENEMYMOVEEFFECT]
+	ld a, [wEnemyMoveEffect]
 	cp SUPER_FANG_EFFECT
 	jr z, .betterMoveFound ; Super Fang is considered to be a better move
 	cp SPECIAL_DAMAGE_EFFECT
 	jr z, .betterMoveFound ; any special damage moves are considered to be better moves
 	cp FLY_EFFECT
 	jr z, .betterMoveFound ; Fly is considered to be a better move
-	ld a, [W_ENEMYMOVETYPE]
+	ld a, [wEnemyMoveType]
 	cp d
 	jr z, .loopMoves
-	ld a, [W_ENEMYMOVEPOWER]
+	ld a, [wEnemyMovePower]
 	and a
 	jr nz, .betterMoveFound ; damaging moves of a different type are considered to be better moves
 	jr .loopMoves
@@ -871,7 +871,7 @@ ReadMove: ; 39884 (e:5884)
 	ld hl,Moves
 	ld bc,6
 	call AddNTimes
-	ld de,W_ENEMYMOVENUM
+	ld de,wEnemyMoveNum
 	call CopyData
 	pop bc
 	pop de
@@ -937,18 +937,20 @@ INCLUDE "engine/battle/bank_e_misc.asm"
 
 INCLUDE "engine/battle/read_trainer_party.asm"
 
+INCLUDE "data/trainer_moves.asm" ; had to put this back
+
 INCLUDE "data/trainer_parties.asm"
 
 TrainerAI: ; 3a52e (e:652e)
 ;XXX called at 34964, 3c342, 3c398
 	and a
-	ld a,[W_ISINBATTLE]
+	ld a,[wIsInBattle]
 	dec a
 	ret z ; if not a trainer, we're done here
 	ld a,[wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z
-	ld a,[W_TRAINERCLASS] ; what trainer class is this?
+	ld a,[wTrainerClass] ; what trainer class is this?
 	dec a
 	ld c,a
 	ld b,0
@@ -970,7 +972,7 @@ TrainerAI: ; 3a52e (e:652e)
 	ld h,[hl]
 	ld l,a
 	call Random
-	jp [hl]
+	jp hl
 
 TrainerAIPointers: ; 3a55c (e:655c)
 ; one entry per trainer class
@@ -1157,13 +1159,13 @@ DecrementAICount: ; 3a695 (e:6695)
 	ret
 
 Func_3a69b: ; 3a69b (e:669b)
-	ld a,(SFX_08_3e - SFX_Headers_08) / 3
+	ld a,SFX_HEAL_AILMENT
 	jp PlaySoundWaitForCurrent
 
 AIUseFullRestore: ; 3a6a0 (e:66a0)
 	call AICureStatus
 	ld a,FULL_RESTORE
-	ld [wcf05],a
+	ld [wAIItem],a
 	ld de,wHPBarOldHP
 	ld hl,wEnemyMonHP + 1
 	ld a,[hld]
@@ -1204,7 +1206,7 @@ AIUseHyperPotion: ; 3a6d6 (e:66d6)
 
 AIRecoverHP: ; 3a6da (e:66da)
 ; heal b HP and print "trainer used $(a) on pokemon!"
-	ld [wcf05],a
+	ld [wAIItem],a
 	ld hl,wEnemyMonHP + 1
 	ld a,[hl]
 	ld [wHPBarOldHP],a
@@ -1245,7 +1247,7 @@ AIRecoverHP: ; 3a6da (e:66da)
 
 AIPrintItemUseAndUpdateHPBar: ; 3a718 (e:6718)
 	call AIPrintItemUse_
-	hlCoord 2, 2
+	coord hl, 2, 2
 	xor a
 	ld [wHPBarType],a
 	predef UpdateHPBar2
@@ -1299,10 +1301,10 @@ SwitchEnemyMon: ; 3a74b (e:674b)
 	call PrintText
 
 	ld a,1
-	ld [wd11d],a
+	ld [wFirstMonsNotOutYet],a
 	callab EnemySendOut
 	xor a
-	ld [wd11d],a
+	ld [wFirstMonsNotOutYet],a
 
 	ld a,[wLinkState]
 	cp LINK_STATE_BATTLING
@@ -1329,27 +1331,27 @@ AICureStatus: ; 3a791 (e:6791)
 	xor a
 	ld [hl],a ; clear status in enemy team roster
 	ld [wEnemyMonStatus],a ; clear status of active enemy
-	ld hl,W_ENEMYBATTSTATUS3
+	ld hl,wEnemyBattleStatus3
 	res 0,[hl]
 	ret
 
 AIUseXAccuracy: ; 0x3a7a8 unused
 	call Func_3a69b
-	ld hl,W_ENEMYBATTSTATUS2
+	ld hl,wEnemyBattleStatus2
 	set 0,[hl]
 	ld a,X_ACCURACY
 	jp AIPrintItemUse
 
 AIUseGuardSpec: ; 3a7b5 (e:67b5)
 	call Func_3a69b
-	ld hl,W_ENEMYBATTSTATUS2
+	ld hl,wEnemyBattleStatus2
 	set 1,[hl]
-	ld a,GUARD_SPEC_
+	ld a,GUARD_SPEC
 	jp AIPrintItemUse
 
 AIUseDireHit: ; 0x3a7c2 unused
 	call Func_3a69b
-	ld hl,W_ENEMYBATTSTATUS2
+	ld hl,wEnemyBattleStatus2
 	set 2,[hl]
 	ld a,DIRE_HIT
 	jp AIPrintItemUse
@@ -1401,11 +1403,11 @@ AIUseXSpecial: ; 3a804 (e:6804)
 	; fallthrough
 
 AIIncreaseStat: ; 3a808 (e:6808)
-	ld [wcf05],a
+	ld [wAIItem],a
 	push bc
 	call AIPrintItemUse_
 	pop bc
-	ld hl,W_ENEMYMOVEEFFECT
+	ld hl,wEnemyMoveEffect
 	ld a,[hld]
 	push af
 	ld a,[hl]
@@ -1423,13 +1425,13 @@ AIIncreaseStat: ; 3a808 (e:6808)
 	jp DecrementAICount
 
 AIPrintItemUse: ; 3a82c (e:682c)
-	ld [wcf05],a
+	ld [wAIItem],a
 	call AIPrintItemUse_
 	jp DecrementAICount
 
 AIPrintItemUse_: ; 3a835 (e:6835)
-; print "x used [wcf05] on z!"
-	ld a,[wcf05]
+; print "x used [wAIItem] on z!"
+	ld a,[wAIItem]
 	ld [wd11e],a
 	call GetItemName
 	ld hl, AIBattleUseItemText

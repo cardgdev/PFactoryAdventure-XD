@@ -2919,7 +2919,16 @@ wSeafoamIslands5CurScript:: ; d668
 wRoute18GateCurScript:: ; d669
 	ds 1
 
-	ds 78
+;flags copied from pokered-challenge, only the AI buffers should be needed but just in case I left the rest in
+W_EXTENDEDTRAINERMONCOUNT::
+W_AIBUFFER1::
+W_EVOLVEMONSPECIES::
+	ds 1
+W_AIBUFFER2::
+W_EVOLVEMONLEVEL::
+	ds 1
+
+	ds 75; 78 - 2 from AI - 1 for wMonSpritesBank
 wGameProgressFlagsEnd::
 
 	ds 56
