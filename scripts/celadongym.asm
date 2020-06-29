@@ -30,10 +30,212 @@ CeladonGymText_48943:
 	ret
 
 CeladonGymScriptPointers:
+	dw ArrowSpinnerScript ; new
 	dw CheckFightingMapTrainers
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw CeladonGymScript3
+	dw CeladonGymArrowsAddon ; new
+
+ArrowSpinnerScript:
+	ld a, [wYCoord]
+	ld b, a
+	ld a, [wXCoord]
+	ld c, a
+	ld hl, CeladonGymArrowTilePlayerMovement
+	call DecodeArrowMovementRLE
+	cp $ff
+	jp z, CheckFightingMapTrainers
+	ld hl, wd736
+	set 7, [hl]
+	call StartSimulatingJoypadStates
+	ld a, SFX_ARROW_TILES
+	call PlaySound
+	ld a, $ff
+	ld [wJoyIgnore], a
+	ld a, $3
+	ld [wCurMapScript], a
+	ret
+
+;format:
+;db y,x
+;dw pointer to movement
+;on the map I organized these from top to bottom, left to right
+CeladonGymArrowTilePlayerMovement:
+	db $2,$4
+	dw CeladonGymArrowMovement1
+	db $4,$0
+	dw CeladonGymArrowMovement2
+	db $4,$5
+	dw CeladonGymArrowMovement3
+	db $4,$7
+	dw CeladonGymArrowMovement4
+	db $5,$3
+	dw CeladonGymArrowMovement5
+	db $5,$5
+	dw CeladonGymArrowMovement6
+	db $5,$7
+	dw CeladonGymArrowMovement7
+	db $8,$3
+	dw CeladonGymArrowMovement8
+	db $8,$4
+	dw CeladonGymArrowMovement9
+	db $8,$6
+	dw CeladonGymArrowMovement10
+	db $9,$3
+	dw CeladonGymArrowMovement11
+	db $a,$0
+	dw CeladonGymArrowMovement12
+	db $a,$5
+	dw CeladonGymArrowMovement13
+	db $a,$8
+	dw CeladonGymArrowMovement14
+	db $b,$2
+	dw CeladonGymArrowMovement15
+	db $b,$3
+	dw CeladonGymArrowMovement16
+	db $b,$5
+	dw CeladonGymArrowMovement17
+	db $b,$6
+	dw CeladonGymArrowMovement18
+	db $b,$7
+	dw CeladonGymArrowMovement19
+	db $c,$7
+	dw CeladonGymArrowMovement20
+	db $d,$5
+	dw CeladonGymArrowMovement21
+	db $d,$7
+	dw CeladonGymArrowMovement22
+	db $f,$4
+	dw CeladonGymArrowMovement23
+	db $f,$5
+	dw CeladonGymArrowMovement24
+	db $FF
+
+;format: direction, count
+;each list is read starting from the $FF and working backwards
+CeladonGymArrowMovement1:
+	db D_DOWN,$04
+	db $FF
+
+CeladonGymArrowMovement2:
+	db D_RIGHT,$02
+	db $FF
+
+CeladonGymArrowMovement3:
+	db D_LEFT,$01
+	db $FF
+
+CeladonGymArrowMovement4:
+	db D_LEFT,$03
+	db $FF
+
+CeladonGymArrowMovement5:
+	db D_UP,$00
+	db $FF
+
+CeladonGymArrowMovement6:
+	db D_LEFT,$02
+	db $FF
+
+CeladonGymArrowMovement7:
+	db D_LEFT,$04
+	db $FF
+
+CeladonGymArrowMovement8:
+	db D_LEFT,$01
+	db $FF
+
+CeladonGymArrowMovement9:
+	db D_DOWN,$05
+	db $FF
+
+CeladonGymArrowMovement10:
+	db D_DOWN,$00
+	db $FF
+
+CeladonGymArrowMovement11:
+	db D_LEFT,$01
+	db $FF
+
+CeladonGymArrowMovement12:
+	db D_DOWN,$01
+	db $FF
+
+CeladonGymArrowMovement13:
+	db D_LEFT,$04
+	db $FF
+
+CeladonGymArrowMovement14:
+	db D_DOWN,$04
+	db $FF
+
+CeladonGymArrowMovement15:
+	db D_UP,$03
+	db $FF
+
+CeladonGymArrowMovement16:
+	db D_LEFT,$01
+	db D_UP,$02
+	db $FF
+
+CeladonGymArrowMovement17:
+	db D_LEFT,$01
+	db D_UP,$02
+	db D_LEFT,$02
+	db $FF
+
+CeladonGymArrowMovement18:
+	db D_UP,$01
+	db $FF
+
+CeladonGymArrowMovement19:
+	db D_UP,$03
+	db $FF
+
+CeladonGymArrowMovement20:
+	db D_LEFT,$04
+	db $FF
+
+CeladonGymArrowMovement21:
+	db D_LEFT,$01
+	db D_UP,$02
+	db D_LEFT,$02
+	db D_UP,$02
+	db $FF
+
+CeladonGymArrowMovement22:
+	db D_LEFT,$01
+	db D_UP,$02
+	db D_LEFT,$02
+	db D_UP,$02
+	db D_LEFT,$02
+	db $FF
+
+CeladonGymArrowMovement23:
+	db D_UP,$02
+	db $FF
+
+CeladonGymArrowMovement24:
+	db D_LEFT,$01
+	db D_UP,$02
+	db D_LEFT,$02
+	db D_UP,$04
+	db $FF
+
+CeladonGymArrowsAddon:
+	ld a, [wSimulatedJoypadStatesIndex]
+	and a
+	jp nz, LoadSpinnerArrowTiles
+	xor a
+	ld [wJoyIgnore], a
+	ld hl, wd736
+	res 7, [hl]
+	ld a, $0
+	ld [wCurMapScript], a
+	ret
+
+;---------------------------------------------------
 
 CeladonGymScript3:
 	ld a, [wIsInBattle]
@@ -85,7 +287,7 @@ CeladonGymTextPointers:
 
 CeladonGymTrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_0
-	db ($2 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_0
 	dw CeladonGymBattleText2 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText2 ; TextAfterBattle
@@ -94,7 +296,7 @@ CeladonGymTrainerHeader0:
 
 CeladonGymTrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_1
-	db ($2 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_1
 	dw CeladonGymBattleText3 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText3 ; TextAfterBattle
@@ -103,7 +305,7 @@ CeladonGymTrainerHeader1:
 
 CeladonGymTrainerHeader2:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_2
-	db ($4 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_2
 	dw CeladonGymBattleText4 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText4 ; TextAfterBattle
@@ -112,7 +314,7 @@ CeladonGymTrainerHeader2:
 
 CeladonGymTrainerHeader3:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_3
-	db ($4 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_3
 	dw CeladonGymBattleText5 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText5 ; TextAfterBattle
@@ -121,7 +323,7 @@ CeladonGymTrainerHeader3:
 
 CeladonGymTrainerHeader4:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_4
-	db ($2 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_4
 	dw CeladonGymBattleText6 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText6 ; TextAfterBattle
@@ -130,7 +332,7 @@ CeladonGymTrainerHeader4:
 
 CeladonGymTrainerHeader5:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_5
-	db ($2 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_5
 	dw CeladonGymBattleText7 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText7 ; TextAfterBattle
@@ -139,7 +341,7 @@ CeladonGymTrainerHeader5:
 
 CeladonGymTrainerHeader6:
 	dbEventFlagBit EVENT_BEAT_CELADON_GYM_TRAINER_6, 1
-	db ($3 << 4) ; trainer's view range
+	db ($1 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_CELADON_GYM_TRAINER_6, 1
 	dw CeladonGymBattleText8 ; TextBeforeBattle
 	dw CeladonGymAfterBattleText8 ; TextAfterBattle

@@ -23,112 +23,12 @@ ViridianGymScript_748d6:
 	ret
 
 ViridianGymScriptPointers:
-	dw ViridianGymScript0
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw ViridianGymScript3
-	dw ViridianGymScript4
 
-ViridianGymScript0:
-	ld a, [wYCoord]
-	ld b, a
-	ld a, [wXCoord]
-	ld c, a
-	ld hl, ViridianGymArrowTilePlayerMovement
-	call DecodeArrowMovementRLE
-	cp $ff
-	jp z, CheckFightingMapTrainers
-	call StartSimulatingJoypadStates
-	ld hl, wd736
-	set 7, [hl]
-	ld a, SFX_ARROW_TILES
-	call PlaySound
-	ld a, $ff
-	ld [wJoyIgnore], a
-	ld a, $4
-	ld [wCurMapScript], a
-	ret
-
-;format:
-;db y,x
-;dw pointer to movement
-ViridianGymArrowTilePlayerMovement:
-	db $b,$13
-	dw ViridianGymArrowMovement1
-	db $1,$13
-	dw ViridianGymArrowMovement2
-	db $2,$12
-	dw ViridianGymArrowMovement3
-	db $2,$b
-	dw ViridianGymArrowMovement4
-	db $a,$10
-	dw ViridianGymArrowMovement5
-	db $6,$4
-	dw ViridianGymArrowMovement6
-	db $d,$5
-	dw ViridianGymArrowMovement7
-	db $e,$4
-	dw ViridianGymArrowMovement8
-	db $f,$0
-	dw ViridianGymArrowMovement9
-	db $f,$1
-	dw ViridianGymArrowMovement10
-	db $10,$d
-	dw ViridianGymArrowMovement11
-	db $11,$d
-	dw ViridianGymArrowMovement12
-	db $FF
-
-;format: direction, count
-ViridianGymArrowMovement1:
-	db D_UP,$09,$FF
-
-ViridianGymArrowMovement2:
-	db D_LEFT,$08,$FF
-
-ViridianGymArrowMovement3:
-	db D_DOWN,$09,$FF
-
-ViridianGymArrowMovement4:
-	db D_RIGHT,$06,$FF
-
-ViridianGymArrowMovement5:
-	db D_DOWN,$02,$FF
-
-ViridianGymArrowMovement6:
-	db D_DOWN,$07,$FF
-
-ViridianGymArrowMovement7:
-	db D_RIGHT,$08,$FF
-
-ViridianGymArrowMovement8:
-	db D_RIGHT,$09,$FF
-
-ViridianGymArrowMovement9:
-	db D_UP,$08,$FF
-
-ViridianGymArrowMovement10:
-	db D_UP,$06,$FF
-
-ViridianGymArrowMovement11:
-	db D_LEFT,$06,$FF
-
-ViridianGymArrowMovement12:
-	db D_LEFT,$0C,$FF
-
-ViridianGymScript4:
-	ld a, [wSimulatedJoypadStatesIndex]
-	and a
-	jr nz, .asm_74980
-	xor a
-	ld [wJoyIgnore], a
-	ld hl, wd736
-	res 7, [hl]
-	ld a, $0
-	ld [wCurMapScript], a
-	ret
-.asm_74980
-	jpba LoadSpinnerArrowTiles
+;removed spinner tiles
+;code for them was here, see celadon gym
 
 ViridianGymScript3:
 	ld a, [wIsInBattle]
