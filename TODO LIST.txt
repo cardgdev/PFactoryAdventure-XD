@@ -6,7 +6,6 @@ TODO LIST:
 >TM move name thing needs to be fixed
 
 >ask lucky how to bump ROM to 2mb to fit everything
->fix nintendium on the key items bitfield once I figure out how it works
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
