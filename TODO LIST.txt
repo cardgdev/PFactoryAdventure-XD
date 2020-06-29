@@ -4,6 +4,7 @@ TODO LIST:
 >spin tiles in celadon gym don't actually work, similarly the spinners are probably still there in viridian gym
 	>THESE ARE ACTUALLY IN MAP SCRIPTS SMH
 >TM move name thing needs to be fixed
+>Mons higher than 150 don't seem to be appearing in the randomization
 
 >ask lucky how to bump ROM to 2mb to fit everything
 >Import crysadudio, adjust all music constants & data

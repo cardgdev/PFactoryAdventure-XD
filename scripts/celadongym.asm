@@ -35,7 +35,6 @@ CeladonGymScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw CeladonGymScript3
-	dw CeladonGymArrowsAddon ; new
 
 ArrowSpinnerScript:
 	ld a, [wYCoord]
@@ -55,6 +54,8 @@ ArrowSpinnerScript:
 	ld [wJoyIgnore], a
 	ld a, $3
 	ld [wCurMapScript], a
+	ld hl, wd736
+	res 7, [hl] ; dumbass workaround: because I can't figure out the spinning bug, now the tiles just walk the player
 	ret
 
 ;format:
@@ -223,17 +224,7 @@ CeladonGymArrowMovement24:
 	db D_UP,$04
 	db $FF
 
-CeladonGymArrowsAddon:
-	ld a, [wSimulatedJoypadStatesIndex]
-	and a
-	jp nz, LoadSpinnerArrowTiles
-	xor a
-	ld [wJoyIgnore], a
-	ld hl, wd736
-	res 7, [hl]
-	ld a, $0
-	ld [wCurMapScript], a
-	ret
+
 
 ;---------------------------------------------------
 
