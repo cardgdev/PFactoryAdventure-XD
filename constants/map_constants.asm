@@ -93,7 +93,7 @@ ENDM
 	mapconst DIGLETTS_CAVE_ENTRANCE,      4,  4 ; $55
 	mapconst ROUTE_11_GATE_2F,            4,  4 ; $56
 	mapconst ROUTE_12_GATE_1F,            4,  5 ; $57
-	mapconst BILLS_HOUSE,                 4,  4 ; $58
+	mapconst BILLS_HOUSE,                 4,  5 ; $58
 	mapconst VERMILION_POKECENTER,        4,  7 ; $59
 	mapconst POKEMON_FAN_CLUB,            4,  4 ; $5A
 	mapconst VERMILION_MART,              4,  4 ; $5B

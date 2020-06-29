@@ -1,6 +1,9 @@
 TODO LIST:
 
 >Red sprite in the intro smear glitch
+>spin tiles in celadon gym don't actually work, similarly the spinners are probably still there in viridian gym
+	>THESE ARE ACTUALLY IN MAP SCRIPTS SMH
+>TM move name thing needs to be fixed
 
 >ask lucky how to bump ROM to 2mb to fit everything
 >fix nintendium on the key items bitfield once I figure out how it works
@@ -17,3 +20,16 @@ TODO LIST:
 >scripting for lt. surge on the SS Anne, change OW sprites and add new text
 >dimotrite/dragondon skeletons for pewter museum
 >Edits to maps & new flavor bits (do this last)
+
+
+graphics stuff list-
+OW SPRITES:
+>Army Blaine
+>SW Soldier
+>Wakkazoid single sprite to replace snorlax
+>Cloaked guy rival
+>labcoat blue (this one might be in SW I forget)
+
+"battle" sprites:
+>Blue in labcoat
+>Dimotrite & Dragondon edited into skeletons for pewter museum
