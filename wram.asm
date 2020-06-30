@@ -2928,7 +2928,10 @@ W_AIBUFFER2::
 W_EVOLVEMONLEVEL::
 	ds 1
 
-	ds 75; 78 - 2 from AI - 1 for wMonSpritesBank
+wSSAnne7CurScript::
+	ds 1
+
+	ds 74; 78 - 2 from AI - 1 for wMonSpritesBank - 1 new curScript
 wGameProgressFlagsEnd::
 
 	ds 56

@@ -15,6 +15,7 @@ TODO LIST:
 >port the battle tent in from periwinkle
 >do the ancillary graphics (titlescreen, professor blue, etc.)
 >scripting for lt. surge on the SS Anne, change OW sprites and add new text
+	(WIP 6/29) ^
 >dimotrite/dragondon skeletons for pewter museum
 >Edits to maps & new flavor bits (do this last)
 

@@ -1,6 +1,17 @@
 SSAnne7Script:
 	call SSAnne7Script_6189b
-	jp EnableAutoTextBoxDrawing
+	call EnableAutoTextBoxDrawing
+	ld hl, SSAnne7TrainerHeader0
+	ld de, SSAnne7ScriptPointers
+	ld a, [wSSAnne7CurScript]
+	call ExecuteCurMapScriptInTable
+	ld [wSSAnne7CurScript], a
+	ret
+
+SSAnne7ScriptPointers:
+	dw CheckFightingMapTrainers
+	dw DisplayEnemyTrainerTextAndStartBattle
+	dw EndTrainerBattle
 
 SSAnne7Script_6189b:
 	CheckEvent EVENT_RUBBED_CAPTAINS_BACK
@@ -11,8 +22,26 @@ SSAnne7Script_6189b:
 
 SSAnne7TextPointers:
 	dw SSAnne7Text1
+	dw SSAnneSurgeText
 	dw SSAnne7Text2
 	dw SSAnne7Text3
+	
+SSAnne7TrainerHeader0:
+	dbEventFlagBit EVENT_BEAT_SS_ANNE_SURGE
+	db ($2 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_SS_ANNE_SURGE
+	dw SSAnne7BattleText1 ; TextBeforeBattle
+	dw SSAnne7AfterBattleText1 ; TextAfterBattle
+	dw SSAnne7EndBattleText1 ; TextEndBattle
+	dw SSAnne7EndBattleText1 ; TextEndBattle
+	
+	db $ff
+
+SSAnneSurgeText:
+	TX_ASM
+	ld hl, SSAnne7TrainerHeader0
+	call TalkToTrainer
+	jp TextScriptEnd
 
 SSAnne7Text1:
 	TX_ASM
@@ -90,4 +119,16 @@ SSAnne7Text2:
 
 SSAnne7Text3:
 	TX_FAR _SSAnne7Text3
+	db "@"
+
+SSAnne7BattleText1:
+	TX_FAR _SSAnne7BattleText1
+	db "@"
+
+SSAnne7EndBattleText1:
+	TX_FAR _SSAnne7EndBattleText1
+	db "@"
+
+SSAnne7AfterBattleText1:
+	TX_FAR _SSAnne7AfterBattleText1
 	db "@"

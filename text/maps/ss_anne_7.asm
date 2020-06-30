@@ -60,3 +60,15 @@ _SSAnne7Text3::
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done
+
+_SSAnne7BattleText1::
+	text "DUMMY1"
+	done
+
+_SSAnne7EndBattleText1::
+	text "DUMMY2"
+	prompt
+
+_SSAnne7AfterBattleText1::
+	text "DUMMY3"
+	done
