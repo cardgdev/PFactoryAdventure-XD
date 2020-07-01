@@ -3,6 +3,8 @@ TODO LIST:
 >Red sprite in the intro smear glitch
 >TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
+>midnight, centideath not downscaling to nightrojen, spinneret
+>alactrode incorrectly downscaled to staryu
 
 >ask lucky how to bump ROM to 2mb to fit everything
 >Import crysadudio, adjust all music constants & data

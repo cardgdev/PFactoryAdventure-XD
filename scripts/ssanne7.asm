@@ -1,11 +1,11 @@
 SSAnne7Script:
-	call SSAnne7Script_6189b
 	call EnableAutoTextBoxDrawing
 	ld hl, SSAnne7TrainerHeader0
 	ld de, SSAnne7ScriptPointers
 	ld a, [wSSAnne7CurScript]
 	call ExecuteCurMapScriptInTable
 	ld [wSSAnne7CurScript], a
+	call SSAnne7Script_6189b
 	ret
 
 SSAnne7ScriptPointers:
@@ -21,8 +21,8 @@ SSAnne7Script_6189b:
 	ret
 
 SSAnne7TextPointers:
-	dw SSAnne7Text1
 	dw SSAnneSurgeText
+	dw SSAnne7Text1
 	dw SSAnne7Text2
 	dw SSAnne7Text3
 	

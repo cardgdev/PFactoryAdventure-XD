@@ -9,8 +9,8 @@ SSAnne7Object:
 	db $2, $1, $4 ; SSAnne7Text3
 
 	db $2 ; objects
-	object SPRITE_SS_CAPTAIN, $4, $2, STAY, UP, $1 ; person
-	object SPRITE_ROCKER, $3, $3, STAY, DOWN, $2, OPP_SURGE, $1
+	object SPRITE_ROCKER, $3, $3, STAY, DOWN, $1, OPP_SURGE, $1
+	object SPRITE_SS_CAPTAIN, $4, $2, STAY, UP, $2 ; person
 
 	; warp-to
 	EVENT_DISP SS_ANNE_7_WIDTH, $7, $0 ; SS_ANNE_2
