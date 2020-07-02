@@ -5,7 +5,7 @@ SSAnne7Script:
 	ld a, [wSSAnne7CurScript]
 	call ExecuteCurMapScriptInTable
 	ld [wSSAnne7CurScript], a
-	call SSAnne7Script_6189b
+	;call SSAnne7Script_6189b
 	ret
 
 SSAnne7ScriptPointers:
@@ -13,12 +13,12 @@ SSAnne7ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-SSAnne7Script_6189b:
-	CheckEvent EVENT_RUBBED_CAPTAINS_BACK
-	ret nz
-	ld hl, wd72d
-	set 5, [hl]
-	ret
+;SSAnne7Script_6189b:
+;	CheckEvent EVENT_RUBBED_CAPTAINS_BACK
+;	ret nz
+;	ld hl, wd72d
+;	set 5, [hl]
+;	ret
 
 SSAnne7TextPointers:
 	dw SSAnneSurgeText
@@ -28,7 +28,7 @@ SSAnne7TextPointers:
 	
 SSAnne7TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_SS_ANNE_SURGE
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_SS_ANNE_SURGE
 	dw SSAnne7BattleText1 ; TextBeforeBattle
 	dw SSAnne7AfterBattleText1 ; TextAfterBattle
