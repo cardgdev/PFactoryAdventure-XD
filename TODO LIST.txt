@@ -5,8 +5,6 @@ TODO LIST:
 >Mons higher than 150 don't seem to be appearing in the randomization
 >midnight, centideath not downscaling to nightrojen, spinneret
 >alactrode incorrectly downscaled to staryu
->beating mikan dosen't go to the second script part, talking to her again just starts the battle again
-	>moving the arrowspinner script pointer to the bottom of the list makes mikan work but the spinners not
 
 >ask lucky how to bump ROM to 2mb to fit everything
 >Import crysadudio, adjust all music constants & data
@@ -15,6 +13,7 @@ TODO LIST:
 >Finish the new maps, implement
 >Fix the gym trainers/leaders for new plot
 	^mostly done, need to sort out giovanni/blaine thing, trainer classes & sprites
+	^probably have to fix anything related to scriptpointer numbers in viridian & cinnabar
 >Write in the new text
 >add in the new OW sprites
 >port the battle tent in from periwinkle

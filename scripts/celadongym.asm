@@ -376,7 +376,7 @@ CeladonGymText1:
 	call InitBattleEnemyParameters
 	ld a, $4
 	ld [wGymLeaderNo], a
-	ld a, $3
+	ld a, $4 ; HERE WAS 3
 	ld [wCeladonGymCurScript], a
 	ld [wCurMapScript], a
 .asm_48a5b
