@@ -71,8 +71,7 @@ CeladonGymArrowTilePlayerMovement:
 	dw CeladonGymArrowMovement3
 	db $4,$7
 	dw CeladonGymArrowMovement4
-	db $5,$3
-	dw CeladonGymArrowMovement5
+	
 	db $5,$5
 	dw CeladonGymArrowMovement6
 	db $5,$7
@@ -81,8 +80,7 @@ CeladonGymArrowTilePlayerMovement:
 	dw CeladonGymArrowMovement8
 	db $8,$4
 	dw CeladonGymArrowMovement9
-	db $8,$6
-	dw CeladonGymArrowMovement10
+	
 	db $9,$3
 	dw CeladonGymArrowMovement11
 	db $a,$0
@@ -131,16 +129,13 @@ CeladonGymArrowMovement4:
 	db D_LEFT,$03
 	db $FF
 
-CeladonGymArrowMovement5:
-	db D_UP,$00
-	db $FF
 
 CeladonGymArrowMovement6:
-	db D_LEFT,$02
+	db D_LEFT,$03
 	db $FF
 
 CeladonGymArrowMovement7:
-	db D_LEFT,$04
+	db D_LEFT,$05
 	db $FF
 
 CeladonGymArrowMovement8:
@@ -151,9 +146,6 @@ CeladonGymArrowMovement9:
 	db D_DOWN,$05
 	db $FF
 
-CeladonGymArrowMovement10:
-	db D_DOWN,$00
-	db $FF
 
 CeladonGymArrowMovement11:
 	db D_LEFT,$01
