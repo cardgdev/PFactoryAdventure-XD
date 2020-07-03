@@ -35,6 +35,7 @@ CeladonGymScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw CeladonGymScript3
+	dw ArrowSpinnerPart2 ; new
 
 ArrowSpinnerScript:
 	ld a, [wYCoord]
@@ -52,11 +53,25 @@ ArrowSpinnerScript:
 	call PlaySound
 	ld a, $ff
 	ld [wJoyIgnore], a
-	ld a, $3
+	ld a, $5 ; was 3
 	ld [wCurMapScript], a
-	ld hl, wd736
-	res 7, [hl] ; dumbass workaround: because I can't figure out the spinning bug, now the tiles just walk the player
+	;ld hl, wd736
+	;res 7, [hl] ; dumbass workaround: because I can't figure out the spinning bug, now the tiles just walk the player
 	ret
+
+ArrowSpinnerPart2:
+	ld a, [wSimulatedJoypadStatesIndex]
+	and a
+	jr nz, .asm_74980
+	xor a
+	ld [wJoyIgnore], a
+	ld hl, wd736
+	res 7, [hl]
+	ld a, $0
+	ld [wCurMapScript], a
+	ret
+.asm_74980
+	jpba LoadSpinnerArrowTiles
 
 ;format:
 ;db y,x
