@@ -307,7 +307,7 @@ Stage2ToStage3:
 	db 0
 	db 0
 	db 0
-	db 0
+	db 0 ; megaphon
 	db 0
 	db 0
 	db 0
@@ -687,6 +687,7 @@ Stage3ToStage2:
 	db 0
 	db SANDSLASH
 	db PERSIAN
+	db NINETALES
 	db MAROWAK
 	db ELECTRODE
 	db STARMIE
@@ -708,7 +709,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 0
+	db 0 ;mislocated midnight
 	db CLOWDROJEN
 	db 0
 	db 0
@@ -728,7 +729,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 0
+	db 0 ; mislocated centideath
 	db SPINNSTER
 	db 0
 	db 0
@@ -796,8 +797,7 @@ Stage3ToStage2:
 	db 0
 	db 0
 	db 0
-	db 0
-	db 9
+	db 0 ; think this one was energuy lmao
 	db 0
 	db 0
 	db 0

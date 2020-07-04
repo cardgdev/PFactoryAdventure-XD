@@ -9,5 +9,5 @@ Route6Mons:
 	db 16,LORMERAK
 	db 16,FROGGLET
 	db 14,FROGGLET
-	db 16,MEPHER	
+	db 16,MEPHER
 	db $00
