@@ -19,6 +19,12 @@ TODO LIST:
 >Edits to maps & new flavor bits (do this last)
 
 
+new route/town location events:
+>Route 7 battlefield - rehash the nugget bridge scripts
+
+
+
+
 graphics stuff list-
 OW SPRITES:
 >Army Blaine

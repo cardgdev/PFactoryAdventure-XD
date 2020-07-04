@@ -23,7 +23,7 @@ ENDM
 	mapconst ROUTE_4,                     9, 45 ; $0F
 	mapconst ROUTE_5,                    18, 10 ; $10
 	mapconst ROUTE_6,                    18, 10 ; $11
-	mapconst ROUTE_7,                     9, 10 ; $12
+	mapconst ROUTE_7,                    16, 10 ; $12
 	mapconst ROUTE_8,                     9, 30 ; $13
 	mapconst ROUTE_9,                     9, 30 ; $14
 	mapconst ROUTE_10,                   36, 10 ; $15
