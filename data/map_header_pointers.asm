@@ -105,13 +105,13 @@ MapHeaderPointers::
 	dw SSAnne8_h
 	dw SSAnne9_h
 	dw SSAnne10_h
-	dw UnknownDungeon4_h ; unused
-	dw Lance_h ; unused
-	dw Lance_h ; unused
+	dw BillsSecretGarden_h ;new
+	dw DragonDen1_h ; new
+	dw DragonDen2_h ; new
 	dw VictoryRoad1_h
-	dw Lance_h ; unused
-	dw Lance_h ; unused ;id=110
-	dw Lance_h ; unused
+	dw DragonDen3_h ; new
+	dw DragonDen4_h ; new ;id=110
+	dw DragonDenLanceRoom_h ; new
 	dw Lance_h ; unused
 	dw Lance_h
 	dw Lance_h ; unused
@@ -204,7 +204,7 @@ MapHeaderPointers::
 	dw RocketHideout3_h
 	dw RocketHideout4_h
 	dw RocketHideoutElevator_h
-	dw RocketHideoutElevator_h ; unused
+	dw UnknownDungeon4_h ; new
 	dw RocketHideoutElevator_h ; unused
 	dw RocketHideoutElevator_h ; unused
 	dw SilphCo2_h

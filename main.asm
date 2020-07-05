@@ -2228,3 +2228,36 @@ MatopsisPicBack:: INCBIN "pic/monback/matopsisb.pic"
 HayatoSprite:           INCBIN "gfx/sprites/hayato.2bpp"
 TsukushiSprite:           INCBIN "gfx/sprites/tsukushi.2bpp"
 EnokiSprite:           INCBIN "gfx/sprites/enoki.2bpp"
+
+SECTION "NewMaps",ROMX,BANK[$31]
+
+INCLUDE "data/mapHeaders/billssecretgarden.asm"
+INCLUDE "scripts/billssecretgarden.asm"
+INCLUDE "data/mapObjects/billssecretgarden.asm"
+BillsSecretGardenBlocks: INCBIN "maps/newAreas/billssecretgarden.blk"
+
+INCLUDE "data/mapHeaders/dragonden1.asm"
+INCLUDE "scripts/dragonden1.asm"
+INCLUDE "data/mapObjects/dragonden1.asm"
+DragonDen1Blocks: INCBIN "maps/newAreas/DragonDen1.blk"
+
+INCLUDE "data/mapHeaders/dragonden2.asm"
+INCLUDE "scripts/dragonden2.asm"
+INCLUDE "data/mapObjects/dragonden2.asm"
+DragonDen2Blocks: INCBIN "maps/newAreas/DragonDen2.blk"
+
+INCLUDE "data/mapHeaders/dragonden3.asm"
+INCLUDE "scripts/dragonden3.asm"
+INCLUDE "data/mapObjects/dragonden3.asm"
+DragonDen3Blocks: INCBIN "maps/newAreas/DragonDen3.blk"
+
+INCLUDE "data/mapHeaders/dragonden4.asm"
+INCLUDE "scripts/dragonden4.asm"
+INCLUDE "data/mapObjects/dragonden4.asm"
+DragonDen4Blocks: INCBIN "maps/newAreas/DragonDen4.blk"
+
+INCLUDE "data/mapHeaders/dragondenlanceroom.asm"
+INCLUDE "scripts/dragondenlanceroom.asm"
+INCLUDE "data/mapObjects/dragondenlanceroom.asm"
+DragonDenLanceRoomBlocks: INCBIN "maps/newAreas/DragonDenLanceRoom.blk"
+

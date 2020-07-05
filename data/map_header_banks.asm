@@ -105,13 +105,13 @@ MapHeaderBanks:
 	db BANK(SSAnne8_h)
 	db BANK(SSAnne9_h)
 	db BANK(SSAnne10_h)
-	db BANK(UnknownDungeon4_h) ;unused
-	db $1D ;unused
-	db $1D ;unused
+	db BANK(BillsSecretGarden_h) ;new
+	db BANK(DragonDen1_h);new
+	db BANK(DragonDen2_h) ; new
 	db BANK(VictoryRoad1_h)
-	db $1D ;unused
-	db $1D ;unused
-	db $1D ;unused
+	db BANK(DragonDen3_h) ; new
+	db BANK(DragonDen4_h) ;new
+	db BANK(DragonDenLanceRoom_h) ; new
 	db $1D ;unused
 	db BANK(Lance_h)
 	db $1D ;unused
@@ -204,7 +204,7 @@ MapHeaderBanks:
 	db BANK(RocketHideout3_h)
 	db BANK(RocketHideout4_h)
 	db BANK(RocketHideoutElevator_h)
-	db $01
+	db BANK(UnknownDungeon4_h) ;new
 	db $01
 	db $01
 	db BANK(SilphCo2_h)

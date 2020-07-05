@@ -1,9 +1,10 @@
 BillsHouseObject:
 	db $d ; border block
 
-	db $2 ; warps
-	db $7, $2, $0, $ff
-	db $7, $3, $0, $ff
+	db $3 ; warps
+	db $7, $2, $0, ROUTE_25
+	db $7, $3, $0, ROUTE_25
+	db $0, $9, $0, BILLS_SECRET_GARDEN
 
 	db $0 ; signs
 
@@ -15,3 +16,4 @@ BillsHouseObject:
 	; warp-to
 	EVENT_DISP BILLS_HOUSE_WIDTH, $7, $2
 	EVENT_DISP BILLS_HOUSE_WIDTH, $7, $3
+	EVENT_DISP BILLS_HOUSE_WIDTH, $0, $9

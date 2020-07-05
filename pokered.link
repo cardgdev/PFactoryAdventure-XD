@@ -168,6 +168,9 @@ ROMX $2F
 ROMX $30
   "movedStuff" 
 
+ROMX $31
+  "NewMaps"
+
 WRAM0
   "WRAM Bank 0"
 

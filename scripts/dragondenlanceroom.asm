@@ -1,0 +1,5 @@
+DragonDenLanceRoomScript:
+	jp EnableAutoTextBoxDrawing
+
+DragonDenLanceRoomTextPointers:
+

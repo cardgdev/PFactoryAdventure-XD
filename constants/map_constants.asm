@@ -110,19 +110,19 @@ ENDM
 	mapconst SS_ANNE_8,                   8, 12 ; $66
 	mapconst SS_ANNE_9,                   8, 12 ; $67
 	mapconst SS_ANNE_10,                  8, 12 ; $68
-	mapconst UNUSED_MAP_69,               0,  0 ; $69
-	mapconst UNUSED_MAP_6A,               0,  0 ; $6A
-	mapconst UNUSED_MAP_6B,               0,  0 ; $6B
+	mapconst BILLS_SECRET_GARDEN,         9,  8 ; $69 ; new
+	mapconst DRAGON_DEN_1,                9, 15 ; $6A ; new
+	mapconst DRAGON_DEN_2,                9, 15 ; $6B ; new
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
-	mapconst UNUSED_MAP_6D,               0,  0 ; $6D
-	mapconst UNUSED_MAP_6E,               0,  0 ; $6E
-	mapconst UNUSED_MAP_6F,               0,  0 ; $6F
-	mapconst UNUSED_MAP_70,               0,  0 ; $70
+	mapconst DRAGON_DEN_3,                9, 15 ; $6D ; new
+	mapconst DRAGON_DEN_4,               15, 11 ; $6E ; new
+	mapconst DRAGON_DEN_LANCE_ROOM,       4,  4 ; $6F ; new
+	mapconst MEWTHREE_LAIR,               9, 15 ; $70 ; new
 	mapconst LANCES_ROOM,                13, 13 ; $71
-	mapconst UNUSED_MAP_72,               0,  0 ; $72
-	mapconst UNUSED_MAP_73,               0,  0 ; $73
-	mapconst UNUSED_MAP_74,               0,  0 ; $74
-	mapconst UNUSED_MAP_75,               0,  0 ; $75
+	mapconst VIRIDIAN_FOREST_2,          17, 24 ; $72 ; new
+	mapconst VERMILLION_TRADING_CLUB,     0,  0 ; $73 ; new
+	mapconst CINNABAR_EVO_CLUB,           0,  0 ; $74 ; new
+	mapconst BATTLE_TENT,                 0,  0 ; $75 ; new
 	mapconst HALL_OF_FAME,                4,  5 ; $76
 	mapconst UNDERGROUND_PATH_NS,        24,  4 ; $77
 	mapconst CHAMPIONS_ROOM,              4,  4 ; $78
@@ -209,7 +209,7 @@ ENDM
 	mapconst ROCKET_HIDEOUT_3,           14, 15 ; $C9
 	mapconst ROCKET_HIDEOUT_4,           12, 15 ; $CA
 	mapconst ROCKET_HIDEOUT_ELEVATOR,     4,  3 ; $CB
-	mapconst UNUSED_MAP_CC,               0,  0 ; $CC
+	mapconst UNKNOWN_DUNGEON_4,           0,  0 ; $CC ; new
 	mapconst UNUSED_MAP_CD,               0,  0 ; $CD
 	mapconst UNUSED_MAP_CE,               0,  0 ; $CE
 	mapconst SILPH_CO_2F,                 9, 15 ; $CF
