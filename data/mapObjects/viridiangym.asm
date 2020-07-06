@@ -8,7 +8,7 @@ ViridianGymObject:
 	db $0 ; signs
 
 	db $b ; objects
-	object SPRITE_BUG_CATCHER, $2, $1, STAY, DOWN, $1, OPP_JUNIOR, $3
+	object SPRITE_BUG_CATCHER, $2, $1, STAY, DOWN, $1, OPP_JUNIOR, $1
 	object SPRITE_BLACK_HAIR_BOY_1, $c, $7, STAY, DOWN, $2, OPP_COOLTRAINER_M, $9
 	object SPRITE_HIKER, $b, $b, STAY, UP, $3, OPP_BLACKBELT, $6
 	object SPRITE_ROCKER, $a, $7, STAY, DOWN, $4, OPP_TAMER, $3

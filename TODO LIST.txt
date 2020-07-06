@@ -3,15 +3,13 @@ TODO LIST:
 >Red sprite in the intro smear glitch
 >TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
+>the AI likes to use potions on pokemon with already full health
 
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
 >implement all the new maps
 	^dragon's den, viridian forest 2, mewthree lair done; need to do the indoor maps next
->Fix the gym trainers/leaders for new plot
-	^mostly done, need to sort out giovanni/blaine thing, trainer classes & sprites
-	^probably have to fix anything related to scriptpointer numbers in viridian & cinnabar
 >Write in the new text
 >add in the new OW sprites
 >port the battle tent in from periwinkle

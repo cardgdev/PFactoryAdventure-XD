@@ -143,7 +143,7 @@ CinnabarGymScript3_75857:
 	ld a, $a
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_BEAT_BLAINE
+	SetEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI ; changed
 	lb bc, TM_38, 1
 	call GiveItem
 	jr nc, .BagFull
@@ -158,12 +158,17 @@ CinnabarGymScript3_75857:
 	call DisplayTextID
 .asm_75880
 	ld hl, wObtainedBadges
-	set 6, [hl]
+	set 7, [hl]
 	ld hl, wBeatGymFlags
-	set 6, [hl]
+	set 7, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_CINNABAR_GYM_TRAINER_0, EVENT_BEAT_CINNABAR_GYM_TRAINER_6
+
+	ld a, HS_ROUTE_22_RIVAL_2 ; moved this whole part from the viridian gym
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	SetEvents EVENT_2ND_ROUTE22_RIVAL_BATTLE, EVENT_ROUTE22_RIVAL_WANTS_BATTLE
 
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
@@ -206,7 +211,7 @@ CinnabarGymScript_758b7:
 
 CinnabarGymText1:
 	TX_ASM
-	CheckEvent EVENT_BEAT_BLAINE
+	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI ; changed
 	jr z, .asm_d9332
 	CheckEventReuseA EVENT_GOT_TM38
 	jr nz, .asm_3012f

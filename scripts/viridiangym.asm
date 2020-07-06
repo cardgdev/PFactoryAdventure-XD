@@ -23,6 +23,7 @@ ViridianGymScript_748d6:
 	ret
 
 ViridianGymScriptPointers:
+	dw CheckFightingMapTrainers
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw ViridianGymScript3
@@ -40,7 +41,7 @@ ViridianGymScript3_74995:
 	ld a, $c
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
+	SetEvent EVENT_BEAT_BLAINE ; changed
 	lb bc, TM_27, 1
 	call GiveItem
 	jr nc, .BagFull
@@ -55,17 +56,14 @@ ViridianGymScript3_74995:
 	call DisplayTextID
 .asm_749be
 	ld hl, wObtainedBadges
-	set 7, [hl]
+	set 6, [hl]
 	ld hl, wBeatGymFlags
-	set 7, [hl]
+	set 6, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_VIRIDIAN_GYM_TRAINER_0, EVENT_BEAT_VIRIDIAN_GYM_TRAINER_7
 
-	ld a, HS_ROUTE_22_RIVAL_2
-	ld [wMissableObjectIndex], a
-	predef ShowObject
-	SetEvents EVENT_2ND_ROUTE22_RIVAL_BATTLE, EVENT_ROUTE22_RIVAL_WANTS_BATTLE
+	
 	jp ViridianGymScript_748d6
 
 ViridianGymTextPointers:
@@ -160,7 +158,7 @@ ViridianGymTrainerHeader7:
 
 ViridianGymText1:
 	TX_ASM
-	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
+	CheckEvent EVENT_BEAT_BLAINE ; changed
 	jr z, .asm_6de66
 	CheckEventReuseA EVENT_GOT_TM27
 	jr nz, .asm_9fc95
@@ -376,7 +374,7 @@ ViridianGymAfterBattleText8:
 
 ViridianGymText10:
 	TX_ASM
-	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
+	CheckEvent EVENT_BEAT_BLAINE ; changed
 	jr nz, .asm_1abd1
 	ld hl, ViridianGymText_74bd4
 	call PrintText
