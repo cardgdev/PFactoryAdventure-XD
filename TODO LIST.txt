@@ -4,6 +4,9 @@ TODO LIST:
 >TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
 >the AI likes to use potions on pokemon with already full health
+>change all the random women with SPRITE_ERIKA
+>make the pokedex ratings go up to 190
+
 
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
@@ -22,15 +25,12 @@ new route/town location events:
 >Route 7 battlefield - rehash the nugget bridge scripts
 
 
-
-
 graphics stuff list-
 OW SPRITES:
->Army Blaine
->SW Soldier
->Wakkazoid single sprite to replace snorlax
->Cloaked guy rival
->labcoat blue (this one might be in SW I forget)
+>Army Blaine (full walking)
+>SW Soldier (full walking)
+>Wakkazoid (single sprite to replace snorlax)
+>Cloaked guy rival (full walking)
 
 "battle" sprites:
 >Blue in labcoat

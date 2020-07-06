@@ -1,0 +1,5 @@
+CinnabarEvoClubScript:
+	jp EnableAutoTextBoxDrawing
+
+CinnabarEvoClubTextPointers:
+

@@ -115,8 +115,8 @@ MapHeaderBanks:
 	db BANK(MewthreeLair_h) ; new
 	db BANK(Lance_h)
 	db BANK(ViridianForest2_h) ;new
-	db $1D ;unused
-	db $1D ;unused
+	db BANK(VermillionTradingClub_h) ; new
+	db BANK(CinnabarEvoClub_h) ; new
 	db $1D ;unused
 	db BANK(HallofFameRoom_h)
 	db BANK(UndergroundPathNS_h)

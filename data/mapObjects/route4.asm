@@ -5,7 +5,7 @@ Route4Object:
 	db $5, $b, $0, MT_MOON_POKECENTER
 	db $5, $12, $0, MT_MOON_1
 	db $5, $18, $7, MT_MOON_2
-	db 1, 70, 1, 105
+	db 1, 70, 1, UNKNOWN_DUNGEON_4
 	
 	db $3 ; signs
 	db $5, $c, $4 ; PokeCenterSignText

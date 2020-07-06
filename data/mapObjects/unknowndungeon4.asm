@@ -9,5 +9,4 @@ UnknownDungeon4Object:
 	db $0 ; objects	
 
 	; warp-to
-	EVENT_DISP 12, 16, 16	
-	EVENT_DISP 12, 8, 10
+	EVENT_DISP UNKNOWN_DUNGEON_4_WIDTH, 8, 10 ; route 4

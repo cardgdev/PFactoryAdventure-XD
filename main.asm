@@ -2271,3 +2271,12 @@ INCLUDE "scripts/mewthreelair.asm"
 INCLUDE "data/mapObjects/mewthreelair.asm"
 MewthreeLairBlocks: INCBIN "maps/newAreas/mewthreelair.blk"
 
+INCLUDE "data/mapHeaders/cinnabarevoclub.asm"
+INCLUDE "scripts/cinnabarevoclub.asm"
+INCLUDE "data/mapObjects/cinnabarevoclub.asm"
+CinnabarEvoClubBlocks:
+VermillionTradingClubBlocks: INCBIN "maps/newAreas/newclubs.blk"
+INCLUDE "data/mapHeaders/vermilliontradingclub.asm"
+INCLUDE "scripts/vermilliontradingclub.asm"
+INCLUDE "data/mapObjects/vermilliontradingclub.asm"
+

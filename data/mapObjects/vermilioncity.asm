@@ -1,7 +1,7 @@
 VermilionCityObject:
 	db $43 ; border block
 
-	db $9 ; warps
+	db $a ; warps
 	db $3, $b, $0, VERMILION_POKECENTER
 	db $d, $9, $0, POKEMON_FAN_CLUB
 	db $d, $17, $0, VERMILION_MART
@@ -11,6 +11,7 @@ VermilionCityObject:
 	db $1f, $13, $0, VERMILION_DOCK
 	db $d, $f, $0, VERMILION_HOUSE_3
 	db $3, $7, $0, VERMILION_HOUSE_2
+	db $9, $1D, $0, VERMILLION_TRADING_CLUB
 
 	db $7 ; signs
 	db $3, $1b, $7 ; VermilionCityText7
@@ -25,8 +26,8 @@ VermilionCityObject:
 	object SPRITE_FOULARD_WOMAN, $13, $7, WALK, $2, $1 ; person
 	object SPRITE_GAMBLER, $e, $6, STAY, NONE, $2 ; person
 	object SPRITE_SAILOR, $13, $1e, STAY, UP, $3 ; person
-	object SPRITE_GAMBLER, $1e, $7, STAY, NONE, $4 ; person
-	object SPRITE_SLOWBRO, $1d, $9, WALK, $1, $5 ; person
+	object SPRITE_GAMBLER, $1e, $c, STAY, NONE, $4 ; person
+	object SPRITE_SLOWBRO, $1f, $b, WALK, $1, $5 ; person
 	object SPRITE_SAILOR, $19, $1b, WALK, $2, $6 ; person
 
 	; warp-to
@@ -39,3 +40,4 @@ VermilionCityObject:
 	EVENT_DISP VERMILION_CITY_WIDTH, $1f, $13 ; VERMILION_DOCK
 	EVENT_DISP VERMILION_CITY_WIDTH, $d, $f ; VERMILION_HOUSE_3
 	EVENT_DISP VERMILION_CITY_WIDTH, $3, $7 ; VERMILION_HOUSE_2
+	EVENT_DISP VERMILION_CITY_WIDTH, $9, $1D ; VERMILION_TRADING_CLUB

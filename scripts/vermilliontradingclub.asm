@@ -1,0 +1,5 @@
+VermillionTradingClubScript:
+	jp EnableAutoTextBoxDrawing
+
+VermillionTradingClubTextPointers:
+

@@ -120,8 +120,8 @@ ENDM
 	mapconst MEWTHREE_LAIR,               9, 15 ; $70 ; new
 	mapconst LANCES_ROOM,                13, 13 ; $71
 	mapconst VIRIDIAN_FOREST_2,          17, 24 ; $72 ; new
-	mapconst VERMILLION_TRADING_CLUB,     0,  0 ; $73 ; new
-	mapconst CINNABAR_EVO_CLUB,           0,  0 ; $74 ; new
+	mapconst VERMILLION_TRADING_CLUB,     4,  5 ; $73 ; new
+	mapconst CINNABAR_EVO_CLUB,           4,  5 ; $74 ; new
 	mapconst BATTLE_TENT,                 0,  0 ; $75 ; new
 	mapconst HALL_OF_FAME,                4,  5 ; $76
 	mapconst UNDERGROUND_PATH_NS,        24,  4 ; $77
@@ -209,7 +209,7 @@ ENDM
 	mapconst ROCKET_HIDEOUT_3,           14, 15 ; $C9
 	mapconst ROCKET_HIDEOUT_4,           12, 15 ; $CA
 	mapconst ROCKET_HIDEOUT_ELEVATOR,     4,  3 ; $CB
-	mapconst UNKNOWN_DUNGEON_4,           0,  0 ; $CC ; new
+	mapconst UNKNOWN_DUNGEON_4,          12, 12 ; $CC ; new
 	mapconst SURF_HOUSE,                  0,  0 ; $CD ; new
 	mapconst UNUSED_MAP_CE,               0,  0 ; $CE
 	mapconst SILPH_CO_2F,                 9, 15 ; $CF

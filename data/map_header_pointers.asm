@@ -115,8 +115,8 @@ MapHeaderPointers::
 	dw MewthreeLair_h ; new
 	dw Lance_h
 	dw ViridianForest2_h ; new
-	dw Lance_h ; unused
-	dw Lance_h ; unused
+	dw VermillionTradingClub_h ; new
+	dw CinnabarEvoClub_h ; new
 	dw Lance_h ; unused
 	dw HallofFameRoom_h
 	dw UndergroundPathNS_h
