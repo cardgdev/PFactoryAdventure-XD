@@ -8,7 +8,7 @@ TODO LIST:
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
 >implement all the new maps
-	^dragon's den, viridian forest 2 in so far
+	^dragon's den, viridian forest 2, mewthree lair done; need to do the indoor maps next
 >Fix the gym trainers/leaders for new plot
 	^mostly done, need to sort out giovanni/blaine thing, trainer classes & sprites
 	^probably have to fix anything related to scriptpointer numbers in viridian & cinnabar

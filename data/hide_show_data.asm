@@ -117,7 +117,7 @@ MapHSPointers:
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
-	dw MapHSXX
+	dw MapHS70
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
@@ -549,7 +549,6 @@ MapHSE2:
 MapHSE3:
 	db UNKNOWN_DUNGEON_3,$01,Show
 	db UNKNOWN_DUNGEON_3,$02,Show
-	db UNKNOWN_DUNGEON_3,$03,Show
 MapHS6C:
 	db VICTORY_ROAD_1,$03,Show
 	db VICTORY_ROAD_1,$04,Show
@@ -573,5 +572,7 @@ MapHSA2:
 	db SEAFOAM_ISLANDS_5,$01,Hide
 	db SEAFOAM_ISLANDS_5,$02,Hide
 	db SEAFOAM_ISLANDS_5,$03,Show
+MapHS70:
+	db MEWTHREE_LAIR,$01,Show
 
 	db $FF,$01,Show

@@ -2266,3 +2266,8 @@ INCLUDE "scripts/viridianforest2.asm"
 INCLUDE "data/mapObjects/viridianforest2.asm"
 ViridianForest2Blocks: INCBIN "maps/newAreas/viridianforest2.blk"
 
+INCLUDE "data/mapHeaders/mewthreelair.asm"
+INCLUDE "scripts/mewthreelair.asm"
+INCLUDE "data/mapObjects/mewthreelair.asm"
+MewthreeLairBlocks: INCBIN "maps/newAreas/mewthreelair.blk"
+

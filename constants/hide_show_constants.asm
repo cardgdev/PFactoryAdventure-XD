@@ -214,8 +214,7 @@ const_value = 0
 	const HS_SAFARI_ZONE_CENTER_ITEM      ; CD X
 	const HS_UNKNOWN_DUNGEON_2_ITEM_1     ; CE X
 	const HS_UNKNOWN_DUNGEON_2_ITEM_2     ; CF X
-	const HS_UNKNOWN_DUNGEON_2_ITEM_3     ; D0 X
-	const HS_MEWTWO                       ; D1 X
+	const HS_UNKNOWN_DUNGEON_2_ITEM_3     ; D0 X ; MEWTWO MOVED
 	const HS_UNKNOWN_DUNGEON_3_ITEM_1     ; D2 X
 	const HS_UNKNOWN_DUNGEON_3_ITEM_2     ; D3 X
 	const HS_VICTORY_ROAD_1_ITEM_1        ; D4 X
@@ -234,3 +233,4 @@ const_value = 0
 	const HS_SEAFOAM_ISLANDS_5_BOULDER_1  ; E1
 	const HS_SEAFOAM_ISLANDS_5_BOULDER_2  ; E2
 	const HS_ARTICUNO                     ; E3 X
+	const HS_MEWTWO                       ; D1 X

@@ -112,7 +112,7 @@ MapHeaderPointers::
 	dw DragonDen3_h ; new
 	dw DragonDen4_h ; new ;id=110
 	dw DragonDenLanceRoom_h ; new
-	dw Lance_h ; unused
+	dw MewthreeLair_h ; new
 	dw Lance_h
 	dw ViridianForest2_h ; new
 	dw Lance_h ; unused

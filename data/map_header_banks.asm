@@ -112,7 +112,7 @@ MapHeaderBanks:
 	db BANK(DragonDen3_h) ; new
 	db BANK(DragonDen4_h) ;new
 	db BANK(DragonDenLanceRoom_h) ; new
-	db $1D ;unused
+	db BANK(MewthreeLair_h) ; new
 	db BANK(Lance_h)
 	db BANK(ViridianForest2_h) ;new
 	db $1D ;unused
