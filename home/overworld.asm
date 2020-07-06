@@ -511,14 +511,6 @@ WarpFound2::
 	ld [wCurMap],a
 	cp ROCK_TUNNEL_1
 	jr z, .applyDarkEffect
-	cp 228 ; unknown dungeon 1
-	jr z, .applyDarkEffect
-	cp 226 ; unknown dungeon 2
-	jr z, .applyDarkEffect
-	cp 227 ; unknown dungeon 3
-	jr z, .applyDarkEffect
-	cp 105 ; unknown dungeon 4
-	jr z, .applyDarkEffect	
 .effectApplied
 	call PlayMapChangeSound
 	jr .done
@@ -534,15 +526,6 @@ WarpFound2::
 	ld a,[hWarpDestinationMap] ; destination map
 	cp $ff
 	jr z,.goBackOutside
-	ld a,[hWarpDestinationMap]
-	; additional check for route 4 dark map exit, which doesn't use an FF exit
-	cp ROUTE_4
-	jr nz, .regularMaps
-	ld a, [wWarpedFromWhichMap]
-	cp 105 ; unknown dungeon 4
-	jr nz, .regularMaps
-	jr .exitsForDarkMaps
-.regularMaps	
 ; if not going back to the previous map
 	ld [wCurMap],a
 	callba IsPlayerStandingOnWarpPadOrHole

@@ -2261,3 +2261,8 @@ INCLUDE "scripts/dragondenlanceroom.asm"
 INCLUDE "data/mapObjects/dragondenlanceroom.asm"
 DragonDenLanceRoomBlocks: INCBIN "maps/newAreas/DragonDenLanceRoom.blk"
 
+INCLUDE "data/mapHeaders/viridianforest2.asm"
+INCLUDE "scripts/viridianforest2.asm"
+INCLUDE "data/mapObjects/viridianforest2.asm"
+ViridianForest2Blocks: INCBIN "maps/newAreas/viridianforest2.blk"
+

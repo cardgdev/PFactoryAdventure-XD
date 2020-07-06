@@ -523,7 +523,7 @@ _ChrystalDexEntry::
 _ChrysalissDexEntry::
 	text "Through evolution"
 	next "its form appears"
-	next "to have stabilized."
+	next "to be stable."
 
 	page "It moves angularly"
 	next "in prime degrees"

@@ -114,7 +114,7 @@ MapHeaderBanks:
 	db BANK(DragonDenLanceRoom_h) ; new
 	db $1D ;unused
 	db BANK(Lance_h)
-	db $1D ;unused
+	db BANK(ViridianForest2_h) ;new
 	db $1D ;unused
 	db $1D ;unused
 	db $1D ;unused

@@ -1,6 +1,5 @@
 UnknownDungeon3Script:
 	call EnableAutoTextBoxDrawing
-	call PitFallCheck
 	ld hl, MewtwoTrainerHeader
 	ld de, .ScriptPointers
 	ld a, [wUnknownDungeon3CurScript]
@@ -48,20 +47,3 @@ MewtwoBattleText:
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
-
-PitFallCheck:	
-	xor a
-	ld [wWhichDungeonWarp], a
-	ld a, 105	
-	ld [wDungeonWarpDestinationMap], a
-	ld hl, holeCoordinates3
-	call IsPlayerOnDungeonWarp	
-	ret
-	
-holeCoordinates3:	
-	db 4, 10
-	db 6, 6
-	db 11, 1
-	db 16, 4
-	db 15, 7
-	db $FF
