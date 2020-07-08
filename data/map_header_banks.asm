@@ -205,7 +205,7 @@ MapHeaderBanks:
 	db BANK(RocketHideout4_h)
 	db BANK(RocketHideoutElevator_h)
 	db BANK(UnknownDungeon4_h) ;new
-	db $01
+	db BANK(SurfHouse_h) ;new
 	db $01
 	db BANK(SilphCo2_h)
 	db BANK(SilphCo3_h)

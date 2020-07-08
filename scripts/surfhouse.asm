@@ -1,0 +1,5 @@
+SurfHouseScript:
+	jp EnableAutoTextBoxDrawing
+
+SurfHouseTextPointers:
+

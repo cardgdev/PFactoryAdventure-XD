@@ -210,7 +210,7 @@ ENDM
 	mapconst ROCKET_HIDEOUT_4,           12, 15 ; $CA
 	mapconst ROCKET_HIDEOUT_ELEVATOR,     4,  3 ; $CB
 	mapconst UNKNOWN_DUNGEON_4,          12, 12 ; $CC ; new
-	mapconst SURF_HOUSE,                  0,  0 ; $CD ; new
+	mapconst SURF_HOUSE,                  4,  4 ; $CD ; new
 	mapconst UNUSED_MAP_CE,               0,  0 ; $CE
 	mapconst SILPH_CO_2F,                 9, 15 ; $CF
 	mapconst SILPH_CO_3F,                 9, 15 ; $D0

@@ -2280,3 +2280,8 @@ INCLUDE "data/mapHeaders/vermilliontradingclub.asm"
 INCLUDE "scripts/vermilliontradingclub.asm"
 INCLUDE "data/mapObjects/vermilliontradingclub.asm"
 
+INCLUDE "data/mapHeaders/surfhouse.asm"
+INCLUDE "scripts/surfhouse.asm"
+INCLUDE "data/mapObjects/surfhouse.asm"
+SurfHouseBlocks: INCBIN "maps/newAreas/surfhouse.blk"
+

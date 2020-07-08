@@ -205,7 +205,7 @@ MapHeaderPointers::
 	dw RocketHideout4_h
 	dw RocketHideoutElevator_h
 	dw UnknownDungeon4_h ; new
-	dw RocketHideoutElevator_h ; unused
+	dw SurfHouse_h ; new
 	dw RocketHideoutElevator_h ; unused
 	dw SilphCo2_h
 	dw SilphCo3_h

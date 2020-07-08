@@ -10,18 +10,15 @@ TODO LIST:
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
->implement all the new maps
-	^dragon's den, viridian forest 2, mewthree lair, clubs done; surf shop and battle tent left
 >Write in the new text
 >add in the new OW sprites
 >port the battle tent in from periwinkle
 >do the ancillary graphics (titlescreen, professor blue, etc.)
 >dimotrite/dragondon skeletons for pewter museum
 >Edits to maps & new flavor bits (do this last)
+	^Route 7 battlefield - rehash the nugget bridge scripts
 
 
-new route/town location events:
->Route 7 battlefield - rehash the nugget bridge scripts
-
-
+graphics that need to be done:
 >Dimotrite & Dragondon edited into skeletons for pewter museum
+>SGB border
