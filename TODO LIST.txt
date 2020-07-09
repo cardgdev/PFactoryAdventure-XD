@@ -5,7 +5,7 @@ TODO LIST:
 >the AI likes to use potions on pokemon with already full health
 >change all the random women with SPRITE_ERIKA
 >make the pokedex ratings go up to 190
-
+>fix colors on lotusan and luxor backsprites, probably others
 
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
@@ -13,8 +13,6 @@ TODO LIST:
 >Write in the new text
 >add in the new OW sprites
 >port the battle tent in from periwinkle
->do the ancillary graphics (titlescreen, professor blue, etc.)
->dimotrite/dragondon skeletons for pewter museum
 >Edits to maps & new flavor bits (do this last)
 	^Route 7 battlefield - rehash the nugget bridge scripts
 

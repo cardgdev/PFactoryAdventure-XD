@@ -201,6 +201,7 @@ PokemonTower7TextPointers:
 	dw PokemonTower7Text1
 	dw PokemonTower7Text2
 	dw PokemonTower7Text3
+	dw FalconText
 	dw PokemonTower7FujiText
 
 PokemonTower7TrainerHeader0:
@@ -230,7 +231,39 @@ PokemonTower7TrainerHeader2:
 	dw PokemonTower7EndBattleText3 ; TextEndBattle
 	dw PokemonTower7EndBattleText3 ; TextEndBattle
 
+FalconTrainerHeader:
+	dbEventFlagBit EVENT_BEAT_FALCON
+	db ($0 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_FALCON
+	dw FalconBattleText ; TextBeforeBattle
+	dw FalconBattleText ; TextAfterBattle
+	dw FalconBattleText ; TextEndBattle
+	dw FalconBattleText ; TextEndBattle
+
 	db $ff
+
+FalconText:
+	TX_ASM
+	Call DetermineReferenceLevel
+	ld hl, wMapSpriteExtraData+$1
+	ld a, [wReferenceLevel]
+	ld [hl], a
+	ld hl, FalconTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+FalconBattleText:
+	TX_FAR _FalconBattleText
+	TX_ASM
+	ld a, FALCON
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+_FalconBattleText:
+	text "FAAL!"
+	done
+
 
 PokemonTower7Text1:
 	TX_ASM

@@ -7,7 +7,8 @@ ViridianForest2Object:
 
 	db $0 ; signs
 
-	db $0 ; objects
+	db $1 ; objects
+	object SPRITE_BIRD, $3, $2, STAY, DOWN, $1, LOTUSAN, 50
 
 	; warp-to
 	EVENT_DISP VIRIDIAN_FOREST_2_WIDTH, $20, $2F

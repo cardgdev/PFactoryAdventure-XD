@@ -99,13 +99,13 @@ JugglerName:
 BlackbeltName:
 	db "BLACKBELT@"
 ProfOakName:
-	db "PROF.OAK@"
+	db "BLUE@"
 ChiefName:
 	db "CHIEF@"
 ScientistName:
 	db "SCIENTIST@"
 RocketName:
-	db "ROCKET@"
+	db "SOLDIER@"
 CooltrainerMName:
 	db "COOLTRAINER♂@"
 CooltrainerFName:

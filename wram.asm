@@ -2931,7 +2931,13 @@ W_EVOLVEMONLEVEL::
 wSSAnne7CurScript::
 	ds 1
 
-	ds 74; 78 - 2 from AI - 1 for wMonSpritesBank - 1 new curScript
+wViridianForest2CurScript::
+	ds 1
+
+wDragonDen4CurScript::
+	ds 1
+
+	ds 72; 78 - 2 from AI - 1 for wMonSpritesBank - 3 new curScript
 wGameProgressFlagsEnd::
 
 	ds 56

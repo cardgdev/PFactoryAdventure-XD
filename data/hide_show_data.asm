@@ -115,11 +115,11 @@ MapHSPointers:
 	dw MapHSXX
 	dw MapHS6C
 	dw MapHSXX
-	dw MapHSXX
+	dw MapHS6E
 	dw MapHSXX
 	dw MapHS70
 	dw MapHSXX
-	dw MapHSXX
+	dw MapHS72
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
@@ -363,7 +363,8 @@ MapHS94:
 	db POKEMONTOWER_7,$01,Show
 	db POKEMONTOWER_7,$02,Show
 	db POKEMONTOWER_7,$03,Show
-	db POKEMONTOWER_7,$04,Show
+	db POKEMONTOWER_7,$04,Hide
+	db POKEMONTOWER_7,$05,Show
 MapHS95:
 	db LAVENDER_HOUSE_1,$05,Hide
 MapHS84:
@@ -574,5 +575,14 @@ MapHSA2:
 	db SEAFOAM_ISLANDS_5,$03,Show
 MapHS70:
 	db MEWTHREE_LAIR,$01,Show
+	db MEWTHREE_LAIR,$02,Show
+	db MEWTHREE_LAIR,$03,Show
+	db MEWTHREE_LAIR,$04,Show
+	db MEWTHREE_LAIR,$05,Show
+	db MEWTHREE_LAIR,$06,Show
+MapHS72:
+	db VIRIDIAN_FOREST_2,$01,Show
+MapHS6E:
+	db DRAGON_DEN_4,$01,Show
 
 	db $FF,$01,Show

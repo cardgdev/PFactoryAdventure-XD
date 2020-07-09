@@ -6,7 +6,8 @@ DragonDen4Object:
 
 	db $0 ; signs
 
-	db $0 ; objects	
+	db $1 ; objects
+	object SPRITE_SLOWBRO, $a, $2, STAY, DOWN, $1, LUXOR, 70	
 
 	; warp-to
 	EVENT_DISP DRAGON_DEN_4_WIDTH, $15, $6

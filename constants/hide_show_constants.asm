@@ -73,6 +73,7 @@ const_value = 0
 	const HS_POKEMONTOWER_7_ROCKET_1      ; 40 X
 	const HS_POKEMONTOWER_7_ROCKET_2      ; 41 X
 	const HS_POKEMONTOWER_7_ROCKET_3      ; 42 X
+	const HS_FALCON                       ; E6 ;new
 	const HS_POKEMONTOWER_7_MR_FUJI       ; 43
 	const HS_LAVENDER_HOUSE_1_MR_FUJI     ; 44
 	const HS_CELADON_MANSION_5_GIFT       ; 45
@@ -214,23 +215,51 @@ const_value = 0
 	const HS_SAFARI_ZONE_CENTER_ITEM      ; CD X
 	const HS_UNKNOWN_DUNGEON_2_ITEM_1     ; CE X
 	const HS_UNKNOWN_DUNGEON_2_ITEM_2     ; CF X
-	const HS_UNKNOWN_DUNGEON_2_ITEM_3     ; D0 X ; MEWTWO MOVED
-	const HS_UNKNOWN_DUNGEON_3_ITEM_1     ; D2 X
-	const HS_UNKNOWN_DUNGEON_3_ITEM_2     ; D3 X
-	const HS_VICTORY_ROAD_1_ITEM_1        ; D4 X
-	const HS_VICTORY_ROAD_1_ITEM_2        ; D5 X
-	const HS_CHAMPIONS_ROOM_OAK           ; D6
-	const HS_SEAFOAM_ISLANDS_1_BOULDER_1  ; D7
-	const HS_SEAFOAM_ISLANDS_1_BOULDER_2  ; D8
-	const HS_SEAFOAM_ISLANDS_2_BOULDER_1  ; D9
-	const HS_SEAFOAM_ISLANDS_2_BOULDER_2  ; DA
-	const HS_SEAFOAM_ISLANDS_3_BOULDER_1  ; DB
-	const HS_SEAFOAM_ISLANDS_3_BOULDER_2  ; DC
-	const HS_SEAFOAM_ISLANDS_4_BOULDER_1  ; DD
-	const HS_SEAFOAM_ISLANDS_4_BOULDER_2  ; DE
-	const HS_SEAFOAM_ISLANDS_4_BOULDER_3  ; DF
-	const HS_SEAFOAM_ISLANDS_4_BOULDER_4  ; E0
-	const HS_SEAFOAM_ISLANDS_5_BOULDER_1  ; E1
-	const HS_SEAFOAM_ISLANDS_5_BOULDER_2  ; E2
-	const HS_ARTICUNO                     ; E3 X
-	const HS_MEWTWO                       ; D1 X
+	const HS_UNKNOWN_DUNGEON_2_ITEM_3     ; D0 X
+	const HS_UNKNOWN_DUNGEON_3_ITEM_1     ; D1 X
+	const HS_UNKNOWN_DUNGEON_3_ITEM_2     ; D2 X
+	const HS_VICTORY_ROAD_1_ITEM_1        ; D3 X
+	const HS_VICTORY_ROAD_1_ITEM_2        ; D4 X
+	const HS_CHAMPIONS_ROOM_OAK           ; D5
+	const HS_SEAFOAM_ISLANDS_1_BOULDER_1  ; D6
+	const HS_SEAFOAM_ISLANDS_1_BOULDER_2  ; D7
+	const HS_SEAFOAM_ISLANDS_2_BOULDER_1  ; D8
+	const HS_SEAFOAM_ISLANDS_2_BOULDER_2  ; D9
+	const HS_SEAFOAM_ISLANDS_3_BOULDER_1  ; DA
+	const HS_SEAFOAM_ISLANDS_3_BOULDER_2  ; DB
+	const HS_SEAFOAM_ISLANDS_4_BOULDER_1  ; DC
+	const HS_SEAFOAM_ISLANDS_4_BOULDER_2  ; DD
+	const HS_SEAFOAM_ISLANDS_4_BOULDER_3  ; DE
+	const HS_SEAFOAM_ISLANDS_4_BOULDER_4  ; DF
+	const HS_SEAFOAM_ISLANDS_5_BOULDER_1  ; E0
+	const HS_SEAFOAM_ISLANDS_5_BOULDER_2  ; E1
+	const HS_ARTICUNO                     ; E2 X
+	const HS_MEWTWO                       ; E3 X
+	const HS_LAIR_TRAINER_1 ; EA
+	const HS_LAIR_TRAINER_2 ; EB
+	const HS_LAIR_TRAINER_3 ; EC
+	const HS_LAIR_BLAINE ; ED
+	const HS_LAIR_BLUE ; EE
+	const HS_LOTUSAN                      ; E5
+	const HS_LUXOR                        ; E4
+	;const HS_DAD_BATTLE                   ; E7
+	;const HS_BILLS_GARDEN_BLOCKER         ; E8
+	;const HS_VIRIDIAN_FOREST_2_BLOCKER    ; E9
+	
+	; EF
+	; F0
+	; F1
+	; F2
+	; F3
+	; F4
+	; F5
+	; F6
+	; F7
+	; F8
+	; F9
+	; FA
+	; FB
+	; FC
+	; FD
+	; FE
+	; FF	
