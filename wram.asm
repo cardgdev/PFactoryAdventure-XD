@@ -2937,7 +2937,13 @@ wViridianForest2CurScript::
 wDragonDen4CurScript::
 	ds 1
 
-	ds 72; 78 - 2 from AI - 1 for wMonSpritesBank - 3 new curScript
+wDragonDen2CurScript::
+	ds 1
+
+wDragonDen3CurScript::
+	ds 1
+
+	ds 70; 78 - 2 from AI - 1 for wMonSpritesBank - 5 new curScript
 wGameProgressFlagsEnd::
 
 	ds 56

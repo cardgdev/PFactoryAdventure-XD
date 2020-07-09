@@ -1,5 +1,102 @@
 DragonDen2Script:
-	jp EnableAutoTextBoxDrawing
+	call EnableAutoTextBoxDrawing
+	ld hl, DragonDen2TrainerHeader1
+	ld de, .ScriptPointers
+	ld a, [wDragonDen2CurScript]
+	call ExecuteCurMapScriptInTable
+	ld [wDragonDen2CurScript], a
+	ret
+
+.ScriptPointers
+	dw CheckFightingMapTrainers
+	dw DisplayEnemyTrainerTextAndStartBattle
+	dw EndTrainerBattle
 
 DragonDen2TextPointers:
+	dw DragonDen2Text1
+	dw DragonDen2Text2
 
+DragonDen2TrainerHeader1:
+	dbEventFlagBit EVENT_BEAT_DRAGON_DEN2_TRAINER_1
+	db ($2 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_DRAGON_DEN2_TRAINER_1
+	dw DragonDen2BattleText1 ; TextBeforeBattle
+	dw DragonDen2AfterBattleText1 ; TextAfterBattle
+	dw DragonDen2EndBattleText1 ; TextEndBattle
+	dw DragonDen2EndBattleText1 ; TextEndBattle
+
+DragonDen2TrainerHeader2:
+	dbEventFlagBit EVENT_BEAT_DRAGON_DEN2_TRAINER_2
+	db ($2 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_DRAGON_DEN2_TRAINER_2
+	dw DragonDen2BattleText2 ; TextBeforeBattle
+	dw DragonDen2AfterBattleText2 ; TextAfterBattle
+	dw DragonDen2EndBattleText2 ; TextEndBattle
+	dw DragonDen2EndBattleText2 ; TextEndBattle
+
+	db $ff
+
+;----------------------------------------------------------------------------------
+
+DragonDen2Text1:
+	TX_ASM
+	ld hl, DragonDen2TrainerHeader1
+	call TalkToTrainer
+	jp TextScriptEnd
+
+DragonDen2BattleText1:
+	TX_FAR _DragonDen2BattleText1
+	db "@"
+
+DragonDen2EndBattleText1:
+	TX_FAR _DragonDen2EndBattleText1
+	db "@"
+
+DragonDen2AfterBattleText1:
+	TX_FAR _DragonDen2AfterBattleText1
+	db "@"
+
+DragonDen2Text2:
+	TX_ASM
+	ld hl, DragonDen2TrainerHeader2
+	call TalkToTrainer
+	jp TextScriptEnd
+
+DragonDen2BattleText2:
+	TX_FAR _DragonDen2BattleText2
+	db "@"
+
+DragonDen2EndBattleText2:
+	TX_FAR _DragonDen2EndBattleText2
+	db "@"
+
+DragonDen2AfterBattleText2:
+	TX_FAR _DragonDen2AfterBattleText2
+	db "@"
+;------------------------------------------------------------------------------------
+
+;cooltrainer 1
+_DragonDen2BattleText1::
+	text "DUMMY1"
+	done
+
+_DragonDen2EndBattleText1::
+	text "DUMMY2"
+	prompt
+
+_DragonDen2AfterBattleText1::
+	text "DUMMY3"
+	done
+
+;cooltrainer 2
+_DragonDen2BattleText2::
+	text "DUMMY1"
+	done
+
+_DragonDen2EndBattleText2::
+	text "DUMMY2"
+	prompt
+
+_DragonDen2AfterBattleText2::
+	text "DUMMY3"
+	done
