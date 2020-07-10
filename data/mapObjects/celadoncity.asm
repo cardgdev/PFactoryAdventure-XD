@@ -30,7 +30,7 @@ CeladonCityObject:
 	db $9 ; objects
 	object SPRITE_LITTLE_GIRL, $8, $11, WALK, $0, $1 ; person
 	object SPRITE_OLD_PERSON, $b, $1c, STAY, UP, $2 ; person
-	object SPRITE_GIRL, $e, $13, WALK, $1, $3 ; person
+	object SPRITE_LASS, $e, $13, WALK, $1, $3 ; person
 	object SPRITE_OLD_PERSON, $19, $16, STAY, DOWN, $4 ; person
 	object SPRITE_OLD_PERSON, $16, $10, STAY, DOWN, $5 ; person
 	object SPRITE_FISHER2, $20, $c, STAY, LEFT, $6 ; person

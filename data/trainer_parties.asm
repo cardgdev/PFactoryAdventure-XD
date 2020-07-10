@@ -68,7 +68,7 @@ YoungsterData:
 	db 15,RATICLAW,BATRACHIAN,0
 	db 17,SHELLRY,0
 	db 14,BINGO,FRACTURE,0
-; SS Anne 1F Rooms (REPLACE WITH SOLDIER)
+; ROUTE 7
 	db 21,BINGO,0
 ; Route 11
 	db 21,SUNNY,0
@@ -94,7 +94,7 @@ BugCatcherData:
 ; Route 6
 	db 16,SHELLRY,PINSIRE,LOCAFREE,0
 	db 20,SCYTHERO,0
-; Unused
+; I think I put this in not-bugsy's gym?
 	db 18,SCYTHERO,LOCAFREE,ICEPICK,SLASHA,0
 ; Route 9
 	db 19,CENTIDEATH,PINSIRE,0
@@ -115,9 +115,8 @@ LassData:
 ; Route 25
 	db 15,MEPHER,MEPHER,0
 	db 13,JIGGLYPLUM,MATOPSIS,JIGGLYPLUM,0
-; SS Anne 1F Rooms (REPLACE WITH SOLDIER)
+; ROUTE 7
 	db 18,MATOPSIS,AQUATRES,0
-; SS Anne 2F Rooms (REPLACE WITH SOLDIER)
 	db 18,CUTIEPIE,PIKACHUB,0
 ; Route 8
 	db 23,MEPHER,CHIA,0
@@ -149,7 +148,7 @@ JrTrainerMData:
 ; Route 6
 	db 20,CHARTOISE,0
 	db 16,SUNNY,GAMBLE,0
-; Unused
+; ROUTE 7
 	db 18,CYIL,CYIL,DOSET,0
 ; Route 9
 	db 21,CHARMA,WOOFPOOL,0
@@ -157,7 +156,7 @@ JrTrainerMData:
 ; Route 12
 	db 29,FRACTURE,HOTHEAD,0
 JrTrainerFData:
-; Cerulean Gym ; UNUSED
+; ROUTE 7
 	db 19,OCEANEEL,0
 ; Route 6
 	db 16,MEPHER,PIKAMARS,0

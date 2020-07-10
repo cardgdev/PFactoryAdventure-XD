@@ -11,7 +11,12 @@ Route7Object:
 	db $1 ; signs
 	db $1b, $3, $1 ; Route7Text1
 
-	db $0 ; objects
+	db $5 ; objects
+	object SPRITE_BLACK_HAIR_BOY_1, $3, $3, STAY, NONE, $2, OPP_YOUNGSTER, $8
+	object SPRITE_LASS, $a, $3, STAY, NONE, $3, OPP_LASS, $b
+	object SPRITE_LASS, $3, $7, STAY, NONE, $4, OPP_LASS, $c
+	object SPRITE_LASS, $a, $7, STAY, NONE, $5, OPP_JR_TRAINER_F, $1
+	object SPRITE_BLACK_HAIR_BOY_1, $6, $5, STAY, NONE, $6, OPP_JR_TRAINER_M, $6
 
 	; warp-to
 	EVENT_DISP ROUTE_7_WIDTH, $18, $12 ; ROUTE_7_GATE

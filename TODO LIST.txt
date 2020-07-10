@@ -9,12 +9,12 @@ TODO LIST:
 
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
+>decide on the new TM moves & gym TM gifts
 >Insert the TM/HM learnsets
 >Write in the new text
->add in the new OW sprites
 >port the battle tent in from periwinkle
 >Edits to maps & new flavor bits (do this last)
-	^Route 7 battlefield - rehash the nugget bridge scripts
+	^Route 7 battlefield (done except the prize)
 
 
 graphics that need to be done:

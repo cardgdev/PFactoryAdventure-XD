@@ -2285,3 +2285,4 @@ INCLUDE "scripts/surfhouse.asm"
 INCLUDE "data/mapObjects/surfhouse.asm"
 SurfHouseBlocks: INCBIN "maps/newAreas/surfhouse.blk"
 
+INCLUDE "text/maps/route_7_trainers.asm"

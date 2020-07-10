@@ -2943,7 +2943,10 @@ wDragonDen2CurScript::
 wDragonDen3CurScript::
 	ds 1
 
-	ds 70; 78 - 2 from AI - 1 for wMonSpritesBank - 5 new curScript
+wRoute7CurScript::
+	ds 1
+
+	ds 69; 78 - 2 from AI - 1 for wMonSpritesBank - 6 new curScript
 wGameProgressFlagsEnd::
 
 	ds 56
