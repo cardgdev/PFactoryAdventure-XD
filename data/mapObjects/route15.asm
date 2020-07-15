@@ -21,7 +21,7 @@ Route15Object:
 	object SPRITE_BIKER, $2e, $a, STAY, DOWN, $8, OPP_BIKER, $4
 	object SPRITE_LASS, $25, $5, STAY, RIGHT, $9, OPP_JR_TRAINER_F, $16
 	object SPRITE_LASS, $12, $d, STAY, UP, $a, OPP_JR_TRAINER_F, $17
-	object SPRITE_BALL, $12, $5, STAY, NONE, $b, TM_20
+	object SPRITE_BALL, $12, $5, STAY, NONE, $b, TM_24
 
 	; warp-to
 	EVENT_DISP ROUTE_15_WIDTH, $8, $7 ; ROUTE_15_GATE_1F

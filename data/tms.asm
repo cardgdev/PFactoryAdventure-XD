@@ -2,10 +2,10 @@ TechnicalMachines:
 	db MEGA_PUNCH
 	db RAZOR_WIND
 	db SWORDS_DANCE
-	db WHIRLWIND
+	db ICY_BREATH ; mikan gym TM
 	db MEGA_KICK
 	db TOXIC
-	db HORN_DRILL
+	db WEB_SPIN ; tsukushi gym TM
 	db BODY_SLAM
 	db TAKE_DOWN
 	db DOUBLE_EDGE
@@ -18,28 +18,28 @@ TechnicalMachines:
 	db SUBMISSION
 	db COUNTER
 	db SEISMIC_TOSS
-	db RAGE
+	db TOMBSTONER ; ichitarou gym tm
 	db MEGA_DRAIN
 	db SOLARBEAM
 	db DRAGON_RAGE
 	db THUNDERBOLT
 	db THUNDER
 	db EARTHQUAKE
-	db FISSURE
+	db GLASSBREAKER ; junior gym tm
 	db DIG
 	db PSYCHIC_M
-	db TELEPORT
+	db ARMOR_TAIL ; jack gym tm
 	db MIMIC
 	db DOUBLE_TEAM
 	db REFLECT
-	db BIDE
+	db SHADOW ; enoki gym tm
 	db METRONOME
 	db SELFDESTRUCT
 	db EGG_BOMB
 	db FIRE_BLAST
 	db SWIFT
 	db SKULL_BASH
-	db SOFTBOILED
+	db HURRICANE ; hayato gym tm
 	db DREAM_EATER
 	db SKY_ATTACK
 	db REST

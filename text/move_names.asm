@@ -202,3 +202,5 @@ MoveNames::
 	db "ARMOR CLAW@"
 	db "AURA SPHERE@"
 	db "CORRUPT@"
+	db "TOMBSTONER@"
+	db "HURRICANE@"

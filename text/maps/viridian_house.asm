@@ -1,23 +1,24 @@
 _ViridianHouseText1::
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
-
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	text "I never intended"
+	line "on giving her a"
+	cont "FIRE #MON"
+	cont "to play with!"
 	done
 
 _ViridianHouseText2::
-	text "My Daddy loves"
-	line "#MON too."
+	text "FIREBIRD is a"
+	line "fun #MON!"
+
+	para "My dad gets mad"
+	line "when we burn"
+	cont "things though..."
 	done
 
 _ViridianHouseText_1d5b1::
-	text "SPEARY: Tetweet!"
+	text "FIREBIRD: Peep!"
 	done
 
 _ViridianHouseText4::
-	text "SPEAROW"
-	line "Name: SPEARY"
+	text "FIREBIRD"
+	line "Name: MATCHA"
 	done

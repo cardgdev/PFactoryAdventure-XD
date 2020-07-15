@@ -203,6 +203,8 @@ const_value = 1
 	const ARMOR_CLAW  ; c9
 	const AURA_SPHERE ; ca
 	const CORRUPT     ; cb
+	const TOMBSTONER  ; cc
+	const HURRICANE   ; cd
 
 NUM_ATTACKS EQU const_value
 const_value = STRUGGLE + 1

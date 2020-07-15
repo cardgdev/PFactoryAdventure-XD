@@ -2,15 +2,18 @@ _ViridianPokeCenterText2::
 	text "You can use that"
 	line "PC in the corner."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "I have to use it"
+	line "to keep track"
+	cont "of all the PORYGON"
+	cont "someone keeps"
+	cont "emailing to me!"
 	done
 
 _ViridianPokeCenterText3::
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
-
-	para "They don't charge"
-	line "any money either!"
+	text "I heard in UNOVA"
+	line "they charge you"
+	cont "exuberant fees"
+	cont "after blacking"
+	cont "out to the"
+	cont "#MON CENTER."
 	done

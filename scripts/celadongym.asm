@@ -247,7 +247,7 @@ CeladonGymText_48963:
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_ERIKA
-	lb bc, TM_21, 1
+	lb bc, TM_04, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $a

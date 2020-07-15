@@ -14,7 +14,7 @@ RocketHideout2Object:
 	object SPRITE_ROCKET, $14, $c, STAY, DOWN, $1, OPP_SOLDIER, $d
 	object SPRITE_BALL, $1, $b, STAY, NONE, $2, MOON_STONE
 	object SPRITE_BALL, $10, $8, STAY, NONE, $3, NUGGET
-	object SPRITE_BALL, $6, $c, STAY, NONE, $4, TM_07
+	object SPRITE_BALL, $6, $c, STAY, NONE, $4, TM_11
 	object SPRITE_BALL, $3, $15, STAY, NONE, $5, SUPER_POTION
 
 	; warp-to

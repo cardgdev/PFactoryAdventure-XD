@@ -1,38 +1,29 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "h@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
-
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
-
-	para "Here, come with"
-	line "me!"
+	text "h"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "<PLAYER>?"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Ha! Come on RED,"
+	line "there's no need"
+	cont "to use a silly"
+	cont "codename around"
+	cont "here! You're the"
+	cont "town hero!"
 	done
 
 _PalletTownText3::
 	text "Technology is"
 	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "You can now make"
+	line "your own sprite"
+	cont "splices of"
+	cont "#MON via PC!"
 	done
 
 _PalletTownText4::
