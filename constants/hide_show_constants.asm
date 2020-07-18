@@ -201,7 +201,7 @@ const_value = 0
 	const HS_MANSION_4_ITEM_2             ; BF X
 	const HS_MANSION_4_ITEM_3             ; C0 X
 	const HS_MANSION_4_ITEM_4             ; C1 X
-	const HS_MANSION_4_ITEM_5             ; C2 X
+	const HS_MANSION_4_SOLDIER             ; C2  NEW
 	const HS_SAFARI_ZONE_EAST_ITEM_1      ; C3 X
 	const HS_SAFARI_ZONE_EAST_ITEM_2      ; C4 X
 	const HS_SAFARI_ZONE_EAST_ITEM_3      ; C5 X

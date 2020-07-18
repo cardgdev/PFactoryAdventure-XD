@@ -1,4 +1,5 @@
 Mansion4Script:
+	call Mansion4SoldierCheck
 	call Mansion4Script_523cf
 	call EnableAutoTextBoxDrawing
 	ld hl, Mansion4TrainerHeader0
@@ -7,6 +8,24 @@ Mansion4Script:
 	call ExecuteCurMapScriptInTable
 	ld [wMansion4CurScript], a
 	ret
+
+Mansion4SoldierCheck: ; runs through all the "rocket" events before removing the gym blocking soldier
+	CheckEvent EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD
+	jr nz, .noHideSoldier
+	CheckEventReuseA EVENT_SS_ANNE_LEFT
+	jr nz, .noHideSoldier
+	CheckEventReuseA EVENT_RESCUED_MR_FUJI
+	jr nz, .noHideSoldier
+	CheckEventReuseA EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
+	jr nz, .noHideSoldier
+	CheckEventReuseA EVENT_BEAT_SILPH_CO_GIOVANNI
+	jr nz, .noHideSoldier
+	ld a, HS_MANSION_4_SOLDIER
+	ld [wMissableObjectIndex], a
+	predef HideObject
+.noHideSoldier
+	ret
+	
 
 Mansion4Script_523cf:
 	ld hl, wCurrentMapScriptFlags
@@ -66,7 +85,7 @@ Mansion4TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw Mansion4Text7
-	dw PickUpItemText
+	dw SoldierBlockingGuyText
 	dw Mansion3Text6
 
 Mansion4TrainerHeader0:
@@ -88,6 +107,24 @@ Mansion4TrainerHeader1:
 	dw Mansion4EndBattleText2 ; TextEndBattle
 
 	db $ff
+
+SoldierBlockingGuyText:
+	TX_FAR _GymBlockerSoldier
+	db "@"
+
+_GymBlockerSoldier:
+	text "Nobody is allowed"
+	line "past this point!"
+	
+	para "Especially chumpy"
+	line "looking kids like"
+	cont "you!"
+
+	para "...But if you"
+	line "want in then try"
+	cont "coming back when"
+	cont "you have 7 badges!"
+	done
 
 Mansion4Text1:
 	TX_ASM
