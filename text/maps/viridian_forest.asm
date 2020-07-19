@@ -121,3 +121,16 @@ _ViridianForestText14::
 	line "VIRIDIAN FOREST"
 	cont "PEWTER CITY AHEAD"
 	done
+
+_ViridianForestBlockerText::
+	text "The further area"
+	line "of the forest is"
+	cont "too dangerous for"
+	cont "me to allow any"
+	cont "rookie trainers"
+	cont "through."
+
+	para "Come back when"
+	line "you have more"
+	cont "BADGES."
+	done

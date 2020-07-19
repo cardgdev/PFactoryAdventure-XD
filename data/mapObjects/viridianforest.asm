@@ -12,14 +12,14 @@ ViridianForestObject:
 	db $1F, $0, $1, VIRIDIAN_FOREST_2
 
 	db $6 ; signs
-	db $28, $18, $9 ; ViridianForestText9
-	db $20, $10, $a ; ViridianForestText10
-	db $11, $1a, $b ; ViridianForestText11
-	db $18, $4, $c ; ViridianForestText12
-	db $2d, $12, $d ; ViridianForestText13
-	db $1, $2, $e ; ViridianForestText14
+	db $28, $18, $a ; ViridianForestText9
+	db $20, $10, $b ; ViridianForestText10
+	db $11, $1a, $c ; ViridianForestText11
+	db $18, $4, $d ; ViridianForestText12
+	db $2d, $12, $e ; ViridianForestText13
+	db $1, $2, $f ; ViridianForestText14
 
-	db $8 ; objects
+	db $9 ; objects
 	object SPRITE_BUG_CATCHER, $10, $2b, STAY, NONE, $1 ; person
 	object SPRITE_BUG_CATCHER, $1e, $21, STAY, LEFT, $2, OPP_BUG_CATCHER, $1
 	object SPRITE_BUG_CATCHER, $1e, $13, STAY, LEFT, $3, OPP_BUG_CATCHER, $2
@@ -28,6 +28,7 @@ ViridianForestObject:
 	object SPRITE_BALL, $c, $1d, STAY, NONE, $6, POTION
 	object SPRITE_BALL, $1, $28, STAY, NONE, $7, POKE_BALL
 	object SPRITE_BUG_CATCHER, $1b, $28, STAY, NONE, $8 ; person
+	object SPRITE_BLACK_HAIR_BOY_2, $3, $1e, STAY, RIGHT, $9 ; new section blocker
 
 	; warp-to
 	EVENT_DISP VIRIDIAN_FOREST_WIDTH, $0, $1 ; VIRIDIAN_FOREST_EXIT

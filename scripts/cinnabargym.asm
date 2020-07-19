@@ -170,6 +170,10 @@ CinnabarGymScript3_75857:
 	predef ShowObject
 	SetEvents EVENT_2ND_ROUTE22_RIVAL_BATTLE, EVENT_ROUTE22_RIVAL_WANTS_BATTLE
 
+	ld a, HS_VIRIDIAN_FOREST_BLOCKER
+	ld [wMissableObjectIndex], a
+	predef HideObject
+
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
 

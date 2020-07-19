@@ -689,7 +689,7 @@ VictoryRoad2HiddenObjects:
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 BillsHouseHiddenObjects:
-	db $04,$01,$04
+	db $04,$01,$05 ; was 04
 	dbw BANK(BillsHousePC), BillsHousePC
 	db $FF
 ViridianCityHiddenObjects:

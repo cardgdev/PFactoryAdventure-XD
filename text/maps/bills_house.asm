@@ -85,3 +85,11 @@ _BillsHouseText_1e8da::
 	cont "some of my rare"
 	cont "#MON on my PC!"
 	done
+
+_BlockingStatueText::
+	text "There's an odd"
+	line "statue of a"
+	cont "#MON in the"
+	cont "way of that"
+	cont "door..."
+	done

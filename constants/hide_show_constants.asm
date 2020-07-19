@@ -107,9 +107,11 @@ const_value = 0
 	const HS_BILL_POKEMON                 ; 61
 	const HS_BILL_1                       ; 62
 	const HS_BILL_2                       ; 63
+	const HS_BILLS_GARDEN_BLOCKER         ; E8 NEW
 	const HS_VIRIDIAN_FOREST_ITEM_1       ; 64 X
 	const HS_VIRIDIAN_FOREST_ITEM_2       ; 65 X
 	const HS_VIRIDIAN_FOREST_ITEM_3       ; 66 X
+	const HS_VIRIDIAN_FOREST_BLOCKER    ; E9 NEW
 	const HS_MT_MOON_1_ITEM_1             ; 67 X
 	const HS_MT_MOON_1_ITEM_2             ; 68 X
 	const HS_MT_MOON_1_ITEM_3             ; 69 X
@@ -243,8 +245,7 @@ const_value = 0
 	const HS_LOTUSAN                      ; E5
 	const HS_LUXOR                        ; E4
 	;const HS_DAD_BATTLE                   ; E7
-	;const HS_BILLS_GARDEN_BLOCKER         ; E8
-	;const HS_VIRIDIAN_FOREST_2_BLOCKER    ; E9
+	
 	
 	; EF
 	; F0

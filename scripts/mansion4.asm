@@ -11,15 +11,15 @@ Mansion4Script:
 
 Mansion4SoldierCheck: ; runs through all the "rocket" events before removing the gym blocking soldier
 	CheckEvent EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD
-	jr nz, .noHideSoldier
+	jr z, .noHideSoldier
 	CheckEventReuseA EVENT_SS_ANNE_LEFT
-	jr nz, .noHideSoldier
+	jr z, .noHideSoldier
 	CheckEventReuseA EVENT_RESCUED_MR_FUJI
-	jr nz, .noHideSoldier
+	jr z, .noHideSoldier
 	CheckEventReuseA EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
-	jr nz, .noHideSoldier
+	jr z, .noHideSoldier
 	CheckEventReuseA EVENT_BEAT_SILPH_CO_GIOVANNI
-	jr nz, .noHideSoldier
+	jr z, .noHideSoldier
 	ld a, HS_MANSION_4_SOLDIER
 	ld [wMissableObjectIndex], a
 	predef HideObject

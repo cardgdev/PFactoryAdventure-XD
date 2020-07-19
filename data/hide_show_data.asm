@@ -407,10 +407,12 @@ MapHS58:
 	db BILLS_HOUSE,$01,Show
 	db BILLS_HOUSE,$02,Hide
 	db BILLS_HOUSE,$03,Hide
+	db BILLS_HOUSE,$04,Show ; garden blocking statue
 MapHS33:
 	db VIRIDIAN_FOREST,$05,Show
 	db VIRIDIAN_FOREST,$06,Show
 	db VIRIDIAN_FOREST,$07,Show
+	db VIRIDIAN_FOREST,$09,Show ; new
 MapHS3B:
 	db MT_MOON_1,$08,Show
 	db MT_MOON_1,$09,Show

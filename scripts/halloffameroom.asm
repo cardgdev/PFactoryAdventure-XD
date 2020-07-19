@@ -97,6 +97,9 @@ HallofFameRoomScript1:
 	ld a, HS_UNKNOWN_DUNGEON_GUY
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_BILLS_GARDEN_BLOCKER
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, $2
 	ld [wHallOfFameRoomCurScript], a
 	ret

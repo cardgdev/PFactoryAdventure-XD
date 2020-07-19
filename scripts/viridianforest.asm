@@ -21,6 +21,7 @@ ViridianForestTextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw ViridianForestText8
+	dw ViridianForestBlockerText
 	dw ViridianForestText9
 	dw ViridianForestText10
 	dw ViridianForestText11
@@ -59,6 +60,10 @@ ViridianForestTrainerHeader2:
 
 ViridianForestText1:
 	TX_FAR _ViridianForestText1
+	db "@"
+
+ViridianForestBlockerText:
+	TX_FAR _ViridianForestBlockerText
 	db "@"
 
 ViridianForestText2:

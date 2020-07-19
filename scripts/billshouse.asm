@@ -119,7 +119,12 @@ BillsHouseTextPointers:
 	dw BillsHouseText1
 	dw BillsHouseText2
 	dw BillsHouseText3
+	dw BlockingStatueText
 	dw BillsHouseText4
+
+BlockingStatueText:
+	TX_FAR _BlockingStatueText
+	db "@"
 
 BillsHouseText4:
 	TX_BILLS_PC
