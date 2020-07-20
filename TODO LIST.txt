@@ -9,7 +9,6 @@ TODO LIST:
 
 >Import crysadudio, adjust all music constants & data
 >Finish making all the cries/port to crystal format
->decide on the new TM moves & gym TM gifts
 >Insert the TM/HM learnsets
 >Write in the new text
 >port the battle tent in from periwinkle

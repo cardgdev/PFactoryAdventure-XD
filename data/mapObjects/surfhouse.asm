@@ -7,7 +7,8 @@ SurfHouseObject:
 
 	db $0 ; signs
 
-	db $0 ; objects
+	db $1 ; objects
+	object SPRITE_FISHER, $3, $3, STAY, NONE, $1 ; person
 
 	; warp-to
 	EVENT_DISP SURF_HOUSE_WIDTH, $7, $2
