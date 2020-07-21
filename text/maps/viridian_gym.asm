@@ -1,62 +1,88 @@
 _ViridianGymText_74ace::
 	text "Fwahahaha! This is"
-	line "my hideout!"
+	line "my gym!"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "I mean uh, welcome"
+	line "to my gym!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "Surprised to see"
+	line "someone as young"
+	cont "as me being the"
+	cont "GYM LEADER?"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Just because I'm"
+	line "young dosen't"
+	cont "mean you should"
+	cont "underestimate me"
+	cont "for even a second!"
+
+	para "NORMAL types don't"
+	line "need any gimmicks"
+	cont "to be strong!"
+
+	para "I'll show you!"
 	done
 
 _ViridianGymText_74ad3::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@@"
+	text "Hmph!"
+	line "Well alright I"
+	cont "guess I have no"
+	cont "choice but to"
+	cont "give you the"
+	cont "STARBADGE!@@"
 
 _ViridianGymText_74ad9::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Psh... I don't"
+	line "take losing very"
+	cont "well..."
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "I'm going to go"
+	line "blow off some"
+	cont "steam!"
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@@"
+	para "Lets meet again"
+	line "sometime!"
+	cont "!@@"
 
 _ViridianGymText12::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "..."
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "So you're looking"
+	line "for info about"
+	cont "the #MON"
+	cont "mutations?"
 
-	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	para "Heh, sorry but I"
+	line "don't know a"
+	cont "thing! I only"
+	cont "became a trainer"
+	cont "after the mutants"
+	cont "were already"
+	cont "running around!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "My dad was a"
+	line "pretty infamous"
+	cont "guy though..."
+
+	para "Oh, you already"
+	line "know about him?"
+
+	para "Well he told me"
+	line "once that his"
+	cont "group, TEAM"
+	cont "ROCKET, tried"
+	cont "to make the most"
+	cont "powerful #MON"
+	cont "in the world with"
+	cont "their science."
+
+	para "Maybe it's tied"
+	line "to that #MON"
+	cont "somehow..."
+
+	para "Oh wait, here"
+	line "you should have"
+	cont "this too!"
 	done
 
 _ReceivedTM27Text::
@@ -65,42 +91,49 @@ _ReceivedTM27Text::
 
 _TM27ExplanationText::
 	db $0
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "That TM contains"
+	line "a move called"
+	cont "GLASSBREAKER!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "It's an ear dest-"
+	line "oying sound based"
+	cont "attack that"
+	cont "lowers the foe's"
+	cont "DEFENSE stat!"
 	done
 
 _TM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "You don't have"
+	line "room for it!"
 	done
 
 _ViridianGymBattleText1::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "You should fear"
+	line "me! I used to"
+	cont "be in TEAM ROCKET!"
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "Ah!"
+	line "BOSS we miss you!"
 	prompt
 
 _ViridianGymAfterBattleText1::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "The BOSS's son"
+	line "just dosen't have"
+	cont "the same penchant"
+	cont "for wanton crime"
+	cont "and destruction"
+	cont "as his father!"
 	done
 
 _ViridianGymBattleText2::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Rrrroar! I"
+	line "ripped up the"
+	cont "whole GYM interior"
+	cont "and remodeled it"
+	cont "with my bare"
+	cont "hands!"
 	done
 
 _ViridianGymEndBattleText2::
@@ -108,31 +141,38 @@ _ViridianGymEndBattleText2::
 	prompt
 
 _ViridianGymAfterBattleText2::
-	text "I'm still not"
-	line "worthy!"
+	text "I'm a contract"
+	line "worker during the"
+	cont "rest of the week."
 	done
 
 _ViridianGymBattleText3::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "I get much better"
+	line "acoustics in our"
+	cont "remodeled gym!"
 	done
 
 _ViridianGymEndBattleText3::
-	text "You are in"
-	line "perfect harmony!"
+	text "The soothing"
+	line "harmony of"
+	cont "nature!"
 	prompt
 
 _ViridianGymAfterBattleText3::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Honestly I'm"
+	line "happier about"
+	cont "getting rid of"
+	cont "those spinners"
+	cont "than anything"
+	cont "else."
 	done
 
 _ViridianGymBattleText4::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "I've honed my"
+	line "karate skills"
+	cont "over many years!"
+	cont "I should be GYM"
+	cont "LEADER here!"
 	done
 
 _ViridianGymEndBattleText4::
@@ -140,14 +180,19 @@ _ViridianGymEndBattleText4::
 	prompt
 
 _ViridianGymAfterBattleText4::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Who am I kidding,"
+	line "JUNIOR still"
+	cont "beat me 10 to 1"
+	cont "even with a type"
+	cont "disadvantage!"
 	done
 
 _ViridianGymBattleText5::
-	text "The truly talented"
-	line "win with style!"
+	text "It's hard to"
+	line "fight with style"
+	cont "when the gym"
+	cont "if full of rocks"
+	cont "and dirt!"
 	done
 
 _ViridianGymEndBattleText5::
@@ -158,12 +203,18 @@ _ViridianGymEndBattleText5::
 _ViridianGymAfterBattleText5::
 	text "The LEADER will"
 	line "scold me!"
+
+	para "There's nothing"
+	line "more emasculating"
+	cont "than catching"
+	cont "flack from a"
+	cont "10-year old!"
 	done
 
 _ViridianGymBattleText6::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Kneel before the"
+	line "KARATE KING, you"
+	cont "small fry!"
 	done
 
 _ViridianGymEndBattleText6::
@@ -174,63 +225,84 @@ _ViridianGymAfterBattleText6::
 	text "#MON LEAGUE?"
 	line "You? Don't get"
 	cont "cocky!"
+
+	para "Hey! What's with"
+	line "that smug smirk!"
+	cont "Knock that off"
+	cont "right now!"
 	done
 
 _ViridianGymBattleText7::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Welcome to the"
+	line "rodeo, now come"
+	cont "take the bull"
+	cont "by the horns!"
 	done
 
 _ViridianGymEndBattleText7::
-	text "Yowch!"
-	line "Whiplash!"
+	text "MOOO!"
 	prompt
 
 _ViridianGymAfterBattleText7::
-	text "Wait! I was just"
-	line "careless!"
+	text "Sometimes I get"
+	line "too far into"
+	cont "character, sorry."
 	done
 
 _ViridianGymBattleText8::
 	text "VIRIDIAN GYM was"
 	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	cont "time, shut down"
+	cont "for a widespread"
+	cont "criminal investi-"
+	cont "gation, and now"
+	cont "opened again!"
 	done
 
 _ViridianGymEndBattleText8::
-	text "I"
-	line "was beaten?"
+	text "Not"
+	line "bad for a"
+	cont "young blood."
 	prompt
 
 _ViridianGymAfterBattleText8::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Our old LEADER"
+	line "was wrapped up in"
+	cont "a ton of deep"
+	cont "criminal activity"
+	cont "yet somehow the"
+	cont "LEAGUE saw fit to"
+	cont "appoint his son"
+	cont "as the new LEADER."
+
+	para "Nepotism at it's"
+	line "finest!"
 	done
 
 _ViridianGymText_74bd4::
-	text "Yo! Champ in"
-	line "making!"
+	text "Hey! Runt!"
+	
+	para "Listen up, here's"
+	line "my advice about"
+	cont "the LEADER here."
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "He's young, wild,"
+	line "and uses NORMAL"
+	cont "type #MON!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Don't get cocky"
+	line "because he's"
+	cont "half your height!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "He was born and"
+	line "raised around"
+	cont "TEAM ROCKET!"
 	done
 
 _ViridianGymText_74bd9::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "I'd say you'd"
+	line "have knocked him"
+	cont "down a peg, if he"
+	cont "could even get any"
+	cont "shorter! Ahahah!"
 	done
