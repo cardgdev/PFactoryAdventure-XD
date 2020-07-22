@@ -1,47 +1,47 @@
 _PewterGymText_5c4a3::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "..."
+	
+	para "You want me to"
+	line "tell you what I"
+	cont "know about the"
+	cont "#MON mutating?"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "Honestly I have"
+	line "no more of an"
+	cont "idea than anyone"
+	cont "else!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "I do know that"
+	line "the military has"
+	cont "been hanging"
+	cont "around MT.MOON"
+	cont "lately."
+
+	para "Maybe whatever"
+	line "they're looking"
+	cont "for over there"
+	cont "is related to it?"
 	done
 
 _TM34PreReceiveText::
-	text "Wait! Take this"
-	line "with you!"
+	text "Oh wait! Take"
+	line "this with you!"
 	done
 
 _ReceivedTM34Text::
 	text "<PLAYER> received"
-	line "TM34!@@"
+	line "TM20!@@"
 
 _TM34ExplanationText::
 	db $0
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "TM20 contains"
+	line "TOMBSTONER!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
-
-	para "TM34 contains"
-	line "BIDE!"
-
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "Ominous name isn't"
+	line "it? It's a ROCK"
+	cont "type attack that"
+	cont "also lowers the"
+	cont "foe's SPEED!"
 	done
 
 _TM34NoRoomText::
@@ -50,12 +50,14 @@ _TM34NoRoomText::
 	done
 
 _PewterGymText_5c4bc::
-	text "I took"
-	line "you for granted."
+	text "Wow!"
+	line "You rocked harder"
+	cont "than we ever"
+	cont "could!"
 
 	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	line "victory, take my"
+	cont "BOULDERBADGE!"
 
 	para "<PLAYER> received"
 	line "the BOULDERBADGE!@@"
@@ -66,77 +68,92 @@ _PewterGymText_5c4c1::
 	line "#MON LEAGUE"
 	cont "BADGE!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
-
-	para "The technique"
+	para "With it, the move"
 	line "FLASH can now be"
-	cont "used any time!"
+	cont "used any time"
+	cont "outside battle."
+
+	para "Oh you already"
+	line "knew that?"
+
+	para "Ha you really must"
+	line "have done your"
+	cont "research!"
 	prompt
 
 _PewterGymBattleText1::
 	text "Stop right there,"
-	line "kid!"
+	line "buddy!"
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "You're still a few"
+	line "parsecs away from"
+	cont "facing ICHITAROU!"
 	done
 
 _PewterGymEndBattleText1::
-	text "Darn!"
+	text "Gotcha!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Parsecs DO measure"
+	line "distance!"
 	prompt
 
 _PewterGymAfterBattleText1::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Parsecs measure"
+	line "astronomical dist-"
+	cont "ance!"
+
+	para "...Who are you"
+	line "callin' a SUPER"
+	cont "NERD?"
 	done
 
 _PewterGymText_5c515::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Heh, you lookin'"
+	line "for advice from"
+	cont "me kid?"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "Well I guess I"
+	line "could, but don't"
+	cont "expect me to"
+	cont "sugarcoat nothin'"
 
-	para "Let me take you"
-	line "to the top!"
+	para "That good with"
+	line "you?"
 	done
 
 _PewterGymText_5c51a::
-	text "All right! Let's"
-	line "get happening!"
+	text "All right!"
 	prompt
 
 _PewterGymText_5c51f::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "This place is a"
+	line "ROCK type gym!"
+	cont "Always has been."
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "ROCK types are"
+	line "hard to beat with"
+	cont "physical typed"
+	cont "attacks, but"
+	cont "special attacks"
+	cont "especially WATER?"
+
+	para "Might as well be"
+	line "shooting sand with"
+	cont "a powerwasher!"
 	done
 
 _PewterGymText_5c524::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "Heh well I'll"
+	line "be around..."
 	prompt
 
 _PewterGymText_5c529::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Not bad kid."
+	line "You show a lot"
+	cont "more skill than"
+	cont "you let on."
+
+	para "You sure this is"
+	line "your first GYM"
+	cont "challenge?"
 	done
