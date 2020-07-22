@@ -1,19 +1,21 @@
 _ViridianForestExitText1::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
-
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	text "#MON live in"
+	line "all sorts of"
+	cont "places. For very"
+	cont "strong trainers,"
+	cont "even their evolved"
+	cont "forms will appear."
 	done
 
 _ViridianForestExitText2::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Some bushes can"
+	line "be cut down with"
+	cont "HM01 CUT."
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Thanks to a major"
+	line "clearing project"
+	cont "though, most"
+	cont "HMs are no longer"
+	cont "needed to get"
+	cont "around the region."
 	done

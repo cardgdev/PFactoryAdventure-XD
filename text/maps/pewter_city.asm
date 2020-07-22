@@ -1,23 +1,28 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "Have you seen a"
+	line "JIGLYFAIRY yet?"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "They're perfect!"
+	line "Round, squishy,"
+	cont "and huge eyed"
+	cont "like some kind"
+	cont "of super-deformed"
+	cont "chibi abomination."
 	done
 
 _PewterCityText2::
-	text "There aren't many"
-	line "serious #MON"
-	cont "trainers here!"
+	text "After the lockdown"
+	line "all the local"
+	cont "trainers got way"
+	cont "more serious."
 
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	para "BROCK left to go"
+	line "train in some"
+	cont "weird faraway"
+	cont "place so now"
+	cont "his brother,"
+	cont "ICHITAROU runs"
+	cont "the gym."
 	done
 
 _PewterCityText_193f1::
@@ -27,8 +32,8 @@ _PewterCityText_193f1::
 
 _PewterCityText_193f6::
 	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	line "dinosaur fossils"
+	cont "amazing?"
 	done
 
 _PewterCityText_193fb::
@@ -39,61 +44,73 @@ _PewterCityText_193fb::
 
 _PewterCityText13::
 	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
-	cont "it's worth it!"
-	cont "See you around!"
+	line "Our local economy"
+	cont "relies on this, so"
+	cont "please give them"
+	cont "your patronage!"
 	done
 
 _PewterCityText_19427::
-	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	text "This is a secure"
+	line "mutant free zone!"
+	cont "Give me the secret"
+	cont "password now!"
 	done
 
 _PewterCityText_1942c::
-	text "That's right!"
-	line "It's hard work!"
+	text "Yes? Do you think"
+	line "this is some kind"
+	cont "of a joke! Get out"
+	cont "of my sight!"
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying REPEL"
-	line "to keep #MON"
-	cont "out of my garden!"
+	text "No? Well then get"
+	line "out of here!"
 	done
 
 _PewterCityText_1945d::
-	text "You're a trainer"
-	line "right? BROCK's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "h"
 	done
 
 _PewterCityText14::
-	text "If you have the"
-	line "right stuff, go"
-	cont "take on BROCK!"
+	text "h"
 	done
 
 _PewterCityText6::
 	text "TRAINER TIPS"
 
-	para "Any #MON that"
-	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	para "The move FOCUS"
+	line "ENERGY is debatab-"
+	cont "ly useful."
+
+	para "Studies show that"
+	line "rather than boost-"
+	cont "ing a #MON's"
+	cont "critical hit rate"
+	cont "by 4 it actually"
+	cont "reduces it by 4."
+
+	para "Some diehard"
+	line "trainers swear by"
+	cont "it however."
 	done
 
 _PewterCityText7::
-	text "NOTICE!"
+	text "PUBLIC SERVICE"
+	line "ANNOUNCEMENT:"
 
-	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
-	cont "with any info!"
+	para "THE KANTONIAN"
+	line "NATIONAL DEFENCE"
+	cont "FORCE IS CURRENTLY"
+	cont "CONDUCTING AN"
+	cont "OPERATION AT MT."
+	cont "MOON."
+
+	para "PLEASE TAKE ALL"
+	line "PRECAUTION TO"
+	cont "AVOID THE AREA"
+	cont "AT THIS TIME."
 	done
 
 _PewterCityText10::
@@ -104,10 +121,11 @@ _PewterCityText10::
 _PewterCityText11::
 	text "PEWTER CITY"
 	line "#MON GYM"
-	cont "LEADER: BROCK"
+	cont "LEADER: ICHITAROU"
 
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	para "The Rough as"
+	line "Shale ROCK"
+	cont "#MON Trainer!"
 	done
 
 _PewterCityText12::

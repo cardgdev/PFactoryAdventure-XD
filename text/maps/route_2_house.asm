@@ -1,6 +1,8 @@
 _Route2HouseText1::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Some #MON that"
+	line "were rare before"
+	cont "like CHANSEY and"
+	cont "PINSIR became"
+	cont "more common after"
+	cont "the mutations."
 	done

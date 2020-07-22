@@ -1,32 +1,33 @@
 _ViridianForestText1::
-	text "I came here with"
-	line "some friends!"
-
-	para "They're out for"
-	line "#MON fights!"
+	text "My friends became"
+	line "way more serious"
+	cont "trainers. I can't"
+	cont "keep up anymore!"
 	done
 
 _ViridianForestBattleText1::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Us BUG CATCHERs"
+	line "have come out"
+	cont "of our metaphoric-"
+	cont "al cocoon!"
 	done
 
 _ViridianForestEndBattleText1::
 	text "No!"
-	line "CATERPIE can't"
+	line "we still can't"
 	cont "cut it!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Bugs grow fast"
+	line "and mutate even"
+	cont "faster!"
 	done
 
 _ViridianForestBattleText2::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "I heard there's"
+	line "HONEY somewhere"
+	cont "in this FOREST."
 	done
 
 _ViridianForestEndBattleText2::
@@ -36,14 +37,21 @@ _ViridianForestEndBattleText2::
 	prompt
 
 _ViridianFrstAfterBattleText2::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "I couldn't find"
+	line "any HONEY but I"
+	cont "did find some"
+	cont "weirdly HONEY"
+	cont "flavored STONES."
+	
+	para "I wonder what"
+	line "you could do"
+	cont "with those?"
 	done
 
 _ViridianForestBattleText3::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Stop right there"
+	line "you're caught in"
+	cont "my web!"
 	done
 
 _ViridianForestEndBattleText3::
@@ -53,67 +61,81 @@ _ViridianForestEndBattleText3::
 	prompt
 
 _ViridianFrstAfterBattleText3::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
-
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	text "Like a spider to"
+	line "a fly..."
 	done
 
 _ViridianForestText8::
 	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	line "BALLs so I tried"
+	cont "catching bugs in"
+	cont "my net."
 
-	para "You should carry"
-	line "extras!"
+	para "It worked fine"
+	line "for SPINNERET."
+
+	para "It did NOT work"
+	line "fine on MISCHU."
+	
+	para "Now I have nine"
+	line "fingers."
 	done
 
 _ViridianForestText9::
 	text "TRAINER TIPS"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "If you attempt"
+	line "to catch a #MON"
+	cont "when your current"
+	cont "PC BOX is full,"
+	cont "it will fail."
+
+	para "The only way to"
+	line "know when your"
+	cont "box is full is"
+	cont "to keep a watchful"
+	cont "eye on it as you"
+	cont "catch #MON."
 	done
 
 _ViridianForestText10::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "WARNING: WATCH"
+	line "OUT FOR SPINNERET"
+	cont "WEBS AHEAD!"
 	done
 
 _ViridianForestText11::
 	text "TRAINER TIPS"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "BUG type #MON"
+	line "are one of the"
+	cont "few counters to"
+	cont "the very powerful"
+	cont "PSYCHIC type."
 	done
 
 _ViridianForestText12::
 	text "TRAINER TIPS"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Using # BALLs"
+	line "during a battle"
+	cont "against a trainer"
+	cont "will allow you to"
+	cont "stall a turn."
+
+	para "Only disrespectful"
+	line "louts like speed-"
+	cont "runners do this."
 	done
 
 _ViridianForestText13::
 	text "TRAINER TIPS"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
-
-	para "When healthy,"
-	line "they may escape!"
+	para "Wild #MON"
+	line "will appear based"
+	cont "on the LEVEL of"
+	cont "your highest"
+	cont "party member."
 	done
 
 _ViridianForestText14::

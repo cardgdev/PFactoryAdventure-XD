@@ -1,13 +1,18 @@
 _ViridianForestEntranceText1::
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	text "VIRIDIAN FOREST is"
+	line "much larger than"
+	cont "most people know!"
+
+	para "There's a whole"
+	line "second part of the"
+	cont "FOREST that few"
+	cont "dare venture into."
 	done
 
 _ViridianForestEntranceText2::
-	text "RATTATA may be"
-	line "small, but its"
-	cont "bite is wicked!"
-	cont "Did you get one?"
+	text "REDDA can't learn"
+	line "any attack besides"
+	cont "GLARE. But it"
+	cont "learns it earlier"
+	cont "than EKANS does."
 	done

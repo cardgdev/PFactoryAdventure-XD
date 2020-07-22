@@ -52,11 +52,9 @@ _ViridianCityText_19175::
 	done
 
 _ViridianCityText_1917a::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "The FOREST used"
+	line "to be far less"
+	cont "dangerous before."
 	done
 
 _ViridianCityText_19191::

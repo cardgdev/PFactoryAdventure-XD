@@ -2548,7 +2548,7 @@ DragurEvosMoves:
 	; roar
 	; agility
 	db 30, DRAGON_RAGE
-	db 40, PSYCHIC
+	db 40, PSYCHIC_M
 	db 50, BARRIER
 	db 60, PARALYZER
 	db 0
@@ -2711,7 +2711,7 @@ TropMewEvosMoves:
 	db 10, PSYBEAM
 	db 20, MEGA_DRAIN
 	db 30, METRONOME
-	db 40, PSYCHIC
+	db 40, PSYCHIC_M
 	db 50, SOLARBEAM
 	db 0
 

@@ -1,15 +1,9 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Quick, trainer!"
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
-
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Don't forget"
+	line "to grab your"
+	cont "field rations!"
 	prompt
 
 _Route1Text_1cae8::
@@ -19,9 +13,13 @@ _Route1Text_1cae8::
 	text "!@@"
 
 _Route1Text_1caee::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Just kidding!"
+	
+	para "Feel free to hop"
+	line "over to the #"
+	cont "MART in VIRIDIAN"
+	cont "anytime you need"
+	cont "to stock up!"
 	done
 
 _Route1Text_1caf3::
@@ -30,16 +28,13 @@ _Route1Text_1caf3::
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "You look like an"
+	line "experienced ledge"
+	cont "hopper already."
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
-
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Is there really"
+	line "any more I could"
+	cont "teach you? Hmm..."
 	done
 
 _Route1Text3::

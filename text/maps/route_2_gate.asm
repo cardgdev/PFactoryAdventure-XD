@@ -5,10 +5,10 @@ _Route2GateText_5d616::
 	done
 
 _Route2GateText2::
-	text "Once a #MON"
-	line "learns FLASH, you"
-	cont "can get through"
-	cont "ROCK TUNNEL."
+	text "FLASH is also"
+	line "a useful move for"
+	cont "lowering the foe's"
+	cont "ACCURACY stat!"
 	done
 
 _Route2GateAideText1::
