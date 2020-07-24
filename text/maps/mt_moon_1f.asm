@@ -1,23 +1,26 @@
 _MtMoon1BattleText2::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "Hey man this area"
+	line "is dangerous, you"
+	cont "shouldn't be here!"
 	done
 
 _MtMoon1EndBattleText2::
 	text "Wow!"
-	line "Shocked again!"
+	line "Alright maybe not!"
 	prompt
 
 _MtMoon1AfterBattleText2::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "I'm not part of"
+	line "the military, they"
+	cont "just showed up"
+	cont "along my hiking"
+	cont "route."
 	done
 
 _MtMoon1BattleText3::
-	text "Did you come to"
-	line "explore too?"
+	text "MT.MOON is my"
+	line "hangout, get out"
+	cont "of here!"
 	done
 
 _MtMoon1EndBattleText3::
@@ -26,15 +29,15 @@ _MtMoon1EndBattleText3::
 	prompt
 
 _MtMoon1AfterBattleText3::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "Wait you're not"
+	line "one of those"
+	cont "SOLDIERs..."
 	done
 
 _MtMoon1BattleText4::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Girls in caves?"
+	line "It's more likely"
+	cont "than you think."
 	done
 
 _MtMoon1EndBattleText4::
@@ -43,13 +46,18 @@ _MtMoon1EndBattleText4::
 	prompt
 
 _MtMoon1AfterBattleText4::
-	text "How do you get"
-	line "out of here?"
+	text "When I was a"
+	line "JR.TRAINER me"
+	cont "and my friends"
+	cont "used to hang out"
+	cont "in ROCK TUNNEL!"
 	done
 
 _MtMoon1BattleText5::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "I'm on a recon"
+	line "mission! Don't"
+	cont "give my position"
+	cont "away!"
 	done
 
 _MtMoon1EndBattleText5::
@@ -58,14 +66,19 @@ _MtMoon1EndBattleText5::
 	prompt
 
 _MtMoon1AfterBattleText5::
-	text "I have to find"
-	line "stronger #MON."
+	text "I'm here to"
+	line "monitor the move-"
+	cont "ments of the"
+	cont "military here to"
+	cont "report back to my"
+	cont "friends on an"
+	cont "online imageboard!"
 	done
 
 _MtMoon1BattleText6::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "I'm looking for a"
+	line "rare new #MON"
+	cont "in here!"
 	done
 
 _MtMoon1EndBattleText6::
@@ -73,15 +86,18 @@ _MtMoon1EndBattleText6::
 	prompt
 
 _MtMoon1AfterBattleText6::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "It's blue, with"
+	line "flames on it's"
+	cont "head and resembles"
+	cont "something between"
+	cont "a CHARMANDER and"
+	cont "a DRATINI."
 	done
 
 _MtMoon1BattleText7::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "This cave sure"
+	line "does attract a lot"
+	cont "of suspicious men."
 	done
 
 _MtMoon1EndBattleText7::
@@ -90,15 +106,18 @@ _MtMoon1EndBattleText7::
 	prompt
 
 _MtMoon1AfterBattleText7::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "First TEAM ROCKET"
+	line "and now the"
+	cont "military? What's"
+	cont "so special about"
+	cont "this cave anyway?"
 	done
 
 _MtMoon1BattleText8::
-	text "Go through this"
-	line "cave to get to"
-	cont "CERULEAN CITY!"
+	text "How am I supposed"
+	line "to get to CERULEAN"
+	cont "CITY with the exit"
+	cont "blocked up?"
 	done
 
 _MtMoon1EndBattleText8::
@@ -107,13 +126,22 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "GORK are worse"
+	line "sleepers than"
+	cont "SNORLAX! If you"
+	cont "wake one up"
+	cont "you'll regret it!"
 	done
 
 _MtMoon1Text14::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "A notice is posted"
+	line "overtop of the"
+	cont "signpost:"
+
+	para "MILITARY OPERATION"
+	line "AHEAD, DO NOT"
+	cont "PROCEED PAST THIS"
+	cont "FLOOR OF MT.MOON"
+	cont "OR YOU WILL FACE"
+	cont "PENALTY OF LAW."
 	done

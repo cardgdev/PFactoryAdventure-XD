@@ -1,11 +1,11 @@
 _MtMoon3Text_49f24::
 	text "You want the"
-	line "DOME FOSSIL?"
+	line "JAW FOSSIL?"
 	done
 
 _MtMoon3Text_49f64::
 	text "You want the"
-	line "HELIX FOSSIL?"
+	line "CREST FOSSIL?"
 	done
 
 _MtMoon3Text_49f6f::
@@ -21,42 +21,62 @@ _MtMoon3Text_49f7f::
 _MtMoon3Text_49f85::
 	text "Hey, stop!"
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "These fossils"
+	line "are property of"
+	cont "the KANTONIAN"
+	cont "DEFENCE FORCE!"
+
+	para "They've hired"
+	line "me to dig them"
+	cont "up and I'll be"
+	cont "darned if I have"
+	cont "to give them over"
+	cont "to anyone!"
 	done
 
 _MtMoon3Text_49f8a::
-	text "OK!"
-	line "I'll share!"
+	text "GAH!"
+	line "Stay back!"
 	prompt
 
 _MtMoon3Text_49f8f::
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "Ok look, you"
+	line "can take one of"
+	cont "them! Just leave"
+	cont "me alone you"
+	cont "weirdly silent"
+	cont "nutjob!"
 	done
 
 _MtMoon3Text_49f94::
-	text "Far away, on"
-	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	text "..."
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "What does the"
+	line "military want with"
+	cont "dinosaur fossils?"
+
+	para "Maybe they want"
+	line "to revive some"
+	cont "powerful #MON"
+	cont "to use as weapons!"
+
+	para "I'm just a"
+	line "contract employee"
+	cont "with no special"
+	cont "clearance!"
 	done
 
 _MtMoon3Text_49f99::
 	text "All right. Then"
-	line "this is mine!@@"
+	line "this is ours!@@"
 
 _MtMoon3BattleText2::
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	text "HEY! Can't you"
+	line "read signs pal!"
+	cont "This cave floor"
+	cont "is totally off"
+	cont "limits to you"
+	cont "civilians!"
 	done
 
 _MtMoon3EndBattleText2::
@@ -65,15 +85,16 @@ _MtMoon3EndBattleText2::
 	prompt
 
 _MtMoon3AfterBattleText2::
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	text "Teenagers never"
+	line "read anything,"
+	cont "but I never"
+	cont "expected you to"
+	cont "be so strong!"
 	done
 
 _MtMoon3BattleText3::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
-	cont "gangsters!"
+	text "Insurgent in my"
+	line "line of sight!"
 	done
 
 _MtMoon3EndBattleText3::
@@ -82,15 +103,22 @@ _MtMoon3EndBattleText3::
 	prompt
 
 _MtMoon3AfterBattleText3::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "Looks like it's"
+	line "latrine duty for"
+	cont "me tonight!"
+
+	para "you ever scrub a"
+	line "portable toilet"
+	cont "with a tooth-"
+	cont "brush!?"
 	done
 
 _MtMoon3BattleText4::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "You don't look"
+	line "like you have"
+	cont "clearance to"
+	cont "be here! You're"
+	cont "coming with me!"
 	done
 
 _MtMoon3EndBattleText4::
@@ -99,15 +127,16 @@ _MtMoon3EndBattleText4::
 	prompt
 
 _MtMoon3AfterBattleText4::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "#MON trainer"
+	line "or not, no"
+	cont "civilians allowed!"
 	done
 
 _MtMoon3BattleText5::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "YOWCH! You made"
+	line "me jackhammer"
+	cont "my foot! You'll"
+	cont "pay!"
 	done
 
 _MtMoon3EndBattleText5::
@@ -116,7 +145,8 @@ _MtMoon3EndBattleText5::
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "I think I broke"
+	line "my foot! Thanks"
+	cont "a lot you dumb"
+	cont "kid!"
 	done

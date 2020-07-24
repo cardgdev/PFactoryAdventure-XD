@@ -1,71 +1,75 @@
 _CeruleanCityText_19668::
-	text "<RIVAL>: Yo!"
-	line "<PLAYER>!"
+	text "<RIVAL>: Hm?"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Oh, excuse me."
+	line "Am I standing in"
+	cont "your way?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "No, actually I"
+	line "think fate has"
+	cont "brought us"
+	cont "together today."
 
-	para "Here, let me see"
-	line "what you caught,"
-	cont "<PLAYER>!"
+	para "You're traveling"
+	line "to learn about"
+	cont "the mutated"
+	cont "#MON, correct?"
+
+	para "Then I present"
+	line "a test, to see"
+	cont "if you can"
+	cont "demonstrate what"
+	cont "you've discovered!"
 	done
 
 _CeruleanCityText_1966d::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Aha!"
+	line "Yes, very very"
+	cont "good..."
 	prompt
 
 _CeruleanCityText_19672::
-	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	text "Hmm."
+	line "Perhaps you"
+	cont "have more to"
+	cont "learn still."
 	prompt
 
 _CeruleanCityText_19677::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: I see"
+	line "your potential"
+	cont "shining through"
+	cont "brightly..."
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "Keep up your"
+	line "investigaton!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
-
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
-
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
-
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
-
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Until next"
+	line "time <PLAYER>."
 	done
 
 _CeruleanCityText_196d9::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "..."
+	
+	para "It's uncouth"
+	line "to steal where"
+	cont "another thief's"
+	cont "already been?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Hey man!"
+	line "I'm no TEAM"
+	cont "ROCKET goon aite!"
+
+	para "I gotta pawn this"
+	line "TM so I can have"
+	cont "food this week!"
+
+	para "This lockdown put"
+	line "me out of a job!"
+
+	para "I'll make you"
+	line "understand my"
+	cont "struggle!"
 	done
 
 _ReceivedTM28Text::
@@ -81,7 +85,7 @@ _TM28NoRoomText::
 	text "Make room for"
 	line "this!"
 
-	para "I can't run until"
+	para "I can't go until"
 	line "I give it to you!"
 	done
 
@@ -92,90 +96,123 @@ _CeruleanCityText_196ee::
 	prompt
 
 _CeruleanCityText_196f3::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "Come on man!"
+	line "I wouldn't"
+	cont "be out here"
+	cont "stealing at all"
+	cont "if there was"
+	cont "any honest work I"
+	cont "could be doing!"
+
+	para "..."
+
+	para "At OAK'S LAB?"
+	line "R-really!? You'll"
+	cont "put in a good word"
+	cont "for someone like"
+	cont "me? You're a real"
+	cont "pal! Thank you!"
+
+	para "Minimum wage is"
+	line "still better than"
+	cont "risking jail time!"
 	prompt
 
 _CeruleanCityText3::
-	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	text "Every other night"
+	line "I see a strange"
+	cont "purple mist"
+	cont "billowing out of"
+	cont "CERULEAN CAVE."
+
+	para "Maybe it's the"
+	line "same mist people"
+	cont "in other towns"
+	cont "have been talking"
+	cont "about?"
 	done
 
 _CeruleanCityText4::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Lately there's"
+	line "been talk of"
+	cont "strange mist"
+	cont "appearing around"
+	cont "the region, but"
+	cont "it's especially"
+	cont "misty here!"
 
-	para "There might be a"
-	line "way around."
+	para "Kind of ironic"
+	line "considering that"
+	cont "MISTY just moved"
+	cont "away recently."
 	done
 
 _CeruleanCityText5::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	text "I don't go outside"
+	line "without wearing"
+	cont "a mask so I don't"
+	cont "breathe in any of"
+	cont "that weird mist."
 	done
 
 _CeruleanCityText6::
 	text "The people here"
-	line "were robbed."
+	line "were robbed again."
 
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
-
-	para "Even our POLICE"
-	line "force has trouble"
-	cont "with the ROCKETs!"
+	para "Lockdown has made"
+	line "so many people"
+	cont "turn to crime in"
+	cont "their desperation."
+	cont "It makes me truly"
+	cont "saddened."
 	done
 
 _CeruleanCityText_19730::
-	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
+	text "OK! GORK!"
+	line "Use SCREECH!"
+	cont "Come on, GORK"
 	cont "pay attention!"
 	done
 
 _CeruleanCityText_19735::
-	text "SLOWBRO punch!"
+	text "GORK, COMET PUNCH!"
 	line "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityText_1973a::
-	text "SLOWBRO, WITHDRAW!"
+	text "GORK, BODY SLAM!"
 	line "No! That's wrong!"
 
 	para "It's so hard to"
 	line "control #MON!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "And whenever that"
+	line "stupid mist blows"
+	cont "into town, they"
+	cont "go wild and"
+	cont "become even more"
+	cont "difficult to"
+	cont "handle!"
 	done
 
 _CeruleanCityText_1976f::
-	text "SLOWBRO took a"
+	text "GORK took a"
 	line "snooze..."
 	done
 
 _CeruleanCityText_19774::
-	text "SLOWBRO is"
+	text "GORK is"
 	line "loafing around..."
 	done
 
 _CeruleanCityText_19779::
-	text "SLOWBRO turned"
+	text "GORK turned"
 	line "away..."
 	done
 
 _CeruleanCityText_1977e::
-	text "SLOWBRO"
+	text "GORK"
 	line "ignored orders..."
 	done
 
@@ -198,6 +235,21 @@ _CeruleanCityText10::
 	line "champion is the"
 	cont "only person who"
 	cont "is allowed in!"
+
+	para "..."
+	line "You say you ARE"
+	cont "the #MON LEAGUE"
+	cont "champion already?"
+
+	para "Ha! You think"
+	line "I'm going to"
+	cont "believe that?"
+	cont "What are you like"
+	cont "13? Come on kid."
+
+	para "Maybe if LANCE"
+	line "vouched for you"
+	cont "or something, ha!"
 	done
 
 _CeruleanCityText12::
@@ -210,10 +262,15 @@ _CeruleanCityText12::
 _CeruleanCityText13::
 	text "TRAINER TIPS"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Using AGILITY"
+	line "or SWORDS DANCE"
+	cont "while PARALYZED"
+	cont "or BURNED respect-"
+	cont "ively will negate"
+	cont "the stat reduction"
+	cont "caused by them,"
+	cont "then double the"
+	cont "enhanced stat."
 	done
 
 _CeruleanCityText16::
@@ -225,8 +282,8 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "LEADER: HAYATO"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "The Feathery"
+	line "Fiend!"
 	done

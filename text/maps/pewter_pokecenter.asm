@@ -1,14 +1,16 @@
 _PewterPokecenterText2::
-	text "What!?"
+	text "Dinosaur fossils?"
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "What in the world"
+	line "would the military"
+	cont "want to do with"
+	cont "those?"
 
-	para "Scram!"
+	para "Hey this is a"
+	line "private call!"
 	done
 
 _PewterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
+	text "JIGLYFAIRY: Puu"
 	line "pupuu!"
 	done

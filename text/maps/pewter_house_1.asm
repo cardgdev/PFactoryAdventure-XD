@@ -1,24 +1,17 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@@"
+	text "AUDIOR: AAAAA!@@"
 
 _PewterHouse1Text2::
-	text "NIDORAN sit!"
+	text "AUDIOR speak!"
 	done
 
 _PewterHouse1Text3::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Ahhhh! That"
+	line "AUDIOR's yelling"
+	cont "broke all our"
+	cont "fine china and"
+	cont "three windows!"
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
-
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
-
-	para "If only we had"
-	line "some BADGEs..."
+	para "I'm sick of these"
+	line "mutants already!"
 	done

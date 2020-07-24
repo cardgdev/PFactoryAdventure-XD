@@ -1,19 +1,20 @@
 _PewterHouse2Text1::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
-
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	text "If you use TMs"
+	line "wisely, you can"
+	cont "stack the moves"
+	cont "of your #MON"
+	cont "in unexpected"
+	cont "ways."
 	done
 
 _PewterHouse2Text2::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "#BALLs come"
+	line "in 3 varieties"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "They're all able"
+	line "to be bought at"
+	cont "the #MART"
+	cont "unrestricted, but"
+	cont "better balls are"
+	cont "more expensive."
 	done

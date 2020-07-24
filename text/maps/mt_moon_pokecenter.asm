@@ -1,19 +1,30 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "You can carry 6"
+	line "#MON at most"
+	cont "but you should"
+	cont "take care to"
+	cont "keep them all."
+	cont "evenly trained!"
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Only scourge of"
+	line "the earth heathens"
+	cont "like speedrunners"
+	cont "overtrain one"
+	cont "#MON!"
 	done
 
 _MtMoonPokecenterText3::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "All movement from"
+	line "CERULEAN to PEWTER"
+	cont "has been halted..."
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "Can the military"
+	line "really get away"
+	cont "with this without"
+	cont "even telling"
+	cont "people what's"
+	cont "going on in"
+	cont "MT.MOON?"
 	done
 
 _MagikarpSalesmanText1::
@@ -22,7 +33,8 @@ _MagikarpSalesmanText1::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
+	line "a swell MAGIF-"
+	cont "I mean MAGIKARP"
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done
@@ -39,8 +51,8 @@ _MagikarpSalesmanNoMoneyText::
 	done
 
 _MagikarpSalesmanText2::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "MAN: (snicker)"
+	line "N-no refunds now!"
 	done
 
 _MtMoonPokecenterText5::

@@ -23,7 +23,7 @@ CeruleanCityObject:
 
 	db $b ; objects
 	object SPRITE_BLUE, $14, $2, STAY, DOWN, $1 ; person
-	object SPRITE_ROCKET, $1e, $8, STAY, NONE, $2, OPP_SOLDIER, $5
+	object SPRITE_BLACK_HAIR_BOY_1, $1e, $8, STAY, NONE, $2, OPP_BURGLAR, $1
 	object SPRITE_BLACK_HAIR_BOY_1, $1f, $14, STAY, DOWN, $3 ; person
 	object SPRITE_BLACK_HAIR_BOY_2, $f, $12, WALK, $1, $4 ; person
 	object SPRITE_BLACK_HAIR_BOY_2, $9, $15, WALK, $2, $5 ; person
