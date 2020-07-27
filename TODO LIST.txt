@@ -5,10 +5,7 @@ TODO LIST:
 >the AI likes to use potions on pokemon with already full health
 >change all the random women with SPRITE_ERIKA
 >make the pokedex ratings go up to 190
->fix colors on lotusan and luxor backsprites, probably others
 
->Import crysadudio, adjust all music constants & data
->Finish making all the cries/port to crystal format
 >Insert the TM/HM learnsets
 >Write in the new text
 >port the battle tent in from periwinkle

@@ -34,14 +34,14 @@ _ViridianCityText_19152::
 	done
 
 _ViridianCityText_19157::
-	text "It looked like"
-	line "a guy in a labcoat"
+	text "It looked like a"
+	line "man in a labcoat"
 	cont "with a SCYTHER's"
 	cont "head and arms."
 
 	para "I don't think"
 	line "I'll be tending to"
-	cont "my flowers without"
+	cont "my garden without"
 	cont "at least 3 FIRE"
 	cont "types in my party"
 	cont "any time soon."

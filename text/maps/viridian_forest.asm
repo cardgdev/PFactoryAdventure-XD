@@ -8,8 +8,8 @@ _ViridianForestText1::
 _ViridianForestBattleText1::
 	text "Us BUG CATCHERs"
 	line "have come out"
-	cont "of our metaphoric-"
-	cont "al cocoon!"
+	cont "of our metaphori-"
+	cont "cal cocoon!"
 	done
 
 _ViridianForestEndBattleText1::
