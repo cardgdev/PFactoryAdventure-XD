@@ -192,6 +192,9 @@ MewtwoText:
 	ld a, HS_LAIR_BLUE
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_ROUTE_4_DADBLOCKER
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	jp TextScriptEnd
 
 MewtwoBattleText:

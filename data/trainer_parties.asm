@@ -46,6 +46,7 @@ TrainerDataPointers:
 	dw ChannelerData
 	dw KarenData
 	dw LanceData
+	dw DadData
 
 ; if first byte != FF, then
 	; first byte is level (of all pokemon on this team)
@@ -667,5 +668,7 @@ ChannelerData:
 KarenData:
 	db 60,CYIL,MIDNIGHT,MISCHU,ALENKAR,JIGGLYPLUM,MATCHILIO,0
 LanceData:
+	db 60,DRAKEN,AEROBOOM,DRAGOR,CHARTOISE,GYARADEATH,DRAGUR,0
+DadData:
 	db 60,DRAKEN,AEROBOOM,DRAGOR,CHARTOISE,GYARADEATH,DRAGUR,0
 

@@ -59,6 +59,8 @@ ModifyLevel:
 	jr z, .applyPlusFive
 	cp $F7 ; Lance
 	jr z, .applyPlusFive
+	cp DAD ; dad
+	jr z, .applyPlusFive
 .applyTrainerPartySizeScaling
 	push bc
 	ld hl, .partySizeFactors
@@ -287,18 +289,18 @@ ReadTrainer:
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a,SKY_ATTACK
+	ld a,DARKENING
 	ld [wEnemyMon1Moves + 2],a
 
 ; starter
 	ld a,[wRivalStarter]
 	cp STARTER3
-	ld b,MEGA_DRAIN
+	ld b,ARMOR_CLAW
 	jr z,.GiveStarterMove
 	cp STARTER1
-	ld b,FIRE_BLAST
+	ld b,ARMOR_CLAW
 	jr z,.GiveStarterMove
-	ld b,BLIZZARD ; must be squirtle
+	ld b,ARMOR_CLAW ; must be squirtle
 .GiveStarterMove
 	ld a,b
 	ld [wEnemyMon6Moves + 2],a

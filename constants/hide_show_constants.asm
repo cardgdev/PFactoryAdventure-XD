@@ -34,6 +34,7 @@ const_value = 0
 	const HS_ROUTE_2_ITEM_1               ; 19 X
 	const HS_ROUTE_2_ITEM_2               ; 1A X
 	const HS_ROUTE_4_ITEM                 ; 1B X
+	const HS_ROUTE_4_DADBLOCKER           ; EF   NEW
 	const HS_ROUTE_9_ITEM                 ; 1C X
 	const HS_ROUTE_12_SNORLAX             ; 1D
 	const HS_ROUTE_12_ITEM_1              ; 1E X
@@ -247,7 +248,6 @@ const_value = 0
 	;const HS_DAD_BATTLE                   ; E7
 	
 	
-	; EF
 	; F0
 	; F1
 	; F2

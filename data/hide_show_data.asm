@@ -306,6 +306,7 @@ MapHS0D:
 	db ROUTE_2,$02,Show
 MapHS0F:
 	db ROUTE_4,$03,Show
+	db ROUTE_4,$04,Show
 MapHS14:
 	db ROUTE_9,$0A,Show
 MapHS17:

@@ -1295,7 +1295,7 @@ WillPic::       INCBIN "pic/trainer/will.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 KogaPic::        INCBIN "pic/trainer/koga.pic"
 KarenPic::         INCBIN "pic/trainer/karen.pic"
-
+DadPic::         INCBIN "pic/trainer/dadRed.pic"
 
 
 
@@ -2228,6 +2228,7 @@ MatopsisPicBack:: INCBIN "pic/monback/matopsisb.pic"
 HayatoSprite:           INCBIN "gfx/sprites/hayato.2bpp"
 TsukushiSprite:           INCBIN "gfx/sprites/tsukushi.2bpp"
 EnokiSprite:           INCBIN "gfx/sprites/enoki.2bpp"
+DadSprite:             INCBIN "gfx/sprites/dadRed.2bpp"
 
 SECTION "NewMaps",ROMX,BANK[$31]
 

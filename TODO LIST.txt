@@ -2,17 +2,22 @@ TODO LIST:
 
 >TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
->the AI likes to use potions on pokemon with already full health
 >change all the random women with SPRITE_ERIKA
 >make the pokedex ratings go up to 190
 
 >Insert the TM/HM learnsets
 >Write in the new text
+	>fix the text up to pewter where CONT lines have 18 characters w/ cutoff.
+	>TEXT, PARA, LINE can have 18, CONT can have 17
 >port the battle tent in from periwinkle
 >Edits to maps & new flavor bits (do this last)
 	^Route 7 battlefield (done except the prize)
+	^Dad battle in unknown dungeon 4
+	^add item balls to new areas w/ remaining HS constants
+>crystal audio engine last if I still give a shit
 
 
 graphics that need to be done:
 >Dimotrite & Dragondon edited into skeletons for pewter museum
 >SGB border
+>intro nidorino & gamefreak credits

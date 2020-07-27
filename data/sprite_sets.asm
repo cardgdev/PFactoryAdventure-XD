@@ -505,6 +505,11 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(EnokiSprite)
 
+	;SPRITE_DAD
+	dw DadSprite
+	db $c0 ; byte count
+	db BANK(DadSprite)
+
 	; SPRITE_BALL
 	dw BallSprite
 	db $40 ; byte count

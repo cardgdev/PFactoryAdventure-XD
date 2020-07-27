@@ -141,3 +141,6 @@ TrainerPicAndMoneyPointers:
 
 	dw LancePic
 	money 9900
+
+	dw DadPic
+	money 9900

@@ -928,6 +928,7 @@ TrainerClassMoveChoiceModifications: ; 3989b (e:589b)
 	db 1,4,0    ; CHANNELER
 	db 1,4,0    ; AGATHA
 	db 1,4,0  ; LANCE
+	db 1,4,0 ; DAD
 
 INCLUDE "engine/battle/trainer_pic_money_pointers.asm"
 	
@@ -1025,6 +1026,7 @@ TrainerAIPointers: ; 3a55c (e:655c)
 	dbw 3,GenericAI
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
+	dbw 1,Sony3AI ; Dad
 
 JugglerAI: ; 3a5e9 (e:65e9)
 	cp $40
@@ -1088,6 +1090,9 @@ KogaAI: ; 3a634 (e:6634)
 
 BlaineAI: ; 3a63a (e:663a)
 	cp $40
+	ret nc
+	ld a,$A
+	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseSuperPotion
 

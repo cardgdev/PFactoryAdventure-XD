@@ -174,6 +174,10 @@ CinnabarGymScript3_75857:
 	ld [wMissableObjectIndex], a
 	predef HideObject
 
+	ld a, HS_FALCON
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
 
