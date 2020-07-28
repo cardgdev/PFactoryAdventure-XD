@@ -46,3 +46,4 @@ TrainerNames:
 	db "CHANNELER@"
 	db "KAREN@"
 	db "LANCE@"
+	db "DAD?@"
