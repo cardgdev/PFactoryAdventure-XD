@@ -19,6 +19,7 @@ Route7TextPointers:
 	dw Route7Text4
 	dw Route7Text5
 	dw Route7Text6
+	dw Route7SoldierText
 
 Route7TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_7_TRAINER_1
@@ -69,7 +70,69 @@ Route7TrainerHeader5:
 
 ;-----------------------------------------------------------------------
 
+Route7SoldierText:
+	TX_ASM
+	CheckEvent EVENT_FINISHED_R7_GIFT
+	jr nz, .DoneEvent
+	CheckEvent EVENT_BEAT_ROUTE_7_TRAINER_1
+	jr z, .TrainersNotBeat
+	CheckEvent EVENT_BEAT_ROUTE_7_TRAINER_2
+	jr z, .TrainersNotBeat
+	CheckEvent EVENT_BEAT_ROUTE_7_TRAINER_3
+	jr z, .TrainersNotBeat
+	CheckEvent EVENT_BEAT_ROUTE_7_TRAINER_4
+	jr z, .TrainersNotBeat
+	CheckEvent EVENT_BEAT_ROUTE_7_TRAINER_5
+	jr z, .TrainersNotBeat
+	ld hl, StoneGiftPreText
+	call PrintText
+	lb bc, MIST_STONE, 1
+	call GiveItem
+	jr c, .Success
+	ld hl, StoneGiftNoRoomText
+	call PrintText
+	jr .Done
+.Success
+	ld hl, ReceivedStoneGiftText
+	call PrintText
+	SetEvent EVENT_FINISHED_R7_GIFT
+	jr .Done
+.TrainersNotBeat
+	ld hl, R7EventIntroText
+	call PrintText
+	jp .Done
+.DoneEvent
+	ld hl, FinishedR7EventText
+	call PrintText
+.Done
+	jp TextScriptEnd
 
+R7EventIntroText:
+	TX_FAR _R7EventIntroText
+	db "@"
+
+FinishedR7EventText:
+	TX_FAR _FinishedR7EventText
+	db "@"
+
+StoneGiftPreText:
+	TX_FAR _StoneGiftPreText
+	db "@"
+
+ReceivedStoneGiftText:
+	TX_FAR _ReceivedStoneGiftText
+	TX_SFX_ITEM_1
+	db "@"
+
+StoneGiftExplanationText:
+	TX_FAR _StoneGiftExplanationText
+	db "@"
+
+StoneGiftNoRoomText:
+	TX_FAR _StoneGiftNoRoomText
+	db "@"
+
+;---------------------------------------------------------------------------
 Route7Text1:
 	TX_FAR _Route7Text1
 	db "@"

@@ -11,7 +11,6 @@ TODO LIST:
 	>TEXT, PARA, LINE can have 18, CONT can have 17
 >port the battle tent in from periwinkle
 >Edits to maps & new flavor bits (do this last)
-	^Route 7 battlefield (done except the prize)
 	^add item balls to new areas w/ remaining HS constants
 >crystal audio engine last if I still give a shit
 

@@ -14,7 +14,7 @@ const_value = 0
 	const EVENT_BEAT_ROUTE_7_TRAINER_3                                  ; 00B, (D748, bit 3)
 	const EVENT_BEAT_ROUTE_7_TRAINER_4                                  ; 00C, (D748, bit 4)
 	const EVENT_BEAT_ROUTE_7_TRAINER_5                                  ; 00D, (D748, bit 5)
-	const EVENT_ROUTE_7_DUMMY                                  ; 00E, (D748, bit 6)
+	const EVENT_FINISHED_R7_GIFT                                  ; 00E, (D748, bit 6)
 	const EVENT_00F                                  ; 00F, (D748, bit 7)
 	const EVENT_BEAT_LUXOR                                ; 010, (D749, bit 0)
 	const EVENT_011                                  ; 011, (D749, bit 1)
