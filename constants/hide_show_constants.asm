@@ -245,7 +245,7 @@ const_value = 0
 	const HS_LAIR_BLUE ; EE
 	const HS_LOTUSAN                      ; E5
 	const HS_LUXOR                        ; E4
-	;const HS_DAD_BATTLE                   ; E7
+	const HS_DAD_BATTLE                   ; E7
 	
 	
 	; F0

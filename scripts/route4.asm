@@ -16,6 +16,7 @@ Route4TextPointers:
 	dw Route4Text1
 	dw Route4Text2
 	dw PickUpItemText
+	dw Route4BlockerText
 	dw PokeCenterSignText
 	dw Route4Text5
 	dw Route4Text6
@@ -33,6 +34,10 @@ Route4TrainerHeader0:
 
 Route4Text1:
 	TX_FAR _Route4Text1
+	db "@"
+
+Route4BlockerText:
+	TX_FAR _Route4BlockerText
 	db "@"
 
 Route4Text2:

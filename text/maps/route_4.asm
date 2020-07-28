@@ -37,3 +37,27 @@ _Route4Text6::
 	line "MT.MOON -"
 	cont "CERULEAN CITY"
 	done
+
+_Route4BlockerText::
+	text "Woah hey buddy,"
+	line "I've been paid"
+	cont "by a very wealthy"
+	cont "benefactor to"
+	cont "stand in front of"
+	cont "this cave door to"
+	cont "keep YOU specifi-"
+	cont "cally out of it."
+
+	para "..."
+	
+	para "No I'm completely"
+	line "unrelated to the"
+	cont "other guy over by"
+	cont "CERULEAN, but we"
+	cont "do take our lunch"
+	cont "breaks together."
+
+	para "...No I'm not"
+	line "telling you when"
+	cont "my break time is!"
+	done

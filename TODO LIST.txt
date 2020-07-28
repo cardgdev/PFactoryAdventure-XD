@@ -12,7 +12,6 @@ TODO LIST:
 >port the battle tent in from periwinkle
 >Edits to maps & new flavor bits (do this last)
 	^Route 7 battlefield (done except the prize)
-	^Dad battle in unknown dungeon 4
 	^add item balls to new areas w/ remaining HS constants
 >crystal audio engine last if I still give a shit
 

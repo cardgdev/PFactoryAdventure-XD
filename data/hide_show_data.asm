@@ -209,7 +209,7 @@ MapHSPointers:
 	dw MapHSC9
 	dw MapHSCA
 	dw MapHSXX
-	dw MapHSXX
+	dw MapHSCC
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSCF
@@ -587,5 +587,7 @@ MapHS72:
 	db VIRIDIAN_FOREST_2,$01,Show
 MapHS6E:
 	db DRAGON_DEN_4,$01,Show
+MapHSCC:
+	db UNKNOWN_DUNGEON_4,$01,Show
 
 	db $FF,$01,Show

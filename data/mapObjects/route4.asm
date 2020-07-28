@@ -8,9 +8,9 @@ Route4Object:
 	db 1, 70, 1, UNKNOWN_DUNGEON_4
 	
 	db $3 ; signs
-	db $5, $c, $4 ; PokeCenterSignText
-	db $7, $11, $5 ; Route4Text5
-	db $7, $1b, $6 ; Route4Text6
+	db $5, $c, $5 ; PokeCenterSignText
+	db $7, $11, $6 ; Route4Text5
+	db $7, $1b, $7 ; Route4Text6
 
 	db $4 ; objects
 	object SPRITE_LASS, $9, $8, WALK, $0, $1 ; person

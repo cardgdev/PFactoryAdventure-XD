@@ -100,6 +100,9 @@ HallofFameRoomScript1:
 	ld a, HS_BILLS_GARDEN_BLOCKER
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_DAD_BATTLE
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	ld a, $2
 	ld [wHallOfFameRoomCurScript], a
 	ret

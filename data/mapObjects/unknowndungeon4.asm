@@ -6,7 +6,8 @@ UnknownDungeon4Object:
 
 	db $0 ; signs
 
-	db $0 ; objects	
+	db $1 ; objects
+	object SPRITE_DAD, $11, $10, STAY, UP, $1, OPP_DAD, $1 ; are ya winnin son?
 
 	; warp-to
 	EVENT_DISP UNKNOWN_DUNGEON_4_WIDTH, 8, 10 ; route 4
