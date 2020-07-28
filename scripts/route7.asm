@@ -95,12 +95,14 @@ Route7SoldierText:
 .Success
 	ld hl, ReceivedStoneGiftText
 	call PrintText
+	ld hl, StoneGiftExplanationText
+	call PrintText
 	SetEvent EVENT_FINISHED_R7_GIFT
 	jr .Done
 .TrainersNotBeat
 	ld hl, R7EventIntroText
 	call PrintText
-	jp .Done
+	jr .Done
 .DoneEvent
 	ld hl, FinishedR7EventText
 	call PrintText

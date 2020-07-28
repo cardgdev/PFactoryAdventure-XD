@@ -9,7 +9,7 @@ _R7EventIntroText::
 
 	para "If you can beat"
 	line "all 5 trainers in"
-	cont "out recruiting"
+	cont "our recruiting"
 	cont "challenge, then"
 	cont "you can win an"
 	cont "amazing gift!"

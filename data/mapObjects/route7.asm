@@ -17,7 +17,7 @@ Route7Object:
 	object SPRITE_LASS, $3, $7, STAY, NONE, $4, OPP_LASS, $c
 	object SPRITE_LASS, $a, $7, STAY, NONE, $5, OPP_JR_TRAINER_F, $1
 	object SPRITE_BLACK_HAIR_BOY_1, $6, $5, STAY, NONE, $6, OPP_JR_TRAINER_M, $6
-	object SPRITE_ROCKET, $d, $3, STAY, NONE, $7 ; person
+	object SPRITE_ROCKET, $d, $3, STAY, DOWN, $7 ; person
 
 	; warp-to
 	EVENT_DISP ROUTE_7_WIDTH, $18, $12 ; ROUTE_7_GATE
