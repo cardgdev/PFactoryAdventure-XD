@@ -18,7 +18,7 @@ PlayIntro:
 	ret
 
 PlayIntroScene:
-	ld b, SET_PAL_NIDORINO_INTRO
+	ld b, SET_PAL_GENERIC
 	call RunPaletteCommand
 	ld a, %11100100
 	ld [rBGP], a
