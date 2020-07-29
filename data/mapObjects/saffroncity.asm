@@ -33,7 +33,7 @@ SaffronCityObject:
 	object SPRITE_ROCKET, $12, $1e, WALK, $2, $7 ; person
 	object SPRITE_OAK_AIDE, $8, $e, WALK, $0, $8 ; person
 	object SPRITE_LAPRAS_GIVER, $17, $17, STAY, NONE, $9 ; person
-	object SPRITE_ERIKA, $11, $1e, WALK, $2, $a ; person
+	object SPRITE_BRUNETTE_GIRL, $11, $1e, WALK, $2, $a ; person
 	object SPRITE_GENTLEMAN, $1e, $c, STAY, DOWN, $b ; person
 	object SPRITE_BIRD, $1f, $c, STAY, DOWN, $c ; person
 	object SPRITE_ROCKER, $12, $8, STAY, UP, $d ; person

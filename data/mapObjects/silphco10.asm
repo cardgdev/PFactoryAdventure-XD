@@ -14,7 +14,7 @@ SilphCo10Object:
 	db $6 ; objects
 	object SPRITE_ROCKET, $1, $9, STAY, RIGHT, $1, OPP_SOLDIER, $27
 	object SPRITE_OAK_AIDE, $a, $2, STAY, LEFT, $2, OPP_SCIENTIST, $b
-	object SPRITE_ERIKA, $9, $f, WALK, $0, $3 ; person
+	object SPRITE_BRUNETTE_GIRL, $9, $f, WALK, $0, $3 ; person
 	object SPRITE_BALL, $2, $c, STAY, NONE, $4, TM_26
 	object SPRITE_BALL, $4, $e, STAY, NONE, $5, RARE_CANDY
 	object SPRITE_BALL, $5, $b, STAY, NONE, $6, CARBOS

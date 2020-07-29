@@ -13,8 +13,8 @@ SilphCo6Object:
 	db $a ; objects
 	object SPRITE_LAPRAS_GIVER, $a, $6, STAY, NONE, $1 ; person
 	object SPRITE_LAPRAS_GIVER, $14, $6, STAY, NONE, $2 ; person
-	object SPRITE_ERIKA, $15, $6, STAY, DOWN, $3 ; person
-	object SPRITE_ERIKA, $b, $a, STAY, RIGHT, $4 ; person
+	object SPRITE_BRUNETTE_GIRL, $15, $6, STAY, DOWN, $3 ; person
+	object SPRITE_BRUNETTE_GIRL, $b, $a, STAY, RIGHT, $4 ; person
 	object SPRITE_LAPRAS_GIVER, $12, $d, STAY, UP, $5 ; person
 	object SPRITE_ROCKET, $11, $3, STAY, RIGHT, $6, OPP_SOLDIER, $1e
 	object SPRITE_OAK_AIDE, $7, $8, STAY, DOWN, $7, OPP_SCIENTIST, $7

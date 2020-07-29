@@ -15,7 +15,7 @@ SilphCo7Object:
 	object SPRITE_LAPRAS_GIVER, $1, $5, STAY, NONE, $1 ; person
 	object SPRITE_LAPRAS_GIVER, $d, $d, STAY, UP, $2 ; person
 	object SPRITE_LAPRAS_GIVER, $7, $a, STAY, NONE, $3 ; person
-	object SPRITE_ERIKA, $a, $8, STAY, NONE, $4 ; person
+	object SPRITE_BRUNETTE_GIRL, $a, $8, STAY, NONE, $4 ; person
 	object SPRITE_ROCKET, $d, $1, STAY, DOWN, $5, OPP_SOLDIER, $20
 	object SPRITE_OAK_AIDE, $2, $d, STAY, DOWN, $6, OPP_SCIENTIST, $8
 	object SPRITE_ROCKET, $14, $2, STAY, LEFT, $7, OPP_SOLDIER, $21
