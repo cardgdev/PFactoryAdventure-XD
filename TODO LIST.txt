@@ -1,6 +1,5 @@
 TODO LIST:
 
->TM move name thing needs to be fixed
 >Mons higher than 150 don't seem to be appearing in the randomization
 >change all the random women with SPRITE_ERIKA
 >make the pokedex ratings go up to 190

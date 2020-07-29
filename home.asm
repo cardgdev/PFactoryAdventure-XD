@@ -3241,14 +3241,16 @@ GetName::
 ; [wPredefBank] = bank of list
 ;
 ; returns pointer to name in de
+	ld a,[wNameListType]
+	cp ITEM_NAME
 	ld a,[wd0b5]
 	ld [wd11e],a
-
-	; TM names are separate from item names.
-	; BUG: This applies to all names instead of just items.
-	cp HM_01
-	jp nc, GetMachineName
-
+	jr nz, .noItem
+	
+	cp HM_01        ;it's TM/HM
+	jp nc,GetMachineName
+	
+.noItem          ; Return here if not an item
 	ld a,[H_LOADEDROMBANK]
 	push af
 	push hl
