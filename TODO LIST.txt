@@ -17,4 +17,3 @@ TODO LIST:
 
 graphics that need to be done:
 >Dimotrite & Dragondon edited into skeletons for pewter museum
->SGB border
