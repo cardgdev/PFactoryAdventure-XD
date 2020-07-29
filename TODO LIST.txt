@@ -1,17 +1,12 @@
 TODO LIST:
-
 >Mons higher than 150 don't seem to be appearing in the randomization
->make the pokedex ratings go up to 190
 
 >Insert the TM/HM learnsets
 >Write in the new text
 	>fix the text up to pewter where CONT lines have 18 characters w/ cutoff.
 	>TEXT, PARA, LINE can have 18, CONT can have 17
 >port the battle tent in from periwinkle
->Edits to maps & new flavor bits (do this last)
-	^add item balls to new areas w/ remaining HS constants
->crystal audio engine last if I still give a shit
-
+>add item balls to new areas w/ remaining HS constants
 
 graphics that need to be done:
 >Dimotrite & Dragondon edited into skeletons for pewter museum
