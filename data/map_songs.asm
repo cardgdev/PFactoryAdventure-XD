@@ -105,19 +105,19 @@ MapSongBanks:
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne8
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne9
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne10
-	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; UnknownDungeon4
-	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
+	db MUSIC_ROUTES2, BANK(Music_Routes2) ; bill's secret garden
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Dragon Den 1
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Dragon Den 2
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
-	db MUSIC_POKEMON_TOWER, BANK(Music_PokemonTower) ;unused
-	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ;unused
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Dragon Den 3
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Dragon Den 4
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Dragon Den Lance Room
+	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; Mewthree Lair
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Lance
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
+	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;Viridian Forest 2
+	db MUSIC_VERMILION, BANK(Music_Vermilion) ; vermillion trade club
+	db MUSIC_CINNABAR, BANK(Music_Cinnabar) ; Cinnabar trade club
+	db MUSIC_GYM, BANK(Music_Gym) ; Battle Tent
 	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ; HallofFameRoom
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ; UndergroundPathNS
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Gary
@@ -204,8 +204,8 @@ MapSongBanks:
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; RocketHideout3
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; RocketHideout4
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; RocketHideoutElevator
-	db MUSIC_DUNGEON1, BANK(Music_Dungeon1)
-	db MUSIC_DUNGEON1, BANK(Music_Dungeon1)
+	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ; UnknownDungeon4
+	db MUSIC_ROUTES3, BANK(Music_Routes3)  ; surf house
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1)
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ; SilphCo2
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ; SilphCo3

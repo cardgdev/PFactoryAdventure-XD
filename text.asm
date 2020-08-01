@@ -818,15 +818,21 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "DIMOTRITE Model"
+	line "A supposed fossil"
+	cont "#MON."
+	
+	para "An artist's"
+	line "interpretation..."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "DRAGONDON Model"
+	line "A supposed fossil"
+	cont "#MON."
+	
+	para "An artist's"
+	line "interpretation..."
 	done
 
 _LinkCableHelpText1::
