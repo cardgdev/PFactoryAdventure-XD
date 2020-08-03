@@ -2,9 +2,10 @@ TODO LIST:
 >Mons higher than 150 don't seem to be appearing in the randomization
 
 >Insert the TM/HM learnsets
+>Set up new areas wild pokemon tables, fishing tables
 
 >Write in the new text
 	>fix the text up to pewter where CONT lines have 18 characters w/ cutoff.
-	>TEXT, PARA, LINE can have 18, CONT can have 17
+	>TEXT, PARA can have 18, LINE, CONT can have 17
 >port the battle tent in from periwinkle
 >add item balls to new areas w/ remaining HS constants
