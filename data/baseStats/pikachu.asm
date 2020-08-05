@@ -21,9 +21,9 @@ db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
 	tmlearn 9,10,16
-	tmlearn 17,19,20,24
-	tmlearn 25,31,32
-	tmlearn 33,34,39,40
+	tmlearn 17,19,24
+	tmlearn 25,30,31,32
+	tmlearn 33,39,40
 	tmlearn 44,45
 	tmlearn 50,53,55
 db BANK(PikachuPicFront)

@@ -1,7 +1,6 @@
 TODO LIST:
 >Mons higher than 150 don't seem to be appearing in the randomization
 
->Insert the TM/HM learnsets
 >Set up new areas wild pokemon tables, fishing tables
 
 >Write in the new text
