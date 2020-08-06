@@ -98,4 +98,17 @@ InternalMapEntries:
 	IMAP ROCK_TUNNEL_2,             $E,$3,RockTunnelName
 	IMAP SILPH_CO_ELEVATOR,         $A,$5,SilphCoName
 	IMAP AGATHAS_ROOM,              $0,$2,PokemonLeagueName
+	IMAP BILLS_SECRET_GARDEN,       $B,$0,SecretGardenName
+	IMAP DRAGON_DEN_1,              $B,0,DragonDenName
+	IMAP DRAGON_DEN_2,              $B,0,DragonDenName
+	IMAP DRAGON_DEN_3,              $B,0,DragonDenName
+	IMAP DRAGON_DEN_4,              $B,0,DragonDenName
+	IMAP DRAGON_DEN_LANCE_ROOM,              $B,0,DragonDenName
+	IMAP MEWTHREE_LAIR, $9,$1,CeruleanCaveName
+	IMAP VIRIDIAN_FOREST_2,           $2,$4,ViridianForestName
+	IMAP VERMILLION_TRADING_CLUB, $A,$9,VermilionCityName
+	IMAP CINNABAR_EVO_CLUB, $2,$F,CinnabarIslandName
+	IMAP BATTLE_TENT, $7,$5,CeladonCityName
+	IMAP UNKNOWN_DUNGEON_4, $9,$1,CeruleanCaveName
+	IMAP SURF_HOUSE, $6,$F,Route19Name
 	db $FF

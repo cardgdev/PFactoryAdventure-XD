@@ -92,7 +92,7 @@ SeafoamIslandsName:
 VictoryRoadName:
 	db "VICTORY ROAD@"
 DiglettsCaveName:
-	db "DIGLETT's CAVE@"
+	db "KNOWITALL CAVE@"
 RocketHQName:
 	db "ROCKET HQ@"
 SilphCoName:
@@ -105,3 +105,7 @@ CeruleanCaveName:
 	db "CERULEAN CAVE@"
 PowerPlantName:
 	db "POWER PLANT@"
+SecretGardenName:
+	db "SECRET GARDEN@"
+DragonDenName:
+	db "DRAGON DEN@"
