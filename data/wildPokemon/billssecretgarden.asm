@@ -1,0 +1,13 @@
+BillsGardenMons:
+	db $07
+	db 50,EEVEE
+	db 50,JIGGLYPLUM
+	db 50,EEVEE
+	db 50,JIGGLYPLUM
+	db 50,MEWEE
+	db 50,LUNAREON
+	db 50,AMPHAROS
+	db 50,AMPHAROS
+	db 50,TOGEPI
+	db 50,TROP_MEW
+	db $00

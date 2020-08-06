@@ -34,6 +34,13 @@ SuperRodData:
 	dbw UNKNOWN_DUNGEON_2, FishingGroup12
 	dbw UNKNOWN_DUNGEON_3, FishingGroup12
 	dbw UNKNOWN_DUNGEON_1, FishingGroup12
+	dbw DRAGON_DEN_1, FishingGroupDragons
+	dbw DRAGON_DEN_2, FishingGroupDragons
+	dbw DRAGON_DEN_3, FishingGroupDragons
+	dbw DRAGON_DEN_LANCE_ROOM, FishingGroupDragons
+	dbw VIRIDIAN_FOREST_2, FishingGroup1
+	dbw MEWTHREE_LAIR, FishingGroup12
+	dbw BILLS_SECRET_GARDEN, FishingGroup8
 	db $FF
 
 ; fishing groups
@@ -112,3 +119,10 @@ FishingGroup12:
 	db 30,PIKABLU
 	db 23,CYDUCK
 	db 23,OCEANEEL
+
+FishingGroupDragons:
+	db 4
+	db 50,FREEZAP
+	db 50,DRAKOR
+	db 50,DRAKOR
+	db 50,GYARADEATH

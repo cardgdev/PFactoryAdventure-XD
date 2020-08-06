@@ -105,16 +105,16 @@ WildDataPointers:
 	dw NoMons
 	dw NoMons
 	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw BillsGardenMons ; bills garden
+	dw DD1Mons ; DD1
+	dw DD2Mons ; DD2
 	dw PlateauMons1
+	dw DD3Mons ; DD3
+	dw DD4Mons ; DD4
 	dw NoMons
+	dw M3LairMons ; m3 lair
 	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw Forest2Mons ; vridian forest 2
 	dw NoMons
 	dw NoMons
 	dw NoMons
@@ -320,3 +320,10 @@ INCLUDE "data/wildPokemon/victoryroad2.asm"
 INCLUDE "data/wildPokemon/victoryroad3.asm"
 INCLUDE "data/wildPokemon/victoryroad1.asm"
 INCLUDE "data/wildPokemon/diglettscave.asm"
+INCLUDE "data/wildpokemon/forest2.asm"
+INCLUDE "data/wildpokemon/dragonden1.asm"
+INCLUDE "data/wildpokemon/dragonden2.asm"
+INCLUDE "data/wildpokemon/dragonden3.asm"
+INCLUDE "data/wildpokemon/dragonden4.asm"
+INCLUDE "data/wildpokemon/mewthreelair.asm"
+INCLUDE "data/wildpokemon/billssecretgarden.asm"
