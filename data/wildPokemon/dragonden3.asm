@@ -1,4 +1,4 @@
-DDMons3:
+DD3Mons:
 	db $0F
 	db 50,MAZILLA
 	db 50,FREEZAP

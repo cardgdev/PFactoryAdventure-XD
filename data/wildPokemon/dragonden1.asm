@@ -1,4 +1,4 @@
-DDMons1:
+DD1Mons:
 	db $0A
 	db 50,MAZILLA
 	db 50,SHELLRY

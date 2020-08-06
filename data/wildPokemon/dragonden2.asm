@@ -1,4 +1,4 @@
-DDMons2:
+DD2Mons:
 	db $0F
 	db 50,MAZILLA
 	db 50,CHARNOLE

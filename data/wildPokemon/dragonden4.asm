@@ -1,4 +1,4 @@
-DDMons4:
+DD4Mons:
 	db $0F
 	db 50,FLARETH
 	db 50,DONPHAN
