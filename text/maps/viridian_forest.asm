@@ -85,7 +85,7 @@ _ViridianForestText9::
 	text "TRAINER TIPS"
 
 	para "If you attempt"
-	line "to catch a #MON"
+	line "to catch #MON"
 	cont "when your current"
 	cont "PC BOX is full,"
 	cont "it will fail."
@@ -93,7 +93,7 @@ _ViridianForestText9::
 	para "The only way to"
 	line "know when your"
 	cont "box is full is"
-	cont "to keep a watchful"
+	cont "to keep watchful"
 	cont "eye on it as you"
 	cont "catch #MON."
 	done

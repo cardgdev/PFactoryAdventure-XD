@@ -6,8 +6,8 @@ _MtMoonPokecenterText1::
 	cont "keep them all."
 	cont "evenly trained!"
 
-	para "Only scourge of"
-	line "the earth heathens"
+	para "Only scourge-of-"
+	line "the-earth heathen"
 	cont "like speedrunners"
 	cont "overtrain one"
 	cont "#MON!"
@@ -15,8 +15,8 @@ _MtMoonPokecenterText1::
 
 _MtMoonPokecenterText3::
 	text "All movement from"
-	line "CERULEAN to PEWTER"
-	cont "has been halted..."
+	line "CERULEAN-PEWTER"
+	cont "has been halted."
 
 	para "Can the military"
 	line "really get away"

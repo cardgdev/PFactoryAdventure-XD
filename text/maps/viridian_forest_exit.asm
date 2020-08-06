@@ -3,8 +3,8 @@ _ViridianForestExitText1::
 	line "all sorts of"
 	cont "places. For very"
 	cont "strong trainers,"
-	cont "even their evolved"
-	cont "forms will appear."
+	cont "even the evolved"
+	cont "forms appear."
 	done
 
 _ViridianForestExitText2::

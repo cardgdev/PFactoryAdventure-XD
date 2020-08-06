@@ -3,8 +3,8 @@ _ViridianPokeCenterText2::
 	line "PC in the corner."
 
 	para "I have to use it"
-	line "to keep track"
-	cont "of all the PORYGON"
+	line "to keep track of"
+	cont "all the PORYGON"
 	cont "someone keeps"
 	cont "emailing to me!"
 	done

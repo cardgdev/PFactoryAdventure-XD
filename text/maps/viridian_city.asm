@@ -104,15 +104,15 @@ _TM42NoRoomText::
 
 _ViridianCityText_1920a::
 	text "I've never felt"
-	line "better since I got"
-	cont "myself sober!"
+	line "better since I"
+	cont "got myself sober!"
 
 	para "Hey you look like"
 	line "you could use a"
 	cont "refresher course"
 	cont "in #MON"
 	cont "catching! How"
-	cont "about it!"
+	cont "about it?"
 	done
 
 _ViridianCityText_1920f::

@@ -10,8 +10,8 @@ _MtMoon1EndBattleText2::
 	prompt
 
 _MtMoon1AfterBattleText2::
-	text "I'm not part of"
-	line "the military, they"
+	text "I'm not in the"
+	line "military, they"
 	cont "just showed up"
 	cont "along my hiking"
 	cont "route."
@@ -88,16 +88,16 @@ _MtMoon1EndBattleText6::
 _MtMoon1AfterBattleText6::
 	text "It's blue, with"
 	line "flames on it's"
-	cont "head and resembles"
+	cont "head, resembling"
 	cont "something between"
 	cont "a CHARMANDER and"
 	cont "a DRATINI."
 	done
 
 _MtMoon1BattleText7::
-	text "This cave sure"
-	line "does attract a lot"
-	cont "of suspicious men."
+	text "This cave draws"
+	line "in a lot of"
+	cont "suspicious men."
 	done
 
 _MtMoon1EndBattleText7::
@@ -115,8 +115,9 @@ _MtMoon1AfterBattleText7::
 
 _MtMoon1BattleText8::
 	text "How am I supposed"
-	line "to get to CERULEAN"
-	cont "CITY with the exit"
+	line "to get over to"
+	cont "CERULEAN CITY"
+	cont "with the exit"
 	cont "blocked up?"
 	done
 
@@ -134,11 +135,11 @@ _MtMoon1AfterBattleText8::
 	done
 
 _MtMoon1Text14::
-	text "A notice is posted"
+	text "A notice is taped"
 	line "overtop of the"
 	cont "signpost:"
 
-	para "MILITARY OPERATION"
+	para "MILITARY OP."
 	line "AHEAD, DO NOT"
 	cont "PROCEED PAST THIS"
 	cont "FLOOR OF MT.MOON"

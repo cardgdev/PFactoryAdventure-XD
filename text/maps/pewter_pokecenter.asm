@@ -2,11 +2,11 @@ _PewterPokecenterText2::
 	text "Dinosaur fossils?"
 
 	para "What in the world"
-	line "would the military"
+	line "would the KDF"
 	cont "want to do with"
 	cont "those?"
 
-	para "Hey this is a"
+	para "Hey, this is a"
 	line "private call!"
 	done
 

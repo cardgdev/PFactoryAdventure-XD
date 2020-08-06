@@ -45,7 +45,7 @@ _PewterCityText_193fb::
 _PewterCityText13::
 	text "It's right here!"
 	line "Our local economy"
-	cont "relies on this, so"
+	cont "relies on this,so"
 	cont "please give them"
 	cont "your patronage!"
 	done
@@ -53,14 +53,14 @@ _PewterCityText13::
 _PewterCityText_19427::
 	text "This is a secure"
 	line "mutant free zone!"
-	cont "Give me the secret"
+	cont "Speak the secret"
 	cont "password now!"
 	done
 
 _PewterCityText_1942c::
 	text "Yes? Do you think"
 	line "this is some kind"
-	cont "of a joke! Get out"
+	cont "of joke! Get out"
 	cont "of my sight!"
 	done
 
@@ -81,12 +81,12 @@ _PewterCityText6::
 	text "TRAINER TIPS"
 
 	para "The move FOCUS"
-	line "ENERGY is debatab-"
-	cont "ly useful."
+	line "ENERGY is debata-"
+	cont "bly useful."
 
 	para "Studies show that"
-	line "rather than boost-"
-	cont "ing a #MON's"
+	line "rather than boos-"
+	cont "ting a #MON's"
 	cont "critical hit rate"
 	cont "by 4 it actually"
 	cont "reduces it by 4."
@@ -101,8 +101,8 @@ _PewterCityText7::
 	line "ANNOUNCEMENT:"
 
 	para "THE KANTONIAN"
-	line "NATIONAL DEFENCE"
-	cont "FORCE IS CURRENTLY"
+	line "DEFENCE FORCE"
+	cont "IS CURRENTLY"
 	cont "CONDUCTING AN"
 	cont "OPERATION AT MT."
 	cont "MOON."

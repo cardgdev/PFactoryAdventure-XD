@@ -4,14 +4,14 @@ _ViridianForestEntranceText1::
 	cont "most people know!"
 
 	para "There's a whole"
-	line "second part of the"
-	cont "FOREST that few"
-	cont "dare venture into."
+	line "second part of it"
+	cont "that few dare to"
+	cont "venture into."
 	done
 
 _ViridianForestEntranceText2::
 	text "REDDA can't learn"
-	line "any attack besides"
+	line "any attacks but"
 	cont "GLARE. But it"
 	cont "learns it earlier"
 	cont "than EKANS does."

@@ -1,6 +1,6 @@
 _Route3Text1::
 	text "Achoo! Ever since"
-	line "the #MON called"
+	line "a #MON called"
 	cont "DUSTY started to"
 	cont "appear in MT.MOON"
 	cont "I can't go in"
@@ -11,7 +11,7 @@ _Route3Text1::
 
 _Route3BattleText1::
 	text "What's the matter?"
-	line "buggin out?"
+	line "Buggin out?"
 	done
 
 _Route3EndBattleText1::

@@ -108,7 +108,7 @@ _CeruleanCityText_196f3::
 
 	para "At OAK'S LAB?"
 	line "R-really!? You'll"
-	cont "put in a good word"
+	cont "put in good word"
 	cont "for someone like"
 	cont "me? You're a real"
 	cont "pal! Thank you!"
@@ -148,7 +148,7 @@ _CeruleanCityText4::
 	done
 
 _CeruleanCityText5::
-	text "I don't go outside"
+	text "I don't go out"
 	line "without wearing"
 	cont "a mask so I don't"
 	cont "breathe in any of"
@@ -162,7 +162,7 @@ _CeruleanCityText6::
 	para "Lockdown has made"
 	line "so many people"
 	cont "turn to crime in"
-	cont "their desperation."
+	cont "desperation."
 	cont "It makes me truly"
 	cont "saddened."
 	done
@@ -175,7 +175,7 @@ _CeruleanCityText_19730::
 	done
 
 _CeruleanCityText_19735::
-	text "GORK, COMET PUNCH!"
+	text "GORK,COMET PUNCH!"
 	line "No! You blew it"
 	cont "again!"
 	done
@@ -231,15 +231,15 @@ _CeruleanCityText10::
 	cont "strong #MON"
 	cont "live in there!"
 
-	para "The #MON LEAGUE"
-	line "champion is the"
+	para "The LEAGUE's"
+	line "CHAMPION is the"
 	cont "only person who"
 	cont "is allowed in!"
 
 	para "..."
 	line "You say you ARE"
-	cont "the #MON LEAGUE"
-	cont "champion already?"
+	cont "the LEAGUE"
+	cont "CHAMPION already?"
 
 	para "Ha! You think"
 	line "I'm going to"
@@ -265,9 +265,9 @@ _CeruleanCityText13::
 	para "Using AGILITY"
 	line "or SWORDS DANCE"
 	cont "while PARALYZED"
-	cont "or BURNED respect-"
-	cont "ively will negate"
-	cont "the stat reduction"
+	cont "or BURNED will"
+	cont "will negate the"
+	cont "stat reduction"
 	cont "caused by them,"
 	cont "then double the"
 	cont "enhanced stat."

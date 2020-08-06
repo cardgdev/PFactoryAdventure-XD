@@ -16,6 +16,11 @@ _MomHealText2::
 	cont "reasons besides"
 	cont "just healing"
 	cont "your #MON!"
+	
+	para "Just teasing!"
+	line "Good luck on"
+	cont "your secret"
+	cont "mission!"
 	done
 
 _StandByMeText::
@@ -26,10 +31,10 @@ _StandByMeText::
 	cont "like a prince."
 
 	para "Suddenly you feel"
-	line "up for navigating"
+	line "up to navigating"
 	cont "those teleporters"
-	cont "at the SAFFRON GYM"
-	cont "again."
+	cont "at the SAFFRON"
+	cont "GYM again."
 	done
 
 _TVWrongSideText::
