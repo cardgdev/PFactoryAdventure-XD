@@ -19,6 +19,9 @@ DragonDen3TextPointers:
 	dw DragonDen3Text4
 	dw DragonDen3Text5
 	dw DragonDen3Text6
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
 
 DragonDen3TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_DRAGON_DEN_3_TRAINER_1

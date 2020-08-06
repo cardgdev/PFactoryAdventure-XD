@@ -14,6 +14,10 @@ ViridianForest2Script:
 
 ViridianForest2TextPointers:
 	dw LotusanText
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
 
 LotusanTrainerHeader:
 	dbEventFlagBit EVENT_BEAT_LOTUSAN

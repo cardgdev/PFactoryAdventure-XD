@@ -111,10 +111,10 @@ MapHSPointers:
 	dw MapHS67
 	dw MapHS68
 	dw MapHSXX
-	dw MapHSXX
-	dw MapHSXX
+	dw MapHS6A ; DD1
+	dw MapHS6B ; DD2
 	dw MapHS6C
-	dw MapHSXX
+	dw MapHS6D ; DD3
 	dw MapHS6E
 	dw MapHSXX
 	dw MapHS70
@@ -583,11 +583,26 @@ MapHS70:
 	db MEWTHREE_LAIR,$04,Show
 	db MEWTHREE_LAIR,$05,Show
 	db MEWTHREE_LAIR,$06,Show
+	db MEWTHREE_LAIR,$07,Show
+	db MEWTHREE_LAIR,$08,Show
 MapHS72:
 	db VIRIDIAN_FOREST_2,$01,Show
+	db VIRIDIAN_FOREST_2,$02,Show
+	db VIRIDIAN_FOREST_2,$03,Show
+	db VIRIDIAN_FOREST_2,$04,Show
+	db VIRIDIAN_FOREST_2,$05,Show
 MapHS6E:
 	db DRAGON_DEN_4,$01,Show
 MapHSCC:
 	db UNKNOWN_DUNGEON_4,$01,Show
+MapHS6A:
+	db DRAGON_DEN_1,$01,Show
+MapHS6B:
+	db DRAGON_DEN_2,$03,Show
+	db DRAGON_DEN_2,$04,Show
+MapHS6D:
+	db DRAGON_DEN_3,$07,Show
+	db DRAGON_DEN_3,$08,Show
+	db DRAGON_DEN_3,$09,Show
 
 	db $FF,$01,Show

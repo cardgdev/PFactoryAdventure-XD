@@ -19,6 +19,8 @@ MewthreeLairTextPointers:
 	dw MewthreeLairText3
 	dw MewthreeLairText4
 	dw MewthreeLairText5
+	dw PickUpItemText
+	dw PickUpItemText
 
 MewtwoTrainerHeader:
 	dbEventFlagBit EVENT_BEAT_MEWTWO

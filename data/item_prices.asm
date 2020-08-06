@@ -52,7 +52,7 @@ ItemPrices:
 	money 1000  ; POKE_DOLL
 	money 600   ; FULL_HEAL
 	money 1500  ; REVIVE
-	money 4000  ; MIST_STONE
+	money 9800  ; MIST_STONE
 	money 700   ; GUARD_SPEC
 	money 500   ; SUPER_REPEL
 	money 700   ; MAX_REPEL

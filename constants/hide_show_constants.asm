@@ -243,24 +243,23 @@ const_value = 0
 	const HS_LAIR_TRAINER_3 ; EC
 	const HS_LAIR_BLAINE ; ED
 	const HS_LAIR_BLUE ; EE
+	const HS_LAIR_ITEM1 ; FA M3Lair
+	const HS_LAIR_ITEM2 ; FB M3Lair
 	const HS_LOTUSAN                      ; E5
+	const HS_VF2_ITEM1 ; F0 forest 2
+	const HS_VF2_ITEM2 ; F1 forest 2
+	const HS_VF2_ITEM3 ; F2 forest 2
+	const HS_VF2_ITEM4 ; F3 forest 2
 	const HS_LUXOR                        ; E4
 	const HS_DAD_BATTLE                   ; E7
+	const HS_DD1_ITEM1 ; F4 DD1
+	const HS_DD2_ITEM1 ; F5 DD2
+	const HS_DD2_ITEM2 ; F6 DD2
+	const HS_DD3_ITEM1 ; F7 DD3
+	const HS_DD3_ITEM2 ; F8 DD3
+	const HS_DD3_ITEM3 ; F9 DD3
 	
-	
-	; F0
-	; F1
-	; F2
-	; F3
-	; F4
-	; F5
-	; F6
-	; F7
-	; F8
-	; F9
-	; FA
-	; FB
-	; FC
+	; FC 
 	; FD
 	; FE
-	; FF	
+	; FF

@@ -4,4 +4,3 @@ TODO LIST:
 >Write in the new text
 	>TEXT, PARA can have 18, LINE, CONT can have 17
 >port the battle tent in from periwinkle
->add item balls to new areas w/ remaining HS constants

@@ -15,6 +15,8 @@ DragonDen2Script:
 DragonDen2TextPointers:
 	dw DragonDen2Text1
 	dw DragonDen2Text2
+	dw PickUpItemText
+	dw PickUpItemText
 
 DragonDen2TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_DRAGON_DEN2_TRAINER_1

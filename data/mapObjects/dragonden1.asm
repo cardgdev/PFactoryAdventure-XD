@@ -12,7 +12,8 @@ DragonDen1Object:
 
 	db $0 ; signs
 
-	db $0 ; objects	
+	db $1 ; objects	
+	object SPRITE_BALL, $2, $1, STAY, NONE, $1, REVIVE
 
 	; warp-to
 	EVENT_DISP DRAGON_DEN_1_WIDTH, $11, $C	
