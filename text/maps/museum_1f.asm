@@ -24,17 +24,20 @@ _Museum1FText_5c22e::
 	text "You can't sneak"
 	line "in the back way!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "Oh, It's you!"
+	line "Remember when I"
+	cont "gave you that"
+	cont "AMBER a while ago?"
 	done
 
 _Museum1FText_5c233::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Johnson over there"
+	line "picked up another"
+	cont "AMBER chunk..."
+
+	para "I think that one"
+	line "might be a bit"
+	cont "radioactive!"
 	done
 
 _Museum1FText_5c238::
@@ -53,39 +56,50 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "I hear the artist"
+	line "that made these"
+	cont "renders is new"
+	cont "to paleoart."
+
+	para "Well, you can"
+	line "always expect"
+	cont "quality work from"
+	cont "good ol' TC."
 	done
 
 _Museum1FText_5c28e::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "When AERODACTYL"
+	line "was discovered in"
+	cont "that first one it"
+	cont "got everyone to"
+	cont "take my theories"
+	cont "more seriously!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "BUT! Now I've got"
+	line "an even bigger"
+	cont "chunk of AMBER!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "I bet you could"
+	line "ressurect a"
+	cont "#MON even"
+	cont "stronger than an"
+	cont "AERODACTYL from"
+	cont "this one!"
 
 	para "So I have a favor"
 	line "to ask!"
 
-	para "Take this to a"
+	para "Take this to the"
 	line "#MON LAB and"
 	cont "get it examined!"
 	prompt
 
 _ReceivedOldAmberText::
 	text "<PLAYER> received"
-	line "OLD AMBER!@@"
+	line "ODD AMBER!@@"
 
 _Museum1FText_5c299::
-	text "Ssh! Get the OLD"
+	text "Ssh! Get the ODD"
 	line "AMBER checked!"
 	done
 
@@ -103,5 +117,5 @@ _Museum1FText_5c2ad::
 
 _Museum1FText_5c2bc::
 	text "The AMBER is"
-	line "clear and gold!"
+	line "pulsating light!"
 	done

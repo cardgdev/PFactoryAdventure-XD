@@ -1,6 +1,6 @@
 _ViridianGymText_74ace::
-	text "Fwahahaha! This is"
-	line "my gym!"
+	text "Fwahahaha!"
+	line "This is my gym!"
 
 	para "I mean uh, welcome"
 	line "to my gym!"
@@ -16,9 +16,9 @@ _ViridianGymText_74ace::
 	cont "underestimate me"
 	cont "for even a second!"
 
-	para "NORMAL types don't"
-	line "need any gimmicks"
-	cont "to be strong!"
+	para "NORMAL types need"
+	line "no gimmicks to"
+	cont "be powerful!"
 
 	para "I'll show you!"
 	done
@@ -130,7 +130,7 @@ _ViridianGymAfterBattleText1::
 _ViridianGymBattleText2::
 	text "Rrrroar! I"
 	line "ripped up the"
-	cont "whole GYM interior"
+	cont "GYM's interior"
 	cont "and remodeled it"
 	cont "with my bare"
 	cont "hands!"
@@ -303,6 +303,6 @@ _ViridianGymText_74bd9::
 	text "I'd say you'd"
 	line "have knocked him"
 	cont "down a peg, if he"
-	cont "could even get any"
+	cont "could even get"
 	cont "shorter! Ahahah!"
 	done

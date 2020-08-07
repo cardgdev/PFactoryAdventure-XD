@@ -8,11 +8,11 @@ _PewterGymText_5c49e::
 	cont "my family's blood!"
 
 	para "I'll show you what"
-	line "we've learned here"
-	cont "at the PEWTER GYM."
+	line "we've learned at"
+	cont "the PEWTER GYM."
 
 	para "Namely our rock-"
-	line "hard determination"
+	line "hard bravado,"
 	cont "and chisled-out"
 	cont "skill!"
 	done
