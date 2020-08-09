@@ -159,13 +159,13 @@ _PyromaniacDexEntry::
 	dex
 	
 _SkelozardDexEntry::
-	text "This powerful ghost"
-	next "#MON blows"
-	next "phantom fire at"
+	text "This powerful"
+	next "ghost #MON"
+	next "blows phantom fire"
 
-	page "people and laughs"
-	next "at their fright."
-	next ""
+	page "at people"
+	next "and laughs at"
+	next "their fright"
 	dex
 	
 _TygabraDexEntry::
