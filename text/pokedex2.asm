@@ -145,7 +145,7 @@ _MidnightDexEntry::
 
 	page "enraged, it will"
 	next "disperse powerful"
-	next "lighting bolts"
+	next "lightning bolts"
 	dex
 	
 _PyromaniacDexEntry::
