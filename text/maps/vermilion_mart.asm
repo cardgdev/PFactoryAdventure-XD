@@ -1,23 +1,21 @@
 _VermilionMartText2::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
-
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
-
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	text "I'm only able"
+	line "to buy what"
+	cont "rations the KDF"
+	cont "allows me to."
+	
+	para "They keep taking"
+	line "all VERMILLION's"
+	cont "stock onto the"
+	cont "SS ANNE!"
 	done
 
 _VermilionMartText3::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Nothing wrong"
+	line "with the taste"
+	cont "of SPAM."
+	
+	para "It's all we have"
+	line "now, so I got"
+	cont "used to it!"
 	done

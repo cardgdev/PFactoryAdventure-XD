@@ -1,56 +1,60 @@
 _BillsHouseText_1e865::
-	text "Hiya! I'm a"
-	line "#MON..."
-	cont "...No I'm not!"
-
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
-
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
-
-	para "So, how about it?"
-	line "Help me out here!"
+	text "!!"
+	
+	para "Uh..."
+	
+	para "H-help!"
+	line "I'm glad you"
+	cont "showed up!"
+	
+	para "I've uhhh"
+	line "been turned into"
+	cont "a #MON"
+	cont "again! Y-yeah!"
+	
+	para "Can you just"
+	line "go activate my"
+	cont "TELEPORTER real"
+	cont "quick? Thanks!"
 	done
 
 _BillsHouseText_1e86a::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "Yeah just click"
+	line "the icon, it's"
+	cont "right there!"
 	done
 
 _BillsHouseText_1e86f::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
-
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	text "Oh then c-could"
+	line "you just come"
+	cont "back later?"
 	prompt
 
 _BillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
-
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
-
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	text "BILL: Whew!"
+	line "That's better."
+	
+	para "Don't mind any"
+	line "of that, what's"
+	cont "up, RED?"
+	
+	para "..."
+	line "Oh the mutations!"
+	
+	para "Yeah I have no"
+	line "idea what started"
+	cont "all of this."
+	
+	para "But I do have"
+	line "this clearance"
+	cont "pass for the"
+	cont "SS ANNE."
+	
+	para "The military's"
+	cont "got it moored in"
+	cont "the harbor at"
+	cont "VERMILLION for"
+	cont "some reason."
 	prompt
 
 _SSTicketReceivedText::
@@ -65,25 +69,24 @@ _SSTicketNoRoomText::
 	done
 
 _BillsHouseText_1e8cb::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
-
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	text "They wanted me to"
+	line "come down and"
+	cont "install my PC"
+	cont "systems onto the"
+	cont "boat."
+	
+	para "I think they're"
+	line "planning to"
+	cont "convert it into"
+	cont "some kind of"
+	cont "battleship!"
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "BILL: Look at"
+	line "those new EEVEE"
+	cont "evolutions on"
+	cont "my PC!"
 	done
 
 _BlockingStatueText::

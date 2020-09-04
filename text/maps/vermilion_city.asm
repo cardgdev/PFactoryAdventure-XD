@@ -1,45 +1,52 @@
 _VermilionCityText1::
-	text "We're careful"
-	line "about pollution!"
-
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	text "Bah! All our"
+	line "efforts to stave"
+	cont "off environmental"
+	cont "damage were null"
+	cont "when the mutants"
+	cont "showed up."
 	done
 
 _VermilionCityText_198a7::
 	text "Did you see S.S."
 	line "ANNE moored in"
 	cont "the harbor?"
+	
+	para "Everyone has!"
+	line "It's been stuck"
+	cont "there for weeks!"
 	done
 
 _VermilionCityText_198ac::
-	text "So, S.S.ANNE has"
-	line "departed!"
-
-	para "She'll be back in"
-	line "about a year."
+	text "They finally"
+	line "released the"
+	cont "SS ANNE! It's"
+	cont "about time!"
 	done
 
 _SSAnneWelcomeText4::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Go on ahead."
 	done
 
 _SSAnneWelcomeText9::
-	text "Welcome to S.S."
-	line "ANNE!"
-
-	para "Excuse me, do you"
-	line "have a ticket?"
+	text "HALT!"
+	
+	para "The SS ANNE is"
+	line "currently under"
+	cont "restricted access"
+	
+	para "Only those with"
+	line "the proper"
+	cont "credentials get"
+	cont "in!"
 	prompt
 
 _SSAnneFlashedTicketText::
 	text "<PLAYER> flashed"
 	line "the S.S.TICKET!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "I see! Welcome"
+	line "aboard!"
 	done
 
 _SSAnneNoTicketText::
@@ -49,7 +56,7 @@ _SSAnneNoTicketText::
 
 	para "Sorry!"
 
-	para "You need a ticket"
+	para "You need clearance"
 	line "to get aboard."
 	done
 
@@ -58,32 +65,43 @@ _SSAnneNotHereText::
 	done
 
 _VermilionCityText4::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
-
-	para "My #MON is"
-	line "tamping the land."
+	text "Hahah! I've put"
+	line "up my building!"
+	
+	para "My MACHOP turned"
+	line "into a MAZILLA"
+	cont "and got the"
+	cont "work done twice"
+	cont "as fast!"
+	
+	para "Come on in to"
+	line "the TRADING"
+	cont "CLUB!"
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
+	text "MAZILLA: Guoh!"
 	line "Gogogoh!@@"
 
 _VermilionCityText14::
 	text ""
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "MAZILLA looks"
+	line "proud of his"
+	cont "work."
 	done
 
 _VermilionCityText6::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
-
-	para "We visit VERMILION"
-	line "once a year."
+	text "The KDF's got"
+	line "the SS ANNE stuck"
+	cont "in the harbor."
+	
+	para "They said it was"
+	line "to keep those"
+	cont "aboard the ship"
+	cont "in quarantine,"
+	cont "but they've been"
+	cont "marching soldiers"
+	cont "onto it!"
 	done
 
 _VermilionCityText7::
@@ -95,15 +113,20 @@ _VermilionCityText7::
 _VermilionCityText8::
 	text "NOTICE!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "The SS ANNE is"
+	line "currently being"
+	cont "held in harbor"
+	cont "to prevent any"
+	cont "mutagen contamin-"
+	cont "ation."
+	
+	para "Do not attempt to"
+	line "enter the harbor"
+	cont "unless you have"
+	cont "clearance."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
-
-	para "VERMILION POLICE"
+	para "KANTONIAN"
+	line "DEFENCE FORCE"
 	done
 
 _VermilionCityText11::
@@ -115,10 +138,10 @@ _VermilionCityText11::
 _VermilionCityText12::
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: ENOKI"
 
-	para "The Lightning "
-	line "American!"
+	para "The Shadow In"
+	line "The Sunset City."
 	done
 
 _VermilionCityText13::

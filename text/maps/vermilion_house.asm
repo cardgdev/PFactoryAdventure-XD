@@ -1,21 +1,27 @@
 _VermilionHouse1Text1::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "My LORMERAK keeps"
+	line "bringing me half"
+	cont "eaten fish."
+	
+	para "I'd be happy to"
+	line "share once in"
+	cont "a while, you"
+	cont "silly bird!"
 	done
 
 _VermilionHouse1Text2::
-	text "PIDGEY: Kurukkoo!@@"
+	text "LORMERAK: CAW!@@"
 
 _VermilionHouse1Text3::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
-
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
-
-	para "VERMILION appears"
-	line "to be safe."
+	text "It's a shopping"
+	line "list..."
+	
+	para "ANCHOVIES"
+	
+	para "SARDINES"
+	
+	para "CANNED TUNA"
+	
+	para "No wonder his"
+	line "breath stinks!"
 	done

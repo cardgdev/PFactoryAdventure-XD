@@ -5,20 +5,19 @@ _CeruleanPokecenterText2::
 	line "he'll do whatever"
 	cont "it takes to get"
 	cont "rare #MON!"
+	
+	para "I bet he has"
+	line "something to do"
+	cont "with the mutants!"
 	done
 
 _CeruleanPokecenterText3::
-	text "Have you heard"
-	line "about BILL?"
-
-	para "Everyone calls"
-	line "him a #MANIAC!"
-
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
-
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	text "Nobody's seen"
+	line "BILL in a while."
+	
+	para "Has he just been"
+	line "shut in at the"
+	cont "SEA COTTAGE while"
+	cont "everything's been"
+	cont "going on?"
 	done

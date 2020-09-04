@@ -6,7 +6,9 @@ _Route24EndBattleText1::
 _Route24AfterBattleText1::
 	text "I hid because the"
 	line "people on the"
-	cont "bridge scared me!"
+	cont "bridge tried to"
+	cont "rope me into"
+	cont "service!"
 	done
 
 _Route24BattleText2::
@@ -70,10 +72,13 @@ _Route24AfterBattleText5::
 	done
 
 _Route24BattleText6::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "Welcome to the"
+	line "KDF recruitment"
+	cont "challenge!"
+
+	para "Beat us cadets"
+	line "and you'll get"
+	cont "a prize!"
 
 	para "Think you got"
 	line "what it takes?"

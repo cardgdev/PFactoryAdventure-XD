@@ -1,36 +1,36 @@
 _CeruleanTrashedText_1d6ab::
-	text "Those miserable"
-	line "ROCKETs!"
-
-	para "Look what they"
-	line "did here!"
-
-	para "They stole a TM"
-	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
-
-	para "That cost me a"
-	line "bundle, it did!"
+	text "Unbelieveable."
+	
+	para "Between the crime"
+	line "and the fog, I've"
+	cont "made my decision."
+	
+	para "I'm getting out"
+	line "of this awful"
+	cont "city for good!"
 	done
 
 _CeruleanTrashedText_1d6b0::
-	text "I figure what's"
-	line "lost is lost!"
-
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	text "I'm not even"
+	line "calling a moving"
+	cont "company, all"
+	cont "my stuff's been"
+	cont "trashed anyway!"
 	done
 
 _CeruleanHouseTrashedText2::
-	text "TEAM ROCKET must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "This is just"
+	line "terrible..."
+	
+	para "I thought this"
+	line "city would be a"
+	cont "safe place to"
+	cont "raise my kids."
 	done
 
 _CeruleanHouseTrashedText3::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "Everyone keeps"
+	line "turning our"
+	cont "house into"
+	cont "swiss cheese!"
 	done

@@ -1,26 +1,34 @@
 _VermilionGymText_5cb72::
-	text "A little word of"
-	line "advice, kid!"
-
-	para "Electricity is"
-	line "sure powerful!"
-
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	text "..."
+	
+	para "I know naught of"
+	line "how and when the"
+	cont "mutations began..."
+	
+	para "Despite my utmost"
+	line "attempts at"
+	cont "discovering an"
+	cont "answer from the"
+	cont "spirits..."
+	
+	para "What I do know"
+	line "is that the KDF"
+	cont "is hiding some-"
+	cont "thing about the"
+	cont "SS ANNE."
+	
+	para "Perhaps make"
+	line "a search there."
 	done
 
 _VermilionGymText_5cb77::
-	text "The THUNDERBADGE"
-	line "cranks up your"
-	cont "#MON's SPEED!"
+	text "With my ESPERBADGE"
+	line "you can FLY like"
+	cont "a spirit in the"
+	cont "night..."
 
-	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
-
-	para "You're special,"
-	line "kid! Take this!"
+	para "I give you this"
+	line "as well..."
 	done
 
 _ReceivedTM24Text::
@@ -31,51 +39,55 @@ _ReceivedTM24Text::
 
 _TM24ExplanationText::
 	db $0
-	para "TM24 contains"
-	line "THUNDERBOLT!"
+	para "TM34 contains"
+	line "SHADOW."
 
-	para "Teach it to an"
-	line "electric #MON!"
+	para "A blinding"
+	line "GHOST type move."
 	done
 
 _TM24NoRoomText::
-	text "Yo kid, make room"
-	line "in your pack!"
+	text "You must return"
+	line "with room in"
+	cont "your bag..."
 	done
 
 _ReceivedThunderbadgeText::
-	text "Whoa!"
-
-	para "You're the real"
-	line "deal, kid!"
-
-	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	text "You've snuffed"
+	line "out every one"
+	cont "of my spirits..."
+	
+	para "You may just be"
+	line "capable of saving"
+	cont "this accursed"
+	cont "place after all."
 	prompt
 
 _VermilionGymBattleText1::
-	text "When I was in the"
-	line "Army, LT.SURGE"
-	cont "was my strict CO!"
+	text "I sense a foul"
+	line "mojo about you!"
 	done
 
 _VermilionGymEndBattleText1::
-	text "Stop!"
-	line "You're very good!"
+	text "Hmm!"
 	prompt
 
 _VermilionGymAfterBattleText1::
-	text "The door won't"
-	line "open?"
-
-	para "LT.SURGE always"
-	line "was cautious!"
+	text "I know what it"
+	line "is..."
+	
+	para "You're being"
+	line "untruthful about"
+	cont "your identity..."
+	
+	para "But WHO are you?"
 	done
 
 _VermilionGymBattleText2::
-	text "I'm a lightweight,"
-	line "but I'm good with"
-	cont "electricity!"
+	text "Rock is so out!"
+	
+	para "The 90s are all"
+	line "about grunge!"
 	done
 
 _VermilionGymEndBattleText2::
@@ -83,61 +95,66 @@ _VermilionGymEndBattleText2::
 	prompt
 
 _VermilionGymAfterBattleText2::
-	text "OK, I'll talk!"
-
-	para "LT.SURGE said he"
-	line "hid door switches"
-	cont "inside something!"
+	text "Check the graves."
+	
+	para "Or else your trip"
+	line "to this gym will"
+	cont "be as futile as"
+	cont "their lives."
 	done
 
 _VermilionGymBattleText3::
 	text "This is no place"
 	line "for kids!"
+	
+	para "Well at least"
+	line "I hope not..."
 	done
 
 _VermilionGymEndBattleText3::
-	text "Wow!"
-	line "Surprised me!"
+	text "This"
+	line "is the place"
+	cont "for me now!"
 	prompt
 
 _VermilionGymAfterBattleText3::
-	text "LT.SURGE set up"
-	line "double locks!"
-	cont "Here's a hint!"
-
-	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	text "These gravestones"
+	line "are converted"
+	cont "from the old"
+	cont "electric lock"
+	cont "system here."
+	
+	para "Check them in"
+	line "sequences!"
 	done
 
 _VermilionGymText_5cbf4::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "LT.SURGE has a"
-	line "nickname. People"
-	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
-
-	para "He's an expert on"
-	line "electric #MON!"
-
-	para "Birds and water"
-	line "#MON are at"
-	cont "risk! Beware of"
-	cont "paralysis too!"
-
-	para "LT.SURGE is very"
-	line "cautious!"
-
-	para "You'll have to"
-	line "break a code to"
-	cont "get to him!"
+	text "You've got a"
+	line "real hard time"
+	cont "here, kid."
+	
+	para "This is a"
+	line "GHOST type gym!"
+	
+	para "The only type"
+	line "that beats"
+	cont "GHOST is GHOST!"
+	
+	para "So unless you've"
+	line "already been to"
+	cont "LAVENDER, I'd"
+	cont "exploit their"
+	cont "secondary weak-"
+	cont "nesses."
+	
+	para "Or you know,"
+	line "pray for mercy!"
 	done
 
 _VermilionGymText_5cbf9::
-	text "Whew! That match"
-	line "was electric!"
+	text "You didn't even"
+	line "need to get the"
+	cont "holy water out"
+	cont "to perform that"
+	cont "exorcism!"
 	done

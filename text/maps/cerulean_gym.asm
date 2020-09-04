@@ -1,53 +1,75 @@
 _CeruleanGymText_5c7be::
-	text "Hi, you're a new"
-	line "face!"
-
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
-
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
-
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	text "Welcome to the"
+	line "winged dojo!"
+	
+	para "If you've made"
+	line "it to my"
+	cont "doorstep, you"
+	cont "must consider"
+	cont "yourself a"
+	cont "hotshot trainer!"
+	
+	para "So you think"
+	line "you can fly"
+	cont "with the best?"
+	
+	para "Lets take off!"
 	done
 
 _CeruleanGymText_5c7c3::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
-
-	para "Use it on an"
-	line "aquatic #MON!"
+	text "..."
+	
+	para "You want to"
+	line "know about the"
+	cont "cave mist in"
+	cont "CERULEAN?"
+	
+	para "I've seen it"
+	line "coming out of"
+	cont "the old cave"
+	cont "entrance near"
+	cont "the river at"
+	cont "night."
+	
+	para "No idea what"
+	line "causes it, or"
+	cont "what it might"
+	cont "have to do with"
+	cont "the mutations,"
+	cont "but me and my"
+	cont "#MON use our"
+	cont "HURRICANE attack"
+	cont "to clear it away"
+	cont "as best we"
+	cont "can so nobody"
+	cont "breathes it in!"
 	done
 
 _CeruleanGymText_5c7c8::
-	text "The CASCADEBADGE"
+	text "The TORNADOBADGE"
 	line "makes all #MON"
 	cont "up to L30 obey!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "You can use CUT"
+	line "outside of battle"
+	cont "now, too!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "Take this! Its"
+	line "a TM of a move"
+	cont "I invented"
+	cont "myself!"
+	
+	para "TM41 teaches"
+	line "HURRICANE!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
-
-	para "You can also have"
-	line "my favorite TM!"
+	para "Try it on your"
+	line "best FLYING"
+	cont "#MON!"
 	done
 
 _ReceivedTM11Text::
 	text "<PLAYER> received"
-	line "TM11!@@"
+	line "TM41!@@"
 
 _CeruleanGymText_5c7d3::
 	text "You better make"
@@ -55,20 +77,19 @@ _CeruleanGymText_5c7d3::
 	done
 
 _CeruleanGymText_5c7d8::
-	text "Wow!"
-	line "You're too much!"
+	text "Woah!"
 
 	para "All right!"
 
 	para "You can have the"
-	line "CASCADEBADGE to"
+	line "TORNADOBADGE to"
 	cont "show you beat me!@@"
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
-
-	para "MISTY can wait!"
+	text "Flap! Flap!"
+	
+	para "I'm an ace"
+	line "flier!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -77,17 +98,15 @@ _CeruleanGymEndBattleText1::
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "I guess the winds"
+	line "weren't in my"
+	cont "favor today."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
-
-	para "I'm first up!"
-	line "Let's do it!"
+	text "Hiyah! I'll"
+	line "cut you with"
+	cont "my wings!"
 	done
 
 _CeruleanGymEndBattleText2::
@@ -96,36 +115,36 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
-
-	para "She won't lose to"
-	line "someone like you!"
+	text "Be it feathers"
+	line "or razor sharp"
+	cont "talons, FLYING"
+	cont "#MON are the"
+	cont "best!"
 	done
 
 _CeruleanGymText_5c82a::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "Here's my advice!"
-
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
-
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
-
-	para "Or, zap them with"
-	line "electricity!"
+	text "Heh, so you"
+	line "showed up!"
+	
+	para "Listen kid, this"
+	line "is a FLYING type"
+	cont "gym!"
+	
+	para "Birds can stay"
+	line "up in the air"
+	cont "all they want,"
+	cont "but you know"
+	cont "what comes down"
+	cont "from the sky?"
+	
+	para "Lightning bolts!"
+	
+	para "You know what to"
+	line "do, kid!"
 	done
 
 _CeruleanGymText_5c82f::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
-
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	text "Looks like we're"
+	line "having chicken"
+	cont "dinner tonight!"
 	done
