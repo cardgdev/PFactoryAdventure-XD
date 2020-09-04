@@ -13,7 +13,7 @@ _CeruleanGymText_5c7be::
 	line "you can fly"
 	cont "with the best?"
 	
-	para "Lets take off!"
+	para "Let's take off!"
 	done
 
 _CeruleanGymText_5c7c3::
@@ -54,7 +54,7 @@ _CeruleanGymText_5c7c8::
 	line "outside of battle"
 	cont "now, too!"
 
-	para "Take this! Its"
+	para "Take this! It's"
 	line "a TM of a move"
 	cont "I invented"
 	cont "myself!"
