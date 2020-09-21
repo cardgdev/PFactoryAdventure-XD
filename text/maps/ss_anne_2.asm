@@ -1,63 +1,53 @@
 _SSAnne2Text1::
 	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
-
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	line "a cruise vessel!"
+	
+	para "So why the army"
+	line "keep her here?"
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text "<RIVAL>: Bonjour!"
-	line "<PLAYER>!"
-
-	para "Imagine seeing"
-	line "you here!"
-
-	para "<PLAYER>, were you"
-	line "really invited?"
-
-	para "So how's your"
-	line "#DEX coming?"
-
-	para "I already caught"
-	line "40 kinds, pal!"
-
-	para "Different kinds"
-	line "are everywhere!"
-
-	para "Crawl around in"
-	line "grassy areas!"
+	text "<RIVAL>: As I"
+	line "expected..."
+	
+	para "A smart one you"
+	line "are, returning to"
+	cont "the sites of your"
+	cont "past battles to"
+	cont "gather resources"
+	cont "for the search..."
+	
+	para "I assure you the"
+	line "captain is quite"
+	cont "busy right now."
+	
+	para "Show me how you"
+	line "have learned to"
+	cont "work with your"
+	cont "new companions."
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
-
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	text "Good..."
+	
+	para "Your conviction"
+	line "remains strong!"
 	prompt
 
 _SSAnneRivalWonText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
-
-	para "You should shape"
-	line "up, pal!"
+	text "Underwhelming."
 	prompt
 
 _SSAnneRivalCaptainText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
-
-	para "But, he was just a"
-	line "seasick, old man!"
-
-	para "But, CUT itself is"
-	line "really useful!"
-
-	para "You should go see"
-	line "him! Smell ya!"
+	text "<RIVAL>: Proceed."
+	
+	para "This ship's been"
+	line "held long enough."
+	
+	para "If you really want"
+	line "to de-quarantine"
+	cont "all these fine"
+	cont "people and expose"
+	cont "them to the mists"
+	cont "then make haste."
 	done

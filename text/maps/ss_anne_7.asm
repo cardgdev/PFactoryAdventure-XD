@@ -1,7 +1,9 @@
 _SSAnne7RubText::
 	text "CAPTAIN: Ooargh..."
 	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	cont "That's the last"
+	cont "time I drink with"
+	cont "LT. SURGE!"
 
 	para "<PLAYER> rubbed"
 	line "the CAPTAIN's"
@@ -15,19 +17,24 @@ _ReceivingHM01Text::
 	line "Thank you! I"
 	cont "feel much better!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "My liver can't"
+	line "keep up like it"
+	cont "used to when I"
+	cont "was a younger"
+	cont "sailor!"
 
-	para "I could show you"
-	line "if I wasn't ill..."
-
-	para "I know! You can"
-	line "have this!"
+	para "You probably need"
+	line "a CUT HM, right?"
+	
+	para "Here, take this!"
 
 	para "Teach it to your"
 	line "#MON and you"
 	cont "can see it CUT"
 	cont "any time!"
+	
+	para "Now lets get this"
+	line "ship out of here!"
 	prompt
 
 _ReceivedHM01Text::
@@ -40,8 +47,8 @@ _SSAnne7Text_61932::
 	text "CAPTAIN: Whew!"
 
 	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	line "completely wasted"
+	cont "I guess its time!"
 	done
 
 _HM01NoRoomText::
@@ -55,20 +62,42 @@ _SSAnne7Text2::
 	done
 
 _SSAnne7Text3::
-	text "How to Conquer"
-	line "Seasickness..."
+	text "It's a whiskey"
+	line "catalogue..."
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done
 
 _SSAnne7BattleText1::
-	text "DUMMY1"
+	text "Hic! Hey runt!"
+	
+	para "Me and the CAPTAIN"
+	line "are in the middle"
+	cont "of some important"
+	cont "buisness!"
+	
+	para "Why don't you buzz"
+	line "off before I go"
+	cont "ahead and zap you"
+	cont "outta here!"
 	done
 
 _SSAnne7EndBattleText1::
-	text "DUMMY2"
+	text "Woah!"
+	
+	para "Hey wait..."
+	line "Is it the booze"
+	cont "or have I seen"
+	cont "you somewhere"
+	cont "before..."
 	prompt
 
 _SSAnne7AfterBattleText1::
-	text "DUMMY3"
+	text "Hwoah... Yeah I've"
+	line "had enough shots."
+	
+	para "I'm going down"
+	line "with the ship!"
+	
+	para "(thud)"
 	done

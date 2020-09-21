@@ -1,71 +1,82 @@
 _SSAnne9Text_61bf2::
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
-
-	para "It was something"
+	text "I heard a story"
+	line "about a huge blue"
+	cont "LICKITUNG-like"
+	cont "#MON that"
+	cont "passed out from"
+	cont "exhaustion and"
+	cont "blocked a road."
+	
+	para "They say it was"
 	line "like this!"
 	prompt
 
 _SSAnne9Text_61c01::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "I wish I had a"
+	line "LAPRAS to ferry"
+	cont "me off of this"
+	cont "ship!"
 	done
 
 _SSAnne9Text_61c10::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "CUT is good for"
+	line "hacking away at"
+	cont "tall grass!"
 	done
 
 _SSAnne9Text_61c1f::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
-
-	para "It had many rare"
-	line "kinds of #MON!!"
+	text "I wanted to go"
+	line "to the SAFARI"
+	cont "ZONE and come"
+	cont "back with some"
+	cont "crazy mutant"
+	cont "#MON!"
 	done
 
 _SSAnne9Text_61c2e::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "I'm bored!"
+	
+	para "My gameboy ran"
+	line "out of batteries!"
 	done
 
 _SSAnne9Text_61c3d::
 	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	line "totally trashed!"
 	done
 
 _SSAnne9Text_61c4c::
-	text "I hear many people"
-	line "get seasick!"
+	text "A bad clam gave"
+	line "me food poisoning."
+	
+	para "I don't think I'll"
+	line "make it out..."
 	done
 
 _SSAnne9BattleText1::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Back to your"
+	line "cage! That's an"
+	cont "order!"
 	done
 
 _SSAnne9EndBattleText1::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "No way!"
 	prompt
 
 _SSAnne9AfterBattleText1::
-	text "15 years ago, I"
-	line "would have won!"
+	text "We're not done"
+	line "converting the"
+	cont "ship to a battle"
+	cont "cruiser yet!"
 	done
 
 _SSAnne9BattleText2::
-	text "Check out what I"
-	line "fished up!"
+	text "Fishin' all day,"
+	line "all the clams I"
+	cont "can eat!"
+	
+	para "I love being"
+	line "quarantined!"
 	done
 
 _SSAnne9EndBattleText2::
@@ -74,40 +85,50 @@ _SSAnne9EndBattleText2::
 	prompt
 
 _SSAnne9AfterBattleText2::
-	text "Party?"
-
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	text "And it's all on"
+	line "the good gover-"
+	cont "nment's dollar!"
 	done
 
 _SSAnne9BattleText3::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "I think we're"
+	line "almost done the"
+	cont "renovations here!"
 	done
 
 _SSAnne9EndBattleText3::
-	text "I must"
-	line "salute you!"
+	text "Quit"
+	line "being a nuisance!"
 	prompt
 
 _SSAnne9AfterBattleText3::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "What renovations?"
+
+	para "It's classified"
+	line "but..."
+	
+	para "We're turning the"
+	line "SS ANNE into a"
+	cont "battleship!"
 	done
 
 _SSAnne9BattleText4::
-	text "I never saw you"
-	line "at the party."
+	text "My #MON changed"
+	line "while I was"
+	cont "stuck here!"
 	done
 
 _SSAnne9EndBattleText4::
-	text "Take"
-	line "it easy!"
+	text "Wow!"
+	line "You're tough!"
 	prompt
 
 _SSAnne9AfterBattleText4::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "I wonder if"
+	line "you're just too"
+	cont "strong, or if"
+	cont "mutating didn't"
+	cont "make my #MON"
+	cont "any better than"
+	cont "it already was!"
 	done
