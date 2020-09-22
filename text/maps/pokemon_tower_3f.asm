@@ -9,9 +9,9 @@ _PokemonTower3EndBattleText1::
 	prompt
 
 _PokemonTower3AfterBattleText1::
-	text "The GHOSTs can be"
-	line "identified by the"
-	cont "SILPH SCOPE."
+	text "The zombies can be"
+	line "quelled with the"
+	cont "WARDING TAG!"
 	done
 
 _PokemonTower3BattleText2::

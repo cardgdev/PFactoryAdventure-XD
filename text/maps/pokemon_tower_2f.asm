@@ -1,57 +1,60 @@
 _PokemonTower2Text_6062d::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
-
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	text "<RIVAL>: Precise"
+	line "as ever..."
+	
+	para "What drives a man"
+	line "to seek out a"
+	cont "cursed place such"
+	cont "as this?"
+	
+	para "Surely not a"
+	line "hubristic reason."
+	
+	para "Both you and the"
+	line "KDF came here to"
+	cont "find the same"
+	cont "thing, a source"
+	cont "of knowledge only"
+	cont "a select few"
+	cont "know the context"
+	cont "to seek."
+	
+	para "Show me you are"
+	line "more worthy than"
+	cont "those pawns."
 	done
 
 _PokemonTower2Text_60632::
-	text "What?"
-	line "You stinker!"
-
-	para "I took it easy on"
-	line "you too!"
+	text "So you"
+	line "are, then."
 	prompt
 
 _PokemonTower2Text_60637::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
-
-	para "Toughen them up a"
-	line "bit more!"
+	text "<RIVAL>: There"
+	line "is still some-"
+	cont "thing that you"
+	cont "lack..."
 	prompt
 
 _PokemonTower2Text_6063c::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
-
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
-
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
-
-	para "Smell ya later!"
+	text "What you seek"
+	line "is at the top"
+	cont "of this TOWER."
+	
+	para "But you already"
+	line "knew that,"
+	cont "otherwise you"
+	cont "would have never"
+	cont "come here."
+	
+	para "I bid good luck."
 	done
 
 _PokemonTower2Text2::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
-
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	text "To banish the"
+	line "zombies, we need"
+	cont "a sacred WARDING"
+	cont "TAG. But ours was"
+	cont "taken by the"
+	cont "military."
 	done

@@ -1,30 +1,26 @@
 _LavenderMartText2::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
-
-	para "X ATTACK, X"
-	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
-
-	para "Do you know where"
-	line "I can get them?"
+	text "X Items can turn"
+	line "the tide of a"
+	cont "battle, some"
+	cont "heathens even use"
+	cont "them to boost an"
+	cont "already over-"
+	cont "levelled #MON"
+	cont "so they only have"
+	cont "to use one!"
 	done
 
 _LavenderMartReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "REVIVEs are"
+	line "straight cheating"
+	cont "bro, come on."
 	done
 
 _LavenderMartNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
-
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	text "There's gold in"
+	line "them hills!"
+	
+	para "Where do you"
+	line "think NUGGETs"
+	cont "come from?"
 	done

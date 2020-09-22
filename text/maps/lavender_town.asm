@@ -1,40 +1,48 @@
 _LavenderTownText_4413c::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "You look like you"
+	line "believe in GHOSTs"
+	cont "plenty already,"
+	cont "right?"
 	done
 
 _LavenderTownText_44141::
-	text "Really? So there"
-	line "are believers..."
+	text "Who wouldn't"
+	line "after seeing"
+	cont "what's in that"
+	cont "TOWER."
 	done
 
 _LavenderTownText_44146::
-	text "Hahaha, I guess"
-	line "not."
-
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	text "Really?"
+	
+	para "Well..."
+	
+	para "You'll meet the"
+	line "WHITE HAND soon"
+	cont "enough..."
 	done
 
 _LavenderTownText2::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
-
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	text "Stange figures"
+	line "started to rise"
+	cont "from the graves"
+	cont "in #MON TOWER."
+	
+	para "They're not a"
+	line "#MON, and"
+	cont "they're not"
+	cont "human either!"
 	done
 
 _LavenderTownText3::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
-
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	text "I thought our"
+	line "town's troubles"
+	cont "were over..."
+	
+	para "Please, make"
+	line "those SOLDIERs"
+	cont "leave the TOWER"
+	cont "alone!"
 	done
 
 _LavenderTownText4::
@@ -44,12 +52,16 @@ _LavenderTownText4::
 	done
 
 _LavenderTownText5::
-	text "New SILPH SCOPE!"
-
-	para "Make the Invisible"
-	line "Plain to See!"
-
-	para "SILPH CO."
+	text "A posted notice:"
+	
+	para "KDF Forces working"
+	line "to contain a"
+	cont "mutagen outbreak"
+	cont "at #MON TOWER."
+	
+	para "Please avoid the"
+	line "vicinity at all"
+	cont "costs!"
 	done
 
 _LavenderTownText8::

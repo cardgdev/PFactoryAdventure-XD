@@ -1,31 +1,36 @@
 _PokemonTower1Text1::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "Welcome to the"
+	line "#MON TOWER."
+	
+	para "Please avoid the"
+	line "upper floors at"
+	cont "this time though."
 	done
 
 _PokemonTower1Text2::
 	text "Did you come to"
-	line "pay respects?"
+	line "save us?"
 	cont "Bless you!"
 	done
 
 _PokemonTower1Text3::
 	text "I came to pray"
-	line "for my CLEFAIRY."
-
-	para "Sniff! I can't"
-	line "stop crying..."
+	line "but was attacked!"
+	
+	para "Please save the"
+	line "TOWER!"
 	done
 
 _PokemonTower1Text4::
-	text "My GROWLITHE..."
-	line "Why did you die?"
+	text "The SOLDIERs told"
+	line "us to stay here"
+	cont "while they fight"
+	cont "the zombies!"
 	done
 
 _PokemonTower1Text5::
 	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	line "There's a mess of"
+	cont "untold bounds on"
+	cont "the upper floors."
 	done

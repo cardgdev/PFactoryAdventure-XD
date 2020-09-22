@@ -1,15 +1,13 @@
 _PokemonTower2Text_60c1f::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "The WHITE HAND"
+	line "shriveled and"
+	cont "dissipated..."
 	done
 
 _PokemonTower2Text_60c24::
-	text "The mother's soul"
-	line "was calmed."
-
-	para "It departed to"
-	line "the afterlife!"
+	text "The TOWER is"
+	line "freed of the"
+	cont "zombie curse."
 	done
 
 _PokemonTower6BattleText1::
@@ -56,6 +54,7 @@ _PokemonTower6AfterBattleText3::
 	done
 
 _PokemonTower6Text6::
-	text "Be gone..."
-	line "Intruders..."
+	text "WHAT A"
+	line "HORRIBLE NIGHT"
+	cont "TO HAVE A CURSE."
 	done

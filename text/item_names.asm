@@ -70,7 +70,7 @@ ItemNames:
 	db "COIN CASE@"
 	db "NINTENDIUM@"
 	db "ITEMFINDER@"
-	db "SILPH SCOPE@"
+	db "WARDING TAG@"
 	db "POKé FLUTE@"
 	db "LIFT KEY@"
 	db "EXP.ALL@"

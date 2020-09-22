@@ -1,51 +1,33 @@
 _TowerRescueFujiText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
-
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
-
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
-
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
-
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
-
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	text "MR.FUJI: Hmm..."
+	line "So you've saved"
+	cont "me again."
+	
+	para "Come to my home,"
+	line "we have much to"
+	cont "discuss."
 	done
 
 _PokemonTower7BattleText1::
-	text "What do you want?"
-	line "Why are you here?"
+	text "How did some"
+	line "civilian make it"
+	cont "past the zombies!"
 	done
 
 _PokemonTower7EndBattleText1::
-	text "I give up!"
+	text "I give!"
 	prompt
 
 _PokemonTower7AfterBattleText1::
-	text "I'm not going to"
-	line "forget this!"
+	text "This place is"
+	line "cursed! The whole"
+	cont "mission washed!"
 	done
 
 _PokemonTower7BattleText2::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
-
-	para "We're talking it"
-	line "over as adults!"
+	text "We're here to"
+	line "interrogate MR."
+	cont "FUJI! Scram!"
 	done
 
 _PokemonTower7EndBattleText2::
@@ -54,25 +36,29 @@ _PokemonTower7EndBattleText2::
 	prompt
 
 _PokemonTower7AfterBattleText2::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
-
-	para "Stay out of our"
-	line "business!"
+	text "This is a matter"
+	line "of national sec-"
+	cont "urity! Stop"
+	cont "interfering!"
 	done
 
 _PokemonTower7BattleText3::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "We're trying to"
+	line "extract vital"
+	cont "information!"
 	done
 
 _PokemonTower7EndBattleText3::
 	text "Don't"
-	line "fight us ROCKETs!"
+	line "fight the army!"
 	prompt
 
 _PokemonTower7AfterBattleText3::
-	text "You're not getting"
-	line "away with this!"
+	text "You're staring"
+	line "down the barrel"
+	cont "of a loaded gun"
+	cont "here, pal!"
+	
+	para "You don't want"
+	line "this!"
 	done

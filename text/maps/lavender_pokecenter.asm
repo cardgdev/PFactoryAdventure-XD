@@ -1,12 +1,15 @@
 _LavenderPokecenterText2::
-	text "TEAM ROCKET will"
-	line "do anything for"
-	cont "the sake of gold!"
+	text "The TOWER is full"
+	line "of the undead!"
+	
+	para "It's even scarier"
+	line "than when they"
+	cont "were just ghosts!"
 	done
 
 _LavenderPokecenterText3::
-	text "I saw CUBONE's"
-	line "mother die trying"
-	cont "to escape from"
-	cont "TEAM ROCKET!"
+	text "I saw KDF SOLDIERs"
+	line "shooting at the"
+	cont "zombies in the"
+	cont "#MON TOWER!"
 	done
