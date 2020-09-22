@@ -1,7 +1,9 @@
 _RocketHideout2BattleText2::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	text "I heard the CHIEF"
+	line "took the WARDING"
+	cont "TAG as insurance"
+	cont "to make someone"
+	cont "comply."
 	done
 
 _RocketHideout2EndBattleText2::
@@ -10,8 +12,7 @@ _RocketHideout2EndBattleText2::
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "Who?"
+	
+	para "Beats me!"
 	done

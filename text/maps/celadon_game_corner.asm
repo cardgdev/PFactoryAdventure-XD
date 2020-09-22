@@ -8,7 +8,7 @@ _CeladonGameCornerText1::
 	done
 
 _CeladonGameCornerText_48d22::
-	text "Welcome to ROCKET"
+	text "Welcome to CELADON"
 	line "GAME CORNER!"
 
 	para "Do you need some"
@@ -45,11 +45,12 @@ _CeladonGameCornerText_48d3b::
 	done
 
 _CeladonGameCornerText3::
-	text "Keep this quiet."
-
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	text "This place used"
+	line "to be run by"
+	cont "TEAM ROCKET, but"
+	cont "some wealthy"
+	cont "investor bought"
+	cont "the property!"
 	done
 
 _CeladonGameCornerText4::
@@ -83,20 +84,27 @@ _CeladonGameCornerText6::
 	done
 
 _CeladonGameCornerText_48dca::
-	text "Hey!"
-
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
-
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
+	text "Eh?"
+	
+	para "What, rules are"
+	line "rules, kid!"
+	
+	para "CELADON GYM is"
+	line "for ladies only!"
+	
+	para "I'm not one to"
+	line "stand around"
+	cont "harrasing women,"
+	cont "I'm respectful!"
+	
+	para "...Sometimes."
+	
+	para "Anyway, the GYM"
+	line "is full of ICE"
 	cont "type #MON!"
-
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	
+	para "Bring in your"
+	line "best firepower!"
 	done
 
 _CeladonGameCornerText_48dcf::
@@ -158,9 +166,14 @@ _CeladonGameCornerText_48e98::
 	done
 
 _CeladonGameCornerText_48ece::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Ain't you ever"
+	line "seen a man on"
+	cont "leisure leave!"
+	
+	para "I'm not guarding"
+	line "anything here!"
+	
+	para "Now get out!"
 	done
 
 _CeladonGameCornerText_48ed3::
@@ -168,9 +181,9 @@ _CeladonGameCornerText_48ed3::
 	prompt
 
 _CeladonGameCornerText_48ed8::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Damn! It's looking"
+	line "like latrine duty"
+	cont "for me!"
 	done
 
 _CeladonGameCornerText_48f09::

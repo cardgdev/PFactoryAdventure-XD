@@ -1,7 +1,8 @@
 _RocketHideout3BattleText2::
-	text "Stop meddling in"
-	line "TEAM ROCKET's"
-	cont "affairs!"
+	text "I know you!"
+	
+	para "You're an enemy"
+	line "of the state!"
 	done
 
 _RocketHideout3EndBattleText2::
@@ -10,16 +11,20 @@ _RocketHideout3EndBattleText2::
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "You won't get"
+	line "away with it!"
+	
+	para "KANTO number 1!"
 	done
 
 _RocketHideout3BattleTxt::
-	text "We got word from"
-	line "upstairs that you"
-	cont "were coming!"
+	text "I lost the"
+	line "stupid KEY to"
+	cont "the lift!"
+	
+	para "I'll take my"
+	line "anger out on"
+	cont "you!"
 	done
 
 _RocketHideout3EndBattleText3::
@@ -28,8 +33,11 @@ _RocketHideout3EndBattleText3::
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
-	cont "the elevator!"
+	text "I bet the CHIEF"
+	line "brought that"
+	cont "TAG to keep"
+	cont "the spirits of"
+	cont "the #MON that"
+	cont "the ROCKETs took"
+	cont "here at bay!"
 	done
