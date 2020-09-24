@@ -13,6 +13,11 @@ ResetStatusAndHalveMoneyOnBlackout::
 	ld [hMoney], a
 	ld [hMoney + 1], a
 	ld [hMoney + 2], a
+	
+	ld a, [wCurMap]
+	cp BATTLE_TENT
+	jr z, .lostmoney ; if we are in battle tent, we are done w/ no money lost
+	
 	call HasEnoughMoney
 	jr c, .lostmoney ; never happens
 
