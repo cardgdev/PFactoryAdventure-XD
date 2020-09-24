@@ -1,22 +1,26 @@
 _Route13BattleText2::
-	text "My bird #MON"
-	line "want to scrap!"
+	text "Careful! These"
+	line "birds bite!"
 	done
 
 _Route13EndBattleText2::
 	text "My"
-	line "bird combo lost?"
+	line "birds bit the"
+	cont "dust!"
 	prompt
 
 _Route13AfterBattleText2::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "They may not be"
+	line "the most"
+	cont "intimidating, but"
+	cont "birds bite hard!"
 	done
 
 _Route13BattleText3::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "I've been told"
+	line "that #MON"
+	cont "only obey people"
+	cont "they respect."
 	done
 
 _Route13EndBattleText3::
@@ -25,31 +29,33 @@ _Route13EndBattleText3::
 	prompt
 
 _Route13AfterBattleText3::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "I think most"
+	line "#MON must"
+	cont "respect humans."
 	done
 
 _Route13BattleText4::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "I'm taking my"
+	line "#MON out for"
+	cont "some fresh air!"
 	done
 
 _Route13EndBattleText4::
 	text "Not"
-	line "enough!"
+	line "good!"
 	prompt
 
 _Route13AfterBattleText4::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "I hear there's a"
+	line "daycare service"
+	cont "that's been"
+	cont "getting popular."
 	done
 
 _Route13BattleText5::
-	text "My cute #MON"
-	line "wish to make your"
-	cont "acquaintance."
+	text "My cutiepies are"
+	line "tough, so don't"
+	cont "hold back!"
 	done
 
 _Route13EndBattleText5::
@@ -58,35 +64,39 @@ _Route13EndBattleText5::
 	prompt
 
 _Route13AfterBattleText5::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "People don't"
+	line "realize how"
+	cont "strong the cute"
+	cont "ones are!"
 	done
 
 _Route13BattleText6::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "I keep finding"
+	line "these drugs"
+	cont "everywhere!"
 	done
 
 _Route13EndBattleText6::
-	text "Just"
-	line "messed up!"
+	text "Take"
+	line "it easy!"
 	prompt
 
 _Route13AfterBattleText6::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "CARBOS, IRON..."
+	line "Why is this stuff"
+	cont "just laying"
+	cont "around all over?"
 	done
 
 _Route13BattleText7::
-	text "The wind's blowing"
-	line "my way!"
+	text "I feel a change in"
+	line "the winds!"
 	done
 
 _Route13EndBattleText7::
 	text "The"
-	line "wind turned!"
+	line "wind changed,"
+	cont "alright!"
 	prompt
 
 _Route13AfterBattleText7::
@@ -95,8 +105,9 @@ _Route13AfterBattleText7::
 	done
 
 _Route13BattleText8::
-	text "Sure, I'll play"
-	line "with you!"
+	text "Ooh, you look"
+	line "like you can"
+	cont "entertain me!"
 	done
 
 _Route13EndBattleText8::
@@ -105,14 +116,14 @@ _Route13EndBattleText8::
 	prompt
 
 _Route13AfterBattleText8::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "Never mind."
+	line "You're not my"
+	cont "type."
 	done
 
 _Route13BattleText9::
-	text "Do you want to"
-	line "#MON with me?"
+	text "This team is"
+	line "unstoppable!"
 	done
 
 _Route13EndBattleText9::
@@ -121,29 +132,31 @@ _Route13EndBattleText9::
 	prompt
 
 _Route13AfterBattleText9::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Maybe I should"
+	line "rethink how I"
+	cont "strategize."
 	done
 
 _Route13BattleText10::
-	text "What're you"
-	line "lookin' at?"
+	text "You got a problem,"
+	line "punk?"
 	done
 
 _Route13EndBattleText10::
 	text "Dang!"
-	line "Stripped gears!"
+	line "You're tough!"
 	prompt
 
 _Route13AfterBattleText10::
-	text "Get lost!"
+	text "The best way to"
+	line "make friends is"
+	cont "pick a fight with"
+	cont "everyone! Right?"
 	done
 
 _Route13BattleText11::
-	text "I always go with"
-	line "bird #MON!"
+	text "The sky is our"
+	line "limit!"
 	done
 
 _Route13EndBattleText11::
@@ -152,9 +165,10 @@ _Route13EndBattleText11::
 	prompt
 
 _Route13AfterBattleText11::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "I'm striving to"
+	line "surpass our"
+	cont "limits. Reach out"
+	cont "beyond the stars!"
 	done
 
 _Route13Text11::
@@ -167,9 +181,13 @@ _Route13Text11::
 _Route13Text12::
 	text "TRAINER TIPS"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "Multi-hit moves"
+	line "deal the same"
+	cont "damage per hit"
+	cont "per turn."
+	
+	para "That includes"
+	line "CRITICAL HITS!"
 	done
 
 _Route13Text13::
