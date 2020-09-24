@@ -1,28 +1,28 @@
 _Route11EndBattleText9::
-	text "Whoa!"
-	line "You spark plug!"
+	text "Hey,"
+	line "yeah!"
 	prompt
 
 _Route11AfterBattleText9::
-	text "Well, better get"
-	line "back to work."
+	text "It's getting"
+	line "kinda hectic!"
 	done
 
 _Route11BattleText10::
-	text "My #MON should"
-	line "be ready by now!"
+	text "Alright, you're"
+	line "going down!"
 	done
 
 _Route11EndBattleText10::
-	text "Too"
-	line "much, too young!"
+	text "I"
+	line "was just cocky!"
 	prompt
 
 _Route11AfterBattleText10::
-	text "I better go find"
-	line "stronger ones!"
+	text "What? I don't need"
+	line "your approval!"
 	done
 
 _Route11Text11::
-	text "DIGLETT's CAVE"
+	text "KNOWITALL's CAVE"
 	done
