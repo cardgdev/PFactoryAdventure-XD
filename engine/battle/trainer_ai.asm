@@ -386,7 +386,7 @@ ConfusionMoves:
 	db SUPERSONIC
 	db CONFUSE_RAY
 	db $ff
-StatusAilmentMoveEffects ; 57e2
+StatusAilmentMoveEffects: ; 57e2
 	db $01 ; unused sleep effect
 	db SLEEP_EFFECT
 	db POISON_EFFECT
@@ -948,6 +948,9 @@ TrainerAI: ; 3a52e (e:652e)
 	ld a,[wIsInBattle]
 	dec a
 	ret z ; if not a trainer, we're done here
+	ld a, [wCurMap]
+	cp BATTLE_TENT
+	ret z ; if we are in battle tent, we are done
 	ld a,[wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z

@@ -171,6 +171,9 @@ ROMX $30
 ROMX $31
   "NewMaps"
 
+ROMX $32
+  "BattleTent"
+
 WRAM0
   "WRAM Bank 0"
 

@@ -1193,7 +1193,7 @@ ShellryEvosMoves:
 	db 37, SPORE
 	db 0
 	
-ErchinEvosMoves
+ErchinEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset

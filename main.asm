@@ -2287,3 +2287,17 @@ INCLUDE "data/mapObjects/surfhouse.asm"
 SurfHouseBlocks: INCBIN "maps/newAreas/surfhouse.blk"
 
 INCLUDE "text/maps/route_7_trainers.asm"
+
+
+SECTION "BattleTent",ROMX,BANK[$32]
+
+INCLUDE "engine/battletentdata.asm"
+INCLUDE "data/mapHeaders/battletent.asm"
+INCLUDE "data/mapObjects/battletent.asm"
+INCLUDE "scripts/battletent.asm"
+BattleTentBlocks: INCBIN "maps/battletent.blk"
+
+_PartyMenuBattleTentText::
+	text "Select which"
+	line "#MON to enter?"
+	done

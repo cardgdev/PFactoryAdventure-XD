@@ -1,40 +1,44 @@
 _Route10BattleText1::
-	text "Wow, are you a"
-	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Are you here for"
+	line "rare #MON?"
 	done
 
 _Route10EndBattleText1::
-	text "Humph."
-	line "I'm not angry!"
+	text "Yikes!"
+	line "You're hardcore!"
 	prompt
 
 _Route10AfterBattleText1::
-	text "I have more rare"
-	line "#MON at home!"
+	text "I collect lots of"
+	line "#MON, but I'm"
+	cont "not much of a"
+	cont "trainer."
 	done
 
 _Route10BattleText2::
-	text "Ha-hahah-ah-ha!"
+	text "Man, I'm thirsty."
+	line "Hey kid, if I win"
+	cont "will you fill my"
+	cont "canteen for me?"
 	done
 
 _Route10EndBattleText2::
-	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	text "Guess not."
+	line "Not that I was"
+	cont "serious, heh."
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "I can get water"
+	line "myself, but maybe"
+	cont "a water #MON"
+	cont "would be handy."
 	done
 
 _Route10BattleText3::
-	text "Hi kid, want to"
-	line "see my #MON?"
+	text "Hey, take a look"
+	line "at my pride and"
+	cont "joy!"
 	done
 
 _Route10EndBattleText3::
@@ -43,60 +47,63 @@ _Route10EndBattleText3::
 	prompt
 
 _Route10AfterBattleText3::
-	text "I don't like you"
-	line "for beating me!"
+	text "I'm raising these"
+	line "#MON with my"
+	cont "utmost care."
 	done
 
 _Route10BattleText4::
-	text "I've been to a"
-	line "#MON GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "ROCK TUNNEL is a"
+	line "scary place!"
 	done
 
 _Route10EndBattleText4::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Eek!"
+	line "You're scary too!"
 	prompt
 
 _Route10AfterBattleText4::
-	text "I noticed some"
-	line "#MANIACs"
-	cont "prowling around."
+	text "What's so great"
+	line "about a dark cave"
+	cont "anyway? You can't"
+	cont "see a thing!"
 	done
 
 _Route10BattleText5::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Ah! Nothing beats"
+	line "the outdoors!"
 	done
 
 _Route10EndBattleText5::
-	text "That"
-	line "cleared my head!"
+	text "Oho!"
+	line "You've got spunk!"
 	prompt
 
 _Route10AfterBattleText5::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Nature is so"
+	line "peaceful...Zzz..."
 	done
 
 _Route10BattleText6::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Don't you think"
+	line "they could've"
+	cont "come up with a"
+	cont "better name?"
 	done
 
 _Route10EndBattleText6::
-	text "I'm"
-	line "not up to it!"
+	text "Well,"
+	line "at least it's"
+	cont "accurate."
 	prompt
 
 _Route10AfterBattleText6::
-	text "The #MON here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "ROCK TUNNEL is so"
+	line "uninspired. I"
+	cont "would call it"
+	cont "something like"
+	cont "CAVERN OF THE"
+	cont "NIGHT. Too much?"
 	done
 
 _Route10Text9::

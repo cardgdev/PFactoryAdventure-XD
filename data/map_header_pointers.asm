@@ -117,7 +117,7 @@ MapHeaderPointers::
 	dw ViridianForest2_h ; new
 	dw VermillionTradingClub_h ; new
 	dw CinnabarEvoClub_h ; new
-	dw Lance_h ; unused
+	dw BattleTent_h ; new
 	dw HallofFameRoom_h
 	dw UndergroundPathNS_h
 	dw Gary_h ;id=120

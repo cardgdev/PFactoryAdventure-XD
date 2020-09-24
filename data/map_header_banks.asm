@@ -117,7 +117,7 @@ MapHeaderBanks:
 	db BANK(ViridianForest2_h) ;new
 	db BANK(VermillionTradingClub_h) ; new
 	db BANK(CinnabarEvoClub_h) ; new
-	db $1D ;unused
+	db BANK(BattleTent_h) ;new
 	db BANK(HallofFameRoom_h)
 	db BANK(UndergroundPathNS_h)
 	db BANK(Gary_h)

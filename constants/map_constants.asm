@@ -122,7 +122,7 @@ ENDM
 	mapconst VIRIDIAN_FOREST_2,          17, 24 ; $72 ; new
 	mapconst VERMILLION_TRADING_CLUB,     4,  5 ; $73 ; new
 	mapconst CINNABAR_EVO_CLUB,           4,  5 ; $74 ; new
-	mapconst BATTLE_TENT,                 0,  0 ; $75 ; new
+	mapconst BATTLE_TENT,                10,  5 ; $75 ; new
 	mapconst HALL_OF_FAME,                4,  5 ; $76
 	mapconst UNDERGROUND_PATH_NS,        24,  4 ; $77
 	mapconst CHAMPIONS_ROOM,              4,  4 ; $78

@@ -2949,7 +2949,33 @@ wRoute7CurScript::
 wUnknownDungeon4CurScript::
 	ds 1
 
-	ds 68; 78 - 2 from AI - 1 for wMonSpritesBank - 7 new curScript
+;battle tent data
+W_BATTLETENTCURSCRIPT:: 
+	ds 1
+	
+wBTOrder::
+	ds 2
+	
+wBTStreakCnt:: 
+	ds 1
+	
+wBTClass::
+	ds 1
+	
+wBTDataEnd::	
+	
+wStringBuffer1:: ; cf5f
+	ds 16 + 1
+
+wStringBuffer2:: ; cf70
+	ds 16 + 1
+	
+wStringBuffer3:: ; cf81
+	ds 9 + 1
+;end BT wram
+
+
+	ds 19; 78 - 2 from AI - 1 for wMonSpritesBank - 7 new curScript; then 68 - 49 for battle tent
 wGameProgressFlagsEnd::
 
 	ds 56
