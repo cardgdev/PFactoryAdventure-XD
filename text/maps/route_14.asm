@@ -1,7 +1,9 @@
 _Route14BattleText1::
-	text "You need to use"
-	line "TMs to teach good"
-	cont "moves to #MON!"
+	text "You're about to be"
+	line "my first win of"
+	cont "the day!"
+	
+	para "Lucky you!"
 	done
 
 _Route14EndBattleText1::
@@ -10,33 +12,34 @@ _Route14EndBattleText1::
 	prompt
 
 _Route14AfterBattleText1::
-	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "Confidence is key,"
+	line "right? So I"
+	cont "always say that"
+	cont "I'll win, haha."
 	done
 
 _Route14BattleText2::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "Birds are super"
+	line "useful! Let me"
+	cont "show you!"
 	done
 
 _Route14EndBattleText2::
 	text "Not"
-	line "ready yet!"
+	line "this time."
 	prompt
 
 _Route14AfterBattleText2::
-	text "They need to learn"
-	line "better moves."
+	text "Ever used a down"
+	line "pillow? Thank"
+	cont "birds for that!"
 	done
 
 _Route14BattleText3::
-	text "TMs are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "Apparently the"
+	line "store in CELADON"
+	cont "has a fantastic"
+	cont "selection."
 	done
 
 _Route14EndBattleText3::
@@ -45,96 +48,109 @@ _Route14EndBattleText3::
 	prompt
 
 _Route14AfterBattleText3::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "I don't really do"
+	line "much shopping"
+	cont "because I lose so"
+	cont "often."
 	done
 
 _Route14BattleText4::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Riding a flying"
+	line "#MON is"
+	cont "exhilarating!"
 	done
 
 _Route14EndBattleText4::
-	text "Shot"
-	line "down in flames!"
+	text "You"
+	line "shot me down!"
 	prompt
 
 _Route14AfterBattleText4::
-	text "Bird #MON are"
-	line "my true love!"
+	text "It's better to"
+	line "take a boat than"
+	cont "to try to FLY"
+	cont "overseas."
+
+	para "After all, even"
+	line "even #MON get"
+	cont "tired and need to"
+	cont "land."
 	done
 
 _Route14BattleText5::
-	text "Have you heard of"
-	line "the legendary"
-	cont "#MON?"
+	text "I've seen some"
+	line "crazy looking"
+	cont "birds."
 	done
 
 _Route14EndBattleText5::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Gah!"
+	line "Why'd I lose?!"
 	prompt
 
 _Route14AfterBattleText5::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "Not many people"
+	line "seem to find"
+	cont "DODRIO as weird"
+	cont "as I do."
 	done
 
 _Route14BattleText6::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "I'm not feeling"
+	line "it, but here we"
+	cont "go."
 	done
 
 _Route14EndBattleText6::
-	text "I"
-	line "knew it!"
+	text "I'm"
+	line "not surprised."
 	prompt
 
 _Route14AfterBattleText6::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "I suppose it"
+	line "doesn't matter"
+	cont "too much to lose"
+	cont "once in a while."
 	done
 
 _Route14BattleText7::
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "Get ready to eat"
+	line "my dust!"
 	done
 
 _Route14EndBattleText7::
 	text "Arrg!"
-	line "Lost! Get lost!"
+	line "I lost!"
 	prompt
 
 _Route14AfterBattleText7::
-	text "What, what, what?"
-	line "What do you want?"
+	text "You got a"
+	line "problem, kid?"
+	cont "Get lost!"
 	done
 
 _Route14BattleText8::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Perfect timing! I"
+	line "was getting"
+	cont "bored!"
 	done
 
 _Route14EndBattleText8::
-	text "What?"
-	line "You!?"
+	text "Ha!"
+	line "You got me!"
 	prompt
 
 _Route14AfterBattleText8::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "I don't like to"
+	line "lose, but that"
+	cont "got me fired up!"
 	done
 
 _Route14BattleText9::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "The ladies love"
+	line "watching a biker"
+	cont "ride into the"
+	cont "sunset!"
 	done
 
 _Route14EndBattleText9::
@@ -142,17 +158,19 @@ _Route14EndBattleText9::
 	prompt
 
 _Route14AfterBattleText9::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "I got this bike"
+	line "as a gift from my"
+	cont "girl, truth be"
+	cont "told!"
 
-	para "Might is right!"
-	line "And you know it!"
+	para "You meet all"
+	line "sorts of people"
+	cont "biking around."
 	done
 
 _Route14BattleText10::
-	text "#MON fight?"
-	line "Cool! Rumble!"
+	text "Are you ready to"
+	line "rumble?"
 	done
 
 _Route14EndBattleText10::
@@ -161,9 +179,10 @@ _Route14EndBattleText10::
 	prompt
 
 _Route14AfterBattleText10::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "You and I both"
+	line "know that I'd"
+	cont "beat you in"
+	cont "real fight!"
 	done
 
 _Route14Text11::
