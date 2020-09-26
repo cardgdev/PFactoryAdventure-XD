@@ -455,7 +455,7 @@ _VermilionPokecenterGuyText::
 _CeladonCityPokecenterGuyText::
 	text "If I had a BIKE"
 	line "I'd put on one"
-	cont "of those skintight"
+	cont "of those tight"
 	cont "suits and hog"
 	cont "the road like I'm"
 	cont "in the Tour de"
