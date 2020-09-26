@@ -2301,3 +2301,5 @@ _PartyMenuBattleTentText::
 	text "Select which"
 	line "#MON to enter?"
 	done
+
+FlamesSprite:           INCBIN "gfx/sprites/flames.2bpp"

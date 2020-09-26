@@ -8,9 +8,10 @@ CeladonMansion2Object:
 	db $1, $4, $3, CELADON_MANSION_3
 
 	db $1 ; signs
-	db $9, $4, $1 ; CeladonMansion2Text1
+	db $9, $4, $2 ; CeladonMansion2Text1
 
-	db $0 ; objects
+	db $1 ; objects
+	object SPRITE_BIKE_SHOP_GUY, $0, $6, STAY, UP, $1 ; person
 
 	; warp-to
 	EVENT_DISP CELADON_MANSION_2_WIDTH, $1, $6 ; CELADON_MANSION_3

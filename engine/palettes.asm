@@ -145,6 +145,8 @@ SetPal_Overworld:
 	cp CAVERN
 	jr z, .caveOrBruno
 	ld a, [wCurMap]
+	cp CELADON_MANSION_3
+	jr z, .GamefreakDevHell
 	cp REDS_HOUSE_1F
 	jr c, .townOrRoute
 	cp UNKNOWN_DUNGEON_2
@@ -177,6 +179,9 @@ SetPal_Overworld:
 	jr .town
 .Lorelei
 	xor a
+	jr .town
+.GamefreakDevHell
+	ld a, PAL_REDMON - 1
 	jr .town
 
 ; used when a Pokemon is the only thing on the screen

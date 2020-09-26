@@ -6,6 +6,11 @@ CeladonMansion3TextPointers:
 	dw GraphicArtistText
 	dw WriterText
 	dw DirectorText
+	dw NewGFGuyText1
+	dw NewGFGuyText2
+	dw FireText
+	dw FireText2
+	dw FireText3
 	dw GameFreakPCText1
 	dw GameFreakPCText2
 	dw GameFreakPCText3
@@ -21,6 +26,20 @@ GraphicArtistText:
 
 WriterText:
 	TX_FAR _WriterText
+	db "@"
+
+NewGFGuyText1:
+	TX_FAR _NewGFGuy1Text
+	db "@"
+
+NewGFGuyText2:
+	TX_FAR _NewGFGuy2Text
+	db "@"
+
+FireText3:
+FireText2:
+FireText:
+	TX_FAR _FlamesText
 	db "@"
 
 DirectorText:

@@ -79,6 +79,7 @@ const_value = 1
 	const SPRITE_TSUKUSHI
 	const SPRITE_ENOKI
 	const SPRITE_DAD
+	const SPRITE_FLAMES
 	const SPRITE_BALL                      ; $3d
 	const SPRITE_OMANYTE                   ; $3e
 	const SPRITE_BOULDER                   ; $3f
