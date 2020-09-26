@@ -1,54 +1,74 @@
 _CeladonGymText_48a5e::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
-
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
-
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
-
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
-
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
-
-	para "Very well, but I"
-	line "shall not lose."
+	text "How good of you"
+	line "to come here to"
+	cont "my GYM..."
+	
+	para "I am MIKAN, with"
+	line "my heart of ice"
+	cont "I will freeze"
+	cont "your GYM CHALLENGE"
+	cont "in it's tracks"
+	cont "right here and"
+	cont "now!"
+	
+	para "Let us begin."
 	done
 
 _CeladonGymText_48a63::
-	text "Oh!"
-	line "I concede defeat."
+	text "Well!"
+	line "I concede defeat!"
 
-	para "You are remarkably"
-	line "strong."
+	para "Your blazing"
+	line "spirit melted"
+	cont "right through my"
+	cont "defenses!"
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "I now delegate you"
+	line "the CRYSTALBADGE."
 	prompt
 
 _CeladonGymText_48a68::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
-
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	text "..."
+	
+	para "My knowledge of"
+	line "how and when the"
+	cont "mutations began?"
+	
+	para "Well, one rumor"
+	line "I've heard was"
+	cont "that they have"
+	cont "to do with a"
+	cont "secret project"
+	cont "left over by"
+	cont "TEAM ROCKET."
+	
+	para "How would I know"
+	line "that information?"
+	
+	para "Well, don't tell"
+	line "anyone, but I"
+	cont "used to work as"
+	cont "a cocktail wait-"
+	cont "ress at the GAME"
+	cont "CORNER while it"
+	cont "was owned by the"
+	cont "ROCKETs!"
+	
+	para "I overheard a bit"
+	line "of classified"
+	cont "info serving the"
+	cont "admins drinks"
+	cont "back then."
+	
+	para "I suppose they"
+	line "didn't take me"
+	cont "as being that"
+	cont "keen & observant,"
+	cont "unlucky them."
 	done
 
 _CeladonGymText9::
-	text "The RAINBOWBADGE"
+	text "The CRYSTALBADGE"
 	line "will make #MON"
 	cont "up to L50 obey."
 
@@ -69,13 +89,13 @@ _ReceivedTM21Text::
 
 _TM21ExplanationText::
 	db $0
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM04 contains"
+	line "ICY BREATH."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "A wintery move"
+	line "with a high"
+	cont "chance to freeze"
+	cont "the opponent!"
 	done
 
 _TM21NoRoomText::
@@ -84,10 +104,8 @@ _TM21NoRoomText::
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
-
-	para "You are not"
-	line "allowed in here!"
+	text "This GYM is"
+	line "a ladies club!"
 	done
 
 _CeladonGymEndBattleText2::
@@ -96,34 +114,39 @@ _CeladonGymEndBattleText2::
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "MIKAN will put"
+	line "you in your"
+	cont "place mister!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Succumb to the"
+	line "wind of the"
+	cont "north!"
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "Brr!"
+	line "That's just cold!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
-
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	text "ICE #MON have"
+	line "many weaknesses"
+	cont "but also are"
+	cont "super effective"
+	cont "on many types!"
+	
+	para "It's a dangerous"
+	line "game playing"
+	cont "with ICE!"
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Getting dizzy from"
+	line "the spinners?"
+	
+	para "Good!"
 	done
 
 _CeladonGymEndBattleText4::
@@ -132,17 +155,17 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "MIKAN brought the"
+	line "spinners here for"
+	cont "free from her"
+	cont "last workplace!"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
-
-	para "They're so easy"
-	line "to raise!"
+	text "ICE #MON are"
+	line "cold on the"
+	cont "outside but warm"
+	cont "within!"
 	done
 
 _CeladonGymEndBattleText5::
@@ -150,19 +173,16 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
-
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	text "Sometimes the cold"
+	line "can bring people"
+	cont "together. That's"
+	cont "why winter is my"
+	cont "favorite season!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Don't burn me"
+	line "up! You hear!?"
 	done
 
 _CeladonGymEndBattleText6::
@@ -171,16 +191,18 @@ _CeladonGymEndBattleText6::
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Speaking of burn-"
+	line "ing, did you see"
+	cont "smoke coming from"
+	cont "the 3rd floor of"
+	cont "the MANSION in"
+	cont "town? What's up"
+	cont "with that?"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Lets have a"
+	line "cordial battle."
 	done
 
 _CeladonGymEndBattleText7::
@@ -189,19 +211,19 @@ _CeladonGymEndBattleText7::
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "You fight with"
+	line "such grace and"
+	cont "honor, not like"
+	cont "a dirty speed-"
+	cont "runner!"
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
-
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	text "You a lost boy"
+	line "scout or some-"
+	cont "thing? Get"
+	cont "some better"
+	cont "fashion sense!"
 	done
 
 _CeladonGymEndBattleText8::
@@ -210,9 +232,7 @@ _CeladonGymEndBattleText8::
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
-
-	para "Wait 'til next"
-	line "time!"
+	text "Losing is the"
+	line "least fashionable"
+	cont "thing of all!"
 	done

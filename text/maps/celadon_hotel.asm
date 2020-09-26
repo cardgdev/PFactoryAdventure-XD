@@ -1,21 +1,22 @@
 _CeladonHotelText1::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
-
-	para "We're full up."
+	text "Sorry, but the"
+	line "HOTEL isn't in"
+	cont "service right now"
+	cont "due to the order"
+	cont "for quarantine."
 	done
 
 _CeladonHotelText2::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
-
-	para "CELADON is such a"
-	line "pretty city!"
+	text "This is awful!"
+	
+	para "I came all the"
+	line "way here to see"
+	cont "the city and it's"
+	cont "all closed up!"
 	done
 
 _CeladonHotelText3::
-	text "Why did she bring"
-	line "her brother?"
+	text "Another wasted"
+	line "vacation with my"
+	cont "girlfriend..."
 	done

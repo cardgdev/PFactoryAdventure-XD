@@ -1,44 +1,58 @@
 _CeladonDinerText1::
 	text "Hi!"
 
-	para "We're taking a"
-	line "break now."
+	para "We're still"
+	line "serving today!"
+	
+	para "No order can"
+	line "shut us down!"
 	done
 
 _CeladonDinerText2::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "#MON need"
+	line "their VITAMINS"
+	cont "just like people"
+	cont "do. VITAMIN items"
+	cont "give #MON more"
+	cont "STAT EXPERIENCE."
 	done
 
 _CeladonDinerText3::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "I heard the KDF"
+	line "was looking for"
+	cont "an abandoned old"
+	cont "ROCKET base in"
+	cont "the city!"
 	done
 
 _CeladonDinerText4::
-	text "Munch..."
-
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	text "I'll have two"
+	line "number 9s, a"
+	cont "number 9 large,"
+	cont "a number 6 with"
+	cont "extra dip, a"
+	cont "number 7, two"
+	cont "number 45s, one"
+	cont "with cheese, and"
+	cont "a large soda."
 	done
 
 _CeladonDinerText_491a7::
-	text "Go ahead! Laugh!"
-
-	para "I'm flat out"
-	line "busted!"
-
-	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
-
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	text "I was trying to"
+	line "gamble my way"
+	cont "to the top!"
+	
+	para "...then it all"
+	line "came crashing"
+	cont "down on me."
+	
+	para "I'm making a"
+	line "change in my"
+	cont "life, no more"
+	cont "slots for me!"
+	
+	para "Here take this"
+	line "away from me!"
 	prompt
 
 _ReceivedCoinCaseText::
@@ -53,7 +67,6 @@ _CoinCaseNoRoomText::
 	done
 
 _CeladonDinerText_491b7::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "Only clean jobs"
+	line "from now on..."
 	done

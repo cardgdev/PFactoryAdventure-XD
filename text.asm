@@ -388,126 +388,120 @@ _GymStatueText2::
 
 _ViridianCityPokecenterGuyText::
 	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	line "heal tired"
+	cont "#MON and"
+	cont "tired feet"
+	cont "from travelling"
+	cont "as well!"
 	done
 
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
-
-	para "...Me too..."
-	line "Snore..."
+	para "That JIGLYFAIRY"
+	line "got even better"
+	cont "at singing me"
+	cont "to sleep..."
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
-	line "#MON!"
-
-	para "He collects rare"
-	line "ones too!"
+	text "BILL's been"
+	line "reclusive lately."
+	
+	para "I hope the guy"
+	line "is doing ok."
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
-
-	para "People will pay a"
-	line "lot for one!"
+	text "Hey kid, wanna"
+	line "get your fortune"
+	cont "told?"
+	
+	para "Ooooooohhh..."
+	line "Aaaaaaahhh..."
+	
+	para "I seeeee..."
+	line "You giving meee"
+	cont "ten buuuucckks!"
+	
+	para "...No dice?"
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "Do you think if"
+	line "I use a MOON"
+	cont "STONE on myself"
+	cont "I'll grow bunny"
+	cont "ears?"
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
-	done
-
-_UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
-	done
-
-_UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
-	done
-
-_UnusedBenchGuyText3::
-	text "SILPH's manager"
-	line "is hiding in the"
-	cont "SAFARI ZONE."
+	text "I wanted to"
+	line "go explore the"
+	cont "spooky old"
+	cont "POWER PLANT"
+	cont "across the river."
 	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful..."
-
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
-
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	text "Grinding levels"
+	line "is for losers!"
+	
+	para "Sound strategy"
+	line "is the best way"
+	cont "to the top!"
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "If I had a BIKE"
+	line "I'd put on one"
+	cont "of those skintight"
+	cont "suits and hog"
+	cont "the road like I'm"
+	cont "in the Tour de"
+	cont "France!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
-
-	para "It has all sorts"
-	line "of rare #MON."
+	text "The SAFARI ZONE"
+	line "is full of cool"
+	cont "#MON! And you"
+	cont "don't even have"
+	cont "to battle them!"
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
-
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	text "If the GYM closed"
+	line "then where are"
+	cont "people getting"
+	cont "their last"
+	cont "BADGE from?"
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	text "Man I'm all for"
+	line "supporting the"
+	cont "troops but the"
+	cont "KDF are treating"
+	cont "us as prisoners!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "Man, think of"
+	line "all those tax"
+	cont "dollars wasted"
+	cont "on things like"
+	cont "raiding SILPH."
+	
+	para "Can't they have"
+	line "just ASKED for"
+	cont "help?"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "I had fun on"
+	line "the car ride"
+	cont "anyway!"
 	done
 
 _BookcaseText::

@@ -10,7 +10,7 @@ CeladonHouseObject:
 	db $3 ; objects
 	object SPRITE_OLD_PERSON, $4, $2, STAY, DOWN, $1 ; person
 	object SPRITE_ROCKET, $1, $4, WALK, $0, $2 ; person
-	object SPRITE_SAILOR, $5, $6, STAY, LEFT, $3 ; person
+	object SPRITE_ROCKET, $5, $6, STAY, LEFT, $3 ; person
 
 	; warp-to
 	EVENT_DISP CELADON_HOUSE_WIDTH, $7, $2

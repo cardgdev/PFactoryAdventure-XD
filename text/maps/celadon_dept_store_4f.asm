@@ -1,17 +1,19 @@
 _CeladonMart4Text2::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "My room is full"
+	line "of # DOLLs!"
+	
+	para "Naturally, I am"
+	line "very successful"
+	cont "with the ladies."
 	done
 
 _CeladonMart4Text3::
-	text "I heard something"
-	line "useful."
-
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	text "ICE and HONEY"
+	line "STONEs became"
+	cont "available here"
+	cont "recently, what"
+	cont "#MON can"
+	cont "evolve with them?"
 	done
 
 _CeladonMart4Text4::

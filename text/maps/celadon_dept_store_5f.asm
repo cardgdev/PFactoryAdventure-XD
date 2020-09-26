@@ -1,26 +1,18 @@
 _CeladonMart5Text1::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
-
-	para "Use CALCIUM to"
-	line "increase SPECIAL"
-	cont "abilities."
-
-	para "Use CARBOS to"
-	line "increase SPEED."
+	text "If you want your"
+	line "#MON to stand"
+	cont "a chance at the"
+	cont "BATTLE TENT, you"
+	cont "need to increase"
+	cont "their STAT.EXP!"
 	done
 
 _CeladonMart5Text2::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
-
-	para "PROTEIN increases"
-	line "ATTACK power."
-
-	para "IRON increases"
-	line "DEFENSE!"
+	text "VITAMIN items"
+	line "sold here will"
+	cont "pump up your"
+	cont "#MON's battle"
+	cont "power!"
 	done
 
 _CeladonMart5Text5::

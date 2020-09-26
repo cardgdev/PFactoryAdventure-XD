@@ -5,17 +5,20 @@ _CeladonMansion1Text2::
 	text "My dear #MON"
 	line "keep me company."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "I even sent them"
+	line "to retrieve my"
+	cont "groceries, until"
+	cont "CLEFAIRY came"
+	cont "home different..."
 	done
 
 _CeladonMansion1Text3::
-	text "CLEFAIRY: Pi"
+	text "JIGLYFAIRY: Pi"
 	line "pippippi!@@"
 
 _CeladonMansion1Text4::
-	text "NIDORAN: Kya"
-	line "kyaoo!@@"
+	text "VULPIX: Roko"
+	line "rokoko!@@"
 
 _CeladonMansion1Text5::
 	text "CELADON MANSION"

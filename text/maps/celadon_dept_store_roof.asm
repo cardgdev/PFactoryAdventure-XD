@@ -84,13 +84,16 @@ _CeladonMartRoofText_4852c::
 	cont "after all!@@"
 
 _CeladonMartRoofText1::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
-
-	para "But, she's so"
-	line "immature, she"
-	cont "drives me nuts!"
+	text "I don't know"
+	line "how my sister"
+	cont "gets all these"
+	cont "TMs that she"
+	cont "hands out."
+	
+	para "I wonder if"
+	line "she's getting"
+	cont "them from"
+	cont "somewhere shady?"
 	done
 
 _CeladonMartRoofText_48598::

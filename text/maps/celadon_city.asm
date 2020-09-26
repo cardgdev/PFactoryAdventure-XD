@@ -1,42 +1,58 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
+	text "I caught an EXPLO"
 	line "in CINNABAR!"
 
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	para "So far it's gotten"
+	line "me banned from"
+	cont "five stores, two"
+	
+	para "bars, a government"
+	line "building, and a"
+	cont "church!"
 	done
 
 _CeladonCityText2::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Hoo boy! That new"
+	line "GYM LEADER is"
+	cont "even cuter than"
+	cont "ERIKA! It's never"
+	cont "been a better"
+	cont "time to be a"
+	cont "dirty old coot!"
 	done
 
 _CeladonCityText3::
 	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	line "at least isn't"
+	cont "owned by TEAM"
+	cont "ROCKET anymore,"
+	cont "but it still"
+	cont "attracts rifraff!"
 	done
 
 _CeladonCityText4::
-	text "Moan! I blew it"
-	line "all at the slots!"
-
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	text "By day I'm a"
+	line "GAMBLER, by night"
+	cont "a cat-burgling"
+	cont "thief!"
+	
+	para "I snatch up the"
+	line "dough and gamble"
+	cont "it away in the"
+	cont "daylight!"
 	done
 
 _TM41PreText::
-	text "Hello, there!"
-
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
-
-	para "Here's a gift for"
-	line "dropping by!"
+	text "This city is going"
+	line "to the dregs, lad"
+	
+	para "Just look at this"
+	line "pond, it's toxic."
+	
+	para "It's so toxic that"
+	line "I found this flo-"
+	cont "ating around in"
+	cont "it, TM06 TOXIC!"
 	prompt
 
 _ReceivedTM41Text::
@@ -46,14 +62,11 @@ _ReceivedTM41Text::
 	text "!@@"
 
 _TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
-
-	para "Only one #MON"
-	line "can use it!"
-
-	para "That #MON is"
-	line "CHANSEY!"
+	text "TOXIC is a nasty"
+	line "ninja trick that"
+	cont "can be learned"
+	cont "by nearly all"
+	cont "#MON!"
 	done
 
 _TM41NoRoomText::
@@ -63,41 +76,41 @@ _TM41NoRoomText::
 
 _CeladonCityText6::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, BATRACHIAN!"
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "He used to be a"
+	line "POLIWRATH, but"
+	cont "now he's fully"
+	cont "matured into a"
+	cont "frog!"
+	
+	para "At least that's"
+	line "what I think"
+	cont "happened?"
 	done
 
 _CeladonCityText7::
-	text "POLIWRATH: Ribi"
-	line "ribit!@@"
+	text "BATRACHIAN: Cro-"
+	line "croak!@@"
 
 _CeladonCityText8::
-	text "What are you"
-	line "staring at?"
+	text "Step aside for"
+	line "your own safety!"
 	done
 
 _CeladonCityText9::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "This is government"
+	line "buisness! Cease!"
 	done
 
 _CeladonCityText10::
 	text "TRAINER TIPS"
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
-
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
-
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "DIRE HIT can be"
+	line "used together"
+	cont "with some moves"
+	cont "for an unbeatable"
+	cont "combo."
 	done
 
 _CeladonCityText11::
@@ -109,10 +122,10 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	cont "LEADER: MIKAN"
 
-	para "The Nature Loving"
-	line "Princess!"
+	para "The Graceful"
+	line "Maiden of Ice."
 	done
 
 _CeladonCityText14::
@@ -139,7 +152,7 @@ _CeladonCityText17::
 	done
 
 _CeladonCityText18::
-	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	text "CELADON GAMECORNER"
+	line "Come on in and"
+	cont "play tonight!"
 	done

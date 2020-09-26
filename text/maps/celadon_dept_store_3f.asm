@@ -1,10 +1,12 @@
 _TM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
-
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	text "Wax on!"
+	line "Wax off!"
+	
+	para "That is how you"
+	line "COUNTER!"
+	
+	para "Take this,"
+	line "Daniel-san!"
 	prompt
 
 _ReceivedTM18Text::
@@ -15,9 +17,15 @@ _ReceivedTM18Text::
 
 _TM18ExplanationText::
 	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	line "Return your"
+	cont "opponent's strike"
+	cont "with double the"
+	cont "force!"
+	
+	para "As long as it's"
+	line "a NORMAL or"
+	cont "FIGHTING type"
+	cont "move used!"
 	done
 
 _TM18NoRoomText::
@@ -26,42 +34,55 @@ _TM18NoRoomText::
 	done
 
 _CeladonMart3Text2::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "It's hard to"
+	line "find trading"
+	cont "partners now"
+	cont "that everyone"
+	cont "uses emulators!"
+	
+	para "I'm excited to"
+	line "go to the"
+	cont "VERMILION TRADING"
+	cont "CLUB to meet some"
+	cont "legit players!"
 	done
 
 _CeladonMart3Text3::
-	text "All right!"
-
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	text "Man I can't wait"
+	line "for #MON 2!"
+	
+	para "Christmas '97 is"
+	line "gonna rock!"
 	done
 
 _CeladonMart3Text4::
-	text "Come on GRAVELER!"
-
-	para "I love GRAVELER!"
-	line "I collect them!"
-
-	para "Huh?"
-
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	text "I heard all kinds"
+	line "of rumors about"
+	cont "secret places"
+	cont "and #MON in"
+	cont "RED and BLUE on"
+	cont "the internet!"
+	
+	para "I can't wait to"
+	line "finally find"
+	cont "PIKABLU!"
 	done
 
 _CeladonMart3Text5::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "I can't decide"
+	line "if I want a"
+	cont "SNES or GENESIS."
+	
+	para "SNES has all"
+	line "those slick"
+	cont "RPGs, but the"
+	cont "GENESIS has"
+	cont "fast paced"
+	cont "action games."
+	
+	para "Truly the great"
+	line "dilemma of our"
+	cont "times..."
 	done
 
 _CeladonMart3Text6::
@@ -69,23 +90,41 @@ _CeladonMart3Text6::
 	done
 
 _CeladonMart3Text7::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "An RPG! But you're"
+	line "already busy with"
+	cont "playing this one!"
 	done
 
 _CeladonMart3Text9::
 	text "A sports game!"
-	line "Dad'll like that!"
+	
+	para "JOHN MADDEN!"
+	line "JOHN MADDEN!"
+	cont "JOHN MADDEN!"
+	
+	para "..."
+	
+	para "FOOTBALL!"
 	done
 
 _CeladonMart3Text11::
 	text "A puzzle game!"
-	line "Looks addictive!"
+	line "You'd flex your"
+	cont "massive, surging"
+	cont "IQ right in the"
+	cont "game shop..."
+	
+	para "If you weren't"
+	line "just smart but"
+	cont "lazy!"
 	done
 
 _CeladonMart3Text13::
 	text "A fighting game!"
-	line "Looks tough!"
+	line "Nothing feels"
+	cont "better than just"
+	cont "mashing your way"
+	cont "to victory!"
 	done
 
 _CeladonMart3Text14::
@@ -93,6 +132,9 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "#MON 2: Gold"
+	line "& Silver!"
+	
+	para "COMING SOON"
+	line "GAME FREAK"
 	done

@@ -1,12 +1,14 @@
 _CeladonPrizeRoomText1::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "That CHRYSTAL..."
+	line "It's truly a"
+	cont "mysterious one!"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "I wonder where"
+	line "they came from?"
 	done
 
 _CeladonPrizeRoomText2::
-	text "I had a major"
-	line "haul today!"
+	text "I'm winnin so"
+	line "much, they should"
+	cont "kick me out!"
 	done

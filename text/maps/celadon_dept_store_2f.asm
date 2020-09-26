@@ -1,16 +1,17 @@
 _CeladonMart2Text3::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay..."
-
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	text "REPEL isn't as"
+	line "useful when"
+	cont "#MON are"
+	cont "always close to"
+	cont "your levels!"
 	done
 
 _CeladonMart2Text4::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Every time I"
+	line "see someone use"
+	cont "REVIVE in battle"
+	cont "I die a little"
+	cont "inside."
 	done
 
 _CeladonMart2Text5::

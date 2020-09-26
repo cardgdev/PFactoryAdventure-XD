@@ -1,10 +1,5 @@
 _CeladonMansion5Text1::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
-
-	para "Get together with"
-	line "your friends and"
-	cont "trade #MON!"
+	text "Would you care for"
+	line "an egg in these"
+	cont "trying times?"
 	done
