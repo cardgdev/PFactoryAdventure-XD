@@ -1,11 +1,8 @@
 _Route16HouseText3::
-	text "Oh, you found my"
-	line "secret retreat!"
-
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	text "Psst, I'm a fly-"
+	line "by-night kind of"
+	cont "gal! You can FLY"
+	cont "too, with this!"
 	prompt
 
 _ReceivedHM02Text::
@@ -15,10 +12,9 @@ _ReceivedHM02Text::
 _HM02ExplanationText::
 	text "HM02 is FLY."
 	line "It will take you"
-	cont "back to any town."
+	cont "anywhere baby..."
 
-	para "Put it to good"
-	line "use!"
+	para "Spread your wings!"
 	done
 
 _HM02NoRoomText::
@@ -27,5 +23,5 @@ _HM02NoRoomText::
 	done
 
 _Route16HouseText_1e652::
-	text "FEAROW: Kyueen!"
+	text "LIQUETZAL: Caw!"
 	done

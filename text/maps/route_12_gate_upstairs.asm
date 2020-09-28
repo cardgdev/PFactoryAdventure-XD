@@ -1,11 +1,14 @@
 _TM39PreReceiveText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
-
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it any more..."
+	text "Evasion is unfair"
+	line "play, DOUBLE TEAM"
+	cont "and MINIMIZE are"
+	cont "the devil's work."
+	
+	para "But luckily, there"
+	line "is a way to fight"
+	cont "back against it."
+	
+	para "Behold!"
 	prompt
 
 _ReceivedTM39Text::
@@ -16,10 +19,10 @@ _TM39ExplanationText::
 	text "TM39 is a move"
 	line "called SWIFT."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "It NEVER misses,"
+	line "a secret weapon"
+	cont "against evasive"
+	cont "opponents!"
 	done
 
 _TM39NoRoomText::
@@ -32,6 +35,9 @@ _Route12GateUpstairsText_495b8::
 	line "binoculars."
 
 	para "A man fishing!"
+	line "Or is the fish"
+	cont "fishing the"
+	cont "fisherman?"
 	done
 
 _Route12GateUpstairsText_495c4::

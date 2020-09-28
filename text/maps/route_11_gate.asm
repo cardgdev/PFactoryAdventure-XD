@@ -1,14 +1,19 @@
 _Route11GateText1::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
-
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
-
-	para "He'll help you"
-	line "rename them too!"
+	text "I'm real good"
+	line "at naming"
+	cont "#MON!"
+	
+	para "I just name"
+	line "them all after"
+	cont "fruits and"
+	cont "vegetables!"
+	
+	para "The NAME RATER"
+	line "in LAVENDER"
+	cont "tried to rename"
+	cont "my best 'mon,"
+	cont "PINEAPPLE to"
+	cont "something else"
+	cont "and I said"
+	cont "no way jack!"
 	done

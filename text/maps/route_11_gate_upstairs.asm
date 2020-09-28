@@ -1,22 +1,20 @@
 _Route11GateUpstairsText_494a3::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
-
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
-
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	text "ITEMFINDER is"
+	line "good for finding"
+	cont "hidden things"
+	cont "on the ground."
+	
+	para "I once found a"
+	line "wedding ring"
+	cont "and pawned it"
+	cont "for 500 bucks!"
 	done
 
 _BinocularsSnorlaxText::
 	text "Looked into the"
 	line "binoculars."
 
-	para "A big #MON is"
+	para "A blue thing is"
 	line "asleep on a road!"
 	done
 
@@ -24,8 +22,12 @@ _BinocularsNoSnorlaxText::
 	text "Looked into the"
 	line "binoculars."
 
-	para "It's a beautiful"
-	line "view!"
+	para "There's no planes"
+	line "in the sky."
+	
+	para "That makes sense,"
+	line "all flights were"
+	cont "shut down."
 	done
 
 _Route11GateUpstairsText_494d5::
