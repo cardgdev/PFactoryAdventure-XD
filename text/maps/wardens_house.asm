@@ -1,44 +1,54 @@
 _WardenGibberishText1::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
-
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	text "MRS.WARDEN: My old"
+	line "senile husband is"
+	cont "lost somewhere in"
+	cont "the SAFARI ZONE"
+	cont "again..."
+	
+	para "Could you be a"
+	line "dear and go find"
+	cont "him please?"
+	
+	para "...Before he ends"
+	line "up in a RHYHORN's"
+	cont "mouth like last"
+	cont "time."
 	done
 
 _WardenGibberishText2::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "MRS.WARDEN: Oh!"
+	line "did you bring my"
+	cont "old SLOWPOKE?"
 	done
 
 _WardenGibberishText3::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "There you are!"
+	line "Put in your teeth"
+	cont "and give me a"
+	cont "kiss!"
 	done
 
 _WardenTeethText1::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@@"
+	text "<PLAYER> gave"
+	line "WARDEN SLOWPOKE"
+	cont "to his wife!@@"
 
 _WardenTeethText2::
 	db $0
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "WARDEN: Hm?"
+	line "How'd I get here?"
 	prompt
 
 _WardenThankYouText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
-
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	text "MRS.WARDEN: Thank"
+	line "you for going to"
+	cont "all the trouble"
+	cont "of dragging him"
+	cont "back here."
+	
+	para "Please take this"
+	line "as a show of"
+	cont "my thanks."
 	prompt
 
 _ReceivedHM04Text::
@@ -48,23 +58,22 @@ _ReceivedHM04Text::
 	text "!@@"
 
 _HM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
-
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
-
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
-
-	para "If you do, you"
-	line "win an HM!"
-
-	para "I hear it's the"
-	line "rare SURF HM."
+	text "MRS.WARDEN: Now"
+	line "I need to get"
+	cont "him down to his"
+	cont "geriatric medi-"
+	cont "cine clinic so"
+	cont "he can have his"
+	cont "checkup."
+	
+	para "By the way, the"
+	line "SAFARI ZONE is"
+	cont "still running"
+	cont "the special"
+	cont "prize event"
+	cont "to win an HM"
+	cont "SURF, if you're"
+	cont "interested."
 	done
 
 _HM04NoRoomText::

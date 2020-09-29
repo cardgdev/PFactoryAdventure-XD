@@ -5,7 +5,13 @@ _SafariZoneCenterText2::
 _SafariZoneCenterText3::
 	text "TRAINER TIPS"
 
-	para "Press the START"
-	line "Button to check"
-	cont "remaining time!"
+	para "Stand on one"
+	line "spot and care-"
+	cont "fully rotate the"
+	cont "D-PAD to face"
+	cont "different ways in"
+	cont "the grass to hunt"
+	cont "for #MON with-"
+	cont "out losing any of"
+	cont "your steps!"
 	done

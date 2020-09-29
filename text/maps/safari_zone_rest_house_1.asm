@@ -1,11 +1,18 @@
 _SafariZoneRestHouse1Text1::
-	text "SARA: Where did"
-	line "my boy friend,"
-	cont "ERIK, go?"
+	text "SARA: Tell ERIK I"
+	line "was busy catching"
+	cont "lots of mutant"
+	cont "#MON!"
 	done
 
 _SafariZoneRestHouse1Text2::
-	text "I'm catching"
-	line "#MON to take"
-	cont "home as gifts!"
+	text "Is it really"
+	line "safe to let"
+	cont "people take home"
+	cont "crazy mutants?"
+	
+	para "Well I guess"
+	line "they did sign"
+	cont "the entrance"
+	cont "waiver."
 	done

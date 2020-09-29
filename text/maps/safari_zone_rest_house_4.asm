@@ -1,27 +1,32 @@
 _SafariZoneRestHouse4Text1::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
-
-	para "But, you'll run"
-	line "out of time if"
-	cont "you try for all"
-	cont "of them at once!"
+	text "Tourists drop all"
+	line "manner of stuff"
+	cont "on the ground."
+	
+	para "I pick up any-"
+	line "thing I see"
+	cont "because I respect"
+	cont "nature."
 	done
 
 _SafariZoneRestHouse4Text2::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "I heard there's"
+	line "a surfer dude"
+	cont "on ROUTE 19"
+	cont "looking for a"
+	cont "pal to hang ten"
+	cont "with."
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
-
-	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
-	cont "I wonder why?"
+	text "My EEVEE won't"
+	line "evolve with a"
+	cont "FIRE STONE into"
+	cont "FLAREON!"
+	
+	para "Did all the"
+	line "EEVEE suddenly"
+	cont "start reacting"
+	cont "to different"
+	cont "stones?"
 	done

@@ -1,34 +1,46 @@
 _FuchsiaCityText1::
-	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	text "The SAFARI ZONE"
+	line "is more exciting"
+	cont "than ever!"
 	done
 
 _FuchsiaCityText2::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
-
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	text "When all the"
+	line "#MON in the"
+	cont "SAFARI ZONE"
+	cont "mutated, it drove"
+	cont "their buisness"
+	cont "up even further"
+	cont "with tourists"
+	cont "from other cities"
+	cont "coming in."
 	done
 
 _FuchsiaCityText3::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "ERIK: Me and SARA"
+	line "come here every"
+	cont "year for our"
+	cont "anniversary and"
+	cont "I still manage"
+	cont "to lose her in"
+	cont "the park!"
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "Man... the most"
+	line "dangerous animal."
+	
+	para "What kind of"
+	line "pretentious exhi-"
+	cont "bit is this?"
+	
+	para "It's just a"
+	line "mirror in a pen!"
 	done
 
 _FuchsiaCityText5::
-	text "!"
+	text "please play the"
+	line "game legit :)"
 	done
 
 _FuchsiaCityText11::
@@ -55,65 +67,55 @@ _FuchsiaCityText17::
 _FuchsiaCityText18::
 	text "FUCHSIA CITY"
 	line "#MON GYM"
-	cont "LEADER: KOGA"
+	cont "LEADER: TSUKUSHI"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "The Insectoid"
+	line "Connoisseur."
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: CLEGNYANA"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "A radiant angel"
+	line "of healing light."
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: VOLTORB"
+	text "Name: MIRROROAR"
 
-	para "The very image of"
-	line "a # BALL."
+	para "Reflects attacks"
+	line "with a mystic"
+	cont "force."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+	text "Name: TAUROSKHAN"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "An odd crossbreed"
+	line "discovered in the"
+	cont "SAFARI ZONE."
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+	text "Name: GORK"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Spends most of"
+	line "its time sleeping"
+	cont "and is better off"
+	cont "that way."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: LAPRAS"
+	text "Name: LAPRINCE"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Crown emperor of"
+	line "the seas."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: ERCHIN"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Hated by divers,"
+	line "loved by seafood"
+	cont "enthusiasts."
 	prompt
-
-_FuchsiaCityKabutoText::
-	text "Name: KABUTO"
-
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
-	prompt
-
-_FuchsiaCityText_19b2a::
-	text "..."
-	done

@@ -1,27 +1,64 @@
 _KogaExplainToxicText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
-
-	para "It will surely"
-	line "terrorize foes!"
+	text "..."
+	
+	para "Do I know any"
+	line "thing about the"
+	cont "origin of the"
+	cont "mutants?"
+	
+	para "Well I've got"
+	line "a theory about"
+	cont "what causes it"
+	cont "to happen!"
+	
+	para "See, I think that"
+	line "they've been"
+	cont "using that weird"
+	cont "mist at the"
+	cont "SAFARI ZONE to"
+	cont "make the #MON"
+	cont "there mutate even"
+	cont "faster!"
+	
+	para "I saw a tanker"
+	line "truck dock up"
+	cont "at the SAFARI and"
+	cont "pump purple mist"
+	cont "directly into"
+	cont "the park."
+	
+	para "When I researched"
+	line "the trucking"
+	cont "company I found"
+	cont "out they're based"
+	cont "out of CERULEAN!"
+	
+	para "...Which is also"
+	line "where the first"
+	cont "reports of the"
+	cont "mist began!"
+	
+	para "I think the SAFARI"
+	line "staff got info"
+	cont "from somewhere"
+	cont "about the mist"
+	cont "and collected it"
+	cont "near CERULEAN to"
+	cont "mutate #MON"
+	cont "and drive more"
+	cont "buisness at the"
+	cont "park!"
 	done
 
 _FuchsiaGymText9::
-	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
-
-	para "It also lets you"
-	line "SURF outside of"
+	text "the CHITINBADGE"
+	line "will let your"
+	cont "#MON use"
+	cont "SURF outside of"
 	cont "battle!"
 
-	para "Ah! Take this"
-	line "too!"
+	para "And don't forget"
+	line "my special TM!"
 	done
 
 _ReceivedTM06Text::
@@ -32,46 +69,46 @@ _ReceivedTM06Text::
 
 _TM06ExplanationText::
 	db $0
-	para "TM06 contains"
-	line "TOXIC!"
+	para "TM07 contains"
+	line "WEB SPIN!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "It binds up"
+	line "foes to deal"
+	cont "damage while"
+	cont "keeping them"
+	cont "in place!"
 	done
 
 _TM06NoRoomText::
-	text "Make space for"
-	line "this, child!"
+	text "Hey you should"
+	line "make some room."
 	done
 
 _FuchsiaGymBattleText1::
-	text "Strength isn't"
-	line "the key for"
-	cont "#MON!"
-
-	para "It's strategy!"
-
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	text "Welcome to the"
+	line "jungle!"
 	done
 
 _FuchsiaGymEndBattleText1::
-	text "What?"
-	line "Extraordinary!"
+	text "We got"
+	line "fun and games!"
 	prompt
 
 _FuchsiaGymAfterBattleText1::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "We got everything"
+	line "you want honey,"
+	cont "we know the"
+	cont "names!"
 	done
 
 _FuchsiaGymBattleText2::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "This whole gym"
+	line "is a terrarium"
+	cont "with it's own"
+	cont "ecosystem!"
+	
+	para "And right now,"
+	line "you're my prey!"
 	done
 
 _FuchsiaGymEndBattleText2::
@@ -80,36 +117,32 @@ _FuchsiaGymEndBattleText2::
 	prompt
 
 _FuchsiaGymAfterBattleText2::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "Looks like the"
+	line "hunter became"
+	cont "the hunted..."
 	done
 
 _FuchsiaGymBattleText3::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "My sting will"
+	line "make you scream!"
 	done
 
 _FuchsiaGymEndBattleText3::
-	text "You"
-	line "had me fooled!"
+	text "Ha-"
+	line "HAAAAAAAAA!"
 	prompt
 
 _FuchsiaGymAfterBattleText3::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "I'm allergic to"
+	line "you! Get me an"
+	cont "Epipen!"
 	done
 
 _FuchsiaGymBattleText4::
-	text "Stop right there!"
-
-	para "Our invisible"
-	line "walls have you"
-	cont "frustrated?"
+	text "The old ninjas"
+	line "of FUSCHIA would"
+	cont "thrive in these"
+	cont "trees!"
 	done
 
 _FuchsiaGymEndBattleText4::
@@ -118,40 +151,32 @@ _FuchsiaGymEndBattleText4::
 	prompt
 
 _FuchsiaGymAfterBattleText4::
-	text "You impressed me!"
-	line "Here's a hint!"
-
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	text "Trees create many"
+	line "shadows, and in"
+	cont "shadows hide the"
+	cont "many predators"
+	cont "of the night!"
 	done
 
 _FuchsiaGymBattleText5::
-	text "I also study the"
-	line "way of the ninja"
-	cont "with master KOGA!"
-
-	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	text "BUG #MON"
+	line "represent heroism!"
 	done
 
 _FuchsiaGymEndBattleText5::
-	text "Awoo!"
+	text "Kyah!"
 	prompt
 
 _FuchsiaGymAfterBattleText5::
-	text "I still have much"
-	line "to learn!"
+	text "RIDAHHH KICKU!"
 	done
 
 _FuchsiaGymBattleText6::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
-
-	para "What did you"
-	line "descend from?"
+	text "Wild creatures"
+	line "are full of"
+	cont "tricks in their"
+	cont "arsenal of"
+	cont "survival!"
 	done
 
 _FuchsiaGymEndBattleText6::
@@ -160,34 +185,42 @@ _FuchsiaGymEndBattleText6::
 	prompt
 
 _FuchsiaGymAfterBattleText6::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
-
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	text "We humans no"
+	line "longer rely on"
+	cont "our basest"
+	cont "instincts to"
+	cont "survive, that's"
+	cont "what makes us"
+	cont "superior!"
 	done
 
 _FuchsiaGymText_7564e::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
-
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
-
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
+	text "Hey kid! You don't"
+	line "look like you"
+	cont "came to these"
+	cont "woods to go on"
+	cont "a camping trip!"
+	
+	para "I hate bugs!"
+	line "They're small,"
+	cont "annoying, and"
+	cont "always show up"
+	cont "when you want"
+	cont "em' least!"
+	
+	para "That's why I"
+	line "squash em'!"
+	
+	para "You can squash"
+	line "em' too with"
+	cont "FIRE, ROCK, and"
+	cont "FLYING moves!"
 	done
 
 _FuchsiaGymText_75653::
-	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!"
+	text "I haven't seen"
+	line "this many dead"
+	cont "bugs since I"
+	cont "got my house"
+	cont "fumigated!"
 	done

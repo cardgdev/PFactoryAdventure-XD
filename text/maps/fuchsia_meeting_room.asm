@@ -1,26 +1,33 @@
 _FuchsiaMeetingRoomText1::
-	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
-
-	para "He and SLOWPOKE"
-	line "both look vacant!"
+	text "Between the"
+	line "WARDEN's senility"
+	cont "and the mutation"
+	cont "outbreak, it's"
+	cont "been chaos for"
+	cont "the SAFARI ZONE"
+	cont "staff!"
+	
+	para "But despite that"
+	line "we're turning"
+	cont "more buisness"
+	cont "than ever before!"
 	done
 
 _FuchsiaMeetingRoomText2::
-	text "SLOWPOKE is very"
-	line "knowledgeable"
-	cont "about #MON!"
-
-	para "He even has some"
-	line "fossils of rare,"
-	cont "extinct #MON!"
+	text "SLOWPOKE's getting"
+	line "up there in age,"
+	cont "but he's still"
+	cont "trying his best"
+	cont "to keep up with"
+	cont "the park's daily"
+	cont "duties."
 	done
 
 _FuchsiaMeetingRoomText3::
-	text "SLOWPOKE came in,"
-	line "but I couldn't"
-	cont "understand him."
-
-	para "I think he's got"
-	line "a speech problem!"
+	text "The biodiversity"
+	line "of the SAFARI"
+	cont "ZONE is like a"
+	cont "petri dish for"
+	cont "making new mutant"
+	cont "species appear!"
 	done

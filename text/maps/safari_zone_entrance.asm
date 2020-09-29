@@ -61,33 +61,23 @@ _SafariZoneEntranceText_753c5::
 	done
 
 _SafariZoneEntranceText_753e6::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "Please sign this"
+	line "waiver if this"
+	cont "is your first"
+	cont "time here."
 	done
 
 _SafariZoneEntranceText_753eb::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
-
-	para "Each zone has"
-	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
-
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
-
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	text "The SAFARI ZONE"
+	line "is not liable for"
+	cont "any mutant-caused"
+	cont "accidents that"
+	cont "may occur during"
+	cont "your experience."
 	done
 
 _SafariZoneEntranceText_753f0::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "Alright, but"
+	line "don't think"
+	cont "you can sue us."
 	done

@@ -89,7 +89,7 @@ FuchsiaCityText20:
 	TX_ASM
 	ld hl, FuchsiaCityVoltorbText
 	call PrintText
-	ld a, GLOOB
+	ld a, MIRROROAR
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -135,35 +135,12 @@ FuchsiaCityLaprasText:
 
 FuchsiaCityText24:
 	TX_ASM
-	CheckEvent EVENT_GOT_DOME_FOSSIL
-	jr nz, .asm_3b4e8
-	CheckEventReuseA EVENT_GOT_HELIX_FOSSIL
-	jr nz, .asm_667d5
-	ld hl, FuchsiaCityText_19b2a
-	call PrintText
-	jr .asm_4343f
-.asm_3b4e8
 	ld hl, FuchsiaCityOmanyteText
 	call PrintText
 	ld a, ERCHIN
-	jr .asm_81556
-.asm_667d5
-	ld hl, FuchsiaCityKabutoText
-	call PrintText
-	ld a, ERCHIN
-.asm_81556
 	call DisplayPokedex
-.asm_4343f
 	jp TextScriptEnd
 
 FuchsiaCityOmanyteText:
 	TX_FAR _FuchsiaCityOmanyteText
-	db "@"
-
-FuchsiaCityKabutoText:
-	TX_FAR _FuchsiaCityKabutoText
-	db "@"
-
-FuchsiaCityText_19b2a:
-	TX_FAR _FuchsiaCityText_19b2a
 	db "@"

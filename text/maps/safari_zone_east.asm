@@ -5,9 +5,11 @@ _SafariZoneEastText5::
 _SafariZoneEastText6::
 	text "TRAINER TIPS"
 
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
+	para "BAIT makes"
+	line "#MON stay,"
+	cont "but they will"
+	cont "be harder to"
+	cont "catch!"
 	done
 
 _SafariZoneEastText7::
