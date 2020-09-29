@@ -16,16 +16,17 @@ _WardenGibberishText1::
 	done
 
 _WardenGibberishText2::
-	text "MRS.WARDEN: Oh!"
-	line "did you bring my"
-	cont "old SLOWPOKE?"
+	text "He tends to"
+	line "end up in the"
+	cont "WEST part of"
+	cont "the park, look"
+	cont "for him there!"
 	done
 
 _WardenGibberishText3::
-	text "There you are!"
-	line "Put in your teeth"
-	cont "and give me a"
-	cont "kiss!"
+	text "Well, I hope"
+	line "someone finds"
+	cont "him..."
 	done
 
 _WardenTeethText1::
@@ -37,6 +38,12 @@ _WardenTeethText2::
 	db $0
 	para "WARDEN: Hm?"
 	line "How'd I get here?"
+	
+	para "MRS.WARDEN:There"
+	line "you are! Now"
+	cont "put in your teeth"
+	cont "and give me a"
+	cont "kiss!"
 	prompt
 
 _WardenThankYouText::
