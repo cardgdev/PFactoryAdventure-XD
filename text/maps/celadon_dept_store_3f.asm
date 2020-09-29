@@ -133,7 +133,7 @@ _CeladonMart3Text14::
 
 _CeladonMart3Text15::
 	text "#MON 2: Gold"
-	line "& Silver!"
+	line "and Silver!"
 	
 	para "COMING SOON"
 	line "GAME FREAK"

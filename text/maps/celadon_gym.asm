@@ -63,7 +63,7 @@ _CeladonGymText_48a68::
 	para "I suppose they"
 	line "didn't take me"
 	cont "as being that"
-	cont "keen & observant,"
+	cont "observant,"
 	cont "unlucky them."
 	done
 
