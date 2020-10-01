@@ -1,5 +1,0 @@
-TODO LIST:
->Mons higher than 150 don't seem to be appearing in the randomization
-
->Write in the new text
-	>TEXT, PARA can have 18, LINE, CONT can have 17

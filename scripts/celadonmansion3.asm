@@ -50,7 +50,7 @@ DirectorText:
 	ld b, wPokedexOwnedEnd - wPokedexOwned
 	call CountSetBits
 	ld a, [wNumSetBits]
-	cp 150
+	cp 190
 	jr nc, .CompletedDex
 	ld hl, .GameDesigner
 	jr .done

@@ -127,9 +127,9 @@ Done:
 
 IterateUntilValid:
 	ld a, [wRNGAdd]	
-	cp 151
+	cp 190
 	jr c, .foundValidMon
-	sub 151
+	sub 190
 .foundValidMon:
 	ld hl, ValidMonIdxs
 	ld b, 0
