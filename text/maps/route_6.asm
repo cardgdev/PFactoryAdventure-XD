@@ -21,73 +21,79 @@ _Route6BattleText2::
 	done
 
 _Route6EndBattleText2::
-	text "Ugh!"
-	line "I hate losing!"
+	text "Back"
+	line "to talking, then."
 	prompt
 
 _Route6BattleText3::
-	text "There aren't many"
-	line "bugs out here."
+	text "The mutants here"
+	line "are the right"
+	cont "combo of cute"
+	cont "and cool!"
 	done
 
 _Route6EndBattleText3::
-	text "No!"
-	line "You're kidding!"
+	text "Hm."
+	line "Darn."
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	text "Maybe I should"
+	line "think about"
+	cont "strong over cute."
 	done
 
 _Route6BattleText4::
 	text "Huh? You want"
 	line "to talk to me?"
+	cont "Well back off,"
+	cont "dweeb!"
 	done
 
 _Route6EndBattleText4::
-	text "I"
-	line "didn't start it!"
+	text "Hmp!"
+	line "What's with you!"
 	prompt
 
 _Route6AfterBattleText4::
 	text "I should carry"
 	line "more #MON with"
 	cont "me for safety."
+	cont "It would deter"
+	cont "you and your"
+	cont "ilk."
 	done
 
 _Route6BattleText5::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Ahoy there!"
+	line "Fancy a battle?"
 	done
 
 _Route6EndBattleText5::
-	text "Just"
-	line "didn't work!"
+	text "Dang"
+	line "nabbit!"
 	prompt
 
 _Route6AfterBattleText5::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "You've got a"
+	line "neat team. Make"
+	cont "sure to cherish"
+	cont "them."
 	done
 
 _Route6BattleText6::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Fufufu..."
+	line "fresh meat!"
 	done
 
 _Route6EndBattleText6::
-	text "You"
-	line "are too good!"
+	text "Gah!"
+	line "Tenderized..."
 	prompt
 
 _Route6AfterBattleText6::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Job well done"
+	line "in that battle."
 	done
 
 _Route6Text7::

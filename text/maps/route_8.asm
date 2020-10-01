@@ -1,150 +1,189 @@
 _Route8BattleText1::
-	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	text "I just aced my"
+	line "math test! Time"
+	cont "to ace this"
+	cont "battle."
 	done
 
 _Route8EndBattleText1::
-	text "Ow!"
-	line "Meltdown!"
+	text "For my"
+	line "self evaluation..."
+	
+	para "F-."
 	prompt
 
 _Route8AfterBattleText1::
-	text "I am better at"
-	line "school than this!"
+	text "Maybe I was too"
+	line "harsh on myself."
+	
+	para "F+?"
 	done
 
 _Route8BattleText2::
-	text "All right! Let's"
-	line "roll the dice!"
+	text "#MON..."
+	line "Gambling..."
+	
+	para "I'm a born winner,"
+	line "baby!"
 	done
 
 _Route8EndBattleText2::
-	text "Drat!"
-	line "Came up short!"
+	text "Guh."
+	line "That didn't work."
 	prompt
 
 _Route8AfterBattleText2::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "I was trying a"
+	line "mind over matter"
+	cont "approach."
+	
+	para "It'll work next"
+	line "time!"
 	done
 
 _Route8BattleText3::
-	text "You need strategy"
-	line "to win at this!"
+	text "My crush lives"
+	line "in SAFFRON."
+	
+	para "If I win, I'll"
+	line "finally confess!"
 	done
 
 _Route8EndBattleText3::
 	text "It's"
-	line "not logical!"
+	line "not meant to be."
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
-	line "first...and..."
-	cont "...and...then..."
+	text "Maybe I'll try"
+	line "again tomorrow."
 	done
 
 _Route8BattleText4::
-	text "I like NIDORAN, so"
-	line "I collect them!"
+	text "In these trying"
+	line "times, the only"
+	cont "thing I'm sure"
+	cont "of is my strength!"
 	done
 
 _Route8EndBattleText4::
-	text "Why? Why??"
+	text "Why?"
 	prompt
 
 _Route8AfterBattleText4::
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "I let myself"
+	line "down, but at"
+	cont "least I can"
+	cont "believe in my"
+	cont "#MON."
 	done
 
 _Route8BattleText5::
-	text "School is fun, but"
-	line "so are #MON."
+	text "Hey there nerd!"
+	line "Gimme your lunch"
+	cont "money!"
 	done
 
 _Route8EndBattleText5::
-	text "I'll"
-	line "stay with school."
+	text "It"
+	line "didn't work..."
 	prompt
 
 _Route8AfterBattleText5::
-	text "We're stuck here"
-	line "because of the"
-	cont "gates at SAFFRON."
+	text "That line gets"
+	line "used on me"
+	cont "a lot."
+	
+	para "I thought I"
+	line "could turn"
+	cont "the tables..."
 	done
 
 _Route8BattleText6::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "Have you heard of"
+	line "the almighty"
+	cont "YOSHI?"
+	
+	para "Now, I'll channel"
+	line "its power!"
 	done
 
 _Route8EndBattleText6::
-	text "Meow!"
+	text "Yosh."
 	prompt
 
 _Route8AfterBattleText6::
-	text "I think PIDGEY"
-	line "and RATTATA"
-	cont "are cute too!"
+	text "I'm not worthy."
 	done
 
 _Route8BattleText7::
-	text "We must look"
-	line "silly standing"
-	cont "here like this!"
+	text "Gah! I'm going"
+	line "crazy here!"
 	done
 
 _Route8EndBattleText7::
-	text "Look what"
-	line "you did!"
+	text "Y-you!"
+	line "Grr!"
 	prompt
 
 _Route8AfterBattleText7::
-	text "SAFFRON's gate"
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "I'm actually"
+	line "from the next"
+	cont "region over."
+	
+	para "I miss the"
+	line "normal #MON."
+	
+	para "I guess my"
+	line "family, too."
 	done
 
 _Route8BattleText8::
-	text "I'm a rambling,"
-	line "gambling dude!"
+	text "If you win, I'll"
+	line "give you all"
+	cont "my cash!"
+	
+	para "But when I win..."
+	line "heh heh heh..."
 	done
 
 _Route8EndBattleText8::
-	text "Missed"
-	line "the big score!"
+	text "Oh..."
+	line "oh no..."
 	prompt
 
 _Route8AfterBattleText8::
-	text "Gambling and"
-	line "#MON are like"
-	cont "eating peanuts!"
-	cont "Just can't stop!"
+	text "Don't know what"
+	line "came over me."
+	
+	para "Probably some"
+	line "weird radiation"
+	cont "from LAVENDER."
+	
+	para "I wasn't gonna"
+	line "take your money."
+	cont "Ha ha...ha..."
 	done
 
 _Route8BattleText9::
-	text "What's a cute,"
-	line "round and fluffy"
-	cont "#MON?"
+	text "I love cute"
+	line "#MON more"
+	cont "than anything!"
 	done
 
 _Route8EndBattleText9::
-	text "Stop!"
-
-	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	text "I"
+	line "never said I"
+	cont "like strong ones!"
 	prompt
 
 _Route8AfterBattleText9::
-	text "I heard that"
-	line "CLEFAIRY evolves"
-	cont "when it's exposed"
-	cont "to a MOON STONE."
+	text "You can think"
+	line "my team's full"
+	cont "of ugly losers."
+
+	para "But they're all"
+	line "beautiful to me."
 	done
 
 _Route8Text10::
