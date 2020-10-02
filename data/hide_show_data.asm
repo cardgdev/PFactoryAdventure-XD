@@ -300,7 +300,7 @@ MapHS0A:
 	db SAFFRON_CITY,$0C,Hide
 	db SAFFRON_CITY,$0D,Hide
 	db SAFFRON_CITY,$0E,Show
-	db SAFFRON_CITY,$0F,Hide
+	db SAFFRON_CITY,$0F,Show
 MapHS0D:
 	db ROUTE_2,$01,Show
 	db ROUTE_2,$02,Show

@@ -1,13 +1,9 @@
 SaffronCityScript:
-	CheckEvent EVENT_9FE
-	jp nz, .regularScripts
+	CheckEvent EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
+	jp z, .regularScripts
 	ld a, HS_SAFFRON_CITY_E
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_SAFFRON_CITY_F
-	ld [wMissableObjectIndex], a
-	predef ShowObject
-	SetEvent EVENT_9FE	
 .regularScripts
 	jp EnableAutoTextBoxDrawing
 
