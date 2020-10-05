@@ -1,3 +1,4 @@
+; protesters
 _SaffronCityText1::
 	text "What do you want?"
 	line "Get lost!"
@@ -35,6 +36,7 @@ _SaffronCityText7::
 	cont "around the world!"
 	done
 
+; post protest
 _SaffronCityText8::
 	text "You beat TEAM"
 	line "ROCKET all alone?"
@@ -65,7 +67,9 @@ _SaffronCityText11::
 	done
 
 _SaffronCityText12::
-	text "PIDGEOT: Bi bibii!@@"
+	text "PIDGEAUTO: CAW"
+	line "CAW CAW!"
+	done
 
 _SaffronCityText13::
 	text "I saw ROCKET"
@@ -73,6 +77,7 @@ _SaffronCityText13::
 	cont "SILPH's building."
 	done
 
+;event extra
 _SaffronCityText14::
 	text "I'm a security"
 	line "guard."
@@ -82,11 +87,9 @@ _SaffronCityText14::
 	done
 
 _SaffronCityText15::
-	text "..."
-	line "Snore..."
-
-	para "Hah! He's taking"
-	line "a snooze!"
+	text "MEGAPHON: HOOOOOOO"
+	line "OOOOOOOOOOOOOOOOO"
+	cont "OOOOOOOOOOOOOONK!"
 	done
 
 _SaffronCityText16::
@@ -102,10 +105,10 @@ _SaffronCityText17::
 _SaffronCityText18::
 	text "SAFFRON CITY"
 	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	cont "LEADER: JACK"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "The Mechanical"
+	line "Marvel!"
 	done
 
 _SaffronCityText20::

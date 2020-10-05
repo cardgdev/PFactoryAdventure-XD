@@ -80,8 +80,10 @@ SaffronCityText11:
 
 SaffronCityText12:
 	TX_FAR _SaffronCityText12
-	TX_CRY_PIDGEOT
-	db "@"
+	TX_ASM
+	ld a, PIDGEAUTO
+	call PlayCry
+	jp TextScriptEnd
 
 SaffronCityText13:
 	TX_FAR _SaffronCityText13
@@ -93,7 +95,10 @@ SaffronCityText14:
 
 SaffronCityText15:
 	TX_FAR _SaffronCityText15
-	db "@"
+	TX_ASM
+	ld a, MEGAPHON
+	call PlayCry
+	jp TextScriptEnd
 
 SaffronCityText16:
 	TX_FAR _SaffronCityText16
