@@ -1,21 +1,31 @@
 _RockTunnel2BattleText2::
 	text "Hikers leave twigs"
 	line "as trail markers."
+	
+	para "Doesn't really help"
+	line "here though, does"
+	cont "it?"
+	
+	para "I forgot what"
+	line "to do in a cave!"
 	done
 
 _RockTunnel2EndBattleText2::
-	text "Ohhh!"
-	line "I did my best!"
+	text "Looks"
+	line "like I lost!"
 	prompt
 
 _RockTunnel2AfterBattleText2::
-	text "I want to go "
-	line "home!"
+	text "I lost, and"
+	line "I'm lost."
 	done
 
 _RockTunnel2BattleText3::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hoo-hah!"
+
+	para "I'll knock you"
+	line "into the first"
+	cont "floor!"
 	done
 
 _RockTunnel2EndBattleText3::
@@ -24,31 +34,33 @@ _RockTunnel2EndBattleText3::
 	prompt
 
 _RockTunnel2AfterBattleText3::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "You should make"
+	line "all your #MON"
+	cont "have the same"
+	cont "type of move!"
 	done
 
 _RockTunnel2BattleText4::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "I came here"
+	line "looking for"
+	cont "ZUBAT! Where on"
+	cont "earth are they?"
 	done
 
 _RockTunnel2EndBattleText4::
 	text "Shoot!"
-	line "I'm so jealous!"
+	line "Darn!"
 	prompt
 
 _RockTunnel2AfterBattleText4::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Where'd they"
+	line "go?"
 	done
 
 _RockTunnel2BattleText5::
-	text "Do you know about"
-	line "costume players?"
+	text "I want the mist"
+	line "to turn me"
+	cont "into a #MON!"
 	done
 
 _RockTunnel2EndBattleText5::
@@ -57,52 +69,52 @@ _RockTunnel2EndBattleText5::
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "BILL is my idol."
 	done
 
 _RockTunnel2BattleText6::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "One day I will"
+	line "dig a tunnel"
+	cont "like this with my"
+	cont "bare hands!"
 	done
 
 _RockTunnel2EndBattleText6::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Or"
+	line "maybe I won't!"
 	prompt
 
 _RockTunnel2AfterBattleText6::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "You're pretty"
+	line "tough, kid!"
+	
+	para "You could dig"
+	line "with me!"
 	done
 
 _RockTunnel2BattleText7::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "This tunnel's"
+	line "just the worst!"
 	done
 
 _RockTunnel2EndBattleText7::
 	text "Oh!"
-	line "I lost!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "The #MON here"
+	line "aren't cute."
+	
+	para "Well, maybe BING"
+	line "is if you squint."
 	done
 
 _RockTunnel2BattleText8::
-	text "Hit me with your"
-	line "best shot!"
+	text "I'm looking for a"
+	line "rare mon down"
+	cont "here!"
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Fired"
-	line "away!"
+	text "Ouch!"
 	prompt

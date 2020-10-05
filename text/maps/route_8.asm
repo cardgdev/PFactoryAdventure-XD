@@ -9,14 +9,14 @@ _Route8EndBattleText1::
 	text "For my"
 	line "self evaluation..."
 	
-	para "F-."
+	para "F."
 	prompt
 
 _Route8AfterBattleText1::
 	text "Maybe I was too"
 	line "harsh on myself."
 	
-	para "F+?"
+	para "D?"
 	done
 
 _Route8BattleText2::

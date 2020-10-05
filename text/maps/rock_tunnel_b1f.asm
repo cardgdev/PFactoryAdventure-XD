@@ -1,6 +1,6 @@
 _RockTunnel1BattleText1::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "Nothing like a"
+	line "nice long tunnel!"
 	done
 
 _RockTunnel1EndBattleText1::
@@ -9,93 +9,114 @@ _RockTunnel1EndBattleText1::
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "This place is"
+	line "heaven for BING"
+	cont "fans!"
 	done
 
 _RockTunnel1BattleText2::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Please...food..."
+	line "water..."
+	
+	para "I guess a battle"
+	cont "is...fine...too."
 	done
 
 _RockTunnel1EndBattleText2::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text "Hu-"
+	line "guh..."
 	prompt
 
 _RockTunnel1AfterBattleText2::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "I used to be a"
+	line "SWIMMER, but I"
+	cont "would get lost"
+	cont "on the ocean."
 	done
 
 _RockTunnel1BattleText3::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "You ready to"
+	line "have your world"
+	cont "rocked?"
 	done
 
 _RockTunnel1EndBattleText3::
-	text "I give!"
+	text "You"
+	line "rocked my world."
 	prompt
 
 _RockTunnel1AfterBattleText3::
-	text "You're talented"
-	line "enough to hike!"
+	text "Rock on, walk"
+	line "on, hike on."
+	
+	para "That's my creed."
 	done
 
 _RockTunnel1BattleText4::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "BING BING!"
+	
+	para "Wahoo!"
 	done
 
 _RockTunnel1EndBattleText4::
-	text "Game"
-	line "over!"
+	text "Well"
+	line "I guess I don't"
+	cont "KNOWITALL!"
 	prompt
 
 _RockTunnel1AfterBattleText4::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "I shouldn't have"
+	line "taken my victory"
+	cont "for GRANITE."
+	
+	para "Hahah!"
 	done
 
 _RockTunnel1BattleText5::
-	text "Eek! Don't try"
-	line "anything funny in"
+	text "Oh noooo! Don't"
+	line "try anything in"
 	cont "the dark!"
 	done
 
 _RockTunnel1EndBattleText5::
-	text "It"
-	line "was too dark!"
+	text "I"
+	line "couldn't see!"
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "To be honest,"
+	line "I came here looking"
+	cont "for my crush."
+	
+	text "They might still"
+	line "be on ROUTE 9..."
 	done
 
 _RockTunnel1BattleText6::
-	text "I came this far"
-	line "for #MON!"
+	text "That #MANIAC"
+	line "practiced his"
+	cont "horrible jokes"
+	cont "on me!"
+	
+	para "Gotta relieve my"
+	line "anger!"
 	done
 
 _RockTunnel1EndBattleText6::
 	text "I'm"
-	line "out of #MON!"
+	line "still seething!"
 	prompt
 
 _RockTunnel1AfterBattleText6::
-	text "You looked cute"
-	line "and harmless!"
+	text "This loss wasn't"
+	line "as bad as those"
+	cont "puns!"
 	done
 
 _RockTunnel1BattleText7::
-	text "You have #MON!"
-	line "Let's start!"
+	text "Explore hard!"
+	line "Battle hard!"
+	cont "Hi-yah!"
 	done
 
 _RockTunnel1EndBattleText7::
@@ -106,6 +127,9 @@ _RockTunnel1EndBattleText7::
 _RockTunnel1AfterBattleText7::
 	text "Whew! I'm all"
 	line "sweaty now!"
+	
+	para "...What's that"
+	line "look for?"
 	done
 
 _RockTunnel1Text8::
