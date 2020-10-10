@@ -2,7 +2,7 @@ _TM29PreReceiveText::
 	text "...Wait! Don't"
 	line "say a word!"
 
-	para "You wanted this!"
+	para "You need this!"
 	prompt
 
 _ReceivedTM29Text::
@@ -17,6 +17,12 @@ _TM29ExplanationText::
 	para "It can lower the"
 	line "target's SPECIAL"
 	cont "abilities."
+	
+	para "Good luck on"
+	line "your secret"
+	cont "mission, RED!"
+	cont "I won't tell a"
+	cont "single soul!"
 	done
 
 _TM29NoRoomText::

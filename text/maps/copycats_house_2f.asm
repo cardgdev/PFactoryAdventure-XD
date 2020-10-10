@@ -1,29 +1,43 @@
 _CopycatsHouse2FText_5ccd4::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
-
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
-
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
-
-	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
-
-	para "But, that's my"
-	line "favorite hobby!"
+	text "<PLAYER>: Hey kid"
+	line "are you doing ok?"
+	
+	para "<PLAYER>: Wow she"
+	line "really won't stop"
+	cont "mimicking..."
+	
+	para "<PLAYER>: Maybe I"
+	line "can find an item"
+	cont "that will help"
+	cont "her condition?"
 	prompt
 
 _TM31PreReceiveText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "<PLAYER>: Hey"
+	line "COPYCAT, I think"
+	cont "this might help"
+	cont "you out!"
+	
+	para "<PLAYER>: X"
+	line "ACCURACY is basi-"
+	cont "cally Ritalin,"
+	cont "right?"
 
-	para "For me?"
-	line "Thank you!"
+	para "<PLAYER> used the"
+	line "X ACCURACY on"
+	cont "COPYCAT!"
 
-	para "You can have"
-	line "this, then!"
+	para "COPYCAT: Wow! I"
+	line "feel different!"
+	
+	para "I'll tell my"
+	line "parents I got"
+	cont "some good drugs"
+	cont "from a stranger!"
+	
+	para "You can have this"
+	line "TM, I won't be"
+	cont "needing it!"
 	prompt
 
 _ReceivedTM31Text::
@@ -34,24 +48,21 @@ _ReceivedTM31Text::
 
 _TM31ExplanationText1::
 	db $0
-	para "TM31 contains my"
+	para "TM31 was my"
 	line "favorite, MIMIC!"
 
 	para "Use it on a good"
 	line "#MON!@@"
 
 _TM31ExplanationText2::
-	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
-
-	para "<PLAYER>: Pardon?"
-
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
-
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "COPYCAT: Hi! I'm"
+	line "doing a lot"
+	cont "better now!"
+	
+	para "My mom said she"
+	line "won't need to"
+	cont "take me to"
+	cont "therapy anymore!"
 	done
 
 _TM31NoRoomText::
@@ -59,12 +70,13 @@ _TM31NoRoomText::
 	line "this?@@"
 
 _CopycatsHouse2FText2::
-	text "DODUO: Giiih!"
+	text "DODUO: THAT'S IT!"
 
-	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	para "IF YOU CAN'T FIX"
+	line "OUR DAUGHTER THEN"
+	cont "WE'RE GETTING A"
+	cont "DIVORCE, AND I"
+	cont "MEAN IT STEVE!"
 	done
 
 _CopycatsHouse2FText3::
@@ -74,21 +86,25 @@ _CopycatsHouse2FText3::
 	done
 
 _CopycatsHouse2FText6::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "A game about a"
+	line "blue blob."
+	
+	para "No, not THAT"
+	line "blue blob, this"
+	cont "one is named"
+	cont "JERRY."
 	done
 
 _CopycatsHouse2FText_5cd17::
-	text "..."
-
-	para "My Secrets!"
-
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	text "She's been on a"
+	line "website..."
+	
+	para "THE #MON"
+	line "FACTORY!"
+	
+	para "She's emailing an"
+	line "idea to the"
+	cont "site artists!"
 	done
 
 _CopycatsHouse2FText_5cd1c::

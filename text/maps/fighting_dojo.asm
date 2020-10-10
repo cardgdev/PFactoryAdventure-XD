@@ -2,14 +2,18 @@ _FightingDojoText_5ce8e::
 	text "Grunt!"
 
 	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
-
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
-
-	para "Fwaaa!"
+	line "MASTER! Unlike"
+	cont "those official"
+	cont "LEADERS I'd"
+	cont "never leave my"
+	cont "post during a"
+	cont "crisis!"
+	
+	para "Prove to me"
+	line "you are strong"
+	cont "enough to survive"
+	cont "out on these"
+	cont "mean streets!"
 	done
 
 _FightingDojoText_5ce93::
@@ -27,7 +31,7 @@ _FightingDojoText_5ce98::
 	cont "your trophy!"
 
 	para "In return, I will"
-	line "give you a prized"
+	line "give you a mutant"
 	cont "fighting #MON!"
 
 	para "Choose whichever"
@@ -35,15 +39,23 @@ _FightingDojoText_5ce98::
 	done
 
 _FightingDojoText_5ce9d::
-	text "Ho!"
-
-	para "Stay and train at"
-	line "Karate with us!"
+	text "We need strong"
+	line "people to help"
+	cont "us defend the"
+	cont "city!"
+	
+	para "Please stay and"
+	line "train karate with"
+	cont "us here!"
 	done
 
 _FightingDojoBattleText1::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Why don't I wear"
+	line "any shoes?"
+	
+	para "So I can stain"
+	line "your face with"
+	cont "my foot sweat!"
 	done
 
 _FightingDojoEndBattleText1::
@@ -52,53 +64,58 @@ _FightingDojoEndBattleText1::
 	prompt
 
 _FightingDojoAfterBattleText1::
-	text "You wait 'til you"
-	line "see our Master!"
-
-	para "I'm a small fry"
-	line "compared to him!"
+	text "Athlete's foot is"
+	line "the mark of the"
+	cont "warrior!"
 	done
 
 _FightingDojoBattleText2::
-	text "I hear you're"
-	line "good! Show me!"
+	text "We're training for"
+	line "all-out street"
+	cont "brawling!"
 	done
 
 _FightingDojoEndBattleText2::
-	text "Judge!"
-	line "1 point!"
+	text "Hah!"
+	line "You're good!"
 	prompt
 
 _FightingDojoAfterBattleText2::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Someone has to"
+	line "fight off the"
+	cont "hordes coming in!"
 	done
 
 _FightingDojoBattleText3::
-	text "Nothing tough"
-	line "frightens me!"
-
-	para "I break boulders"
-	line "for training!"
+	text "I'll break those"
+	line "skinny protesters"
+	cont "in half like a"
+	cont "twig if they try"
+	cont "and take me!"
 	done
 
 _FightingDojoEndBattleText3::
 	text "Yow!"
-	line "Stubbed fingers!"
+	line "Snapped finger!"
 	prompt
 
 _FightingDojoAfterBattleText3::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "I'll send them"
+	line "packing back to"
+	cont "whatever city"
+	cont "sent em'!"
 	done
 
 _FightingDojoBattleText4::
 	text "Hoohah!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "You're not from"
+	line "around here!"
+	
+	para "You stepped into"
+	line "the wrong city"
+	cont "if you think you"
+	cont "can trash it up!"
 	done
 
 _FightingDojoEndBattleText4::
@@ -107,24 +124,25 @@ _FightingDojoEndBattleText4::
 	prompt
 
 _FightingDojoAfterBattleText4::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "I'll find out who"
+	line "sent you lot and"
+	cont "bust them up with"
+	cont "my bare hands!"
 	done
 
 _WantHitmonleeText::
 	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	line "frozen fisting"
+	cont "WENDIGO?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
-	line "piston punching"
-	cont "HITMONCHAN?"
+	line "antler assaulting"
+	cont "HUNTER?"
 	done
 
 _OtherHitmonText::
-	text "Better not get"
-	line "greedy..."
+	text "Taking two is"
+	line "dishonorable..."
 	done

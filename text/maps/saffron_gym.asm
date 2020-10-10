@@ -1,106 +1,116 @@
 _SaffronGymText_5d162::
-	text "I had a vision of"
-	line "your arrival!"
-
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
-
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
-
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	text "(CLICK) (WHIRR)"
+	
+	para "GYM CHALLENGER"
+	line "DETECTED"
+	
+	para "INITIATING BATTLE"
+	line "PROCEDURES"
+	
+	para "I AM SHINJUKU JACK"
+	
+	para "PREPARE TO BE"
+	line "STOMPED HARD!"
 	done
 
 _SaffronGymText_5d167::
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "OUT OF"
+	line "AVAILABLE #MON"
+	line "TO BATTLE"
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
-
-	para "You earned the"
-	line "MARSHBADGE!@@"
+	para "INITIATING DEFEAT"
+	line "PROCEDURES"
+	
+	para "CONGRATULATIONS!"
+	
+	para "DISPENSING ONE"
+	line "SCREWBADGE@@"
 
 _SaffronGymText_5d16e::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "QUERY?"
+	line "INFORMATION ON"
+	cont "MIST OCCURENCE?"
+	
+	para "ERROR! ERROR!"
+	
+	para "ACCESS DENIED"
+	
+	para "THAT INFORMATION"
+	line "IS CLASSIFIED"
+	cont "TO SILPH COMPANY"
+	cont "EMPLOYEES WITH"
+	cont "SUFFICIENT LEVEL"
+	cont "CLEARANCE"
 	done
 
 _SaffronGymText_5d173::
-	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	text "SCREWBADGE INFO:"
+	line "#MON UP TO"
+	cont "LEVEL 70 WILL"
+	cont "OBEY YOUR COMMAND."
 
-	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
-
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
-
-	para "Wait, please take"
-	line "this TM with you!"
+	para "DISPENSING REWARD"
+	line "TM..."
 	done
 
 ReceivedTM46Text::
 	text "<PLAYER> received"
-	line "TM46!@@"
+	line "TM30!@@"
 
 _TM46ExplanationText::
 	db $0
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM30 CONTENTS:"
+	line "ARMOR TAIL"
+	
+	para "A POWERFUL ARMOR-"
+	line "TYPE ATTACK MOVE"
 	done
 
 _TM46NoRoomText::
-	text "Your pack is full"
-	line "of other items!"
+	text "ERROR! YOUR PACK"
+	line "IS CURRENTLY FULL"
 	done
 
 _SaffronGymText_5d1e6::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "SABRINA's #MON"
-	line "use psychic power"
-	cont "instead of force!"
-
-	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
-
-	para "They get creamed"
-	line "before they can"
-	cont "even aim a punch!"
+	text "Everything about"
+	line "this is wrong!"
+	
+	para "You're telling me"
+	line "the LEADER here"
+	cont "is a damn robot!?"
+	
+	para "And don't get me"
+	line "started on ARMOR"
+	cont "type! You can't"
+	cont "just invent a"
+	cont "new type of"
+	cont "#MON! That's"
+	cont "unnatural!"
+	
+	para "Go show those"
+	line "tech-worshipping"
+	cont "nerds why human"
+	cont "brainpower is"
+	cont "superior!"
 	done
 
 _SaffronGymText_5d1eb::
-	text "Psychic power,"
-	line "huh?"
-
-	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	text "They can't just"
+	line "replace SABRINA"
+	cont "with a robot"
+	cont "because she"
+	cont "left to go be"
+	cont "a movie star!"
+	
+	para "What a world"
+	line "we're living in"
+	cont "these days..."
 	done
 
 _SaffronGymBattleText1::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "Our GYM is a"
+	line "show of all new"
+	cont "technology!"
 	done
 
 _SaffronGymEndBattleText1::
@@ -109,19 +119,18 @@ _SaffronGymEndBattleText1::
 	prompt
 
 _SaffronGymAfterBattleText1::
-	text "In a battle of"
-	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
-
-	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
+	text "A loss is no"
+	line "big deal, it just"
+	cont "adds to the data"
+	cont "needed to help"
+	cont "advance our tech!"
 	done
 
 _SaffronGymBattleText2::
-	text "Does our unseen"
-	line "power scare you?"
+	text "All our PSYCHIC"
+	line "technique proved"
+	cont "useless against"
+	cont "JACK!"
 	done
 
 _SaffronGymEndBattleText2::
@@ -130,35 +139,36 @@ _SaffronGymEndBattleText2::
 	prompt
 
 _SaffronGymAfterBattleText2::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "The human mind"
+	line "bends to our will"
+	cont "far easier than"
+	cont "that of an un-"
+	cont "feeling machine!"
 	done
 
 _SaffronGymBattleText3::
-	text "#MON take on"
-	line "the appearance of"
-	cont "their trainers."
-
-	para "Your #MON must"
-	line "be tough, then!"
+	text "I AM A ROBOT"
+	line "I AM A ROBOT"
+	cont "I AM A ROBOT"
 	done
 
 _SaffronGymEndBattleText3::
-	text "I knew"
-	line "it!"
+	text "I AM"
+	line "A ROBOT"
 	prompt
 
 _SaffronGymAfterBattleText3::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "Beep boop son,"
+	line "beep boop."
 	done
 
 _SaffronGymBattleText4::
-	text "You know that"
-	line "power alone isn't"
-	cont "enough!"
+	text "A robot's mechani-"
+	line "cal mind is the"
+	cont "perfect one!"
+	
+	para "We PSYCHICS have"
+	line "so much to learn."
 	done
 
 _SaffronGymEndBattleText4::
@@ -167,15 +177,24 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "I must hone my"
+	line "logical skills"
+	cont "to the utmost"
+	cont "level to even"
+	cont "get close to"
+	cont "JACK's natural"
+	cont "abilities!"
 	done
 
 _SaffronGymBattleText5::
-	text "You and I, our"
-	line "#MON shall"
-	cont "fight!"
+	text "Isn't SILPH CO."
+	line "amazing!"
+	
+	para "First they made"
+	line "a digital #MON"
+	cont "and now a fully"
+	cont "autonomous battle"
+	cont "trained robot!"
 	done
 
 _SaffronGymEndBattleText5::
@@ -184,18 +203,28 @@ _SaffronGymEndBattleText5::
 	prompt
 
 _SaffronGymAfterBattleText5::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "I heard they flew"
+	line "in a kid prodigy"
+	cont "from France to"
+	cont "help make JACK"
+	cont "after he made a"
+	cont "similar prototype"
+	cont "for a GYM there!"
 	done
 
 _SaffronGymBattleText6::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
-
-	para "You won't reach"
-	line "her easily!"
+	text "All these SUPER"
+	line "NERDS are so"
+	cont "predictable..."
+	
+	para "Once I can get"
+	line "the details to"
+	cont "JACK from their"
+	cont "zealous little"
+	cont "brains we PSYCHIC"
+	cont "trainers will"
+	cont "take back our"
+	cont "SAFFRON GYM!"
 	done
 
 _SaffronGymEndBattleText6::
@@ -204,25 +233,31 @@ _SaffronGymEndBattleText6::
 	prompt
 
 _SaffronGymAfterBattleText6::
-	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
-
-	para "The FIGHTING DOJO"
-	line "next door lost"
-	cont "its GYM status"
-	cont "when we went and"
-	cont "creamed them!"
+	text "These NERDS seem"
+	line "to know a lot"
+	cont "about JACK but..."
+	
+	para "It seems SILPH"
+	line "COMPANY isn't"
+	cont "responsible for"
+	cont "creating those"
+	cont "ARMOR #MON."
+	
+	para "Did JACK just"
+	line "obtain them"
+	cont "on his own in"
+	cont "some place?"
 	done
 
 _SaffronGymBattleText7::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
-
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	text "All that rioting"
+	line "in the streets"
+	cont "is throwing off"
+	cont "my brainwaves."
+	
+	para "Help me right"
+	line "myself with a"
+	cont "good battle!"
 	done
 
 _SaffronGymEndBattleText7::
@@ -230,7 +265,19 @@ _SaffronGymEndBattleText7::
 	prompt
 
 _SaffronGymAfterBattleText7::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "If only I could"
+	line "pin down one of"
+	cont "those SOLDIERs"
+	cont "from the KDF so"
+	cont "I could read"
+	cont "their mind and"
+	cont "find out why"
+	cont "this is all"
+	cont "really going on."
+	
+	para "All the noise in"
+	line "the streets is"
+	cont "preventing us"
+	cont "from being able"
+	cont "to though!"
 	done

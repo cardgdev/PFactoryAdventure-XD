@@ -18,7 +18,7 @@ CopycatsHouse2FText1:
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	ld hl, CopycatsHouse2FText_5ccd4
 	call PrintText
-	ld b, POKE_DOLL
+	ld b, X_ACCURACY
 	call IsItemInBag
 	jr z, .asm_62ecd
 	ld hl, TM31PreReceiveText
@@ -28,7 +28,7 @@ CopycatsHouse2FText1:
 	jr nc, .BagFull
 	ld hl, ReceivedTM31Text
 	call PrintText
-	ld a, POKE_DOLL
+	ld a, X_ACCURACY
 	ld [$ffdb], a
 	callba RemoveItemByID
 	SetEvent EVENT_GOT_TM31

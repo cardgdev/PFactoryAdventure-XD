@@ -1,26 +1,22 @@
 _SaffronHouse1Text1::
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
-
-	para "Hey! Don't look"
-	line "at my letter!"
+	text "H-hey don't look"
+	line "at my manga!"
 	done
 
 _SaffronHouse1Text2::
-	text "PIDGEY: Kurukkoo!@@"
+	text "FIREBIRD: Cheep!@@"
 
 _SaffronHouse1Text3::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	text "My sister has no"
+	line "taste in manga."
 	done
 
 _SaffronHouse1Text4::
-	text "I was given a PP"
-	line "UP as a gift."
-
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	text "It's a manga,"
+	line "the title is:"
+	
+	para "My Nigerian Prince"
+	line "Can't Be This"
+	cont "Cute!: A Story of"
+	cont "Love Over Email."
 	done
