@@ -1,86 +1,110 @@
 _MeetLaprasGuyText::
-	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
-	cont "came to save us?"
-	cont "Why, thank you!"
-
-	para "I want you to"
-	line "have this #MON"
-	cont "for saving us."
+	text "Hey you're a"
+	line "pretty tough"
+	cont "trainer, pal!"
+	
+	para "Listen, I've got"
+	line "this #MON from"
+	cont "the experiments"
+	cont "we did that went"
+	cont "and mutated!"
+	
+	para "It's an awfully"
+	cont "ornery one, I"
+	cont "think it would"
+	cont "be better off"
+	cont "outside our"
+	cont "lab environment."
 	prompt
 
 _HeresYourLaprasText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
-
-	para "We kept it in our"
-	line "lab, but it will"
-	cont "be much better"
-	cont "off with you!"
-
-	para "I think you will"
-	line "be a good trainer"
-	cont "for LAPRAS!"
-
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	text "LAPRINCE is a"
+	line "distant ancestor"
+	cont "of the modern"
+	cont "LAPRAS."
+	
+	para "I believe the"
+	line "mutagen reawoke"
+	cont "the ancient genes"
+	cont "within LAPRAS!"
 	done
 
 _LaprasGuyText::
-	text "TEAM ROCKET's"
-	line "BOSS went to the"
-	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	text "The KDF' CHIEF"
+	line "is in the board-"
+	cont "room upstairs!"
 	done
 
 _LaprasGuySavedText::
-	text "Saved at last!"
-	line "Thank you!"
+	text "How is LAPRINCE?"
+	
+	para "I hope he's"
+	line "happier on the"
+	cont "open seas!"
 	done
 
 _SilphCo7Text_51e00::
-	text "TEAM ROCKET was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "I wonder if the"
+	line "chairman knows"
+	cont "what PROJECT TRI"
+	cont "is about?"
 	done
 
 _CanceledMasterBallText::
-	text "We canceled the"
-	line "MASTER BALL"
-	cont "project because"
-	cont "of TEAM ROCKET."
+	text "The MASTER BALL"
+	line "project was under"
+	cont "heavy wraps but"
+	cont "TEAM ROCKET got"
+	cont "info off leakers."
+	
+	para "Maybe PROJECT TRI"
+	line "was unrevealed"
+	cont "to us like that?"
 	done
 
 _SilphCo7Text_51e23::
-	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	text "My brother is in"
+	line "the KDF..."
+	
+	para "I wonder if he's"
+	line "somewhere here..."
 	done
 
 _SilphCo7Text_51e28::
-	text "Wow! You chased"
-	line "off TEAM ROCKET"
-	cont "all by yourself?"
+	text "Did you see my"
+	line "brother?"
+	
+	para "Maybe not?"
+	
+	para "To be honest, I"
+	line "hope he wasn't"
+	cont "here..."
 	done
 
 _SilphCo7Text_51e46::
-	text "You! It's really"
-	line "dangerous here!"
-	cont "You came to save"
-	cont "me? You can't!"
+	text "We performed"
+	line "some small tests"
+	cont "with the mist"
+	cont "mutagen in the"
+	cont "hope our research"
+	cont "would help in"
+	cont "solving the whole"
+	cont "mystery."
 	done
 
 _SilphCo7Text_51e4b::
-	text "Safe at last!"
-	line "Oh thank you!"
+	text "The KDF smashed"
+	line "up a lot of our"
+	cont "research material"
+	cont "and equipment."
+	
+	para "It's a real loss."
 	done
 
 _SilphCo7BattleText1::
-	text "Oh ho! I smell a"
-	line "little rat!"
+	text "Don't pick a fight"
+	line "with the violence"
+	cont "professionals!"
 	done
 
 _SilphCo7EndBattleText1::
@@ -89,16 +113,24 @@ _SilphCo7EndBattleText1::
 	prompt
 
 _SilphCo7AfterBattleText1::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "Crimes? What"
+	line "crimes! This is"
+	cont "all just an"
+	cont "order from the"
+	cont "top! We'll search"
+	cont "this building"
+	cont "until there's not"
+	cont "a thing left but" 
+	cont "ashes where it"
+	cont "used to stand!"
 	done
 
 _SilphCo7BattleText2::
-	text "Heheh!"
-
-	para "You mistook me for"
-	line "a SILPH worker?"
+	text "Oh what's that?"
+	
+	para "You want to know"
+	line "about PROJECT TRI"
+	cont "huuuuh?"
 	done
 
 _SilphCo7EndBattleText2::
@@ -107,30 +139,48 @@ _SilphCo7EndBattleText2::
 	prompt
 
 _SilphCo7AfterBattleText2::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "Well maybe go"
+	line "TRI bothering"
+	cont "a scientist who"
+	cont "actually knows a"
+	cont "thing about it!"
+	
+	para "Ohohohoho! Ho!"
 	done
 
 _SilphCo7BattleText3::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "My brother is in"
+	line "here somewhere!"
+	
+	para "I'm trying to"
+	line "find him while"
+	cont "the others are"
+	cont "tearing the"
+	cont "place apart!"
 	done
 
 _SilphCo7EndBattleText3::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "I didn't"
+	line "sign up for this."
 	prompt
 
 _SilphCo7AfterBattleText3::
-	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	text "When I find him"
+	line "I'm getting the"
+	cont "hell out of here."
+	
+	para "None of this is"
+	line "right, this isn't"
+	cont "what it means to"
+	cont "protect people..."
 	done
 
 _SilphCo7BattleText4::
-	text "A child intruder?"
-	line "That must be you!"
+	text "Stand down!"
+	
+	para "Stop getting in"
+	line "the way of the"
+	cont "real heroes!"
 	done
 
 _SilphCo7EndBattleText4::
@@ -139,71 +189,77 @@ _SilphCo7EndBattleText4::
 	prompt
 
 _SilphCo7AfterBattleText4::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "The information"
+	line "we're looking for"
+	cont "is vital to saving"
+	cont "KANTO!"
+	
+	para "That's what CHIEF"
+	cont "told us!"
 	done
 
 _SilphCo7Text_51ebe::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: Oh?"
+	line "Did I walk in"
+	cont "on something?"
 	done
 
 _SilphCo7Text_51ec3::
-	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
-
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
-
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	text "<RIVAL>: Such"
+	line "utter chaos..."
+	
+	para "With every step"
+	line "they take, the"
+	cont "further from the"
+	cont "path these toy"
+	cont "soldiers stray."
+	
+	para "But not you!"
+	
+	para "You're the only"
+	line "one that can"
+	cont "see past the"
+	cont "mist, my dear"
+	cont "<PLAYER>!"
+	
+	para "Show me the"
+	line "depths of your"
+	cont "determination!"
 	done
 
 _SilphCo7Text_51ec8::
 	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	line "Truly, you are"
+	cont "worthy of our"
+	cont "attention."
 	prompt
 
 _SilphCo7Text_51ecd::
-	text "<RIVAL>: How can"
-	line "I put this?"
-
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	text "<RIVAL>: Hmm."
+	
+	para "Proceed anyway!"
+	line "You'll get just"
+	cont "precisely where"
+	cont "we need..."
+	
+	para "In due time..."
 	prompt
 
 _SilphCo7Text_51ed2::
-	text "Well, <PLAYER>!"
-
-	para "I'm moving on up"
-	line "and ahead!"
-
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
-
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
-
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
-
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	text "<RIVAL>: My my."
+	
+	para "Let me impart"
+	line "some wisdom on"
+	cont "you..."
+	
+	para "The greatest"
+	line "things in life"
+	cont "come in threes."
+	
+	para "Continue onward,"
+	line "please."
+	
+	para "I'll be waiting"
+	line "for you at the"
+	cont "end..."
 	done

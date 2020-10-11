@@ -1,17 +1,23 @@
 _SilphCo10Text_5a1d3::
 	text "Waaaaa!"
-	cont "I'm scared!"
+	line "I should have"
+	cont "known this would"
+	cont "happen again!"
 	done
 
 _SilphCo10Text_5a1d8::
-	text "Please keep quiet"
-	line "about my crying!"
+	text "That's it!"
+	
+	para "I'm leaving this"
+	line "scary workplace!"
 	done
 
 _SilphCo10BattleText1::
-	text "Welcome to the"
-	line "10F! So good of"
-	cont "you to join me!"
+	text "This is just a"
+	line "stockroom, I"
+	cont "dipped here to"
+	cont "avoid having to"
+	cont "bother anyone!"
 	done
 
 _SilphCo10EndBattleText1::
@@ -20,14 +26,20 @@ _SilphCo10EndBattleText1::
 	prompt
 
 _SilphCo10AfterBattleText1::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "I don't think"
+	line "this is a good"
+	cont "idea, but I have"
+	cont "to follow orders."
+	
+	para "Jeez..."
 	done
 
 _SilphCo10BattleText2::
-	text "Enough of your"
-	line "silly games!"
+	text "I'll tear you"
+	line "down with every"
+	cont "trick in my"
+	cont "mad scientist's"
+	cont "arsenal!"
 	done
 
 _SilphCo10EndBattleText2::
@@ -36,7 +48,12 @@ _SilphCo10EndBattleText2::
 	prompt
 
 _SilphCo10AfterBattleText2::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Take me before"
+	line "you take my"
+	cont "life's work..."
+	
+	para "Oh? You're not"
+	line "with the KDF?"
+	
+	para "Whew."
 	done

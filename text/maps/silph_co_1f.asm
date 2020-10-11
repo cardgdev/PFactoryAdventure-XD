@@ -1,7 +1,7 @@
 _SilphCo1Text1::
-	text "Welcome!"
-
-	para "The PRESIDENT is"
-	line "in the boardroom"
-	cont "on 11F!"
+	text "U-um, I don't"
+	line "think any members"
+	cont "of the public"
+	cont "should be here"
+	cont "at this time."
 	done

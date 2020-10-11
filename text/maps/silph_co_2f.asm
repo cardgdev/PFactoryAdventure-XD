@@ -1,12 +1,15 @@
 _SilphCo2Text_59ded::
-	text "Eeek!"
-	line "No! Stop! Help!"
-
-	para "Oh, you're not"
-	line "with TEAM ROCKET."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	text "Ugh!"
+	line "It was my job"
+	cont "to plant this"
+	cont "bomb in the"
+	cont "building!"
+	
+	para "But I can't work"
+	line "the stupid thing!"
+	
+	para "I think you need"
+	line "a #MON."
 	prompt
 
 _ReceivedTM36Text::
@@ -16,13 +19,11 @@ _ReceivedTM36Text::
 	text "!@@"
 
 _TM36ExplanationText::
-	text "TM36 is"
-	line "SELFDESTRUCT!"
-
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	text "I'm getting out"
+	line "of here man!"
+	
+	para "This job is self"
+	line "destructive!"
 	done
 
 _TM36NoRoomText::
@@ -31,25 +32,32 @@ _TM36NoRoomText::
 	done
 
 _SilphCo2BattleText1::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "The KDF gives"
+	line "such good benefits"
+	cont "that I can't say"
+	cont "no to doing their"
+	cont "dirty work!"
 	done
 
 _SilphCo2EndBattleText1::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "At"
+	line "least I have"
+	cont "health coverage!"
 	prompt
 
 _SilphCo2AfterBattleText1::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "Some people get"
+	line "no coverage at"
+	cont "all, can you"
+	cont "believe that?"
 	done
 
 _SilphCo2BattleText2::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Good luck punk!"
+	
+	para "I rigged all"
+	line "the teleporters"
+	cont "here myself!"
 	done
 
 _SilphCo2EndBattleText2::
@@ -58,13 +66,17 @@ _SilphCo2EndBattleText2::
 	prompt
 
 _SilphCo2AfterBattleText2::
-	text "Can you solve the"
-	line "maze in here?"
+	text "You'll never"
+	line "make it out of"
+	cont "SILPH CO. with"
+	cont "your sanity"
+	cont "intact."
 	done
 
 _SilphCo2BattleText3::
-	text "No kids are"
-	line "allowed in here!"
+	text "Hey! How did you"
+	line "break through the"
+	cont "front line?"
 	done
 
 _SilphCo2EndBattleText3::
@@ -72,25 +84,23 @@ _SilphCo2EndBattleText3::
 	prompt
 
 _SilphCo2AfterBattleText3::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
-
-	para "They're hi-tech"
-	line "transporters!"
+	text "That incompetent"
+	line "front door guard"
+	cont "is gonna get my"
+	cont "foot somewhere"
+	cont "real special!"
 	done
 
 _SilphCo2BattleText4::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "I was briefed"
+	line "about you kid!"
 	done
 
 _SilphCo2EndBattleText4::
-	text "I goofed!"
+	text "Its true!"
 	prompt
 
 _SilphCo2AfterBattleText4::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "What is it with"
+	line "kid prodigies?"
 	done

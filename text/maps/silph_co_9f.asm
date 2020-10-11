@@ -1,7 +1,9 @@
 _SilphCo9Text_5d8e5::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "I'm a field nurse."
+	
+	para "Let me patch you"
+	line "and your #MON"
+	cont "right up..."
 	prompt
 
 _SilphCo9Text_5d8ea::
@@ -9,13 +11,16 @@ _SilphCo9Text_5d8ea::
 	done
 
 _SilphCo9Text_5d8ef::
-	text "Thank you so"
-	line "much!"
+	text "I'm staying back"
+	line "to tend to the"
+	cont "people that were"
+	cont "hurt by soldiers."
 	done
 
 _SilphCo9BattleText1::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "Our CHIEF has no"
+	line "time to deal with"
+	cont "weaklings now!"
 	done
 
 _SilphCo9EndBattleText1::
@@ -23,15 +28,19 @@ _SilphCo9EndBattleText1::
 	prompt
 
 _SilphCo9AfterBattleText1::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "The CHIEF is busy"
+	line "burning secrets"
+	cont "out of that SILPH"
+	cont "chairman!"
 	done
 
 _SilphCo9BattleText2::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "These soldiers"
+	line "couldn't identify"
+	cont "juicy scienific"
+	cont "information if it"
+	cont "smacked them in"
+	cont "their meaty head!"
 	done
 
 _SilphCo9EndBattleText2::
@@ -40,23 +49,33 @@ _SilphCo9EndBattleText2::
 	prompt
 
 _SilphCo9AfterBattleText2::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "They don't even"
+	line "know what they're"
+	cont "trying to find!"
+	
+	para "How are they"
+	line "even conducting a"
+	cont "proper search?"
+	
+	para "This is wanton"
+	line "destruction!"
 	done
 
 _SilphCo9BattleText3::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "What are you?"
+	
+	para "Some kind of"
+	line "battle android"
+	cont "like JACK?"
 	done
 
 _SilphCo9EndBattleText3::
-	text "Warg!"
-	line "Brothers, I lost!"
+	text "Boom!"
+	line "SELFDESTRUCT!"
 	prompt
 
 _SilphCo9AfterBattleText3::
-	text "My brothers will"
-	line "avenge me!"
+	text "Come on kid!"
+	
+	para "Speak up already!"
 	done

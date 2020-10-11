@@ -1,17 +1,22 @@
 _SilphCo3Text_59ff9::
-	text "I work for SILPH."
-	line "What should I do?"
+	text "I don't know"
+	line "anything about"
+	cont "a PROJECT TRI!"
 	done
 
 _SilphCo3Text_59ffe::
-	text "<PLAYER>! You and"
-	line "your #MON"
-	cont "saved us!"
+	text "Is PROJECT TRI"
+	line "something that"
+	cont "SILPH worked on"
+	cont "in secret?"
 	done
 
 _SilphCo3BattleText1::
-	text "Quit messing with"
-	line "us, kid!"
+	text "We're doing this"
+	line "to save KANTO!"
+	
+	para "Step aside or"
+	line "get blown away!"
 	done
 
 _SilphCo3EndBattleText1::
@@ -20,15 +25,18 @@ _SilphCo3EndBattleText1::
 	prompt
 
 _SilphCo3AfterBattleText1::
-	text "A hint? You can"
-	line "open doors with a"
-	cont "CARD KEY!"
+	text "CARD KEY? I ain't"
+	line "got it and I"
+	cont "wouldn't give it"
+	cont "to you anyway!"
 	done
 
 _SilphCo3BattleText2::
-	text "I support TEAM"
-	line "ROCKET more than"
-	cont "I support SILPH!"
+	text "We're looking for"
+	line "the scientists"
+	cont "and documentation"
+	cont "for a secret"
+	cont "project of SILPH."
 	done
 
 _SilphCo3EndBattleText2::
@@ -37,10 +45,9 @@ _SilphCo3EndBattleText2::
 	prompt
 
 _SilphCo3AfterBattleText2::
-	text "Humph..."
-
-	para "TEAM ROCKET said"
-	line "that if I helped"
-	cont "them, they'd let"
-	cont "me study #MON!"
+	text "There's not much"
+	line "on this floor"
+	cont "it seems, must"
+	cont "be more on the"
+	cont "higher floors!"
 	done

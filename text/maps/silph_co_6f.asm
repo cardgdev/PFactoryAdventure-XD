@@ -1,83 +1,134 @@
 _SilphCo6Text_1a24a::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "We're being held"
+	line "hostage again!"
 	done
 
 _SilphCo6Text_1a24f::
-	text "Well, better get"
-	line "back to work!"
+	text "The soldiers went"
+	line "and burned all"
+	cont "of my paperwork."
+	
+	para "Did I really get"
+	line "a masters degree"
+	cont "to be treated"
+	cont "like this?"
 	done
 
 _SilphCo6Text_1a261::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "That KDF guard"
+	line "is the same"
+	cont "dumb jock that"
+	cont "shoved me into"
+	cont "lockers in high"
+	cont "school!"
 	done
 
 _SilphCo6Text_1a266::
-	text "We got engaged!"
-	line "Heheh!"
+	text "At least I get"
+	line "paid more..."
+	
+	para "Right?"
 	done
 
 _SilphCo6Text_1a278::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "I'm trying to"
+	line "calm down my"
+	cont "useless husband."
+	
+	para "He's having gym"
+	line "lockerroom flash-"
+	cont "backs again..."
 	done
 
 _SilphCo6Text_1a27d::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "To this day he"
+	line "can't smell boys"
+	cont "body spray without"
+	cont "going into a fit."
 	done
 
 _SilphCo6Text_1a28f::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
+	text "I'm starting to"
+	line "think I should"
+	cont "start looking for"
+	cont "other jobs."
 	done
 
 _SilphCo6Text_1a294::
-	text "TEAM ROCKET ran"
-	line "because of you!"
+	text "SILPH has too"
+	line "much office drama"
+	cont "for me to handle!"
 	done
 
 _SilphCo6Text_1a2a6::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "..."
+	
+	para "What are you"
+	line "staring at?"
+	
+	para "I'm just a"
+	line "r e g u l a r"
+	cont "office worker."
+	
+	para "I'd bet"
+	line "t h r e e times"
+	cont "over that I'm"
+	cont "the most boring"
+	cont "person here..."
 	done
 
 _SilphCo6Text_1a2ab::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "..."
+	
+	para "Look, I know who"
+	line "you are..."
+	
+	para "Take this info"
+	line "and don't say"
+	cont "a word:"
+	
+	para "PROJECT TRI was"
+	line "a collaboration"
+	cont "between SILPH's"
+	cont "elite research"
+	cont "division and"
+	cont "TEAM ROCKET."
+	
+	para "MR. FUJI was"
+	line "the manager on"
+	cont "SILPH's end."
+	
+	para "That KDF CHIEF"
+	line "isn't innocent"
+	cont "either."
+	
+	para "Follow the"
+	line "mist trail..."
 	done
 
 _SilphCo6BattleText2::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "I've interrogated"
+	line "everyone here!"
+	
+	para "This is a waste"
+	line "of our time!"
 	done
 
 _SilphCo6EndBattleText2::
-	text "Flame"
-	line "out!"
+	text "A bust!"
 	prompt
 
 _SilphCo6AfterBattleText2::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "What does the"
+	line "CHIEF want here?"
+	
+	para "I don't get it!"
 	done
 
 _SilphCo6BattleText3::
-	text "That rotten"
-	line "PRESIDENT!"
-
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	text "I'll defend our"
+	line "corporate secrets"
+	cont "to the death!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -85,14 +136,22 @@ _SilphCo6EndBattleText3::
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "PROJECT TRI?"
+	line "So the military's"
+	cont "not weaponizing"
+	cont "our technology?"
+	
+	para "Oh, then whatever."
+	line "I don't even know"
+	cont "what that other"
+	cont "thing is!"
 	done
 
 _SilphCo6BattleText4::
-	text "You dare betray"
-	line "TEAM ROCKET?"
+	text "I've got no"
+	line "problem harming a"
+	cont "traitorous kid"
+	cont "like you!"
 	done
 
 _SilphCo6EndBattleText4::
@@ -101,7 +160,7 @@ _SilphCo6EndBattleText4::
 	prompt
 
 _SilphCo6AfterBattleText4::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Any enemy of the"
+	line "state is hot on"
+	cont "my ironsights!"
 	done

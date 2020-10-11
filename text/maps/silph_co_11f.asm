@@ -1,22 +1,21 @@
 _SilphCoPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
-
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
-
-	para "I have to thank"
-	line "you in some way!"
-
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
-
-	para "Here, maybe this"
-	line "will do!"
+	text "PRESIDENT: ..."
+	
+	para "What BLAINE said"
+	line "is all true..."
+	
+	para "What we did"
+	line "was in pursuit"
+	cont "of power and"
+	cont "corporate greed."
+	
+	para "And now we are"
+	line "paying the price."
+	
+	para "If you can find"
+	line "MEWTHREE, please"
+	cont "make this of"
+	cont "good use."
 	prompt
 
 _ReceivedSilphCoMasterBallText::
@@ -26,21 +25,17 @@ _ReceivedSilphCoMasterBallText::
 	text "!@@"
 
 _SilphCo10Text_6231c::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
-
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
-
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
-
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	text "PRESIDENT: We've"
+	line "further developed"
+	cont "our MASTER BALL"
+	cont "technology since"
+	cont "the prototype"
+	cont "you were given"
+	cont "before."
+	
+	para "If anything can"
+	line "contain MEWTHREE"
+	cont "it would be that."
 	done
 
 _SilphCoMasterBallNoRoomText::
@@ -49,56 +44,103 @@ _SilphCoMasterBallNoRoomText::
 	done
 
 _SilphCo11Text2::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
-
-	para "We admire your"
-	line "courage."
+	text "SECRETARY: So that"
+	line "is what this was"
+	cont "all about..."
 	done
 
 _SilphCo11Text3::
-	text "Ah <PLAYER>!"
-	line "So we meet again!"
-
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
-
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
-
-	para "Or, experience a"
-	line "world of pain!"
+	text "RED! I should have"
+	line "figured that you"
+	cont "wouldn't heed my"
+	cont "last warning!"
+	
+	para "We're not here"
+	line "just to pester"
+	cont "office workers!"
+	
+	para "I'm looking for"
+	line "information here"
+	cont "related to some-"
+	cont "thing that's out"
+	cont "there threatening"
+	cont "all of KANTO!"
+	
+	para "Now, burn!"
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "No!"
+	line "You must try"
+	cont "and understand!"
 	prompt
 
 _SilphCo10Text_62335::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
-
-	para "But, TEAM ROCKET"
-	line "will never fall!"
-
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
-
-	para "I must go, but I"
-	line "shall return!"
+	text "SILPH CO. is"
+	line "responsible for"
+	cont "the current state"
+	cont "of KANTO, RED."
+	
+	para "Do you know what"
+	line "PROJECT TRI is?"
+	
+	para "Surely you do"
+	line "remember MEWTWO?"
+	
+	para "Do you know who"
+	line "created MEWTWO?"
+	
+	para "I'll tell you"
+	line "it wasn't TEAM"
+	cont "ROCKET's doing!"
+	cont "At least not"
+	cont "on their own!"
+	
+	para "SILPH CO. provided"
+	line "all the funding"
+	cont "and equipment!"
+	
+	para "And I know..."
+	line "Because I was"
+	cont "there!"
+	
+	para "After MEWTWO left"
+	line "I realized the"
+	cont "reprehensible sin"
+	cont "against nature I"
+	cont "had committed!"
+	
+	para "But these people!"
+	line "Those at SILPH!"
+	
+	para "They went and"
+	line "did it again!"
+	
+	para "That's right,"
+	line "MEWTWO isn't the"
+	cont "only one!"
+	
+	para "The mist, all of"
+	line "this... It must"
+	cont "be the work of"
+	cont "that MEWTHREE!"
+	
+	para "I'll withdraw my"
+	line "troops today."
+	cont "We have as much"
+	cont "evidence as we"
+	cont "can gather."
+	
+	para "Meet me at the"
+	line "CINNABAR GYM"
+	cont "if you want"
+	cont "to see this to"
+	cont "the end."
 	done
 
 _SilphCo11BattleText1::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "I'll frag you"
+	line "hard, maggot!"
 	done
 
 _SilphCo11EndBattleText1::
@@ -107,14 +149,14 @@ _SilphCo11EndBattleText1::
 	prompt
 
 _SilphCo11AfterBattleText1::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "I give..."
+	line "Uncle..."
 	done
 
 _SilphCo11BattleText2::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "CHIEF! I'll take"
+	line "on anyone for"
+	cont "your honor!"
 	done
 
 _SilphCo11EndBattleText2::
@@ -123,12 +165,14 @@ _SilphCo11EndBattleText2::
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "CHIEF..."
+	line "I fought my"
+	cont "best..."
 	done
 
 _SilphCo10Text_6237b::
-	text "The monitor has"
-	line "#MON on it!"
+	text "A top-secret"
+	line "document on a"
+	cont "cloning project"
+	cont "is displayed."
 	done
