@@ -1,7 +1,11 @@
 _Mansion1BattleText2::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "Hey get out of"
+	line "here man!"
+	
+	para "Us BURGLARS got"
+	line "put to real"
+	cont "work cleaning up"
+	cont "this old place!"
 	done
 
 _Mansion1EndBattleText2::
@@ -9,9 +13,14 @@ _Mansion1EndBattleText2::
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "The KDF went to"
+	line "the prisons and"
+	cont "drafted us all"
+	cont "as janitors to"
+	cont "clean up this"
+	cont "old manor in"
+	cont "exchange for our"
+	cont "freedom!"
 	done
 
 _MansionSwitchText::

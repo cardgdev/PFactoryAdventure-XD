@@ -1,10 +1,8 @@
 _Lab1Text1::
-	text "We study #MON"
-	line "extensively here."
-
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	text "We're busy doing"
+	line "research for the"
+	cont "KDF's homeland"
+	cont "defense efforts."
 	done
 
 _Lab1Text2::

@@ -120,10 +120,10 @@ _GymBlockerSoldier:
 	line "looking kids like"
 	cont "you!"
 
-	para "...But if you"
-	line "want in then try"
-	cont "coming back when"
-	cont "you have 7 badges!"
+	para "Maybe if you had"
+	line "the CHIEF's per-"
+	cont "mission I'd let"
+	cont "you enter!"
 	done
 
 Mansion4Text1:

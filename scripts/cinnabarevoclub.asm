@@ -42,30 +42,70 @@ MistNPCText:
 ;-----------------------------------------------------
 
 _ThunderNPCText:
-	text "THUNDER"
+	text "Yo I heard"
+	line "ELECTODE and"
+	cont "SHOCKRA can use"
+	cont "THUNDER STONE to"
+	cont "evolve!"
 	done
 
 _LeafNPCText:
-	text "LEAF"
+	text "EEVEE, SEEDLING,"
+	line "and FORESAUR can"
+	cont "use a LEAF STONE"
+	cont "to evolve. Isn't"
+	cont "it lovely?"
 	done
 
 _WaterNPCText:
-	text "WATER"
+	text "STARYU and"
+	line "SHELLDER are the"
+	cont "only WATER STONE"
+	cont "evolvers still!"
 	done
 
 _FireNPCText:
-	text "FIRE"
+	text "FIRE STONES will"
+	line "fire up your"
+	cont "PIKACHU, METAPOD,"
+	cont "PERSIAN, VULPIX,"
+	cont "GASTLY, and"
+	cont "PYROMANIAC!"
 	done
 
 _HoneyNPCText:
-	text "HONEY"
+	text "HONEY STONES are"
+	line "rare amber chunks"
+	cont "full of BUG DNA!"
+	
+	para "PIKACHU, EEVEE,"
+	line "and PINSIR can"
+	cont "evolve with them!"
 	done
 
 _IceNPCText:
-	text "ICE"
+	text "ICE STONES come"
+	line "all the way from"
+	cont "high up in the"
+	cont "mountains of"
+	cont "a far away place."
+	
+	para "They'll evolve a"
+	line "GASTLY, GRANITE,"
+	cont "SCYTHEPER, or"
+	cont "DRAKOR."
 	done
 
 _MistNPCText:
-	text "MIST"
+	text "Have you heard of"
+	line "MIST STONES?"
+	
+	para "They can evolve"
+	line "all kinds of"
+	cont "#MON! Even"
+	cont "some that have"
+	cont "already used"
+	cont "another stone"
+	cont "to evolve!"
 	done
 

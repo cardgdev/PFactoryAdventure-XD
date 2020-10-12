@@ -1,20 +1,26 @@
 _CinnabarIslandText8::
-	text "The door is"
-	line "locked..."
+	text "h"
 	done
 
 _CinnabarIslandText1::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
-	cont "man who has lived"
-	cont "here for decades."
+	text "My son is a"
+	line "brave SOLDIER in"
+	cont "the KDF!"
+	
+	para "I bet he's on an"
+	line "important mission"
+	cont "protecting KANTO"
+	cont "right now!"
 	done
 
 _CinnabarIslandText2::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned out"
-	cont "building."
+	text "I served my time"
+	line "in the military"
+	cont "with BLAINE as"
+	cont "my CO."
+	
+	para "That was so many"
+	line "years ago now..."
 	done
 
 _CinnabarIslandText3::
@@ -28,10 +34,6 @@ _CinnabarIslandText6::
 	done
 
 _CinnabarIslandText7::
-	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
-
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	text "CINNABAR EVOLUTION"
+	line "STONE CLUB"
 	done

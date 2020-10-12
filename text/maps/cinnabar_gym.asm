@@ -1,44 +1,82 @@
 _BlaineBattleText::
-	text "Hah!"
-
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
-
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
-
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	text "Welcome to the new"
+	line "base, RED!"
+	
+	para "In order to better"
+	line "prepare your for"
+	cont "what may lay ahead"
+	cont "I need to test"
+	cont "your abilities"
+	cont "once again!"
+	
+	para "I expect you not"
+	line "to disappoint!"
+	
+	para "Come at me! KDF"
+	line "CHIEF, on!"
 	done
 
 _BlaineEndBattleText::
 	text "I have"
 	line "burnt out!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@@"
+	para "Truly I should"
+	line "have come to you"
+	cont "to begin with!"
 
-_BlaineFireBlastText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	para "Allow me to re-"
+	line "issue you my"
+	cont "VOLCANOBADGE!@@"
 
-	para "Don't waste it on"
-	line "water #MON!"
+_BlaineFireBlastText:: ; this is afterwards
+	text "While at SILPH I"
+	line "crossed paths with"
+	cont "a powerful trainer"
+	cont "named <RIVAL>."
+	
+	para "Our intel suggests"
+	line "that he may be"
+	cont "taking orders from"
+	cont "an outside source."
+	
+	para "Now this is only"
+	line "a theory but..."
+	
+	para "I believe that he"
+	line "may be taking his"
+	cont "orders directly"
+	cont "from MEWTHREE!"
+	
+	para "MEWTWO already"
+	line "neared human level"
+	cont "sentience when he"
+	cont "escaped CINNABAR."
+	
+	para "PROJECT TRI's spe-"
+	line "cificiations were"
+	cont "to create a being"
+	cont "capable of equali-"
+	cont "ng or surpassing"
+	cont "MEWTWO's power."
+	
+	para "With this, I have"
+	line "reason to believe"
+	cont "MEWTHREE is oper-"
+	cont "ating as an inde-"
+	cont "pendant party."
+	
+	para "Head to INDIGO"
+	line "PLATEAU."
+	
+	para "Find <RIVAL> and"
+	line "he will lead us"
+	cont "to MEWTHREE!"
 	done
 
 _BlaineBadgeText::
-	text "Hah!"
-
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
-
-	para "Here, you can"
-	line "have this too!"
+	text "Before we proceed,"
+	line "some provisions"
+	cont "on the house..."
 	done
 
 _ReceivedTM38Text::
@@ -50,14 +88,11 @@ _ReceivedTM38Text::
 _TM38ExplanationText::
 	db $0
 	para "TM38 contains"
-	line "FIRE BLAST!"
-
-	para "Teach it to fire-"
-	line "type #MON!"
-
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	line "FIRE BLAST as"
+	cont "you already"
+	cont "know! We'll be"
+	cont "needing heavy"
+	cont "firepower!"
 	done
 
 _TM38NoRoomText::
@@ -66,9 +101,9 @@ _TM38NoRoomText::
 	done
 
 _CinnabarGymText_7595f::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "The CHIEF put us"
+	line "up to challenge"
+	cont "you!"
 	done
 
 _CinnabarGymText_75964::
@@ -77,18 +112,16 @@ _CinnabarGymText_75964::
 	prompt
 
 _CinnabarGymText_75969::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
-
-	para "Blah, blah, blah,"
-	line "blah..."
+	text "You're some real"
+	line "hot stuff, you"
+	cont "know that?"
 	done
 
 _CinnabarGymText_75994::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "I used to be a"
+	line "crook, but the"
+	cont "CHIEF gave me a"
+	cont "second chance!"
 	done
 
 _CinnabarGymText_75999::
@@ -97,15 +130,17 @@ _CinnabarGymText_75999::
 	prompt
 
 _CinnabarGymText_7599e::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "I'll finish my"
+	line "tour of duty"
+	cont "and go to college"
+	cont "for free!"
 	done
 
 _CinnabarGymText_759c9::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "The CHIEF is"
+	line "staffing this"
+	cont "base with young"
+	cont "upstarts!"
 	done
 
 _CinnabarGymText_759ce::
@@ -114,14 +149,16 @@ _CinnabarGymText_759ce::
 	prompt
 
 _CinnabarGymText_759d3::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "One day I'll put"
+	line "my knowledge to"
+	cont "work protecting"
+	cont "our region!"
 	done
 
 _CinnabarGymText_759fe::
-	text "I just like using"
-	line "fire #MON!"
+	text "I'll cauterize"
+	line "your wounds as"
+	cont "I inflict them!"
 	done
 
 _CinnabarGymText_75a03::
@@ -130,14 +167,14 @@ _CinnabarGymText_75a03::
 	prompt
 
 _CinnabarGymText_75a08::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "They call me"
+	line "flint 'n steal!"
 	done
 
 _CinnabarGymText_75a33::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "BLAINE is a war"
+	line "hero! He'll lead"
+	cont "us to victory!"
 	done
 
 _CinnabarGymText_75a38::
@@ -145,36 +182,42 @@ _CinnabarGymText_75a38::
 	prompt
 
 _CinnabarGymText_75a3d::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
-
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	text "The Blazing"
+	line "MOLTRES division"
+	cont "is the name of"
+	cont "the platoon that"
+	cont "BLAINE took to"
+	cont "get info at"
+	cont "SILPH CO.!"
 	done
 
 _CinnabarGymText_75a68::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "TEN-HUT!"
+	line "DROP AND GIVE"
+	cont "ME TWENTY!"
 	done
 
 _CinnabarGymText_75a6d::
-	text "Yowza!"
-	line "Too hot!"
+	text "YOU"
+	line "THINK THIS IS"
+	cont "PLAYTIME! WELL"
+	cont "IT'S NOT!"
 	prompt
 
 _CinnabarGymText_75a72::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "YOU COME FROM"
+	line "PALLET TOWN?"
+	
+	para "ONLY TWO THINGS"
+	line "IN PALLET TOWN!"
+	cont "TAUROS AND"
+	cont "CLEFAIRY!"
 	done
 
 _CinnabarGymText_75a9d::
-	text "Fire is weak"
-	line "against H2O!"
+	text "This floor is"
+	line "where all KDF"
+	cont "intel is taken!"
 	done
 
 _CinnabarGymText_75aa2::
@@ -183,27 +226,66 @@ _CinnabarGymText_75aa2::
 	prompt
 
 _CinnabarGymText_75aa7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "We're working hard"
+	line "decoding the mist"
+	cont "and it's secrets."
 	done
 
 _CinnabarGymText_75ac2::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
-
-	para "Douse his spirits"
-	line "with water!"
-
-	para "You better take"
-	line "some BURN HEALs!"
+	text "You finally made"
+	line "it, kid!"
+	
+	para "I couldn't even"
+	line "get into this"
+	cont "place!"
+	
+	para "I bribed that"
+	line "guard upstairs"
+	cont "with some cheap"
+	cont "wiskey and he"
+	cont "let me slide"
+	cont "though!"
+	
+	para "The flames of"
+	line "war burn hot in"
+	cont "here, you'll"
+	cont "need more than"
+	cont "just WATER to"
+	cont "put them out!"
+	
+	para "BLAINE or the"
+	line "CHIEF as his"
+	cont "goons call him"
+	cont "means buisness!"
+	
+	para "Godspeed and"
+	line "good luck!"
 	done
 
 _CinnabarGymText_75ac7::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "Like a bat out"
+	line "of hell!"
+	
+	para "I think I'm"
+	line "shell-shocked"
+	cont "after seeing all"
+	cont "those fireworks!"
+	
+	para "But what did he"
+	line "mean to debrief"
+	cont "you about? Huh?"
+	
+	para "There's more to"
+	line "all this then"
+	cont "you're letting on"
+	cont "isn't there?"
+	
+	para "Well, it's none"
+	line "of my buisness."
+	
+	para "After all, I'm"
+	line "just here to"
+	cont "give advice..."
+	
+	para "Heh!"
 	done

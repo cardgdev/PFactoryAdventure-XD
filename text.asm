@@ -544,7 +544,7 @@ _GameOverText::
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "APTITUDE TEST!"
 
 	para "Get it right and"
 	line "the door opens to"
@@ -552,49 +552,43 @@ _CinnabarGymQuizIntroText::
 
 	para "Get it wrong and"
 	line "face a trainer!"
-
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
-
-	para "Then get it right!"
-	line "Here we go!"
 	prompt
 
-_CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+_CinnabarQuizQuestionsText1:: ;yes
+	text "Is a company"
+	line "bigger than a"
+	cont "platoon?"
 	done
 
-_CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+_CinnabarQuizQuestionsText2:: ;no
+	text "Is a sargent in"
+	line "charge of a"
+	cont "lieutenant?"
 	done
 
-_CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+_CinnabarQuizQuestionsText3::;no
+	text "An admiral and a"
+	line "general meet in"
+	cont "the war room."
+	
+	para "Does the general"
+	line "check rank?"
 	done
 
-_CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+_CinnabarQuizQuestionsText4::;no
+	text "Are there twelve"
+	line "general orders?"
 	done
 
-_CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
-	done
-
-_CinnabarQuizQuestionsText6::
-	text "TM28 contains"
+_CinnabarQuizQuestionsText5::;yes
+	text "TM20 contains"
 	line "TOMBSTONER?"
+	done
+
+_CinnabarQuizQuestionsText6::;no
+	text "Is the pen"
+	line "mightier than the"
+	cont "sword?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -616,15 +610,17 @@ _MagazinesText::
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "The only thing on"
+	line "the monitor is"
+	cont "a folder of very"
+	cont "...questionable"
+	cont "#MON images."
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!@@"
+	text "<PLAYER> pretended"
+	line "to press some"
+	cont "keys!@@"
 
 _BillsHousePokemonListText1::
 	text "BILL's favorite"
@@ -637,30 +633,15 @@ _BillsHousePokemonListText2::
 	done
 
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
-
-	para "..."
-
-	para "Calling all"
-	line "#MON trainers!"
-
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
-
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
-
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
-
-	para "PS: PROF.OAK,"
-	line "please visit us!"
-	cont "..."
+	text "It's a report by"
+	line "BLUE about the"
+	cont "changes in the"
+	cont "local ecosystem"
+	cont "near PALLET TOWN."
+	
+	para "New species are"
+	line "appearing every"
+	cont "day it seems!"
 	done
 
 _GameCornerCoinCaseText::
@@ -945,31 +926,31 @@ _VermilionGymTrashText::
 
 _VermilionGymTrashSuccessText1::
 	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
+	line "switch behind the"
+	cont "tombstone!"
 	cont "Turn it on!"
 
-	para "The 1st electric"
+	para "The 1st spirit"
 	line "lock opened!@@"
 
 _VermilionGymTrashSuccessText2::
 	text "Hey! There's"
 	line "another switch"
-	cont "under the trash!"
+	cont "on the tombstone!"
 	cont "Turn it on!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
+	text "The 2nd spirit"
 	line "lock opened!"
 
-	para "The motorized door"
+	para "The haunted door"
 	line "opened!@@"
 
 _VermilionGymTrashFailText::
-	text "Nope! There's"
-	line "only trash here."
-	cont "Hey! The electric"
+	text "Nope, just an"
+	line "epitaph here..."
+	cont "Hey! The spirit"
 	cont "locks were reset!@@"
 
 _FoundHiddenItemText::
@@ -1024,8 +1005,15 @@ _PokemonBooksText::
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "A DIGLETT?"
+	
+	para "Or a Buddah"
+	line "statue?"
+	
+	para "Or an incense"
+	line "burner maybe?"
+	
+	para "Who knows..."
 	done
 
 _ElevatorText::
@@ -1473,14 +1461,14 @@ _TrainerWantsToFightText::
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "The WARDING TAG"
+	line "shrivels up the"
+	cont "undead husk!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "That's no #MON!"
+	line "Run away!"
 	prompt
 
 _GoText::
@@ -1867,11 +1855,11 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@@"
+	line "BLUE's PC.@@"
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accessed"
+	line "BLUE's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."

@@ -1,10 +1,17 @@
 _CinnabarMartText2::
-	text "Don't they have X"
-	line "ATTACK? It's good"
-	cont "for battles!"
+	text "I heard that in"
+	line "times of duress,"
+	cont "KDF soldiers used"
+	cont "their #MON's X"
+	cont "ACCURACY on them-"
+	cont "selves to hyper"
+	cont "focus and go full"
+	cont "operator mode!"
 	done
 
 _CinnabarMartText3::
-	text "It never hurts to"
-	line "have extra items!"
+	text "I only buy what"
+	line "i'm rationed to"
+	cont "help out our"
+	cont "brave troops!"
 	done

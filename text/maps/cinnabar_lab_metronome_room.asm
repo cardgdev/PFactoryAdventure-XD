@@ -1,9 +1,8 @@
 _TM35PreReceiveText::
 	text "Tch-tch-tch!"
-	line "I made a cool TM!"
-
-	para "It can cause all"
-	line "kinds of fun!"
+	line "Time to take"
+	line "my tinny TM"
+	cont "once again!"
 	prompt
 
 _ReceivedTM35Text::
@@ -14,13 +13,9 @@ _ReceivedTM35Text::
 
 _TM35ExplanationText::
 	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
-
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	line "Tune into the"
+	cont "METRONOME's tight"
+	cont "tenor!"
 	done
 
 _TM35NoRoomText::
@@ -29,35 +24,53 @@ _TM35NoRoomText::
 	done
 
 _Lab3Text2::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "Mutations in wild"
+	line "#MON have made"
+	cont "some evolve much"
+	cont "differently."
+	
+	para "Wild EEVEE caught"
+	line "after the mist"
+	cont "began can't become"
+	cont "JOLTEON, VAPOREON,"
+	cont "or FLAREON anymore"
+	cont "but have 4 new"
+	cont "evolutions!"
+	
+	para "Other #MON like"
+	line "GASTLY and PIKACHU"
+	cont "have similar split"
+	cont "evolutions now."
 	done
 
 _Lab3Text3::
-	text "There's an e-mail"
-	line "message!"
-
-	para "..."
-
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Their whereabouts"
-	line "are unknown."
-
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
-
-	para "From: #MON"
-	line "RESEARCH TEAM"
-
-	para "..."
+	text "There's a report"
+	line "displayed from"
+	cont "the KDF research"
+	cont "team..."
+	
+	para "It's an analysis"
+	line "of the mist's"
+	cont "chemical makeup."
+	
+	para "Amazingly, most"
+	line "of what's listed"
+	cont "are various"
+	cont "proteins along"
+	cont "with high energy"
+	cont "radioactive iso-"
+	cont "topes."
 	done
 
 _Lab3Text5::
 	text "An amber pipe!"
+	
+	para "I wonder if"
+	line "reviving this"
+	cont "as a fossil"
+	cont "would make an"
+	cont "AERODACTYL-"
+	cont "tobacco hybrid."
+	
+	para "AEROBACCO?"
 	done

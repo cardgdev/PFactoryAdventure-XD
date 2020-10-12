@@ -1,6 +1,7 @@
 _Mansion4BattleText1::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "We're building our"
+	line "new base from the"
+	cont "bottom level up!"
 	done
 
 _Mansion4EndBattleText1::
@@ -8,13 +9,18 @@ _Mansion4EndBattleText1::
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "The HQ at the"
+	line "very bottom just"
+	cont "got done!"
+	
+	para "I'm sure you'll"
+	line "find it familiar."
 	done
 
 _Mansion4BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "Excuse me! Do you"
+	line "have any right"
+	cont "to be down here!"
 	done
 
 _Mansion4EndBattleText2::
@@ -23,17 +29,34 @@ _Mansion4EndBattleText2::
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "We're still in"
+	line "the process of"
+	cont "remodeling this"
+	cont "old lab floor to"
+	cont "our needs."
 	done
 
 _Mansion4Text7::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
-
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	text "Diary; Nov. 15"
+	line "PROJECT TRI nego-"
+	cont "tiations have"
+	cont "finished up."
+	
+	para "Work on MEWTWO's"
+	line "successor will"
+	cont "commense at the"
+	cont "SILPH CO. labs."
+	
+	para "This time, we"
+	line "are making all"
+	cont "precautions to"
+	cont "avoid another"
+	cont "serious accident."
+	
+	para "If this project"
+	line "succeeds, we can"
+	cont "only hope that"
+	cont "MEWTHREE can help"
+	cont "in our efforts to"
+	cont "recapture MEWTWO."
 	done
