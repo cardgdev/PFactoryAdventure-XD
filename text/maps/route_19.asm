@@ -1,142 +1,177 @@
 _Route19BattleText1::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Watch where you're"
+	line "going!"
+	
+	para "You interrupted"
+	line "my calisthenics!"
 	done
 
 _Route19EndBattleText1::
-	text "All"
-	line "warmed up!"
+	text "You"
+	line "little...!"
 	prompt
 
 _Route19AfterBattleText1::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Grumble grumble..."
+	
+	para "I guess a battle"
+	line "can make a fine"
+	cont "warmup..."
 	done
 
 _Route19BattleText2::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Gotta wait after"
+	line "eating to swim."
+	
+	para "Care to help me"
+	line "pass the time?"
 	done
 
 _Route19EndBattleText2::
-	text "Ooh!"
-	line "That's chilly!"
+	text "Oof,"
+	line "that was rough!"
 	prompt
 
 _Route19AfterBattleText2::
-	text "Watch out for"
-	line "TENTACOOL!"
+	text "I'm ready to"
+	line "dive back in."
+	
+	para "Thanks, kid!"
 	done
 
 _Route19BattleText3::
-	text "I love swimming!"
-	line "What about you?"
+	text "Glub a dub dub,"
+	line "the ocean's my"
+	cont "tub!"
 	done
 
 _Route19EndBattleText3::
-	text "Belly"
-	line "flop!"
+	text "Woah!"
 	prompt
 
 _Route19AfterBattleText3::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Guess it's your"
+	line "tub too!"
 	done
 
 _Route19BattleText4::
-	text "What's beyond the"
-	line "horizon?"
+	text "Hey there!"
+	
+	para "You tired of"
+	line "water #MON"
+	cont "yet?"
 	done
 
 _Route19EndBattleText4::
-	text "Glub!"
+	text "No?"
 	prompt
 
 _Route19AfterBattleText4::
-	text "I see a couple of"
-	line "islands!"
+	text "You're still far"
+	line "from CINNABAR."
+	
+	para "Hope you brought"
+	line "some electric"
+	cont "and grass moves!"
+	
+	para "Oh, but those"
+	line "don't help when"
+	cont "you're up against"
+	cont "ALGAEZ..."
 	done
 
 _Route19BattleText5::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "I keep getting"
+	line "caught in those"
+	cont "dang ALGAEZ!"
 	done
 
 _Route19EndBattleText5::
-	text "Help!"
+	text "Hey,"
+	line "I'm loose!"
 	prompt
 
 _Route19AfterBattleText5::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "I got whooped,"
+	line "but at least"
+	cont "I'm free."
 	done
 
 _Route19BattleText6::
-	text "I look at the"
-	line "sea to forget!"
+	text "Oh, the sea..."
+	
+	para "Isn't it romantic?"
 	done
 
 _Route19EndBattleText6::
-	text "Ooh!"
-	line "Traumatic!"
+	text "Hm,"
+	line "you're tough!"
 	prompt
 
 _Route19AfterBattleText6::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Those islands in"
+	line "the distance..."
+	
+	para "They look romantic"
+	line "too!"
 	done
 
 _Route19BattleText7::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "I can't believe"
+	line "this, but I"
+	cont "miss TENTACRUEL!"
 	done
 
 _Route19EndBattleText7::
-	text "Oh!"
-	line "I lost!"
+	text "Oh,"
+	line "phooey."
 	prompt
 
 _Route19AfterBattleText7::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "TENTACRUEL was"
+	line "easier to deal"
+	cont "with than ALGAEZ."
+	
+	para "Electric moves"
+	line "would work well"
+	cont "on them!"
 	done
 
 _Route19BattleText8::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "I am sunburned"
+	line "all over and am"
+	cont "FURIOUS."
 	done
 
 _Route19EndBattleText8::
-	text "Shocker!"
+	text "GAH!!"
 	prompt
 
 _Route19AfterBattleText8::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "If there's one"
+	line "thing you should"
+	cont "remember, kid,"
+	cont "wear sunscreen."
 	done
 
 _Route19BattleText9::
-	text "These waters are"
-	line "treacherous!"
+	text "I'm heading to"
+	line "SEAFOAM!"
 	done
 
 _Route19EndBattleText9::
 	text "Ooh!"
-	line "Dangerous!"
+	line "Yikes!"
 	prompt
 
 _Route19AfterBattleText9::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "A loss won't"
+	line "deter me!"
 	done
 
 _Route19BattleText10::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Hey buddy, can"
+	line "I catch a ride?"
 	done
 
 _Route19EndBattleText10::
@@ -145,9 +180,8 @@ _Route19EndBattleText10::
 	prompt
 
 _Route19AfterBattleText10::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "Sheesh! I was"
+	line "just asking..."
 	done
 
 _Route19Text11::
