@@ -192,79 +192,120 @@ DragonDen3AfterBattleText6:
 
 ;cooltrainer 1
 _DragonDen3BattleText1::
-	text "DUMMY1"
+	text "I came from the"
+	line "region to the"
+	cont "west of KANTO!"
 	done
 
 _DragonDen3EndBattleText1::
-	text "DUMMY2"
+	text "Wow!"
+	line "KANTO's trainers"
+	cont "are no joke!"
 	prompt
 
 _DragonDen3AfterBattleText1::
-	text "DUMMY3"
+	text "I hope you can"
+	line "come see SILENT"
+	cont "TOWN someday!"
 	done
 
 ;cooltrainer 2
 _DragonDen3BattleText2::
-	text "DUMMY1"
+	text "My #MON have"
+	line "taken me to all"
+	cont "kinds of places!"
 	done
 
 _DragonDen3EndBattleText2::
-	text "DUMMY2"
+	text "Just"
+	line "breathtaking!"
 	prompt
 
 _DragonDen3AfterBattleText2::
-	text "DUMMY3"
+	text "I want to see the"
+	line "sunset from this"
+	cont "mountain's peak."
 	done
 
 ;cooltrainer 3
 _DragonDen3BattleText3::
-	text "DUMMY1"
+	text "DIMINOX will crush"
+	line "you like an ant!"
 	done
 
 _DragonDen3EndBattleText3::
-	text "DUMMY2"
+	text "I"
+	line "got ants in"
+	cont "my pants!"
 	prompt
 
 _DragonDen3AfterBattleText3::
-	text "DUMMY3"
+	text "Ants get in every-"
+	line "thing, even my"
+	cont "romhacks!"
 	done
 
 ;cooltrainer 4
 _DragonDen3BattleText4::
-	text "DUMMY1"
+	text "Old Spanish legend"
+	line "says a dragon of"
+	cont "chaos lives at"
+	cont "this mountain's"
+	cont "peak!"
 	done
 
 _DragonDen3EndBattleText4::
-	text "DUMMY2"
+	text "Oh"
+	line "man how am I"
+	cont "gonna meet it"
+	cont "now?"
 	prompt
 
 _DragonDen3AfterBattleText4::
-	text "DUMMY3"
+	text "A dragon of chaos"
+	line "huh..."
+	
+	para "I wonder if it's"
+	line "KAOSUNE up there."
 	done
 
 ;cooltrainer 5
 _DragonDen3BattleText5::
-	text "DUMMY1"
+	text "I'm an EEVEE"
+	line "freak!"
 	done
 
 _DragonDen3EndBattleText5::
-	text "DUMMY2"
+	text "I'm"
+	line "an EEVEE monster!"
 	prompt
 
 _DragonDen3AfterBattleText5::
-	text "DUMMY3"
+	text "I came here to"
+	line "see if an EEVEE"
+	cont "will evolve into"
+	cont "a DRAGON if I"
+	cont "leveled it up"
+	cont "inside!"
 	done
 
 ;cooltrainer 6
 _DragonDen3BattleText6::
-	text "DUMMY1"
+	text "This cave floor"
+	line "is massive!"
+	
+	para "I bet there's"
+	line "dinosaurs in"
+	cont "here!"
 	done
 
 _DragonDen3EndBattleText6::
-	text "DUMMY2"
+	text "But"
+	line "in the stone age!"
 	prompt
 
 _DragonDen3AfterBattleText6::
-	text "DUMMY3"
+	text "You don't have"
+	line "to tell me twice!"
 	done
 

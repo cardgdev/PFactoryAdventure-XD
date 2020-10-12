@@ -2303,3 +2303,8 @@ _PartyMenuBattleTentText::
 	done
 
 FlamesSprite:           INCBIN "gfx/sprites/flames.2bpp"
+
+INCLUDE "text/maps/agatha.asm" ; moved from text.asm bank 2
+INCLUDE "text/maps/rock_tunnel_b2f_1.asm"
+INCLUDE "text/maps/billssecretgarden.asm" ; new
+

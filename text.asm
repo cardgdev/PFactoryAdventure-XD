@@ -220,9 +220,8 @@ INCLUDE "text/maps/hall_of_fame.asm"
 INCLUDE "text/maps/champion.asm"
 INCLUDE "text/maps/lorelei.asm"
 INCLUDE "text/maps/bruno.asm"
-INCLUDE "text/maps/agatha.asm"
-INCLUDE "text/maps/rock_tunnel_b2f_1.asm"
-INCLUDE "text/maps/billssecretgarden.asm" ; new
+
+
 
 
 SECTION "Text 3", ROMX, BANK[TEXT_3]

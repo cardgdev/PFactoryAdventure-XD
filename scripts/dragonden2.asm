@@ -79,26 +79,35 @@ DragonDen2AfterBattleText2:
 
 ;cooltrainer 1
 _DragonDen2BattleText1::
-	text "DUMMY1"
+	text "This mountain is"
+	line "full of draconic"
+	cont "energy!"
 	done
 
 _DragonDen2EndBattleText1::
-	text "DUMMY2"
+	text "Cold"
+	line "blooded!"
 	prompt
 
 _DragonDen2AfterBattleText1::
-	text "DUMMY3"
+	text "DRAGON types run"
+	line "wild and free"
+	cont "in this place!"
 	done
 
 ;cooltrainer 2
 _DragonDen2BattleText2::
-	text "DUMMY1"
+	text "I'm one of the"
+	line "legendary DRAGON"
+	cont "CLAN!"
 	done
 
 _DragonDen2EndBattleText2::
-	text "DUMMY2"
+	text "Still"
+	line "a ways to go!"
 	prompt
 
 _DragonDen2AfterBattleText2::
-	text "DUMMY3"
+	text "One day I want to"
+	line "surpass LANCE!"
 	done
