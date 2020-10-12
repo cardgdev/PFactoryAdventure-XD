@@ -1,34 +1,50 @@
-_BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+_BrunoBeforeBattleText:: ;koga
+	text "Fwahahahaha!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "I am KOGA of the"
+	line "ELITE FOUR."
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "I live in shadows,"
+	line "a ninja!"
 
-	para "<PLAYER>!"
+	para "My intricate style"
+	line "will confound and"
+	cont "destroy you!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Confusion, sleep,"
+	line "poison…"
 
-	para "Hoo hah!"
+	para "Prepare to be the"
+	line "victim of my sin-"
+	cont "ister technique!"
+
+	para "Fwahahahaha!"
+
+	para "#MON is not"
+	line "merely about brute"
+
+	para "force--you shall"
+	line "see soon enough!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Ah!"
+	line "You have proven"
+	cont "your worth!"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "I subjected you to"
+	line "everything I could"
+	cont "muster."
+
+	para "But my efforts"
+	line "failed. I must"
+	cont "hone my skills."
+
+	para "Go on to the next"
+	line "room, and put your"
+	cont "abilities to test!"
 	done
 
 _BrunoDontRunAwayText::

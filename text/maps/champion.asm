@@ -1,144 +1,150 @@
 _GaryChampionIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: At last"
+	line "the time has"
+	cont "come!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
-
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
-
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
-
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
-
-	para "And now!"
-
-	para "I'm the #MON"
-	line "LEAGUE champion!"
-
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
-
-	para "I'll tell you!"
-
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "RED, here we will"
+	line "do battle in the"
+	cont "hall of CHAMPIONS"
+	cont "to determine the"
+	cont "future of KANTO!"
+	
+	para "...No"
+	line "The future of the"
+	cont "whole world!"
+	
+	para "I will fight for"
+	line "the glory of Lord"
+	cont "MEWTHREE and"
+	cont "the new order he"
+	cont "shall enact upon"
+	cont "this land!"
+	
+	para "Before you I shall"
+	line "lay bare the"
+	cont "supreme judgement"
+	cont "of my liege!"
+	
+	para "For that glorious"
+	line "future..."
+	
+	para "EN GUARDE!"
 	done
 
 _GaryDefeatedText::
 	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
-
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
-
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	line "This cannot be!"
+	
+	para "This ABSOLUTELY"
+	line "cannot be!"
+	
+	para "Lord MEWTHREE!"
+	line "I beg of your"
+	cont "forgiveness!"
 	prompt
 
 _GaryVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
-
-	para "I'm too good for"
-	line "you, <PLAYER>!"
-
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
-
-	para "Nice try, loser!"
-	line "Hahaha!"
+	text "As my"
+	line "liege dictates!"
+	
+	para "Kneel in defeat"
+	line "before the power"
+	cont "of Lord MEWTHREE!"
 	prompt
 
 _GaryText_76103::
-	text "Why?"
-	line "Why did I lose?"
-
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
-
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
-
-	para "Although I don't"
-	line "like to admit it."
+	text "No! NO!"
+	
+	para "This is not the"
+	line "end for you,"
+	cont "traitor of our"
+	cont "destiny!"
+	
+	para "I Wi-"
+	
+	para "..."
+	para "..."
+	
+	para "My Lord..."
+	line "He..."
+	
+	para "He is speaking"
+	line "to me..."
+	cont "Inside my mind..."
+	
+	para "CERULEAN CAVE..."
+	
+	para "Everything is"
+	line "fading..."
+	
+	para "..."
 	done
 
 _GaryText2::
-	text "OAK: <PLAYER>!"
+	text "BLAINE: <PLAYER>!"
 	done
 
 _GaryText_76120::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
-
-	para "You've grown up so"
-	line "much since you"
-	cont "first set out on"
-	cont "your adventure!"
-
-	para "<PLAYER>, you have"
-	line "come of age!"
+	text "BLAINE: So my"
+	line "hunch about him"
+	cont "was correct after"
+	cont "all..."
+	
+	para "Even the ELITE"
+	line "FOUR were at his"
+	cont "mercy, it seems."
+	
+	para "Thank you, RED."
+	
+	para "If I came here"
+	line "myself, I doubt"
+	cont "I could have"
+	cont "defeated him."
+	
+	para "Not even with"
+	line "an entire army"
+	cont "by my side..."
 	done
 
 _GaryText_76125::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
-
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
-
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
-
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
-
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
-
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	text "BLAINE: He's out"
+	line "cold..."
+	
+	para "What was that he"
+	line "said? MEWTHREE"
+	cont "spoke into his"
+	cont "mind directly?"
+	
+	para "CERULEAN CAVE..."
+	
+	para "That was once the"
+	line "place you fought"
+	cont "MEWTWO wasn't it?"
+	
+	para "MEWTHREE must be"
+	line "challenging us"
+	cont "directly..."
 	done
 
 _GaryText_7612a::
-	text "OAK: <PLAYER>!"
-
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
-
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
-
-	para "<PLAYER>!"
-	line "Come with me!"
+	text "BLAINE: I'll take"
+	line "him to get fixed"
+	cont "up..."
+	
+	para "LANCE is ahead"
+	line "in the HALL OF"
+	cont "FAME!"
+	
+	para "I think it's"
+	line "time for your"
+	cont "#MON to"
+	cont "rest up..."
+	
+	para "We've got a"
+	line "long battle"
+	cont "ahead..."
+	
+	para "I'll follow you"
+	line "out, don't"
+	cont "worry about us."
 	done

@@ -1,39 +1,48 @@
-_LoreleiBeforeBattleText::
-	text "Welcome to"
-	line "#MON LEAGUE!"
+_LoreleiBeforeBattleText:: ; will
+	text "Welcome to #MON"
+	line "LEAGUE, <PLAYER>."
 
-	para "I am LORELEI of"
-	line "the ELITE FOUR!"
+	para "Allow me to intro-"
+	line "duce myself. I am"
+	cont "WILL."
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #MON!"
+	para "I have trained all"
+	line "around the world,"
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "making my psychic"
+	line "#MON powerful."
 
-	para "Your #MON will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "And, at last, I've"
+	line "been accepted into"
+	cont "the ELITE FOUR."
 
-	para "Hahaha!"
-	line "Are you ready?"
+	para "I can only keep"
+	line "getting better!"
+
+	para "Losing is not an"
+	line "option!"
 	done
 
 _LoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "I can't"
+	line "believe it..."
 	prompt
 
 _LoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Even though I was"
+	line "defeated, I won't"
+	cont "change my course."
 
-	para "You only got a"
-	line "taste of #MON"
-	cont "LEAGUE power!"
+	para "I will continue"
+	line "battling until I"
+	cont "stand above all"
+	cont "trainers!"
+
+	para "Now <PLAYER>, move"
+	line "on and experience"
+
+	para "the true ferocity"
+	line "of the ELITE FOUR."
 	done
 
 _LoreleiDontRunAwayText::

@@ -1,63 +1,54 @@
 _LanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you <PLAYER>!"
-
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
-
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
-
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
-
-	para "They're virtually"
-	line "indestructible!"
-
-	para "Well, are you"
-	line "ready to lose?"
-
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	text "I have awaited"
+	line "your return!"
+	
+	para "<PLAYER>, or"
+	line "rather, RED!"
+	
+	para "I knew that you"
+	line "would return in"
+	cont "this time of"
+	cont "peril to reclaim"
+	cont "the CHAMPION's"
+	cont "seat!"
+	
+	para "However, another"
+	line "trainer has"
+	cont "managed to best"
+	cont "me and claim the"
+	cont "highest honor!"
+	
+	para "If you wish to"
+	line "face that trainer"
+	line "then you'll have"
+	cont "to get through"
+	cont "my DRAGONS to"
+	cont "prove your worth!"
 	done
 
 _LanceEndBattleText::
-	text "That's it!"
-
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	text "That was"
+	line "the kind of"
+	cont "fight I could"
+	cont "only expect from"
+	cont "a fellow former"
+	cont "LEAGUE CHAMPION."
+	
+	para "Bravo, RED!"
 	prompt
 
 _LanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
-
-	para "You are now the"
-	line "#MON LEAGUE"
-	cont "champion!"
-
-	para "...Or, you would"
-	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
-
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is..."
-
-	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
-
-	para "He is the real"
-	line "#MON LEAGUE"
-	cont "champion!@@"
+	text "Ahead of me, is"
+	line "a trainer by the"
+	cont "name of <RIVAL>."
+	
+	para "He seeks to take"
+	line "the CHAMPION's"
+	cont "seat to dictate"
+	cont "the future of"
+	cont "the world under"
+	cont "his unknown"
+	cont "master's orders!"
+	
+	para "RED! Put an end"
+	line "to this!@@"
