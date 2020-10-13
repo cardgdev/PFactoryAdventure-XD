@@ -1,13 +1,13 @@
 _SchoolText1::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "There's a crisis"
+	line "going on and"
+	cont "I'm still stuck"
+	cont "in school!"
+	
+	para "What a drag!"
 	done
 
 _SchoolText2::
-	text "Okay!"
-
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	text "School is"
+	line "in session!"
 	done

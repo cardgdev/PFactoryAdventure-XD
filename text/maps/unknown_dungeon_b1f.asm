@@ -30,8 +30,8 @@ _MewtwoBattleText::
 	cont "MY utopia of"
 	cont "mutant #MON!"
 	
-	para "Try and stop me"
-	line "if you dare!!"
+	para "Capture me..."
+	line "If you dare!"
 	done
 
 ;soldier 1

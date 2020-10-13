@@ -1,170 +1,85 @@
-_OaksLabGaryText1::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+_OaksLabGaryText1:: ; everything here that's just "h" are all the story scenes that never happen in roaming red
+	text "h"
 	done
 
 _OaksLabText40::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
-
-	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	text "h"
 	done
 
 _OaksLabText41::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "h"
 	done
 
 _OaksLabText39::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "h"
 	done
 
 _OaksLabCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "h"
 	done
 
 _OaksLabSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "h"
 	done
 
 _OaksLabBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "h"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "h"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
-	TX_RAM wcd6d
-	text "!@@"
+	text "h@@"
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "h"
 	done
 
 _OaksLabText_1d2f0::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "h"
 	done
 
 _OaksLabText_1d2f5::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "h"
 	done
 
 _OaksLabText_1d2fa::
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "h"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
-
-	para "How is my old"
-	line "#MON?"
-
-	para "Well, it seems to"
-	line "like you a lot."
-
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
-
-	para "What? You have"
-	line "something for me?"
-
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@@"
+	text "h@@"
 
 _OaksLabDeliverParcelText2::
-	text ""
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	text "h"
 	done
 
 _OaksLabAroundWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "h"
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
-
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
-
-	para "<PLAYER> got 5"
-	line "# BALLs!@@"
+	text "h@@"
 
 _OaksLabGivePokeballsText2::
-	text ""
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
-
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
-
-	para "This won't always"
-	line "work, though."
-
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	text "h"
 	done
 
 _OaksLabPleaseVisitText::
-	text "OAK: Come see me"
-	line "sometimes."
-
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	text "h"
 	done
 
 _OaksLabText_1d31d::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "BLUE: Hey RED,"
+	line "how's the invest-"
+	cont "igation? Let's"
+	cont "see that #DEX!"
 	prompt
 
 _OaksLabText_1d32c::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "h"
 	done
 
 _OaksLabText8::
@@ -172,190 +87,92 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
-
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	text "PROF.OAK is in"
+	line "another region"
+	cont "where he can"
+	cont "recover from"
+	cont "his condition"
+	cont "safely..."
+	
+	para "We're doing our"
+	line "best to help"
+	cont "you and BLUE"
+	cont "investigate!"
 	done
 
 _OaksLabRivalWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "h"
 	done
 
 _OaksLabChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
-
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
-
-	para "Here, <PLAYER>!"
-
-	para "There are 3"
-	line "#MON here!"
-
-	para "Haha!"
-
-	para "They are inside"
-	line "the # BALLs."
-
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
-
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	text "h"
 	done
 
 _OaksLabRivalInterjectionText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "h"
 	done
 
 _OaksLabBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "h"
 	done
 
 _OaksLabLeavingText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "h"
 	done
 
 _OaksLabRivalPickingMonText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "h"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
-	TX_RAM wcd6d
-	text "!@@"
+	text "h@@"
 
 _OaksLabRivalChallengeText::
-	text "<RIVAL>: Wait"
-	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
-
-	para "Come on, I'll take"
-	line "you on!"
+	text "h"
 	done
 
 _OaksLabText_1d3be::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "h"
 	prompt
 
 _OaksLabText_1d3c3::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "h"
 	prompt
 
 _OaksLabRivalToughenUpText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
-
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	text "h"
 	done
 
 _OaksLabText21::
-	text "<RIVAL>: Gramps!"
+	text "h"
 	done
 
 _OaksLabText22::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "h"
 	done
 
 _OaksLabText23::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "h"
 	done
 
 _OaksLabText24::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
-
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
-
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	text "h"
 	done
 
 _OaksLabText25::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
-
-	para "<PLAYER> got"
-	line "#DEX from OAK!@@"
+	text "h@@"
 
 _OaksLabText26::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
-
-	para "That was my dream!"
-
-	para "But, I'm too old!"
-	line "I can't do it!"
-
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
-
-	para "Get moving, you"
-	line "two!"
-
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	text "h"
 	done
 
 _OaksLabText27::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
-
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
-
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
-
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	text "h"
 	done
 
 _OaksLabText_1d405::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "We're BLUE's"
+	line "lab aides now!"
 	done
 
 _OaksLabText_441cc::
@@ -369,105 +186,126 @@ _OaksLabText_441cc::
 	TX_NUM hDexRatingNumMonsOwned, 1, 3
 	text " #MON owned"
 
-	para "PROF.OAK's"
+	para "BLUE's"
 	line "Rating:"
 	prompt
 
 _OaksLabText_44201::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "You've found a"
+	line "couple so far,"
+	cont "keep up the"
+	cont "search!"
 	done
 
 _OaksLabText_44206::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
+	text "This is starting"
+	line "to get really"
+	cont "interesting!"
+	cont "Grab a FLASH HM"
 	cont "from my AIDE!"
 	done
 
 _OaksLabText_4420b::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "Keep leveling up"
+	line "to encounter more"
+	cont "powerful #MON!"
 	done
 
 _OaksLabText_44210::
-	text "Good, you're"
-	line "trying hard!"
+	text "I've never seen"
+	line "#MON like"
+	cont "these before!"
 	cont "Get an ITEMFINDER"
 	cont "from my AIDE!"
 	done
 
 _OaksLabText_44215::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "Keep collecting!"
+	line "The AIDEs are"
+	cont "working on a"
+	cont "tool to help!"
 	done
 
 _OaksLabText_4421a::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "Wow! 50 new"
+	line "species!"
+	
+	para "The AIDEs went"
+	line "and finished the"
+	cont "EXP.ALL, pick"
+	cont "it up at the"
+	cont "gate on ROUTE 15!"
 	done
 
 _OaksLabText_4421f::
-	text "Ho! This is geting"
-	line "even better!"
+	text "There's different"
+	line "species all over"
+	cont "the region!"
+	
+	para "The mutants will"
+	line "lead us to the"
+	cont "source of the"
+	cont "mist, I know it!"
 	done
 
 _OaksLabText_44224::
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "Have you tried"
+	line "fishing? There's"
+	cont "a guy on ROUTE"
+	cont "12 with a SUPER"
+	cont "ROD for you!"
 	done
 
 _OaksLabText_44229::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "Now this is a"
+	line "collection, how"
+	cont "many species"
+	cont "developed this"
+	cont "quickly!?"
 	done
 
 _OaksLabText_4422e::
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "There's enough"
+	line "new species here"
+	cont "to start a whole"
+	cont "new ecosystem!"
+	
+	para "Absoltutely nuts!"
 	done
 
 _OaksLabText_44233::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "There's almost"
+	line "as many new"
+	cont "#MON as there"
+	cont "were old ones!"
 	done
 
 _OaksLabText_44238::
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "Wow! I bet some"
+	line "of these would"
+	cont "evolve with a"
+	cont "MIST STONE!"
 	done
 
 _OaksLabText_4423d::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "150 #MON!"
+	
+	para "Are there really"
+	line "even more than"
+	cont "we found last"
+	cont "time!?"
 	done
 
 _OaksLabText_44242::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "I'd wager only"
+	line "about 20 are"
+	cont "left! Finish"
+	cont "the job!"
 	done
 
 _OaksLabText_44247::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "Only 10 left"
+	line "You can do it!"
 	done
 
 _OaksLabText_4424c::

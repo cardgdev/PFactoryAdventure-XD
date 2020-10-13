@@ -1,5 +1,5 @@
 _UndergrdTunnelEntRoute6Text1::
-	text "People often lose"
-	line "things in that"
+	text "I found some neat"
+	line "items in the"
 	cont "UNDERGROUND PATH."
 	done

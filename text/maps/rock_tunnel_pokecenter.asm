@@ -1,13 +1,16 @@
 _RockTunnelPokecenterText2::
-	text "The element types"
-	line "of #MON make"
-	cont "them stronger"
-	cont "than some types"
-	cont "and weaker than"
-	cont "others!"
+	text "There's been some"
+	line "weird activity"
+	cont "around the old"
+	cont "POWER PLANT on"
+	cont "the other end of"
+	cont "the river here."
 	done
 
 _RockTunnelPokecenterText3::
-	text "I sold a useless"
-	line "NUGGET for ¥5000!"
+	text "I went into ROCK"
+	line "TUNNEL but a"
+	cont "big scary ogre"
+	cont "called GRANITE"
+	cont "made me run!"
 	done
