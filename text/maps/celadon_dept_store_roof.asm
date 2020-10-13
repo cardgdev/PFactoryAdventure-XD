@@ -6,9 +6,9 @@ _CeladonMartRoofText_484ee::
 _CeladonMartRoofText_484f3::
 	text "Yay!"
 
-	para "FRESH WATER!"
+	para "WATER BAGEL!"
 
-	para "Thank you!"
+	para "QWEEEEEEEEE!"
 
 	para "You can have this"
 	line "from me!@@"

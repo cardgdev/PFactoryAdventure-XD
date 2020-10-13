@@ -58,7 +58,7 @@ ItemNames:
 	db "MAX REPEL@"
 	db "DIRE HIT@"
 	db "COIN@"
-	db "FRESH WATER@"
+	db "WATER BAGEL@"
 	db "SODA POP@"
 	db "LEMONADE@"
 	db "S.S.TICKET@"
