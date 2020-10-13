@@ -235,6 +235,9 @@ charmap "'v", $BF
 
 charmap "'", $E0
 
+charmap "<pk>", $E1 ; had to add these myself
+charmap "<mn>", $E2
+
 charmap "-", $E3
 charmap "'r", $E4
 charmap "'m", $E5

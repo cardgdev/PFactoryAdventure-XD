@@ -1,21 +1,25 @@
 _Route16BattleText1::
-	text "What do you want?"
+	text "I'm revving up!"
 	done
 
 _Route16EndBattleText1::
-	text "Don't you"
-	line "dare laugh!"
+	text "Spun"
+	line "right out!"
 	prompt
 
 _Route16AfterBattleText1::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Had it not been"
+	line "for the laws of"
+	cont "this land, I"
+	cont "would have slaug-"
+	cont "htered you."
 	done
 
 _Route16BattleText2::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "I'm a bit short"
+	line "on wheels, how"
+	cont "about that BIKE"
+	cont "of yours!"
 	done
 
 _Route16EndBattleText2::
@@ -24,13 +28,15 @@ _Route16EndBattleText2::
 	prompt
 
 _Route16AfterBattleText2::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "I'm short off"
+	line "wheels too..."
 	done
 
 _Route16BattleText3::
-	text "Come out and play,"
-	line "little mouse!"
+	text "I'm going to"
+	line "pin you down and"
+	cont "shave you as"
+	cont "bald as me!"
 	done
 
 _Route16EndBattleText3::
@@ -39,13 +45,18 @@ _Route16EndBattleText3::
 	prompt
 
 _Route16AfterBattleText3::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "I'll get you"
+	line "someday!!"
 	done
 
 _Route16BattleText4::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Detonation in..."
+	
+	para "5"
+	para "4"
+	para "3"
+	para "2"
+	para "1!"
 	done
 
 _Route16EndBattleText4::
@@ -53,15 +64,15 @@ _Route16EndBattleText4::
 	prompt
 
 _Route16AfterBattleText4::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "It's a one-"
+	line "hit-KO!"
 	done
 
 _Route16BattleText5::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Didn't your"
+	line "momma teach you"
+	cont "not to mess with"
+	cont "biker gangs!"
 	done
 
 _Route16EndBattleText5::
@@ -70,13 +81,18 @@ _Route16EndBattleText5::
 	prompt
 
 _Route16AfterBattleText5::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "If #MON could"
+	line "hold weapons I'd"
+	cont "give them all a"
+	cont "ball-peen hammer!"
 	done
 
 _Route16BattleText6::
-	text "Sure, I'll go!"
+	text "Hey kid wanna"
+	line "buy some homemade"
+	cont "X ACCURACY?"
+	
+	para "No? NO?"
 	done
 
 _Route16EndBattleText6::
@@ -85,26 +101,26 @@ _Route16EndBattleText6::
 	prompt
 
 _Route16AfterBattleText6::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "The first hit"
+	line "is free, heheh!"
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
+	text "A comatose #MON"
 	line "blocks the way!"
 	done
 
 _Route16Text10::
-	text "SNORLAX woke up!"
+	text "WAKKAZOID woke up!"
 
 	para "It attacked in a"
-	line "grumpy rage!"
+	line "deluded rage!"
 	done
 
 _Route16Text11::
-	text "With a big yawn,"
-	line "SNORLAX returned"
+	text "WAKKAZOID calmed"
+	line "down! With a sly"
+	cont "grin, it returned"
 	cont "to the mountains!"
 	done
 

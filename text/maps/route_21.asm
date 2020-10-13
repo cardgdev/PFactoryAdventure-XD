@@ -1,7 +1,6 @@
 _Route21BattleText1::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "Lets rock the"
+	cont "dock!"
 	done
 
 _Route21EndBattleText1::
@@ -9,28 +8,33 @@ _Route21EndBattleText1::
 	prompt
 
 _Route21AfterBattleText1::
-	text "I can't catch"
-	line "anything good!"
+	text "Maybe all our"
+	line "fighting scared"
+	cont "away the fish."
 	done
 
 _Route21BattleText2::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "Nothing's biting"
+	line "so lets have"
+	cont "some fun!"
 	done
 
 _Route21EndBattleText2::
-	text "Darn"
-	line "MAGIKARP!"
+	text "I got"
+	line "a bite!"
 	prompt
 
 _Route21AfterBattleText2::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "Here it comes..."
+	
+	para "MAGIFART again!"
 	done
 
 _Route21BattleText3::
-	text "The sea cleanses"
-	line "my body and soul!"
+	text "I can outswim"
+	line "any man, fish,"
+	cont "or motorized"
+	cont "surfboard!"
 	done
 
 _Route21EndBattleText3::
@@ -38,29 +42,40 @@ _Route21EndBattleText3::
 	prompt
 
 _Route21AfterBattleText3::
-	text "I like the"
-	line "mountains too!"
+	text "I cannot out-"
+	line "swim an OCEANEEL"
+	cont "however..."
 	done
 
 _Route21BattleText4::
-	text "What's wrong with"
-	line "me swimming?"
+	text "Hey you're the"
+	line "guy that once"
+	cont "called me a"
+	cont "studded inner"
+	cont "tube! Don't"
+	cont "think I forgot"
+	cont "your face!"
 	done
 
 _Route21EndBattleText4::
-	text "Cheap"
-	line "shot!"
+	text "Not"
+	line "again!"
 	prompt
 
 _Route21AfterBattleText4::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "Alright alright"
+	line "I'll lose some"
+	cont "weight!"
+	
+	para "Next time you"
+	line "see me my trainer"
+	cont "class will be a"
+	cont "SWIMMER!"
 	done
 
 _Route21BattleText5::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "Even the sea is"
+	line "turning mutant!"
 	done
 
 _Route21EndBattleText5::
@@ -69,30 +84,32 @@ _Route21EndBattleText5::
 	prompt
 
 _Route21AfterBattleText5::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "I'm a bit worried"
+	line "to be in this"
+	cont "water now..."
 	done
 
 _Route21BattleText6::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "Bblblblbl!"
+	
+	para "I'm still trying"
+	line "to recover from"
+	cont "a wipeout!"
 	done
 
 _Route21EndBattleText6::
-	text "Pant..."
-	line "pant...pant..."
+	text "Gulp..."
 	prompt
 
 _Route21AfterBattleText6::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "All I can smell"
+	line "and taste is"
+	cont "seawater..."
 	done
 
 _Route21BattleText7::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "And now, for the"
+	line "backstroke!"
 	done
 
 _Route21EndBattleText7::
@@ -101,37 +118,45 @@ _Route21EndBattleText7::
 	prompt
 
 _Route21AfterBattleText7::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "Ahh... The back-"
+	line "stroke feels nice"
+	cont "on my sunburn."
 	done
 
 _Route21BattleText8::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "All I can pull"
+	line "up anymore is"
+	cont "MAGIFART!"
 	done
 
 _Route21EndBattleText8::
-	text "Sorry!"
-	line "I didn't mean it!"
+	text "Just"
+	line "awful, terrible!"
 	prompt
 
 _Route21AfterBattleText8::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "There's even less"
+	line "meat on MAGIFART"
+	cont "than MAGIKARP!"
+	
+	para "What kind of"
+	line "mutation makes a"
+	cont "#MON worse!"
 	done
 
 _Route21BattleText9::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "Yaaaawn..."
+	
+	para "What's your deal?"
 	done
 
 _Route21EndBattleText9::
-	text "That"
-	line "burned some time."
+	text "Eh?"
+	line "a detective?"
 	prompt
 
 _Route21AfterBattleText9::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "There ain't a"
+	line "thing to find out"
+	line "here on the sea."
 	done

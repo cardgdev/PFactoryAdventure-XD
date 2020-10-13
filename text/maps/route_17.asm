@@ -1,6 +1,8 @@
 _Route17BattleText1::
-	text "There's no money"
-	line "in fighting kids!"
+	text "Can't I have"
+	line "a battle without"
+	cont "betting half my"
+	cont "paycheck!"
 	done
 
 _Route17EndBattleText1::
@@ -9,14 +11,14 @@ _Route17EndBattleText1::
 	prompt
 
 _Route17AfterBattleText1::
-	text "Good stuff is"
-	line "lying around on"
-	cont "CYCLING ROAD!"
+	text "If I keep losing"
+	line "I'll be broke!"
 	done
 
 _Route17BattleText2::
-	text "What do you want,"
-	line "kiddo?"
+	text "I'll roast your"
+	line "leather coat"
+	cont "and eat it!"
 	done
 
 _Route17EndBattleText2::
@@ -24,14 +26,14 @@ _Route17EndBattleText2::
 	prompt
 
 _Route17AfterBattleText2::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "Look at me!"
+	line "I'm a hungry"
+	cont "hombre!"
 	done
 
 _Route17BattleText3::
-	text "You heading to"
-	line "FUCHSIA?"
+	text "I'll race you"
+	line "to FUSCHIA!"
 	done
 
 _Route17EndBattleText3::
@@ -40,43 +42,52 @@ _Route17EndBattleText3::
 	prompt
 
 _Route17AfterBattleText3::
-	text "I love racing"
-	line "downhill!"
+	text "A crash or two"
+	line "is what makes"
+	cont "life exciting!"
 	done
 
 _Route17BattleText4::
-	text "We're BIKERs!"
-	line "Highway stars!"
+	text "I'm a cowboy,"
+	line "on a steel horse"
+	cont "I ride!"
 	done
 
 _Route17EndBattleText4::
-	text "Smoked!"
+	text "I'm"
+	line "wanted..."
 	prompt
 
 _Route17AfterBattleText4::
-	text "Are you looking"
-	line "for adventure?"
+	text "Dead or alive!"
 	done
 
 _Route17BattleText5::
-	text "Let VOLTORB"
-	line "electrify you!"
+	text "I got no home"
+	line "but the road!"
 	done
 
 _Route17EndBattleText5::
-	text "Grounded"
-	line "out!"
+	text "Home"
+	line "is where your"
+	cont "heart is, and"
+	cont "I ain't got one!"
 	prompt
 
 _Route17AfterBattleText5::
-	text "I got my VOLTORB"
-	line "at the abandoned"
-	cont "POWER PLANT."
+	text "Some big lobster"
+	line "ran me out of"
+	cont "the POWER PLANT!"
+	
+	para "It's name was"
+	line "something like"
+	cont "ASPEN!"
 	done
 
 _Route17BattleText6::
-	text "My #MON won't"
-	line "evolve! Why?"
+	text "Hey kid you"
+	line "got any MIST"
+	cont "STONEs?"
 	done
 
 _Route17EndBattleText6::
@@ -85,14 +96,16 @@ _Route17EndBattleText6::
 	prompt
 
 _Route17AfterBattleText6::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Maybe my #MON"
+	line "would evolve if"
+	cont "it had a MIST"
+	cont "STONE!"
 	done
 
 _Route17BattleText7::
-	text "I need a little"
-	line "exercise!"
+	text "Huge guys like"
+	line "me are faster"
+	cont "than you'd expect!"
 	done
 
 _Route17EndBattleText7::
@@ -101,12 +114,19 @@ _Route17EndBattleText7::
 	prompt
 
 _Route17AfterBattleText7::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "Just because I'm"
+	line "big dosen't make"
+	cont "me slow, but I"
+	cont "love catching"
+	cont "skinny weaklings"
+	cont "off guard!"
 	done
 
 _Route17BattleText8::
-	text "Be a rebel!"
+	text "I heard they're"
+	line "recruiting punks"
+	cont "like me to go"
+	cont "riot in SAFFRON!"
 	done
 
 _Route17EndBattleText8::
@@ -114,13 +134,16 @@ _Route17EndBattleText8::
 	prompt
 
 _Route17AfterBattleText8::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "I better go"
+	line "hurry there"
+	cont "before the cops"
+	cont "shut it down!"
 	done
 
 _Route17BattleText9::
-	text "Nice BIKE!"
-	line "How's it handle?"
+	text "You're skilled"
+	line "at downslope"
+	cont "handling!"
 	done
 
 _Route17EndBattleText9::
@@ -128,13 +151,16 @@ _Route17EndBattleText9::
 	prompt
 
 _Route17AfterBattleText9::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "Try hitting B"
+	line "to stop your"
+	cont "momentum!"
 	done
 
 _Route17BattleText10::
-	text "Get lost kid!"
-	line "I'm bushed!"
+	text "Ugh, It's going"
+	line "to cost me so"
+	cont "much gas going"
+	cont "uphill!"
 	done
 
 _Route17EndBattleText10::
@@ -143,8 +169,9 @@ _Route17EndBattleText10::
 	prompt
 
 _Route17AfterBattleText10::
-	text "I need to catch"
-	line "a few Zs!"
+	text "I'll have to"
+	line "fill my tank"
+	cont "again at the top!"
 	done
 
 _Route17Text11::
@@ -157,13 +184,20 @@ _Route17Text11::
 _Route17Text12::
 	text "TRAINER TIPS"
 
-	para "All #MON are"
-	line "unique."
-
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
-	cont "different rates."
+	para "#MON's unique"
+	line "attributes are"
+	cont "measured in DVs."
+	
+	para "DVs are not able"
+	line "to be immediately"
+	cont "seen in the menu."
+	
+	para "They range from"
+	line "0 to 15 and"
+	cont "influence the"
+	cont "additional stat"
+	cont "growth of a"
+	cont "#MON."
 	done
 
 _Route17Text13::
@@ -173,6 +207,9 @@ _Route17Text13::
 	line "Button to stay in"
 	cont "place while on a"
 	cont "slope."
+	
+	para "Yes, this was"
+	line "always a feature!"
 	done
 
 _Route17Text14::
@@ -182,11 +219,18 @@ _Route17Text14::
 	done
 
 _Route17Text15::
-	text "It's a notice!"
+	text "It's a poster:"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Are you a rebel?"
+	
+	para "Come fight with"
+	line "us in SAFFRON"
+	cont "against the KDF!"
+	
+	para "Pay is included."
+	
+	para "Call this number"
+	line "... ..."
 	done
 
 _Route17Text16::

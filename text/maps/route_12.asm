@@ -12,8 +12,8 @@ _Route12Text13::
 
 _Route12Text14::
 	text "WAKKAZOID calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
+	line "down! With a sly"
+	cont "grin, it returned"
 	cont "to the mountains!"
 	done
 

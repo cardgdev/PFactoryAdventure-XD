@@ -1,7 +1,8 @@
 _Route15BattleText1::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "My brownie troop"
+	line "trades #MON"
+	cont "around! Let's try"
+	cont "this one out!"
 	done
 
 _Route15EndBattleText1::
@@ -10,19 +11,17 @@ _Route15EndBattleText1::
 	prompt
 
 _Route15AfterBattleText1::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
-
-	para "Only the Original"
-	line "Trainer can."
+	text "I wish Carla"
+	line "didn't give all"
+	cont "her #MON bad"
+	cont "nicknames like"
+	cont "SHO<pk>EEPERS."
 	done
 
 _Route15BattleText2::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Cool coat!"
+	line "So hip and"
+	cont "mysterious!"
 	done
 
 _Route15EndBattleText2::
@@ -31,15 +30,15 @@ _Route15EndBattleText2::
 	prompt
 
 _Route15AfterBattleText2::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Just kidding you"
+	line "look like you"
+	cont "just stepped out"
+	cont "of a 1950s dete-"
+	cont "ctive comic!"
 	done
 
 _Route15BattleText3::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "I have a mohawk!"
 	done
 
 _Route15EndBattleText3::
@@ -48,31 +47,31 @@ _Route15EndBattleText3::
 	prompt
 
 _Route15AfterBattleText3::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "It helps me to"
+	line "channel my"
+	cont "inner rooster."
 	done
 
 _Route15BattleText4::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "I'll pluck you"
+	line "like a chicken!"
 	done
 
 _Route15EndBattleText4::
-	text "Just"
-	line "as I thought!"
+	text "Bok!"
 	prompt
 
 _Route15AfterBattleText4::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Now if you'll"
+	line "excuse me I"
+	cont "have some seeds"
+	cont "to eat."
 	done
 
 _Route15BattleText5::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Aren't you"
+	line "cute in that"
+	cont "getup?"
 	done
 
 _Route15EndBattleText5::
@@ -81,14 +80,17 @@ _Route15EndBattleText5::
 	prompt
 
 _Route15AfterBattleText5::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Do you run the"
+	line "detective's club"
+	cont "at your school?"
 	done
 
 _Route15BattleText6::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Just because I"
+	line "live alone with"
+	cont "my #MON"
+	cont "dosen't mean I'm"
+	cont "crazy!"
 	done
 
 _Route15EndBattleText6::
@@ -97,14 +99,17 @@ _Route15EndBattleText6::
 	prompt
 
 _Route15AfterBattleText6::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "You're just like"
+	line "my parents!"
+	
+	para "Quit nagging me!"
+	line "I SAID QUIT IT!"
 	done
 
 _Route15BattleText7::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "My mutants will"
+	line "make you into"
+	cont "mincemeat!"
 	done
 
 _Route15EndBattleText7::
@@ -113,16 +118,16 @@ _Route15EndBattleText7::
 	prompt
 
 _Route15AfterBattleText7::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "I'm biking up to"
+	line "SAFFRON to go"
+	cont "fight in the"
+	cont "street riots!"
 	done
 
 _Route15BattleText8::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "You shouldn't"
+	line "challenge me,"
+	cont "boah!"
 	done
 
 _Route15EndBattleText8::
@@ -131,38 +136,49 @@ _Route15EndBattleText8::
 	prompt
 
 _Route15AfterBattleText8::
-	text "I was just joking"
-	line "about the money!"
+	text "It's doggone hot"
+	line "out here I tell"
+	cont "you hwat."
 	done
 
 _Route15BattleText9::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "All my #MON"
+	line "I got in a"
+	cont "trade!"
 	done
 
 _Route15EndBattleText9::
-	text "I"
-	line "said trade!"
+	text "But"
+	line "they don't listen!"
 	prompt
 
 _Route15AfterBattleText9::
-	text "I trade #MON"
-	line "with my friends!"
+	text "I'm not tough"
+	line "enough to get"
+	cont "any BADGEs so"
+	cont "no #MON will"
+	cont "respect me!"
 	done
 
 _Route15BattleText10::
-	text "Want to play with"
-	line "my #MON?"
+	text "I'm here to"
+	line "get my #MON"
+	cont "some exercise!"
 	done
 
 _Route15EndBattleText10::
-	text "I was"
-	line "too impatient!"
+	text "Not"
+	line "like that!"
 	prompt
 
 _Route15AfterBattleText10::
-	text "I'll go train with"
-	line "weaker people.@@"
+	text "Taking them"
+	line "outside is what"
+	cont "made them mutate"
+	cont "so maybe this"
+	cont "wasn't a good"
+	cont "idea either."
+	done
 
 _Route15Text12::
 	text "ROUTE 15"

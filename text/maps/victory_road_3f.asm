@@ -1,6 +1,8 @@
 _VictoryRoad3BattleText2::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "I heard you're"
+	line "the detective that"
+	cont "broke up the"
+	cont "riots in SAFFRON!"
 	done
 
 _VictoryRoad3EndBattleText2::
@@ -9,28 +11,40 @@ _VictoryRoad3EndBattleText2::
 	prompt
 
 _VictoryRoad3AfterBattleText2::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "So the KDF were"
+	line "bad actors?"
+	
+	para "Oh, I see..."
+	
+	para "Things are more"
+	line "complicated than"
+	cont "just that."
 	done
 
 _VictoryRoad3BattleText3::
-	text "I'll show you just"
-	line "how good you are!"
+	text "There's 3 other"
+	line "trainers here!"
+	
+	para "We're like a"
+	line "pre-ELITE FOUR!"
 	done
 
 _VictoryRoad3EndBattleText3::
 	text "I'm"
-	line "furious!"
+	line "beaten!"
 	prompt
 
 _VictoryRoad3AfterBattleText3::
-	text "You showed me just"
-	line "how good I was!"
+	text "What would an"
+	line "ELITE FOUR say?"
+	
+	para "Go on and face"
+	line "your next foe..."
 	done
 
 _VictoryRoad3BattleText4::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Where did you"
+	line "get an 8th BADGE?"
 	done
 
 _VictoryRoad3EndBattleText4::
@@ -39,16 +53,15 @@ _VictoryRoad3EndBattleText4::
 	prompt
 
 _VictoryRoad3AfterBattleText4::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "CINNABAR GYM was"
+	line "shut down wasn't"
+	cont "it? I got in"
+	cont "with only 7!"
 	done
 
 _VictoryRoad3BattleText5::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "This is our"
+	line "final climax!!"
 	done
 
 _VictoryRoad3EndBattleText5::
@@ -57,7 +70,8 @@ _VictoryRoad3EndBattleText5::
 	prompt
 
 _VictoryRoad3AfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "My team is ready"
+	line "for anything,"
+	cont "bring on the"
+	cont "ELITE FOUR!"
 	done

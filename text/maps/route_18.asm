@@ -1,38 +1,44 @@
 _Route18BattleText1::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "A grassy field"
+	line "by the sea is my"
+	cont "favorite place"
+	cont "to battle!"
 	done
 
 _Route18EndBattleText1::
-	text "Tch!"
+	text "Ah!"
 	prompt
 
 _Route18AfterBattleText1::
-	text "I wish I had a"
-	line "BIKE!"
+	text "I lost, but this"
+	line "spot is so nice"
+	cont "and refreshing"
+	cont "that I can't"
+	cont "have a care!"
 	done
 
 _Route18BattleText2::
-	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	text "QUACK QUACK!"
+	line "Shh.. I'm looking"
+	cont "for PSYDUCK..."
 	done
 
 _Route18EndBattleText2::
 	text "I"
-	line "had to bug you!"
+	line "don't see one..."
 	prompt
 
 _Route18AfterBattleText2::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "I haven't seen a"
+	line "PSYDUCK in a"
+	cont "while, where did"
+	cont "they all go?"
 	done
 
 _Route18BattleText3::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "I bet you've"
+	line "got some rare"
+	cont "mutants!"
 	done
 
 _Route18EndBattleText3::
@@ -40,9 +46,12 @@ _Route18EndBattleText3::
 	prompt
 
 _Route18AfterBattleText3::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "There's a real"
+	line "weird one around"
+	cont "these parts..."
+	
+	para "It was like a"
+	line "living mirror!"
 	done
 
 _Route18Text4::

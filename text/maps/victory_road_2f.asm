@@ -1,10 +1,10 @@
 _MoltresBattleText::
-	text "Gyaoo!@@"
+	text "Kyaoo!@@"
 
 _VictoryRoad2BattleText1::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "This cavern is my"
+	line "dojo, and your"
+	cont "torture chamber!"
 	done
 
 _VictoryRoad2EndBattleText1::
@@ -12,15 +12,13 @@ _VictoryRoad2EndBattleText1::
 	prompt
 
 _VictoryRoad2AfterBattleText1::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Now go roll some"
+	line "boulders! That's"
+	cont "how you progress!"
 	done
 
 _VictoryRoad2BattleText2::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "I am the jester."
 	done
 
 _VictoryRoad2EndBattleText2::
@@ -29,13 +27,16 @@ _VictoryRoad2EndBattleText2::
 	prompt
 
 _VictoryRoad2AfterBattleText2::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "Did I keep you"
+	line "entertained?"
+	
+	para "Hmmmmmmmm?"
 	done
 
 _VictoryRoad2BattleText3::
-	text "Come on!"
-	line "I'll whip you!"
+	text "I'll whip you"
+	line "Then I'll whip"
+	cont "the ELITE FOUR!"
 	done
 
 _VictoryRoad2EndBattleText3::
@@ -44,16 +45,16 @@ _VictoryRoad2EndBattleText3::
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "I wouldn't mind"
+	line "getting whipped"
+	cont "by KAREN!"
 	done
 
 _VictoryRoad2BattleText4::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "With my most"
+	line "powerful set of"
+	cont "mutants I'll put"
+	cont "you down!"
 	done
 
 _VictoryRoad2EndBattleText4::
@@ -62,24 +63,28 @@ _VictoryRoad2EndBattleText4::
 	prompt
 
 _VictoryRoad2AfterBattleText4::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "Who knows what"
+	line "freaky monsters"
+	cont "the ELITE FOUR"
+	cont "are packing!"
 	done
 
 _VictoryRoad2BattleText5::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "Looking for a"
+	line "way out? I'll"
+	cont "send you blacked"
+	cont "out to the"
+	cont "#MON CENTER"
+	cont "for free!"
 	done
 
 _VictoryRoad2EndBattleText5::
-	text "Well"
-	line "done!"
+	text "Looks"
+	line "like you don't!"
 	prompt
 
 _VictoryRoad2AfterBattleText5::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Time to use my"
+	line "handy ESCAPE"
+	cont "ROPE!"
 	done

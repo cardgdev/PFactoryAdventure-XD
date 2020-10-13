@@ -1,7 +1,7 @@
 _VictoryRoad1BattleText1::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "This is the end"
+	line "of the road for"
+	cont "you buddy!"
 	done
 
 _VictoryRoad1EndBattleText1::
@@ -10,14 +10,15 @@ _VictoryRoad1EndBattleText1::
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "Another step down"
+	line "the road..."
 	done
 
 _VictoryRoad1BattleText2::
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "You're the second"
+	line "cloaked weirdo"
+	cont "to come through"
+	cont "here today!"
 	done
 
 _VictoryRoad1EndBattleText2::
@@ -26,6 +27,7 @@ _VictoryRoad1EndBattleText2::
 	prompt
 
 _VictoryRoad1AfterBattleText2::
-	text "I concede, you're"
-	line "better than me!"
+	text "Beaten down by"
+	line "two weirdos, I"
+	cont "need to train!"
 	done
