@@ -1,14 +1,12 @@
 _DaisyInitialText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "h"
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "I heard you and"
+	line "BLUE are on a"
+	cont "mission, take"
+	cont "a TOWN MAP."
 	prompt
 
 _GotMapText::
@@ -29,10 +27,14 @@ _DaisyUseMapText::
 	done
 
 _BluesHouseText2::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "Grandpa fell ill"
+	line "a bit before the"
+	cont "lockdown started."
+	
+	para "He's recovering"
+	line "while they set"
+	cont "up his new lab"
+	cont "in SILENT TOWN."
 	done
 
 _BluesHouseText3::

@@ -189,7 +189,7 @@ DisplayIntroNameTextBox:
 
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "YUUICHI"
+	next "MAROON"
 	next "LUCKY"
 	next "TC"
 	db   "@"
@@ -227,7 +227,7 @@ GetDefaultName:
 
 DefaultNamesPlayerList:
 	db "NEW NAME@"
-	db "YUUICHI@"
+	db "MAROON@"
 	db "LUCKY@"
 	db "TC@"
 DefaultNamesRivalList:

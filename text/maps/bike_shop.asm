@@ -1,9 +1,9 @@
 _BikeShopText_1d810::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
-
-	para "Have we got just"
-	line "the BIKE for you!"
+	text "Hey kid, lookin'"
+	line "to buy a bike?"
+	
+	para "Have I got the"
+	line "one for you..."
 	prompt
 
 _BikeShopText_1d815::
@@ -35,12 +35,9 @@ _BikeShopComeAgainText::
 	done
 
 _BikeShopText_1d82f::
-	text "How do you like"
-	line "your new BICYCLE?"
-
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	text "Tell the CHAIRMAN"
+	line "ol' greasy at the"
+	cont "shop said hello."
 	done
 
 _BikeShopText_1d834::
@@ -49,22 +46,26 @@ _BikeShopText_1d834::
 	done
 
 _BikeShopText_1d843::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
-
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	text "That clerk is"
+	line "such a jokester!"
+	
+	para "He keeps bikes"
+	line "for people he"
+	cont "likes, then tells"
+	cont "everyone else"
+	cont "some made up"
+	cont "stupidly-high"
+	cont "prices!"
 	done
 
 _BikeShopText_1d85c::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "You need a good"
+	line "connection to"
+	cont "get a BIKE"
+	cont "VOUCHER!"
 	done
 
 _BikeShopText_1d861::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Man! I wish I"
+	line "knew a bike guy!"
 	done

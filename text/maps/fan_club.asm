@@ -1,85 +1,90 @@
 PikachuFanText::
 	text "Won't you admire"
-	line "my PIKACHU's"
-	cont "adorable tail?"
+	line "my PIKAMARS'"
+	cont "flaming elegance?"
 	done
 
 PikachuFanBetterText::
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Humph! My PIKAMARS"
+	line "is twice as eleg-"
+	cont "ant as that one!"
 	done
 
 SeelFanText::
 	text "I just love my"
-	line "SEEL!"
+	line "OCEANEEL!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "It screeches when"
+	line "it coils on me!"
 	done
 
 SeelFanBetterText::
 	text "Oh dear!"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "My OCEANEEL is"
+	line "the most elegant!"
 	done
 
 FanClubPikachuText::
-	text "PIKACHU: Chu!"
-	line "Pikachu!"
+	text "PIKAMARS: Pik-"
+	line "a-piiiii..."
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "OCEANEEL: Scree!"
 	done
 
 FanClubMeetChairText::
 	text "I chair the"
 	line "#MON Fan Club!"
 
-	para "I have collected"
-	line "over 100 #MON!"
-
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
-
-	para "So..."
-
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #MON?"
+	para "Every day I grow"
+	line "fonder of my"
+	cont "many #MON!"
+	
+	para "Did you come to"
+	line "hear about how"
+	cont "my dear RAPIDASH"
+	cont "became PEGAZEUS?"
 	done
 
 FanClubChairStoryText::
 	text "Good!"
 	line "Then listen up!"
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "I was out by the"
+	line "stable one foggy"
+	cont "morning then..."
+	
+	para "I realized all"
+	line "the fog was pink!"
+	
+	para "Bewildered, I"
+	line "went over to"
+	cont "the pen to see"
+	cont "if my RAPIDASH"
+	cont "was okay, when"
+	cont "suddenly I saw"
+	cont "a PURPLE flash!"
+	
+	para "For a moment I"
+	line "thought RAPIDASH"
+	cont "was somehow once"
+	cont "again evolving,"
+	cont "but then I heard"
+	cont "a crack of thunder"
+	cont "and there flying"
+	cont "overtop the"
+	cont "stable was my"
+	cont "RAPIDASH turned"
+	cont "yellow and with"
+	cont "a set of wings!"
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
-
-	para "Hug it...when..."
-	cont "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
-
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "But I drone on..."
+	line "Here, a token of"
+	cont "my appreciation"
+	cont "for listening to"
+	cont "my stories!"
 	prompt
 
 ReceivedBikeVoucherText::
@@ -89,19 +94,15 @@ ReceivedBikeVoucherText::
 	text "!@@"
 
 ExplainBikeVoucherText::
-	text ""
-	para "Exchange that for"
-	line "a BICYCLE!"
-
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
-
-	para "So, I don't need a"
-	line "BICYCLE!"
-
-	para "I hope you like"
-	line "cycling!"
+	text "It's hard to"
+	line "come by a BIKE"
+	cont "VOUCHER in this"
+	cont "economy!"
+	
+	para "Tell that greasy"
+	line "goofball at the"
+	cont "shop in CERULEAN"
+	cont "I sent you!"
 	done
 
 FanClubNoStoryText::
