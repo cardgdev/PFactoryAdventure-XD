@@ -21,6 +21,11 @@ MewthreeLairTextPointers:
 	dw MewthreeLairText5
 	dw PickUpItemText
 	dw PickUpItemText
+	dw MewthreeLairText9
+	dw MewthreeLairText10
+	dw MewthreeLairText11
+	dw MewthreeLairText12
+	dw PojosBedText
 
 MewtwoTrainerHeader:
 	dbEventFlagBit EVENT_BEAT_MEWTWO
@@ -168,6 +173,41 @@ MewthreeLairEndBattleText5:
 MewthreeLairAfterBattleText5:
 	TX_FAR _MewthreeLairAfterBattleText5
 	db "@"
+
+MewthreeLairText12:
+MewthreeLairText11:
+MewthreeLairText10:
+MewthreeLairText9:
+	TX_FAR _MistMachineText
+	db "@"
+
+_MistMachineText::
+	text "It's the machine"
+	line "that's making the"
+	cont "mutation mist!"
+	done
+
+PojosBedText:
+	TX_ASM
+	ld hl, _PojosBedText1
+	call PrintText
+	predef HealParty
+	call GBFadeOutToWhite
+	call Delay3
+	call GBFadeInFromWhite
+	ld hl, _PojosBedText2
+	call PrintText
+	jp TextScriptEnd
+
+_PojosBedText1::
+	text "It's <RIVAL>'s"
+	line "bed! Lets take"
+	cont "a rest!"
+	done
+
+_PojosBedText2::
+	text "Good as new!"
+	done
 
 ;----------------------------------------------------------------------------
 

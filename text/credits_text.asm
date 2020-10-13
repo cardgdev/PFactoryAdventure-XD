@@ -16,7 +16,7 @@ CreditsTextPointers:
 	dw CredTC
 	dw CredAddArt
 	dw CredRool
-	dw CredHangry
+	dw CredThinAir
 	dw CredPromoArt
 	dw CredTommo
 	dw CredDisasmGuru
@@ -75,8 +75,8 @@ CredAddArt:
 	db -8, "Additional Art:@"
 CredRool:
 	db -8, "Rool@"
-CredHangry:
-	db -8, "Canadian Bob@"
+CredThinAir:
+	db -8, "Thin Air@"
 CredPromoArt:
 	db -8, "Promo Art:@"
 CredTommo:
