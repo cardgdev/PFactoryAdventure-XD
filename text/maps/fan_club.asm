@@ -94,8 +94,9 @@ ReceivedBikeVoucherText::
 	text "!@@"
 
 ExplainBikeVoucherText::
-	text "It's hard to"
-	line "come by a BIKE"
+	text ""
+	line "It's hard to"
+	cont "come by a BIKE"
 	cont "VOUCHER in this"
 	cont "economy!"
 	

@@ -31,7 +31,7 @@ CeladonGymText_48943:
 
 CeladonGymScriptPointers:
 	dw ArrowSpinnerScript ; new
-	dw CheckFightingMapTrainers
+	;dw CheckFightingMapTrainers
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 	dw CeladonGymScript3
@@ -53,7 +53,7 @@ ArrowSpinnerScript:
 	call PlaySound
 	ld a, $ff
 	ld [wJoyIgnore], a
-	ld a, $5 ; was 3
+	ld a, $4 ; was 3
 	ld [wCurMapScript], a
 	;ld hl, wd736
 	;res 7, [hl] ; dumbass workaround: because I can't figure out the spinning bug, now the tiles just walk the player
@@ -376,7 +376,7 @@ CeladonGymText1:
 	call InitBattleEnemyParameters
 	ld a, $4
 	ld [wGymLeaderNo], a
-	ld a, $4 ; HERE WAS 3
+	ld a, $3 ; HERE WAS 3
 	ld [wCeladonGymCurScript], a
 	ld [wCurMapScript], a
 .asm_48a5b

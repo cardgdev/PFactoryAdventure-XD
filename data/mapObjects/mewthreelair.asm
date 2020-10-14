@@ -5,12 +5,12 @@ MewthreeLairObject:
 	db $2, $1B, $1, UNKNOWN_DUNGEON_3
 
 	db $6 ; signs
-	db $a, $1, $9 ; mist machine 1
-	db $b, $1, $a ; mist machine 2
-	db $10, $1, $b ; mist machine 3
-	db $11, $1, $c ; mist machine 4
+	db $1, $a, $9 ; mist machine 1
+	db $1, $b, $a ; mist machine 2
+	db $1, $10, $b ; mist machine 3
+	db $1, $11, $c ; mist machine 4
 	db $e, $e, $d ; pojo's bed
-	db $e, $f, $d ; pojo's bed
+	db $f, $e, $d ; pojo's bed
 
 	db $8 ; objects
 	object SPRITE_SLOWBRO, $3, $1, STAY, DOWN, $1, MEWTHREE, 70

@@ -147,3 +147,10 @@ _VermilionCityText12::
 _VermilionCityText13::
 	text "VERMILION HARBOR"
 	done
+
+_VermilionECSignText::
+	text "VERMILION TRADE"
+	line "CLUB: Come in and"
+	cont "trade with us!"
+	done
+

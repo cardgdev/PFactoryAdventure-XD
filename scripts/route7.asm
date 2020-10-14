@@ -13,13 +13,13 @@ Route7Script:
 	dw EndTrainerBattle
 
 Route7TextPointers:
-	dw Route7Text1
 	dw Route7Text2
 	dw Route7Text3
 	dw Route7Text4
 	dw Route7Text5
 	dw Route7Text6
 	dw Route7SoldierText
+	dw Route7Text1
 
 Route7TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_7_TRAINER_1

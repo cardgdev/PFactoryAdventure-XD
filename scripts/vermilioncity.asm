@@ -127,6 +127,7 @@ VermilionCityTextPointers:
 	dw VermilionCityText11
 	dw VermilionCityText12
 	dw VermilionCityText13
+	dw VermillionECSignText
 
 VermilionCityText1:
 	TX_FAR _VermilionCityText1
@@ -254,4 +255,8 @@ VermilionCityText12:
 
 VermilionCityText13:
 	TX_FAR _VermilionCityText13
+	db "@"
+
+VermillionECSignText:
+	TX_FAR _VermilionECSignText
 	db "@"

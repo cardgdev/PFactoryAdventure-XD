@@ -6,7 +6,7 @@ _CeladonGymText_48a5e::
 	para "I am MIKAN, with"
 	line "my heart of ice"
 	cont "I will freeze"
-	cont "your GYM CHALLENGE"
+	cont "your challenge"
 	cont "in it's tracks"
 	cont "right here and"
 	cont "now!"

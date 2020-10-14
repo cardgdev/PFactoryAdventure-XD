@@ -235,8 +235,8 @@ CaterpieEvosMoves:
 
 MetapodEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 14, LOCAFREE
 	db EV_ITEM, FIRE_STONE, 1, FIREFREE
+	db EV_LEVEL, 14, LOCAFREE
 	db 0
 ; Learnset
 	db 0
@@ -1128,8 +1128,8 @@ TygabraEvosMoves:
 	
 VootwoEvosMoves:
 ; Evolutions
-	db EV_LEVEL,30,ALENKAR
 	db EV_ITEM, MIST_STONE, 1, XBRAIN
+	db EV_LEVEL,30,ALENKAR
 	db 0
 ; Learnset
 	;teleport
@@ -1496,8 +1496,8 @@ GorkEvosMoves:
 	
 GraniteEvosMoves:
 ; evolutions
-	db EV_LEVEL,42,DIMINOX
 	db EV_ITEM, ICE_STONE, 1, CHILLY
+	db EV_LEVEL,42,DIMINOX
 	db 0
 ; learnset
 	;rock throw
@@ -1606,8 +1606,8 @@ FreezapEvosMoves:
 	
 ScytheperEvosMoves:
 ; evolutions
-	db EV_LEVEL,40,SLASHA
 	db EV_ITEM, ICE_STONE, 1, ICEPICK
+	db EV_LEVEL,40,SLASHA
 	db 0
 ; learnset
 	; quick attack
@@ -2514,10 +2514,10 @@ TyranticusEvosMoves:
 
 DrakorEvosMoves:
 ; evolution
-	db EV_LEVEL, 55, DRAGOR
 	db EV_ITEM, MIST_STONE, 1, DRAGUR
 	db EV_ITEM, ICE_STONE, 1, DRAKEN
 	db EV_ITEM, NINTENDIUM, 1, YOSHI
+	db EV_LEVEL, 55, DRAGOR
 	db 0
 ; learnset
 	; wrap
@@ -2581,8 +2581,8 @@ YoshiEvosMoves:
 
 DoomsayEvosMoves:
 ; evolution
-	db EV_LEVEL, 55, DOOMSDAY_A
 	db EV_ITEM, MIST_STONE, 1, DOOMSDAY_O
+	db EV_LEVEL, 55, DOOMSDAY_A
 	db 0
 ; learnset
 	; night shade

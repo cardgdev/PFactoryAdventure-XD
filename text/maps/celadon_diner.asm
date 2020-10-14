@@ -51,7 +51,7 @@ _CeladonDinerText_491a7::
 	cont "life, no more"
 	cont "slots for me!"
 	
-	para "Here take this"
+	para "Here, take this"
 	line "away from me!"
 	prompt
 

@@ -78,7 +78,7 @@ _CeladonMansion3Text5::
 	text "It's the game"
 	line "program! It's"
 	cont "screwed six ways"
-	cont "to sunday!"
+	cont "to Sunday!"
 	done
 
 _CeladonMansion3Text6::

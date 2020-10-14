@@ -13,7 +13,7 @@ VermilionCityObject:
 	db $3, $7, $0, VERMILION_HOUSE_2
 	db $9, $1D, $0, VERMILLION_TRADING_CLUB
 
-	db $7 ; signs
+	db $8 ; signs
 	db $3, $1b, $7 ; VermilionCityText7
 	db $d, $25, $8 ; VermilionCityText8
 	db $d, $18, $9 ; MartSignText
@@ -21,6 +21,7 @@ VermilionCityObject:
 	db $d, $7, $b ; VermilionCityText11
 	db $13, $7, $c ; VermilionCityText12
 	db $f, $1d, $d ; VermilionCityText13
+	db $9, $1b, $e ; vermillionTradeClubSignText
 
 	db $6 ; objects
 	object SPRITE_FOULARD_WOMAN, $13, $7, WALK, $2, $1 ; person
