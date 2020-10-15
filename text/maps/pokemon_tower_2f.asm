@@ -42,8 +42,8 @@ _PokemonTower2Text_6063c::
 	cont "of this TOWER."
 	
 	para "But you already"
-	line "knew that,"
-	cont "otherwise you"
+	line "knew that."
+	cont "Otherwise, you"
 	cont "would have never"
 	cont "come here."
 	

@@ -9,8 +9,8 @@ _Route11EndBattleText1::
 
 _Route11AfterBattleText1::
 	text "What was it? Ha!"
-	line "Wouldn't like to"
-	cont "know!"
+	line "Wouldn't you like"
+	cont "to know!"
 	done
 
 _Route11BattleText2::

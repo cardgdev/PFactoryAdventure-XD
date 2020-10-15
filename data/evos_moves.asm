@@ -358,6 +358,7 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
+	db 14, DIG
 	db 25, LEER
 	db 31, FOCUS_ENERGY
 	db 38, THRASH
@@ -370,6 +371,7 @@ MarowakEvosMoves:
 	db EV_LEVEL, 40, FRACTURE
 	db 0
 ; Learnset
+	db 14, DIG
 	db 25, LEER
 	db 33, FOCUS_ENERGY
 	db 41, THRASH
@@ -382,9 +384,11 @@ VoltorbEvosMoves:
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
+	db 9, THUNDERSHOCK
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
+	db 28, THUNDERBOLT
+	db 31, LIGHT_SCREEN
 	db 36, SWIFT
 	db 43, EXPLOSION
 	db 0
@@ -394,9 +398,11 @@ ElectrodeEvosMoves:
 	db EV_ITEM, THUNDER_STONE, 1, ALACTRODE
 	db 0
 ; Learnset
+	db 9, THUNDERSHOCK
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
+	db 28, THUNDERBOLT
+	db 33, LIGHT_SCREEN
 	db 40, SWIFT
 	db 50, EXPLOSION
 	db 0
@@ -406,6 +412,7 @@ StaryuEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, STARMIE
 	db 0
 ; Learnset
+	db 9, BUBBLE
 	db 17, WATER_GUN
 	db 22, HARDEN
 	db 27, RECOVER

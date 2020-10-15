@@ -7,7 +7,7 @@ _CeladonGymText_48a5e::
 	line "my heart of ice"
 	cont "I will freeze"
 	cont "your challenge"
-	cont "in it's tracks"
+	cont "in its tracks"
 	cont "right here and"
 	cont "now!"
 	
@@ -201,7 +201,7 @@ _CeladonGymAfterBattleText6::
 	done
 
 _CeladonGymBattleText7::
-	text "Lets have a"
+	text "Let's have a"
 	line "cordial battle."
 	done
 

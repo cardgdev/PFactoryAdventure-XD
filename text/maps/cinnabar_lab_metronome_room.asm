@@ -31,15 +31,15 @@ _Lab3Text2::
 	
 	para "Wild EEVEE caught"
 	line "after the mist"
-	cont "began can't become"
-	cont "JOLTEON, VAPOREON,"
-	cont "or FLAREON anymore"
-	cont "but have 4 new"
-	cont "evolutions!"
+	cont "can't become the"
+	cont "previously found"
+	cont "evolutions, but"
+	cont "can become 4"
+	cont "new ones!"
 	
 	para "Other #MON like"
-	line "GASTLY and PIKACHU"
-	cont "have similar split"
+	line "GASTLY, PIKACHU"
+	cont "also have split"
 	cont "evolutions now."
 	done
 

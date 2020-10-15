@@ -262,6 +262,7 @@ FightingDojoText6:
 	ld [wUnusedCD3D], a
 	call RandomizeMon
 	ld a, [wcf91]	
+	call DisplayPokedex
 	ld hl, WantHitmonleeText
 	call PrintText
 	call YesNoChoice

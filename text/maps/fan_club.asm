@@ -54,7 +54,7 @@ FanClubChairStoryText::
 
 	para "I was out by the"
 	line "stable one foggy"
-	cont "morning then..."
+	cont "morning when..."
 	
 	para "I realized all"
 	line "the fog was pink!"
@@ -63,16 +63,16 @@ FanClubChairStoryText::
 	line "went over to"
 	cont "the pen to see"
 	cont "if my RAPIDASH"
-	cont "was okay, when"
+	cont "was okay. Then"
 	cont "suddenly I saw"
-	cont "a PURPLE flash!"
+	cont "a purple flash!"
 	
 	para "For a moment I"
 	line "thought RAPIDASH"
 	cont "was somehow once"
 	cont "again evolving,"
 	cont "but then I heard"
-	cont "a crack of thunder"
+	cont "a thunder crack"
 	cont "and there flying"
 	cont "overtop the"
 	cont "stable was my"
@@ -95,8 +95,8 @@ ReceivedBikeVoucherText::
 
 ExplainBikeVoucherText::
 	text ""
-	line "It's hard to"
-	cont "come by a BIKE"
+	para "It's hard to"
+	line "come by a BIKE"
 	cont "VOUCHER in this"
 	cont "economy!"
 	

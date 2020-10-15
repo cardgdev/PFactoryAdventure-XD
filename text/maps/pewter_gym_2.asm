@@ -91,7 +91,7 @@ _PewterGymBattleText1::
 	done
 
 _PewterGymEndBattleText1::
-	text "Gotcha!"
+	text "HA!"
 
 	para "Parsecs DO measure"
 	line "distance!"
