@@ -58,7 +58,7 @@ _Route24Text_5152b::
 _Route24Text_51530::
 	text "With your ability,"
 	line "you could become"
-	cont "a sargent in"
+	cont "a sergeant in"
 	cont "the KDF!"
 	done
 

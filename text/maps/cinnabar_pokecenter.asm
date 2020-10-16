@@ -15,7 +15,7 @@ _CinnabarPokecenterText2::
 
 _CinnabarPokecenterText3::
 	text "KNOWITALL CAVE"
-	line "was build by the"
+	line "was built by the"
 	cont "KDF corps of"
 	cont "engineers before"
 	cont "those weird goo-"

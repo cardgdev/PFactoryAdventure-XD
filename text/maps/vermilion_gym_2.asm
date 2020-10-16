@@ -53,7 +53,7 @@ _TM24NoRoomText::
 	done
 
 _ReceivedThunderbadgeText::
-	text "You've snuffed"
+	text "You snuffed"
 	line "out every one"
 	cont "of my spirits..."
 	

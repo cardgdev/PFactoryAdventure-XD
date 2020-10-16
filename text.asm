@@ -560,7 +560,7 @@ _CinnabarQuizQuestionsText1:: ;yes
 	done
 
 _CinnabarQuizQuestionsText2:: ;no
-	text "Is a sargent in"
+	text "Is a sergeant in"
 	line "charge of a"
 	cont "lieutenant?"
 	done

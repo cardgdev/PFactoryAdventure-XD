@@ -76,7 +76,7 @@ _Route12EndBattleText4::
 	prompt
 
 _Route12AfterBattleText4::
-	text "#MON and music..."
+	text "#MON and music."
 	line "Both take a lot"
 	cont "of practice, but"
 	cont "talent helps."

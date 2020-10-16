@@ -1,7 +1,7 @@
 _TM35PreReceiveText::
 	text "Tch-tch-tch!"
 	line "Time to take"
-	line "my tinny TM"
+	cont "my tinny TM"
 	cont "once again!"
 	prompt
 

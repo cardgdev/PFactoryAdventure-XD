@@ -169,7 +169,7 @@ _Route25AfterBattleText9::
 	line "up after that."
 	
 	para "Luckily, the trail"
-	text "below is a short-"
+	line "below is a short-"
 	cont "cut back to"
 	cont "CERULEAN CITY."
 	done

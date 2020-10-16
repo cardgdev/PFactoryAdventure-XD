@@ -50,8 +50,8 @@ _BillThankYouText::
 	cont "pass for the"
 	cont "SS ANNE."
 	
-	para "The military's"
-	cont "got it moored in"
+	para "The military"
+	line "has it moored in"
 	cont "the harbor at"
 	cont "VERMILLION for"
 	cont "some reason."

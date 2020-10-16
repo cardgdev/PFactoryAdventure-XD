@@ -22,7 +22,7 @@ _Route7AfterBattleText1::
 
 _Route7BattleText2::
 	text "I'll impress my"
-	line "sargent at"
+	line "sergeant at"
 	cont "school if I"
 	cont "beat people here!"
 	done
