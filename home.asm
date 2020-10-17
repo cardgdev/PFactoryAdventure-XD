@@ -1502,7 +1502,8 @@ DisplayListMenuIDLoop::
 	ld [wd0b5],a
 	ld a,BANK(ItemNames)
 	ld [wPredefBank],a
-	call GetName
+	ld a, ITEM_NAME
+	ld [wNameListType], a ; lucky's TM menu bug fix
 	jr .storeChosenEntry
 .pokemonList
 	ld hl,wPartyCount
