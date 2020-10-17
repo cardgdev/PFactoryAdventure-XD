@@ -51,14 +51,14 @@ _MtMoon3Text_49f8f::
 _MtMoon3Text_49f94::
 	text "..."
 
-	para "What does the"
-	line "military want with"
+	para "Why does the"
+	line "military want"
 	cont "dinosaur fossils?"
 
 	para "Maybe they want"
 	line "to revive some"
 	cont "powerful #MON"
-	cont "to use as weapons!"
+	cont "as a weapon?"
 
 	para "I'm just a"
 	line "contract employee"
@@ -72,7 +72,7 @@ _MtMoon3Text_49f99::
 
 _MtMoon3BattleText2::
 	text "HEY! Can't you"
-	line "read signs pal!"
+	line "read signs pal?"
 	cont "This cave floor"
 	cont "is totally off"
 	cont "limits to you"
@@ -107,7 +107,7 @@ _MtMoon3AfterBattleText3::
 	line "latrine duty for"
 	cont "me tonight!"
 
-	para "you ever scrub a"
+	para "You ever scrub a"
 	line "portable toilet"
 	cont "with a tooth-"
 	cont "brush!?"

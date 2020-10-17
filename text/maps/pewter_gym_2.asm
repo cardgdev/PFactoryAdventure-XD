@@ -99,8 +99,8 @@ _PewterGymEndBattleText1::
 
 _PewterGymAfterBattleText1::
 	text "Parsecs measure"
-	line "astronomical dist-"
-	cont "ance!"
+	line "astronomical dis-"
+	cont "tance!"
 
 	para "...Who are you"
 	line "callin' a SUPER"

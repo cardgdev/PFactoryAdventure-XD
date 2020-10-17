@@ -13,6 +13,6 @@ _PewterGymText_5c49e::
 
 	para "Namely our rock-"
 	line "hard bravado,"
-	cont "and chisled-out"
+	cont "and chiseled-out"
 	cont "skill!"
 	done

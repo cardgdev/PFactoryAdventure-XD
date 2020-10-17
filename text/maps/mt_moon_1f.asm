@@ -47,7 +47,7 @@ _MtMoon1EndBattleText4::
 
 _MtMoon1AfterBattleText4::
 	text "When I was a"
-	line "JR.TRAINER me"
+	line "JR.TRAINER, me"
 	cont "and my friends"
 	cont "used to hang out"
 	cont "in ROCK TUNNEL!"
