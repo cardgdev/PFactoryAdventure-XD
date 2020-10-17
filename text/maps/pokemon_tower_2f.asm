@@ -1,6 +1,6 @@
 _PokemonTower2Text_6062d::
-	text "<RIVAL>: Precise"
-	line "as ever..."
+	text "<RIVAL>: So,"
+	line "<PLAYER>..."
 	
 	para "What drives a man"
 	line "to seek out a"

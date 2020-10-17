@@ -49,7 +49,7 @@ _ViridianFrstAfterBattleText2::
 	done
 
 _ViridianForestBattleText3::
-	text "Stop right there"
+	text "Stop right there,"
 	line "you're caught in"
 	cont "my web!"
 	done

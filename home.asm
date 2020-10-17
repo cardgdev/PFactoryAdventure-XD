@@ -1498,13 +1498,14 @@ DisplayListMenuIDLoop::
 	ld a,[hl] ; a = item quantity
 	ld [wMaxItemQuantity],a
 .skipGettingQuantity
-	ld a,[wcf91]
-	ld [wd0b5],a
-	ld a,BANK(ItemNames)
-	ld [wPredefBank],a
-	ld a, ITEM_NAME
-	ld [wNameListType], a ; lucky's TM menu bug fix
-	jr .storeChosenEntry
+    ld a,[wcf91]
+    ld [wd0b5],a
+    ld a,BANK(ItemNames)
+    ld [wPredefBank],a
+    ld a, ITEM_NAME
+    ld [wNameListType], a ; lucky's TM menu bug fix
+    call GetName
+    jr .storeChosenEntry
 .pokemonList
 	ld hl,wPartyCount
 	ld a,[wListPointer]

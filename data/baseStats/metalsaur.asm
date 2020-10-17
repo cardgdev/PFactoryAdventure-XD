@@ -1,7 +1,7 @@
 db DEX_METALSAUR ; pokedex id
 db 60 ; base hp
 db 62 ; base attack
-db 140 ; base defense
+db 130 ; base defense
 db 60 ; base speed
 db 80 ; base special
 db GRASS ; species type 1

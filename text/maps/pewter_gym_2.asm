@@ -110,7 +110,7 @@ _PewterGymAfterBattleText1::
 _PewterGymText_5c515::
 	text "Heh, you lookin'"
 	line "for advice from"
-	cont "me kid?"
+	cont "me, kid?"
 
 	para "Well I guess I"
 	line "could, but don't"

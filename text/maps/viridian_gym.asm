@@ -11,10 +11,10 @@ _ViridianGymText_74ace::
 	cont "GYM LEADER?"
 
 	para "Just because I'm"
-	line "young dosen't"
+	line "young doesn't"
 	cont "mean you should"
 	cont "underestimate me"
-	cont "for even a second!"
+	cont "for a second!"
 
 	para "NORMAL types need"
 	line "no gimmicks to"
@@ -153,9 +153,9 @@ _ViridianGymBattleText3::
 	done
 
 _ViridianGymEndBattleText3::
-	text "The soothing"
-	line "harmony of"
-	cont "nature!"
+	text "The"
+	line "soothing harmony"
+	cont "of nature!"
 	prompt
 
 _ViridianGymAfterBattleText3::
