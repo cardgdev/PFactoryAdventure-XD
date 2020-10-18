@@ -91,8 +91,8 @@ _Route7AfterBattleText4::
 _Route7BattleText5::
 	text "Let me show the"
 	line "others in my"
-	cont "platoon how its"
-	cont "done!"
+	cont "platoon how"
+	cont "it's done!"
 	done
 
 _Route7EndBattleText5::

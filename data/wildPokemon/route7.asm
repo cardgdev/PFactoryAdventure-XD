@@ -7,7 +7,7 @@ Route7Mons:
 	db 22,VULPIX
 	db 18,ZIPPO
 	db 18,SHOCKRA
-	db 20,EEVEE
-	db 19,EEVEE
+	db 20,FOLEON
+	db 19,GRIFF
 	db 20,GRIFF	
 	db $00
