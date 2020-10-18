@@ -1,9 +1,6 @@
-# Pokémon Red Free Mode
-An experiment in dynamic levelling in Pokémon
-
-For discussion of this project and updates please join us at the [Pokemon Red Free Mode Discord channel][Discord]
+# Pokemon Factory Adventure
+A romhack based on Roaming Red that features fakemon from the Pokemon Factory's generatiom 1 archive
+Yeah, those ones.
 
 Based on pret/pokered
-
-[Discord]: https://discord.gg/r7NNgyu
-
+Secondarily Based on https://github.com/tshadowknight/Pokemon-Roaming-Red
