@@ -30,14 +30,15 @@ _BlaineEndBattleText::
 
 _BlaineFireBlastText:: ; this is afterwards
 	text "While at SILPH I"
-	line "crossed paths with"
-	cont "a powerful trainer"
+	line "met up with a"
+	cont "powerful trainer"
 	cont "named <RIVAL>."
 	
 	para "Our intel suggests"
 	line "that he may be"
-	cont "taking orders from"
-	cont "an outside source."
+	cont "taking orders"
+	cont "from an outside"
+	cont "source."
 	
 	para "Now this is only"
 	line "a theory but..."
@@ -55,8 +56,8 @@ _BlaineFireBlastText:: ; this is afterwards
 	para "PROJECT TRI's spe-"
 	line "cificiations were"
 	cont "to create a being"
-	cont "capable of equali-"
-	cont "ng or surpassing"
+	cont "capable of equal-"
+	cont "ing or surpassing"
 	cont "MEWTWO's power."
 	
 	para "With this, I have"
