@@ -159,27 +159,17 @@ BlkPacket_PartyMenu:
 BlkPacket_TrainerCard:
 	ATTR_BLK 10
 	ATTR_BLK_DATA %010, 0,0,0, 03,12, 04,13 ; Boulder Badge
-	ATTR_BLK_DATA %010, 1,1,0, 07,12, 08,13 ; Cascade Badge
-	ATTR_BLK_DATA %010, 3,3,0, 11,12, 12,13 ; Thunder Badge
-	ATTR_BLK_DATA %010, 2,2,0, 16,11, 17,12 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 1,1,0, 14,13, 15,14 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 3,3,0, 16,13, 17,14 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 2,2,0, 03,15, 04,16 ; Soul Badge
-	ATTR_BLK_DATA %010, 3,3,0, 07,15, 08,16 ; Marsh Badge
-	ATTR_BLK_DATA %010, 2,2,0, 11,15, 12,16 ; Volcano Badge
-	ATTR_BLK_DATA %010, 1,1,0, 15,15, 16,16 ; Earth Badge
+	ATTR_BLK_DATA %010, 1,1,0, 07,12, 08,13 ; Tornado Badge
+	ATTR_BLK_DATA %010, 0,0,0, 11,12, 12,13 ; Esper Badge
+	ATTR_BLK_DATA %010, 1,1,0, 16,11, 17,12 ; Crystal Badge
+	ATTR_BLK_DATA %010, 1,1,0, 14,13, 15,14 ; Crystal Badge
+	ATTR_BLK_DATA %010, 1,1,0, 16,13, 17,14 ; Crystal Badge
+	ATTR_BLK_DATA %010, 2,2,0, 03,15, 04,16 ; Chitin Badge
+	ATTR_BLK_DATA %010, 0,0,0, 07,15, 08,16 ; Screw Badge
+	ATTR_BLK_DATA %010, 3,3,0, 11,15, 12,16 ; Star Badge
+	ATTR_BLK_DATA %010, 2,2,0, 15,15, 16,16 ; Volcano Badge
 	ds 2
 
-	db $03,$03,$0c,$04,$0d,$00
-	db $03,$07,$0c,$08,$0d,$01
-	db $03,$0b,$0c,$0c,$0d,$03
-	db $03,$10,$0b,$11,$0c,$02
-	db $03,$0e,$0d,$0f,$0e,$01
-	db $03,$10,$0d,$11,$0e,$03
-	db $03,$03,$0f,$04,$10,$02
-	db $03,$07,$0f,$08,$10,$03
-	db $03,$0b,$0f,$0c,$10,$02
-	db $03,$0f,$0f,$10,$10,$01
 	db $00
 
 BlkPacket_GameFreakIntro:

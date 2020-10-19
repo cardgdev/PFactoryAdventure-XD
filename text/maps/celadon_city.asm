@@ -106,11 +106,13 @@ _CeladonCityText9::
 _CeladonCityText10::
 	text "TRAINER TIPS"
 
-	para "DIRE HIT can be"
-	line "used together"
-	cont "with some moves"
-	cont "for an unbeatable"
-	cont "combo."
+	para "Some #MON that"
+	line "use MIRROR MOVE"
+	cont "may get the move"
+	cont "returned wrong!"
+	
+	para "Not all mimickry"
+	line "is perfect!"
 	done
 
 _CeladonCityText11::

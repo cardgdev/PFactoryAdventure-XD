@@ -123,8 +123,8 @@ _ViridianCityText_1920f::
 	done
 
 _ViridianCityText_19214::
-	text "Ah alright then"
-	line "stay clean kid!"
+	text "Ah, alright then"
+	line "stay clean, kid!"
 	done
 
 _ViridianCityText_19219::
