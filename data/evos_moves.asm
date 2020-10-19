@@ -239,6 +239,11 @@ MetapodEvosMoves:
 	db EV_LEVEL, 14, LOCAFREE
 	db 0
 ; Learnset
+	db 14, LEECH_LIFE
+	db 17, GUST
+	db 21, SCREECH
+	db 26, WEB_SPIN
+	db 32, BUG_SWARM
 	db 0
 	
 RattataEvosMoves:
@@ -667,7 +672,8 @@ FirefreeEvosMoves:
 	db 24, STUN_SPORE
 	db 28, SUPERSONIC
 	db 31, FLAMETHROWER
-	db 42, FIRE_SPIN
+	db 35, FIRE_SPIN
+	db 42, BUG_SWARM
 	db 0
 	
 RaticlawEvosMoves:
