@@ -10,7 +10,7 @@ _MeetLaprasGuyText::
 	cont "and mutated!"
 	
 	para "It's an awfully"
-	cont "ornery one, I"
+	line "ornery one, I"
 	cont "think it would"
 	cont "be better off"
 	cont "outside our"
@@ -191,11 +191,11 @@ _SilphCo7EndBattleText4::
 _SilphCo7AfterBattleText4::
 	text "The information"
 	line "we're looking for"
-	cont "is vital to saving"
-	cont "KANTO!"
+	cont "is vital to"
+	cont "saving KANTO!"
 	
 	para "That's what CHIEF"
-	cont "told us!"
+	line "told us!"
 	done
 
 _SilphCo7Text_51ebe::
