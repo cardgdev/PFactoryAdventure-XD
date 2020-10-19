@@ -240,7 +240,7 @@ MetapodEvosMoves:
 	db 0
 ; Learnset
 	db 14, LEECH_LIFE
-	db 17, GUST
+	db 17, BIDE
 	db 21, SCREECH
 	db 26, WEB_SPIN
 	db 32, BUG_SWARM
