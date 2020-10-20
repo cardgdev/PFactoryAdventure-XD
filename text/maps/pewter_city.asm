@@ -7,7 +7,7 @@ _PewterCityText1::
 	cont "and huge eyed"
 	cont "like some kind"
 	cont "of super-deformed"
-	cont "chibi abomination."
+	cont "chibi monster!"
 	done
 
 _PewterCityText2::
@@ -19,10 +19,10 @@ _PewterCityText2::
 	para "BROCK left to go"
 	line "train in some"
 	cont "weird faraway"
-	cont "place so now"
-	cont "his brother,"
+	cont "place, so now"
+	cont "his brother"
 	cont "ICHITAROU runs"
-	cont "the gym."
+	cont "the GYM."
 	done
 
 _PewterCityText_193f1::

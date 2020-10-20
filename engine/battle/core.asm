@@ -5195,35 +5195,39 @@ BuildingRageText:
 
 ; copy last move for Mirror Move
 ; sets zero flag on failure and unsets zero flag on success
-MirrorMoveCopyMove:
-; Mirror Move makes use of ccf1 (wPlayerUsedMove) and ccf2 (wEnemyUsedMove) addresses,
+MirrorMoveCopyMove: ; this fix is from RPP provided by Luna
+; Mirror Move makes use of wPlayerUsedMove and wEnemyUsedMove,
 ; which are mainly used to print the "[Pokemon] used [Move]" text.
 ; Both are set to 0 whenever a new Pokemon is sent out
-; ccf1 is also set to 0 whenever the player is fast asleep or frozen solid.
-; ccf2 is also set to 0 whenever the enemy is fast asleep or frozen solid.
+; wPlayerUsedMove is also set to 0 whenever the player is fast asleep or frozen solid.
+; wEnemyUsedMove is also set to 0 whenever the enemy is fast asleep or frozen solid.
 
-	ld a,[H_WHOSETURN]
-	and a
+    ldh a, [H_WHOSETURN]
+    and a
 ; values for player turn
-	ld a,[wEnemyUsedMove]
-	ld hl,wPlayerSelectedMove
-	ld de,wPlayerMoveNum
-	jr z,.next
+    ld a, [wEnemyUsedMove]
+    ld hl, wPlayerSelectedMove
+    ld de, wPlayerMoveNum
+    ld bc, wEnemySelectedMove
+    jr z, .next
 ; values for enemy turn
-	ld a,[wPlayerUsedMove]
-	ld de,wEnemyMoveNum
-	ld hl,wEnemySelectedMove
+    ld a, [wPlayerUsedMove]
+    ld de, wEnemyMoveNum
+    ld hl, wEnemySelectedMove
+    ld bc, wPlayerSelectedMove
 .next
-	ld [hl],a
-	cp a,MIRROR_MOVE ; did the target Pokemon last use Mirror Move, and miss?
-	jr z,.mirrorMoveFailed
-	and a ; has the target selected any move yet?
-	jr nz,ReloadMoveData
+    cp MIRROR_MOVE ; did the target Pokemon last use Mirror Move, and miss?
+    jr z, .mirrorMoveFailed
+    and a ; has the target selected any move yet?
+    jr z, .mirrorMoveFailed
+    ld a, [bc] ; 
+    ld [hl], a
+    jr ReloadMoveData
 .mirrorMoveFailed
-	ld hl,MirrorMoveFailedText
-	call PrintText
-	xor a
-	ret
+    ld hl, MirrorMoveFailedText
+    call PrintText
+    xor a
+    ret
 
 MirrorMoveFailedText:
 	TX_FAR _MirrorMoveFailedText

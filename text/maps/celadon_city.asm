@@ -106,13 +106,14 @@ _CeladonCityText9::
 _CeladonCityText10::
 	text "TRAINER TIPS"
 
-	para "Some #MON that"
-	line "use MIRROR MOVE"
-	cont "may get the move"
-	cont "returned wrong!"
+	para "MIRROR MOVE will"
+	line "return the last"
+	cont "move used right"
+	cont "back at the foe!"
 	
-	para "Not all mimickry"
-	line "is perfect!"
+	para "Never underestima-"
+	line "te the power of"
+	cont "a bird."
 	done
 
 _CeladonCityText11::
