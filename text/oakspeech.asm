@@ -9,7 +9,7 @@ _OakSpeechText1::
 	line "surprised to see"
 	cont "me in a labcoat"
 	cont "huh? Let's get"
-	cont "down to buisness."
+	cont "down to business."
 	prompt
 
 _OakSpeechText2A::

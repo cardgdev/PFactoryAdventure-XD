@@ -9,7 +9,7 @@ _FuchsiaCityText2::
 	line "#MON in the"
 	cont "SAFARI ZONE"
 	cont "mutated, it drove"
-	cont "their buisness"
+	cont "their business"
 	cont "up even further"
 	cont "with tourists"
 	cont "from other cities"

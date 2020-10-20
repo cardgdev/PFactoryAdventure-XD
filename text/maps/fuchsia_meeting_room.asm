@@ -9,7 +9,7 @@ _FuchsiaMeetingRoomText1::
 	
 	para "But despite that"
 	line "we're turning"
-	cont "more buisness"
+	cont "more business"
 	cont "than ever before!"
 	done
 

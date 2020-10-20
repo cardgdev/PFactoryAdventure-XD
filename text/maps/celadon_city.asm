@@ -100,7 +100,7 @@ _CeladonCityText8::
 
 _CeladonCityText9::
 	text "This is government"
-	line "buisness! Cease!"
+	line "business! Cease!"
 	done
 
 _CeladonCityText10::

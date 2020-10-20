@@ -257,7 +257,7 @@ _CinnabarGymText_75ac2::
 	para "BLAINE or the"
 	line "CHIEF as his"
 	cont "goons call him"
-	cont "means buisness!"
+	cont "means business!"
 	
 	para "Godspeed and"
 	line "good luck!"
@@ -282,7 +282,7 @@ _CinnabarGymText_75ac7::
 	cont "isn't there?"
 	
 	para "Well, it's none"
-	line "of my buisness."
+	line "of my business."
 	
 	para "After all, I'm"
 	line "just here to"

@@ -74,7 +74,7 @@ _SSAnne7BattleText1::
 	para "Me and the CAPTAIN"
 	line "are in the middle"
 	cont "of some important"
-	cont "buisness!"
+	cont "business!"
 	
 	para "Why don't you buzz"
 	line "off before I go"

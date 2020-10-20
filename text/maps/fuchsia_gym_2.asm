@@ -46,7 +46,7 @@ _KogaExplainToxicText::
 	cont "near CERULEAN to"
 	cont "mutate #MON"
 	cont "and drive more"
-	cont "buisness at the"
+	cont "business at the"
 	cont "park!"
 	done
 
