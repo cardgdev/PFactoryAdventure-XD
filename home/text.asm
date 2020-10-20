@@ -344,10 +344,7 @@ ScrollTextUpOneLine::
 	ld [hli],a
 	dec b
 	jr nz,.clearText
-	ld a,[wOptions]
-	and $f
-	cp 0
-	jr z, .noScrollWait
+	;removed part of instant text scrolling
 	; wait five frames
 	ld b,5	
 .WaitFrame

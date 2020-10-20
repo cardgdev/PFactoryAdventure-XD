@@ -3,7 +3,7 @@ _BlaineBattleText::
 	line "base, RED!"
 	
 	para "In order to better"
-	line "prepare your for"
+	line "prepare you for"
 	cont "what lies ahead"
 	cont "I need to test"
 	cont "your abilities"
