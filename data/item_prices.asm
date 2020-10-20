@@ -8,7 +8,7 @@ ItemPrices:
 	money 0     ; SURFBOARD
 	money 1000  ; SAFARI_BALL
 	money 0     ; POKEDEX
-	money 0     ; MOON_STONE
+	money 2100     ; MOON_STONE
 	money 100   ; ANTIDOTE
 	money 250   ; BURN_HEAL
 	money 250   ; ICE_HEAL
@@ -77,11 +77,11 @@ ItemPrices:
 	money 0     ; OLD_ROD
 	money 0     ; GOOD_ROD
 	money 0     ; SUPER_ROD
-	money 0     ; PP_UP
-	money 0     ; ETHER
-	money 0     ; MAX_ETHER
-	money 0     ; ELIXER
-	money 0     ; MAX_ELIXER
+	money 10000     ; PP_UP
+	money 2000     ; ETHER
+	money 4000     ; MAX_ETHER
+	money 5000     ; ELIXER
+	money 10000     ; MAX_ELIXER
 	money 0     ; FLOOR_B2F
 	money 0     ; FLOOR_B1F
 	money 0     ; FLOOR_1F

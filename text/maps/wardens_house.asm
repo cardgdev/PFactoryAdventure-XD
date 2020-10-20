@@ -39,7 +39,7 @@ _WardenTeethText2::
 	para "WARDEN: Hm?"
 	line "How'd I get here?"
 	
-	para "MRS.WARDEN:There"
+	para "MRS.WARDEN: There"
 	line "you are! Now"
 	cont "put in your teeth"
 	cont "and give me a"

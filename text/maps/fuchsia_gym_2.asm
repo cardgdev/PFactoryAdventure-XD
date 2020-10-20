@@ -104,7 +104,7 @@ _FuchsiaGymAfterBattleText1::
 _FuchsiaGymBattleText2::
 	text "This whole gym"
 	line "is a terrarium"
-	cont "with it's own"
+	cont "with its own"
 	cont "ecosystem!"
 	
 	para "And right now,"

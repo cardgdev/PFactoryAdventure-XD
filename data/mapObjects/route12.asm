@@ -12,7 +12,7 @@ Route12Object:
 	db $3f, $b, $c ; Route12Text12
 
 	db $a ; objects
-	object SPRITE_SNORLAX, $a, $3e, STAY, DOWN, $1 ; person
+	object SPRITE_SNORLAX, $9, $3e, STAY, DOWN, $1 ; person
 	object SPRITE_FISHER2, $e, $1f, STAY, LEFT, $2, OPP_FISHER, $3
 	object SPRITE_FISHER2, $5, $27, STAY, UP, $3, OPP_FISHER, $4
 	object SPRITE_BLACK_HAIR_BOY_1, $b, $5c, STAY, LEFT, $4, OPP_JR_TRAINER_M, $9
