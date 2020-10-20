@@ -4,7 +4,7 @@ _BlaineBattleText::
 	
 	para "In order to better"
 	line "prepare your for"
-	cont "what may lay ahead"
+	cont "what lies ahead"
 	cont "I need to test"
 	cont "your abilities"
 	cont "once again!"

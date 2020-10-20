@@ -3471,7 +3471,7 @@ ManualTextScroll:: ; 3898 (0:3898)
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jr z, .inLinkBattle
-	call WaitForTextScrollButtonHold
+	call WaitForTextScrollButtonPress ; thanks lucky :^)
 	ld a, SFX_PRESS_AB
 	jp PlaySound
 .inLinkBattle
