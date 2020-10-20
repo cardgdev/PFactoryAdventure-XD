@@ -1122,10 +1122,7 @@ DisplayTextID::
 	jr nz,HoldTextDisplayOpen
 
 AfterDisplayingTextID::
-	ld a,[wOptions]
-	and $f
-	cp 0
-	jr z, CloseTextDisplayAfterDelay
+	;lucky's text fixes removed lines here
 	ld a,[wEnteringCableClub]
 	and a
 	jr nz,HoldTextDisplayOpen

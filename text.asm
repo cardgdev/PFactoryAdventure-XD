@@ -919,8 +919,8 @@ _ViridianBlackboardFrozenText::
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Nope, just a"
+	line "plain tombstone."
 	done
 
 _VermilionGymTrashSuccessText1::

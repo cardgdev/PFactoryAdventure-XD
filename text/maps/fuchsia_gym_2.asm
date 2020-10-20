@@ -51,7 +51,7 @@ _KogaExplainToxicText::
 	done
 
 _FuchsiaGymText9::
-	text "the CHITINBADGE"
+	text "The CHITINBADGE"
 	line "will let your"
 	cont "#MON use"
 	cont "SURF outside of"
