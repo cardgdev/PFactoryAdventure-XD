@@ -1,5 +1,5 @@
 _LavenderMartText2::
-	text "X Items can turn"
+	text "X ITEMS can turn"
 	line "the tide of a"
 	cont "battle, some"
 	cont "heathens even use"

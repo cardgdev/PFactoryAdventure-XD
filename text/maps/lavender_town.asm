@@ -9,7 +9,7 @@ _LavenderTownText_44141::
 	text "Who wouldn't"
 	line "after seeing"
 	cont "what's in that"
-	cont "TOWER."
+	cont "TOWER?"
 	done
 
 _LavenderTownText_44146::

@@ -78,9 +78,16 @@ _ConfirmStarterText::
 	line "#MON?"
 	done	
 _OakSpeechText3::
-	text "This is it!"
+	text "Remember to ask"
+	line "everyone you can"
+	cont "find about this"
+	cont "mystery, I bet"
+	cont "the GYM LEADERS"
+	cont "know something!"
+
+	para "This is it!"
 	line "Preparing for"
 	cont "launch!"
 	
-	para "Good luck!"
+	para "Good luck, man!"
 	done

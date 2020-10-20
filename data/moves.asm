@@ -137,7 +137,7 @@ MoveEnd:
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,   100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,      85,  5
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,    100, 15
+	move WATERFALL,    FLINCH_SIDE_EFFECT1,        80, WATER,    100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,   100, 15
@@ -167,7 +167,7 @@ MoveEnd:
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,    80, 15
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,    90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC,  100, 10
-	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,      90, 10
+	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,        75, ROCK,      90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,    90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,   100, 30
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,   100, 30

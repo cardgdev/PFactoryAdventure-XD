@@ -138,8 +138,8 @@ _PewterGymText_5c51f::
 	cont "especially WATER?"
 
 	para "Might as well be"
-	line "shooting sand with"
-	cont "a powerwasher!"
+	line "shooting at sand"
+	cont "with a hose!"
 	done
 
 _PewterGymText_5c524::
