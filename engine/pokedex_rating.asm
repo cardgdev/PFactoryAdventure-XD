@@ -40,14 +40,8 @@ DisplayDexRating:
 	ld a, [hDexRatingNumMonsOwned]
 	ld [de], a
 	inc de
-.copyRatingTextLoop
-	ld a, [hli]
-	cp a, "@"
-	jr z, .doneCopying
-	ld [de], a
-	inc de
-	jr .copyRatingTextLoop
-.doneCopying
+	ld bc, 5 ; these two lines are a fix for dex ratings
+	call CopyData
 	ld [de], a
 	ret
 
