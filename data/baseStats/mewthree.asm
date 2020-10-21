@@ -12,7 +12,7 @@ INCBIN "pic/pfmon/mewthree.pic",0,1 ; 55, sprite dimensions
 dw MewthreePicFront
 dw MewthreePicBack
 ; attacks known at lvl 0
-db SUBMISSION
+db AURA_SPHERE
 db PSYBREAK
 db BARRIER
 db AMNESIA
