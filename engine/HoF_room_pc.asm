@@ -216,20 +216,20 @@ Credits:
 	jr .nextCreditsCommand
 .fadeInTextAndShowMon
 	call FadeInCreditsText
-	ld c, 90
+	ld c, 255
 	jr .next1
 .showTextAndShowMon
-	ld c, 110
+	ld c, 255
 .next1
 	call DelayFrames
 	call DisplayCreditsMon
 	jr .nextCreditsScreen
 .fadeInText
 	call FadeInCreditsText
-	ld c, 120
+	ld c, 255
 	jr .next2
 .showText
-	ld c, 140
+	ld c, 255
 .next2
 	call DelayFrames
 	jr .nextCreditsScreen

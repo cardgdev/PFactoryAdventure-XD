@@ -29,6 +29,6 @@ _HallofFameRoomText1::
 	cont "HALL OF FAME."
 
 	para "RED, you and"
-	cont "your #MON are"
+	line "your #MON are"
 	cont "true heroes!"
 	done

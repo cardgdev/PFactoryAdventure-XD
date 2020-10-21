@@ -9,7 +9,7 @@ _GaryChampionIntroText::
 	cont "to determine the"
 	cont "future of KANTO!"
 	
-	para "...No"
+	para "...No."
 	line "The future of the"
 	cont "whole world!"
 	
