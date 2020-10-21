@@ -57,8 +57,8 @@ ApplyStageChange:
 	
 Stage1ToStage2:
 	db 0 ; missingno 00
-	db ELECTRAMEW ; pikachu -> electramew
-	db MEWEE ; eevee -> mewee
+	db 0 ; pikachu does not upscale if present
+	db 0 ; eevee does not upscale if present
 	db METAPOD
 	db 0
 	db RATICATE
@@ -231,7 +231,7 @@ Stage1ToStage2:
 	db 0
 	db TYRANTICUS
 	db 0
-	db DRAGOR
+	db 0 ; Drakor does not upscale if present
 	db 0
 	db 0
 	db 0

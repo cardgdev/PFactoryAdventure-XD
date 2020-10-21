@@ -20,7 +20,7 @@ _LanceBeforeBattleText::
 	
 	para "If you wish to"
 	line "face that trainer"
-	line "then you'll have"
+	cont "then you'll have"
 	cont "to get through"
 	cont "my DRAGONS to"
 	cont "prove your worth!"

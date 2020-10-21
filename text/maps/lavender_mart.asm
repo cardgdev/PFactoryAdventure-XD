@@ -5,7 +5,7 @@ _LavenderMartText2::
 	cont "heathens even use"
 	cont "them to boost an"
 	cont "already over-"
-	cont "levelled #MON"
+	cont "leveled #MON"
 	cont "so they only have"
 	cont "to use one!"
 	done

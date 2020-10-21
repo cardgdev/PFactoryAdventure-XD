@@ -6,8 +6,8 @@ ForestMons:
 	db 5,SPINNERET
 	db 4,SUNNY
 	db 6,SUNNY
-	db 4,PIKAMARS
-	db 3,PIKACHUB
+	db 4,PIKACHU
+	db 3,PIKACHU
 	db 3,MISCHU
 	db 5,SCYTHERO
 	db $00

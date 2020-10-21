@@ -35,8 +35,8 @@ _BrunoEndBattleText::
 
 _BrunoAfterBattleText::
 	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	line "everything I"
+	cont "could muster."
 
 	para "But my efforts"
 	line "failed. I must"

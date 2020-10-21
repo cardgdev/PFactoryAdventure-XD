@@ -34,8 +34,8 @@ _AgathaAfterBattleText::
 	para "Weak #MON."
 
 	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	line "selfish percepti-"
+	cont "on of people."
 
 	para "Truly skilled"
 	line "trainers should"
