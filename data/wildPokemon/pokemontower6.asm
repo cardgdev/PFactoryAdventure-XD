@@ -7,7 +7,7 @@ TowerMons6:
 	db 20,KRUNO
 	db 28,SPIROCATE
 	db 22,KRUNO
-	db 24,EXODUS
+	db 24,KILIANSH
 	db 28,EXODUS
-	db 30,WHITE_HAND
+	db 30,EXODUS
 	db $00

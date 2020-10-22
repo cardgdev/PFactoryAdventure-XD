@@ -148,7 +148,7 @@ WildDataPointers:
 	dw TowerMons4
 	dw TowerMons5
 	dw TowerMons6
-	dw NoMons
+	dw TowerMons7
 	dw NoMons
 	dw NoMons
 	dw NoMons
@@ -289,6 +289,7 @@ INCLUDE "data/wildPokemon/pokemontower3.asm"
 INCLUDE "data/wildPokemon/pokemontower4.asm"
 INCLUDE "data/wildPokemon/pokemontower5.asm"
 INCLUDE "data/wildPokemon/pokemontower6.asm"
+INCLUDE "data/wildPokemon/pokemontower7.asm"
 INCLUDE "data/wildPokemon/route13.asm"
 INCLUDE "data/wildPokemon/route14.asm"
 INCLUDE "data/wildPokemon/route15.asm"

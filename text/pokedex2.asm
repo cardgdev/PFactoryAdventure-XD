@@ -224,7 +224,7 @@ _AltroxDexEntry::
 	next "only on New Year's"
 
 	page "day and comes out"
-	next "and preforms for"
+	next "and performs for"
 	next "everybody"
 	dex
 	

@@ -103,8 +103,8 @@ _DragonDen2BattleText2::
 	done
 
 _DragonDen2EndBattleText2::
-	text "Still"
-	line "a ways to go!"
+	text "A"
+	line "ways to go still!"
 	prompt
 
 _DragonDen2AfterBattleText2::

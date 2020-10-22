@@ -2755,7 +2755,7 @@ _ItemUseBallText00::
 	text "It dodged the"
 	line "thrown BALL!"
 
-	para "This #MON"
+	para "This GHOST"
 	line "can't be caught!"
 	prompt
 
