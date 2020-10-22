@@ -6957,7 +6957,7 @@ InitWildBattle:
 	call LoadEnemyMonData
 	call DoBattleTransitionAndInitBattleVariables
 	ld a, [wCurOpponent]
-	cp MAROWAK
+	cp WHITE_HAND
 	jr z, .isGhost
 	call IsGhostBattle
 	jr nz, .isNoGhost

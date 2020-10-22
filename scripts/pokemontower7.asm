@@ -22,6 +22,8 @@ PokemonTower7ScriptPointers:
 	dw PokemonTower7Script4
 
 PokemonTower7Script2:
+	CheckAndResetEvent EVENT_FIGHTING_FALCON
+	jp nz, EndTrainerBattle
 	ld hl, wFlags_0xcd60
 	res 0, [hl]
 	ld a, [wIsInBattle]
@@ -256,6 +258,7 @@ FalconBattleText:
 	TX_FAR _FalconBattleText
 	TX_ASM
 	ld a, FALCON
+	SetEvent EVENT_FIGHTING_FALCON
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
