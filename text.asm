@@ -1159,6 +1159,11 @@ _ItemsCantBeUsedHereText::
 	line "used here."
 	prompt
 
+_DadDeniesItemsText::
+	text "DAD: Come on son,"
+	line "don't cheat now!"
+	prompt
+
 _AlreadyOutText::
 	TX_RAM wBattleMonNick
 	text " is"
