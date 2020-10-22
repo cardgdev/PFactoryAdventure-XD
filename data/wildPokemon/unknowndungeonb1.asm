@@ -8,6 +8,6 @@ DungeonMonsB1:
 	db 64,SUPERCHU	
 	db 57,GAMBLE	
 	db 57,DOSET
-	db 63,DOOMSDAY_A
+	db 63,CHRYSALISS
 	db 67,CHRYSALISS
 	db $00
