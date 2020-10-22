@@ -3395,7 +3395,7 @@ IsGhostBattle:
 	ld a,[wCurMap]
 	cp a,POKEMONTOWER_1
 	jr c,.next
-	cp a,LAVENDER_HOUSE_1
+	cp a,POKEMONTOWER_7
 	jr nc,.next
 	ld b,SILPH_SCOPE
 	call IsItemInBag
