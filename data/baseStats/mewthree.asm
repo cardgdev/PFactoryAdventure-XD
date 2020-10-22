@@ -12,10 +12,10 @@ INCBIN "pic/pfmon/mewthree.pic",0,1 ; 55, sprite dimensions
 dw MewthreePicFront
 dw MewthreePicBack
 ; attacks known at lvl 0
+db BARRIER
+db MIST
 db AURA_SPHERE
 db PSYBREAK
-db BARRIER
-db AMNESIA
 db 5 ; growth rate
 ; learnset
 	tmlearn 1,3,5,6,8

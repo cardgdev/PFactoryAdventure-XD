@@ -12,10 +12,10 @@ INCBIN "pic/pfmon/aspenth.pic",0,1 ; 55, sprite dimensions
 dw AspenthPicFront
 dw AspenthPicBack
 ; attacks known at lvl 0
-db TWINEEDLE
+db HARDEN
 db SLASH
 db ARMOR_CLAW
-db HARDEN
+db TWINEEDLE
 db 5 ; growth rate
 ; learnset
 	tmlearn 0
