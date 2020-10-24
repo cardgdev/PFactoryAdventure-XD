@@ -39,11 +39,8 @@ _OakSpeechText2B::
 	prompt
 
 _IntroducePlayerText::
-	text "We'll need to"
-	line "give you a new"
-	cont "codename, so the"
-	cont "locals don't"
-	cont "get suspicious!"
+	text "First, you'll"
+	line "need a codename!"
 	prompt
 
 _IntroduceRivalText::
