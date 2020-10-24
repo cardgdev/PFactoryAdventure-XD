@@ -1096,8 +1096,7 @@ _UseNextMonText::
 	done
 
 _Sony1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Hmm..."
 	prompt
 
 _PlayerBlackedOutText2::
@@ -1895,8 +1894,8 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "<PLAYER>? Yeah"
-	line "that sounds cool!"
+	text "<PLAYER>? Yeah!"
+	line "That sounds cool!"
 	prompt
 
 _HisNameIsText::

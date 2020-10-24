@@ -185,7 +185,7 @@ DisplayIntroNameTextBox:
 	jp HandleMenuInput
 
 .namestring
-	db "NAME@"
+	db "ALIAS@"
 
 DefaultNamesPlayer:
 	db   "NEW NAME"
