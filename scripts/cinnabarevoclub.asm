@@ -42,7 +42,7 @@ MistNPCText:
 ;-----------------------------------------------------
 
 _ThunderNPCText:
-	text "Yo I heard"
+	text "Yo, I heard"
 	line "ELECTODE and"
 	cont "SHOCKRA can use"
 	cont "THUNDER STONE to"

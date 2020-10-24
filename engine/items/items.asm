@@ -163,13 +163,11 @@ ItemUseBall:
 	jp .captured
 
 .notOldManBattle
-; If the player is fighting the ghost Marowak, set the value that indicates the
-; Pokémon can't be caught and skip the capture calculations.
 	ld a,[wCurMap]
 	cp a,POKEMONTOWER_6
 	jr nz,.loop
 	ld a,[wEnemyMonSpecies2]
-	cp a,MAROWAK
+	cp a,WHITE_HAND
 	ld b,$10 ; can't be caught value
 	jp z,.setAnimData
 
@@ -189,11 +187,26 @@ ItemUseBall:
 	ld hl,wcf91
 	ld a,[hl]
 
-; The Master Ball always succeeds.
+; The Master Ball always succeeds. Unless that mon is Mewthree :^)
 	cp a,MASTER_BALL
-	jp z,.captured
+	jp z, .MasterBallChecks
+	jp nz,.otherBalls ;else
+
+.MasterBallChecks:
+	ld a, [wEnemyMonSpecies2]
+	cp a, MEWTHREE
+	jp z, .MewthreeDeniesMasterBall
+	jp .otherBalls
+
+.MewthreeDeniesMasterBall:
+	ld hl, MewthreeDeniesText
+	call PrintText
+	ret
 
 ; Anything will do for the basic Poké Ball.
+.otherBalls:
+	ld hl,wcf91 ; getting the item ID again
+	ld a,[hl]
 	cp a,POKE_BALL
 	jr z,.checkForAilments
 
@@ -206,6 +219,11 @@ ItemUseBall:
 	ld a,[hl]
 	cp a,GREAT_BALL
 	jr z,.checkForAilments
+
+; check again for masterball since the other checks don't I guess
+	ld a,[hl]
+	cp a,MASTER_BALL
+	jp z,.captured
 
 ; If it's an Ultra/Safari Ball and Rand1 is greater than 150, try again.
 	ld a,150
@@ -2427,6 +2445,19 @@ ItemUseText00:
 	TX_LINE
 	TX_FAR _ItemUseText002
 	db "@"
+
+MewthreeDeniesText:
+	TX_FAR _MewthreeDeniesBallText
+	db "@"
+
+_MewthreeDeniesBallText:
+	text "MEWTHREE: The"
+	line "MASTER BALL?"
+	
+	para "Pitiful fool!"
+	line "Capture me with"
+	cont "some honor!"
+	prompt
 
 GotOnBicycleText:
 	TX_FAR _GotOnBicycleText1

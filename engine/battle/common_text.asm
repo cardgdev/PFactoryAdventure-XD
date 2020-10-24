@@ -5,7 +5,7 @@ PrintBeginningBattleText:
 	ld a, [wCurMap]
 	cp POKEMONTOWER_3
 	jr c, .notPokemonTower
-	cp LAVENDER_HOUSE_1
+	cp POKEMONTOWER_7
 	jr c, .pokemonTower
 .notPokemonTower
 	ld a, [wEnemyMonSpecies2]
@@ -33,7 +33,7 @@ PrintBeginningBattleText:
 	call IsItemInBag
 	ld a, [wEnemyMonSpecies2]
 	ld [wcf91], a
-	cp MAROWAK
+	cp WHITE_HAND
 	jr z, .isMarowak
 	ld a, b
 	and a

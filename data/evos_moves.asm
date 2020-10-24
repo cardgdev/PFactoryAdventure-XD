@@ -2689,18 +2689,18 @@ AspenthEvosMoves:
 	; armor claw
 	; harden
 	db 65, BUG_SWARM
-	db 70, EXPLOSION
+	db 70, SKULL_BASH
 	db 
 
 MewthreeEvosMoves:
 ; evolutions
 	db 0
 ; learnset
-	; submission
+	; aura sphere
 	; psybreak
 	; barrier
-	; amnesia
-	db 75, MIST
+	; mist
+	db 75, AMNESIA
 	db 80, RECOVER
 	db 0
 

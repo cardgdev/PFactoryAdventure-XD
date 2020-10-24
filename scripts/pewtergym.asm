@@ -20,7 +20,7 @@ Gym1CityName:
 	db "PEWTER CITY@"
 
 Gym1LeaderName:
-	db "ICHITAROU@"
+	db "FORREST@"
 
 PewterGymScript_5c3bf:
 	xor a

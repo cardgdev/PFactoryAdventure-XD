@@ -12,7 +12,7 @@ _Route9EndBattleText1::
 
 _Route9AfterBattleText1::
 	text "At least my"
-	line "grass #MON will"
+	line "GRASS #MON can"
 	cont "help me through"
 	cont "the tunnel."
 	done
@@ -156,8 +156,8 @@ _Route9AfterBattleText8::
 	done
 
 _Route9BattleText9::
-	text "Bzz bzz!"
-	line "Check out my swarm!"
+	text "Bzz bzz! Check"
+	line "out my swarm!"
 	done
 
 _Route9EndBattleText9::

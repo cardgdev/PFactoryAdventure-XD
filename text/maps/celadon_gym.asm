@@ -3,7 +3,7 @@ _CeladonGymText_48a5e::
 	line "to come here to"
 	cont "my GYM..."
 	
-	para "I am MIKAN, with"
+	para "I am JASMINE, with"
 	line "my heart of ice"
 	cont "I will freeze"
 	cont "your challenge"
@@ -114,7 +114,7 @@ _CeladonGymEndBattleText2::
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "MIKAN will put"
+	text "JASMINE will put"
 	line "you in your"
 	cont "place mister!"
 	done
@@ -155,8 +155,8 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "MIKAN brought the"
-	line "spinners here for"
+	text "JASMINE got those"
+	line "spinners for"
 	cont "free from her"
 	cont "last workplace!"
 	done

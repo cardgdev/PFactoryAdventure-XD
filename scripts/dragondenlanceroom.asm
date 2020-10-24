@@ -23,8 +23,8 @@ _LanceCaveText::
 	cont "INDIGO PLATEAU..."
 
 	para "Anyway, this cave"
-	line "is where I come to"
-	cont "meditate."
+	line "is where I come"
+	cont "to meditate."
 	
 	para "It's said that a"
 	line "legendary DRAGON"

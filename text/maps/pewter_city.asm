@@ -21,7 +21,7 @@ _PewterCityText2::
 	cont "weird faraway"
 	cont "place, so now"
 	cont "his brother"
-	cont "ICHITAROU runs"
+	cont "FORREST runs"
 	cont "the GYM."
 	done
 
@@ -121,7 +121,7 @@ _PewterCityText10::
 _PewterCityText11::
 	text "PEWTER CITY"
 	line "#MON GYM"
-	cont "LEADER: ICHITAROU"
+	cont "LEADER: FORREST"
 
 	para "The Rough as"
 	line "Shale ROCK"

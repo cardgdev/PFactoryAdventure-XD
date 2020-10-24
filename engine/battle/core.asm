@@ -2271,6 +2271,9 @@ DisplayBattleMenu:
 	ld a, [wCurMap]
 	cp BATTLE_TENT
 	jr z, .battletent
+	ld a, [wCurMap]
+	cp UNKNOWN_DUNGEON_4
+	jr z, .dadNoitems
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jr nz, .notLinkBattle
@@ -2282,6 +2285,11 @@ DisplayBattleMenu:
 
 .battletent
 	ld hl, ItemsCantBeUsedHereText
+	call PrintText
+	jp DisplayBattleMenu
+
+.dadNoitems
+	ld hl, DadDeniesItemsText
 	call PrintText
 	jp DisplayBattleMenu
 
@@ -2402,6 +2410,10 @@ UseBagItem:
 
 ItemsCantBeUsedHereText:
 	TX_FAR _ItemsCantBeUsedHereText
+	db "@"
+
+DadDeniesItemsText:
+	TX_FAR _DadDeniesItemsText
 	db "@"
 
 PartyMenuOrRockOrRun:
@@ -3395,7 +3407,7 @@ IsGhostBattle:
 	ld a,[wCurMap]
 	cp a,POKEMONTOWER_1
 	jr c,.next
-	cp a,LAVENDER_HOUSE_1
+	cp a,POKEMONTOWER_7
 	jr nc,.next
 	ld b,SILPH_SCOPE
 	call IsItemInBag
@@ -6957,7 +6969,7 @@ InitWildBattle:
 	call LoadEnemyMonData
 	call DoBattleTransitionAndInitBattleVariables
 	ld a, [wCurOpponent]
-	cp MAROWAK
+	cp WHITE_HAND
 	jr z, .isGhost
 	call IsGhostBattle
 	jr nz, .isNoGhost

@@ -8,6 +8,6 @@ PlateauMons2:
 	db 42,MAROWAK
 	db 41,MAZILLA
 	db 40,KILIANSH
-	db 40,ALTROX
-	db 43,ALTROX
+	db 40,DOOMSAY
+	db 43,DOOMSAY
 	db $00

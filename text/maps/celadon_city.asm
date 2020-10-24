@@ -125,7 +125,7 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: MIKAN"
+	cont "LEADER: JASMINE"
 
 	para "The Graceful"
 	line "Maiden of Ice."

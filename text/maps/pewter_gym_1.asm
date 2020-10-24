@@ -1,5 +1,5 @@
 _PewterGymText_5c49e::
-	text "I'm ICHITAROU!"
+	text "I'm FORREST!"
 	line "I'm PEWTER's GYM"
 	cont "LEADER!"
 

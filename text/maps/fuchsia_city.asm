@@ -67,7 +67,7 @@ _FuchsiaCityText17::
 _FuchsiaCityText18::
 	text "FUCHSIA CITY"
 	line "#MON GYM"
-	cont "LEADER: TSUKUSHI"
+	cont "LEADER: BUGSY"
 
 	para "The Insectoid"
 	line "Connoisseur."

@@ -282,7 +282,7 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: HAYATO"
+	cont "LEADER: FALKNER"
 
 	para "The Feathery"
 	line "Fiend!"

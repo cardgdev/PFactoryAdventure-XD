@@ -68,6 +68,19 @@ TryDoWildEncounter:
 	ld a, [wCurMap]
 	cp REDS_HOUSE_1F ; is this an indoor map?
 	jp c, .CantEncounter2
+	
+	ld a, [wCurMap]
+	cp BILLS_SECRET_GARDEN ; hardcoded for the new maps that use the outdoor tileset
+	jp z, .CantEncounter2
+	
+	ld a, [wCurMap]
+	cp DRAGON_DEN_2
+	jp z, .CantEncounter2
+	
+	ld a, [wCurMap]
+	cp DRAGON_DEN_4
+	jp z, .CantEncounter2
+	
 	ld a, [wCurMapTileset]
 	cp FOREST ; Viridian Forest/Safari Zone
 	jr z, .CantEncounter2

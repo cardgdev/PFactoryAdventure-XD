@@ -110,7 +110,7 @@ ENDM
 	mapconst SS_ANNE_8,                   8, 12 ; $66
 	mapconst SS_ANNE_9,                   8, 12 ; $67
 	mapconst SS_ANNE_10,                  8, 12 ; $68
-	mapconst BILLS_SECRET_GARDEN,         9,  8 ; $69 ; new
+	mapconst BILLS_SECRET_GARDEN,         12, 12 ; $69 ; new
 	mapconst DRAGON_DEN_1,                9, 15 ; $6A ; new
 	mapconst DRAGON_DEN_2,                9, 15 ; $6B ; new
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C

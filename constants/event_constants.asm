@@ -277,7 +277,7 @@ const_value = 0
 	const EVENT_BEAT_POKEMONTOWER_7_TRAINER_1        ; 112, (D769, bit 2)
 	const EVENT_BEAT_POKEMONTOWER_7_TRAINER_2        ; 113, (D769, bit 3)
 	const EVENT_BEAT_FALCON                                  ; 114, (D769, bit 4)
-	const EVENT_115                                  ; 115, (D769, bit 5)
+	const EVENT_FIGHTING_FALCON                                  ; 115, (D769, bit 5)
 	const EVENT_116                                  ; 116, (D769, bit 6)
 	const EVENT_RESCUED_MR_FUJI_2                    ; 117, (D769, bit 7)
 	const EVENT_118                                  ; 118, (D76A, bit 0)

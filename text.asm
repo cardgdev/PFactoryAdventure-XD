@@ -1096,8 +1096,7 @@ _UseNextMonText::
 	done
 
 _Sony1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Hmm..."
 	prompt
 
 _PlayerBlackedOutText2::
@@ -1157,6 +1156,11 @@ _GotAwayText::
 _ItemsCantBeUsedHereText::
 	text "Items can't be"
 	line "used here."
+	prompt
+
+_DadDeniesItemsText::
+	text "DAD: Come on son,"
+	line "don't cheat now!"
 	prompt
 
 _AlreadyOutText::
@@ -1890,8 +1894,8 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "<PLAYER>? Yeah"
-	line "that sounds cool!"
+	text "<PLAYER>? Yeah!"
+	line "That sounds cool!"
 	prompt
 
 _HisNameIsText::
@@ -2755,7 +2759,7 @@ _ItemUseBallText00::
 	text "It dodged the"
 	line "thrown BALL!"
 
-	para "This #MON"
+	para "This GHOST"
 	line "can't be caught!"
 	prompt
 

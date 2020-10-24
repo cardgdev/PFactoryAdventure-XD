@@ -7,7 +7,7 @@ _OakSpeechText1::
 
 	para "Bet you're"
 	line "surprised to see"
-	cont "me in a labcoat"
+	cont "me in a labcoat,"
 	cont "huh? Let's get"
 	cont "down to business."
 	prompt
@@ -39,11 +39,8 @@ _OakSpeechText2B::
 	prompt
 
 _IntroducePlayerText::
-	text "We'll need to"
-	line "give you a new"
-	cont "codename, so the"
-	cont "locals don't"
-	cont "get suspicious!"
+	text "First, you'll"
+	line "need a codename!"
 	prompt
 
 _IntroduceRivalText::

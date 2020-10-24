@@ -87,7 +87,7 @@ _PewterGymBattleText1::
 
 	para "You're still a few"
 	line "parsecs away from"
-	cont "facing ICHITAROU!"
+	cont "facing FORREST!"
 	done
 
 _PewterGymEndBattleText1::

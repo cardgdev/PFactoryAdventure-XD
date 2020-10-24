@@ -32,7 +32,7 @@ PokemonTower6Script0:
 	ld a, $6
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	ld a, MAROWAK
+	ld a, WHITE_HAND
 	ld [wCurOpponent], a
 	call DetermineReferenceLevel
 	ld a, [wReferenceLevel]
@@ -155,7 +155,7 @@ PokemonTower6Text7:
 	TX_ASM
 	ld hl, PokemonTower2Text_60c1f
 	call PrintText
-	ld a, MAROWAK
+	ld a, WHITE_HAND
 	call PlayCry
 	call WaitForSoundToFinish
 	ld c, 30
