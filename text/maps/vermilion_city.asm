@@ -138,7 +138,7 @@ _VermilionCityText11::
 _VermilionCityText12::
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: ENOKI"
+	cont "LEADER: MORTY"
 
 	para "The Shadow In"
 	line "The Sunset City."

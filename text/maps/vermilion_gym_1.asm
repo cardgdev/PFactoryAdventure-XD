@@ -1,5 +1,5 @@
 _VermilionGymText_5cb6d::
-	text "I am ENOKI!"
+	text "I am MORTY!"
 	
 	para "This region..."
 	
