@@ -11,7 +11,7 @@ _CinnabarMartText2::
 
 _CinnabarMartText3::
 	text "I only buy what"
-	line "i'm rationed to"
+	line "I'm rationed to"
 	cont "help out our"
 	cont "brave troops!"
 	done

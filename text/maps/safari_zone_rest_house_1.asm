@@ -11,7 +11,7 @@ _SafariZoneRestHouse1Text2::
 	cont "people take home"
 	cont "crazy mutants?"
 	
-	para "Well I guess"
+	para "Well, I guess"
 	line "they did sign"
 	cont "the entrance"
 	cont "waiver."

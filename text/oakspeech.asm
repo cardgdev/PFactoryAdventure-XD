@@ -7,7 +7,7 @@ _OakSpeechText1::
 
 	para "Bet you're"
 	line "surprised to see"
-	cont "me in a labcoat"
+	cont "me in a labcoat,"
 	cont "huh? Let's get"
 	cont "down to business."
 	prompt

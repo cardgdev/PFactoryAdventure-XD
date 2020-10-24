@@ -3,7 +3,7 @@ _FuchsiaHouse3Text_561bd::
 	line "GURU's older"
 	cont "brother!"
 
-	para "I simply Looove"
+	para "I simply looove"
 	line "fishing!"
 
 	para "Do you like to"
