@@ -21,7 +21,7 @@ _BrunoBeforeBattleText:: ;koga
 	para "Fwahahahaha!"
 
 	para "#MON is not"
-	line "merely about brute"
+	line "only about brute"
 
 	para "force--you shall"
 	line "see soon enough!"
@@ -43,8 +43,8 @@ _BrunoAfterBattleText::
 	cont "hone my skills."
 
 	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	line "room, and test"
+	cont "your abilities!"
 	done
 
 _BrunoDontRunAwayText::

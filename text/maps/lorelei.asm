@@ -13,7 +13,7 @@ _LoreleiBeforeBattleText:: ; will
 	line "#MON powerful."
 
 	para "And, at last, I've"
-	line "been accepted into"
+	line "been accepted to"
 	cont "the ELITE FOUR."
 
 	para "I can only keep"

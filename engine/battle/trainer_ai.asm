@@ -1097,7 +1097,7 @@ BlaineAI: ; 3a63a (e:663a)
 	ld a,$A
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseFullRestore
 
 SabrinaAI: ; 3a640 (e:6640)
 	cp $40
@@ -1113,7 +1113,7 @@ Sony2AI: ; 3a64c (e:664c)
 	ld a,5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUsePotion
+	jp AIUseSuperPotion
 
 Sony3AI: ; 3a658 (e:6658)
 	cp $20
@@ -1129,7 +1129,7 @@ LoreleiAI: ; 3a664 (e:6664)
 	ld a,5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseFullRestore
 
 BrunoAI: ; 3a670 (e:6670)
 	cp $40
@@ -1144,7 +1144,7 @@ AgathaAI: ; 3a676 (e:6676)
 	ld a,4
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseFullRestore
 
 LanceAI: ; 3a687 (e:6687)
 	cp $80
@@ -1152,7 +1152,7 @@ LanceAI: ; 3a687 (e:6687)
 	ld a,5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseHyperPotion
+	jp AIUseFullRestore
 
 GenericAI: ; 3a693 (e:6693)
 	and a ; clear carry
