@@ -1,8 +1,10 @@
 DisplayEffectiveness:
 	ld a, [wDamageMultipliers]
 	and a, $7F
-	cp a, $0A
-	ret z
+	ret z ; no flags were set, therefore neutral
+	cp %00000011
+	ret z ; SE to one type and NVE to the other type
+	rra ; rotate right into carry, i.e. test bit 0, which is NVE
 	ld hl, SuperEffectiveText
 	jr nc, .done
 	ld hl, NotVeryEffectiveText

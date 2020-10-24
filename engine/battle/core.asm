@@ -3175,7 +3175,6 @@ ExecutePlayerMove:
 	ld [wMoveMissed], a
 	ld [wMonIsDisobedient], a
 	ld [wMoveDidntMiss], a
-	ld a, $a
 	ld [wDamageMultipliers], a
 	ld a, [wActionResultOrTookBattleTurn]
 	and a ; has the player already used the turn (e.g. by using an item, trying to run or switching pokemon)
@@ -3962,7 +3961,7 @@ PrintMoveFailureText:
 .playersTurn
 	ld hl, DoesntAffectMonText
 	ld a, [wDamageMultipliers]
-	and $7f
+	cp $7f
 	jr z, .gotTextToPrint
 	ld hl, AttackMissedText
 	ld a, [wCriticalHitOrOHKO]
@@ -5396,13 +5395,24 @@ AdjustDamageForMoveType:
 	push hl
 	push bc
 	inc hl
-	ld a,[wDamageMultipliers]
-	and a,$80
-	ld b,a
 	ld a,[hl] ; a = damage multiplier
 	ld [H_MULTIPLIER],a
-	add b
-	ld [wDamageMultipliers],a
+
+; update damage multipliers
+; 0 = immune
+; >10 = SE
+; <10 = NVE
+	and a
+	jr z, .typeImmunity
+	cp 10
+	ld hl, wDamageMultipliers
+	jr c, .notVeryEffective
+; super effective
+	set 1, [hl]
+	jr .multiply
+.notVeryEffective
+	set 0, [hl]
+.multiply
 	xor a
 	ld [H_MULTIPLICAND],a
 	ld hl,wDamage
@@ -5417,24 +5427,37 @@ AdjustDamageForMoveType:
 	call Divide
 	ld a,[H_QUOTIENT + 2]
 	ld [hli],a
-	ld b,a
 	ld a,[H_QUOTIENT + 3]
 	ld [hl],a
-	or b ; is damage 0?
-	jr nz,.skipTypeImmunity
-.typeImmunity
-; if damage is 0, make the move miss
-; this only occurs if a move that would do 2 or 3 damage is 0.25x effective against the target
-	inc a
-	ld [wMoveMissed],a
-.skipTypeImmunity
+
 	pop bc
 	pop hl
 .nextTypePair
 	inc hl
 	inc hl
 	jp .loop
+
+.typeImmunity
+; if defending mon is immune, set damage to zero
+; and make the move miss
+	ld hl, wDamage
+	ld [hli], a
+	ld [hl], a
+	inc a
+	ld [wMoveMissed],a
+	ld a, $7f
+	ld [wDamageMultipliers], a
+	pop bc
+	pop hl
+	ret
+
 .done
+; fix zero damage resulting from a quad resistance
+	ld hl, wDamage
+	ld a, [hli]
+	or [hl]
+	ret nz
+	inc [hl]
 	ret
 
 ; function to tell how effective the type of an enemy attack is on the player's current pokemon
@@ -5728,7 +5751,6 @@ ExecuteEnemyMove:
 	xor a
 	ld [wMoveMissed], a
 	ld [wMoveDidntMiss], a
-	ld a, $a
 	ld [wDamageMultipliers], a
 	call CheckEnemyStatusConditions
 	jr nz, .enemyHasNoSpecialConditions
