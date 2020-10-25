@@ -53,19 +53,16 @@ _SilphCo8AfterBattleText2::
 	done
 
 _SilphCo8BattleText3::
-	text "Watch out!"
-	
-	line "I'm BUOY BOB!"
+	text "I'm here to pay"
+	line "the bills, it's"
+	cont "nothing personal!"
 	done
 
 _SilphCo8EndBattleText3::
-	text "Bob!"
-	line "-ob -ob!"
+	text "Psh!"
 	prompt
 
 _SilphCo8AfterBattleText3::
-	text "I go speedboating"
-	line "on the weekend."
-	
-	para "I'm a gnarly dude."
+	text "I'm personnel,"
+	line "kid."
 	done

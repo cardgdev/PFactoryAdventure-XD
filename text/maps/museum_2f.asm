@@ -25,8 +25,8 @@ _Museum2FText3::
 	cont "space exhibit,"
 	cont "the town had the"
 	cont "idea to make"
-	cont "BROCK's gym space"
-	cont "themed as well."
+	cont "BROCK's GYM space"
+	cont "themed, as well."
 
 	para "He liked the idea"
 	line "but we didn't"

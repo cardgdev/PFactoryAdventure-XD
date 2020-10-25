@@ -1,9 +1,10 @@
 _DiglettsCaveRoute2Text1::
-	text "I went to ROCK"
-	line "TUNNEL, but it's"
-	cont "dark and scary."
+	text "One of these"
+	line "paths goes to"
+	cont "CINNABAR ISLAND."
 
-	para "If a #MON's"
-	line "FLASH could light"
-	cont "it up..."
+	para "The KNOWITALLs"
+	line "ensure most"
+	cont "people still go"
+	cont "by boat though."
 	done
