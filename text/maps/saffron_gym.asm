@@ -7,19 +7,19 @@ _SaffronGymText_5d162::
 	para "INITIATING BATTLE"
 	line "PROCEDURES"
 	
-	para "I AM SHINJUKU JACK"
+	para "I AM TOKYO JACK"
 	
 	para "PREPARE TO BE"
 	line "STOMPED HARD!"
 	done
 
 _SaffronGymText_5d167::
-	text "OUT OF"
+	text "NO"
 	line "AVAILABLE #MON"
 	line "TO BATTLE"
 
 	para "INITIATING DEFEAT"
-	line "PROCEDURES"
+	line "PROCEDURES..."
 	
 	para "CONGRATULATIONS!"
 	
