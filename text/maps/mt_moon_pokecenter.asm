@@ -3,7 +3,7 @@ _MtMoonPokecenterText1::
 	line "#MON at most"
 	cont "but you should"
 	cont "take care to"
-	cont "keep them all."
+	cont "keep them all"
 	cont "evenly trained!"
 
 	para "Only scourge-of-"
