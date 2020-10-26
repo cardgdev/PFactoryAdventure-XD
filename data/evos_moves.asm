@@ -363,12 +363,12 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 14, DIG
+	db 14, RAGE
 	db 25, LEER
 	db 31, FOCUS_ENERGY
 	db 38, THRASH
 	db 43, BONEMERANG
-	db 46, RAGE
+	db 46, DIG
 	db 0
 	
 MarowakEvosMoves:
@@ -376,12 +376,12 @@ MarowakEvosMoves:
 	db EV_LEVEL, 40, FRACTURE
 	db 0
 ; Learnset
-	db 14, DIG
+	db 14, RAGE
 	db 25, LEER
 	db 33, FOCUS_ENERGY
 	db 41, THRASH
 	db 48, BONEMERANG
-	db 55, RAGE
+	db 55, DIG
 	db 0
 	
 VoltorbEvosMoves:
@@ -392,9 +392,9 @@ VoltorbEvosMoves:
 	db 9, THUNDERSHOCK
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
-	db 28, THUNDERBOLT
+	db 28, SWIFT
 	db 31, LIGHT_SCREEN
-	db 36, SWIFT
+	db 36, THUNDERBOLT
 	db 43, EXPLOSION
 	db 0
 
@@ -406,9 +406,9 @@ ElectrodeEvosMoves:
 	db 9, THUNDERSHOCK
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
-	db 28, THUNDERBOLT
+	db 28, SWIFT
 	db 33, LIGHT_SCREEN
-	db 40, SWIFT
+	db 40, THUNDERBOLT
 	db 50, EXPLOSION
 	db 0
 
