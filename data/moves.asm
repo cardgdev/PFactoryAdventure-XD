@@ -178,7 +178,7 @@ MoveEnd:
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,   100, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, ELECTRIC, 100,  5
 	move EMBER,        TWO_TO_FIVE_ATTACKS_EFFECT,  15, FIRE,     85,  20
-	move FIRE_SPIN,    TRAPPING_EFFECT,             60, FIRE,     85,  15
+	move FIRE_SPIN,    TRAPPING_EFFECT,             35, FIRE,     85,  15
 	move SURF,         SPEED_DOWN_SIDE_EFFECT,      70, WATER,    100, 20
 	move WATERFALL,    TRAPPING_EFFECT,             60, WATER,     85, 15
 	move NIGHT_SHADE,  CONFUSION_SIDE_EFFECT,       60, GHOST,    100, 20
@@ -190,7 +190,7 @@ MoveEnd:
 	move AURORA_BEAM,  PARALYZE_SIDE_EFFECT1,       80, DRAGON,   100, 15
 	move DOUBLE_EDGE,  NO_ADDITIONAL_EFFECT,       100, BUG,      100, 10
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           90, GHOST,    100, 15
-	move WRAP,         TRAPPING_EFFECT,             15, BUG,       90, 20
+	move WRAP,         TRAPPING_EFFECT,             20, BUG,       90, 20
 	move BITE,         BURN_SIDE_EFFECT1,           70, DRAGON,    95, 15
 	move SCRATCH,        POISON_SIDE_EFFECT2,         80, POISON,   100, 20
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, ICE,      100, 20
