@@ -34,7 +34,7 @@ const_value = 0
 	const CRED_SPECTHANKS
 	const CRED_RHEG
 	const CRED_NEWPFSTAFF
-	const CRED_SOUP
+	const CRED_LUNA
 	const CRED_POLAND
 	const CRED_ORIGPFSTAFF
 	const CRED_MEWTHREE

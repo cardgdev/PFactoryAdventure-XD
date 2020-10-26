@@ -33,7 +33,7 @@ CreditsTextPointers:
 	dw CredSpecThanks
 	dw CredRheg
 	dw CredNewPFStaff
-	dw CredSoup
+	dw CredLuna
 	dw CredPoland
 	dw CredOrigPFStaff
 	dw CredMewthree
@@ -109,8 +109,8 @@ CredRheg:
 	db -8, "/rheg/ on /vp/@"
 CredNewPFStaff:
 	db -8, "New PF Staff@"
-CredSoup:
-	db -8, "SourApple@"
+CredLuna:
+	db -8, "Luna - Red++@"
 CredPoland:
 	db -8, "PolandDev@"
 CredOrigPFStaff:
