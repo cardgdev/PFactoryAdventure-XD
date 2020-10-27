@@ -35,7 +35,7 @@ _Route9AfterBattleText2::
 	text "At least I can"
 	line "easily beat that"
 	cont "girl with the"
-	cont "grass #MON."
+	cont "GRASS #MON."
 	done
 
 _Route9BattleText3::
