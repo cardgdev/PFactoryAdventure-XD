@@ -38,9 +38,9 @@ _PalletTownText5::
 	done
 
 _PalletTownText6::
-	text "<PLAYER>'s house "
+	text "RED's house "
 	done
 
 _PalletTownText7::
-	text "<RIVAL>'s house "
+	text "BLUE's house "
 	done
