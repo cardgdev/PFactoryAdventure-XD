@@ -19,7 +19,7 @@ _ViridianCityText_19127::
 	line "is tough! I heard"
 	cont "he's the son of"
 	cont "the old VIRIDIAN"
-	cont "gym leader."
+	cont "GYM LEADER."
 	done
 
 _ViridianCityText_1914d::
@@ -175,6 +175,10 @@ _ViridianCityText10::
 _ViridianCityText13::
 	text "VIRIDIAN CITY"
 	line "#MON GYM"
+	cont "LEADER: JUNIOR"
+	
+	para "The Pint-Sized"
+	line "Powerhouse!"
 	done
 
 _ViridianCityText14::
