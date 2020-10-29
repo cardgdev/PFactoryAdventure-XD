@@ -322,3 +322,5 @@ hDisableJoypadPolling EQU $FFF9
 
 hJoyInput EQU $FFF8
 
+hOverworldDelay EQU $FFFA
+

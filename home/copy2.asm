@@ -226,3 +226,54 @@ ClearScreen::
 	dec b
 	jr nz, .loop
 	jp Delay3
+
+SpinnerCopyVideoData:
+	ld a, [H_LOADEDROMBANK]
+	push af
+	ld a, b
+	ld [H_LOADEDROMBANK], a
+	ld [MBC1RomBank], a
+
+; swap de and hl
+	push de
+	ld d, h
+	ld e, l
+	pop hl
+
+.outerLoop
+	ld b, 4
+.innerLoop
+	ld a, [rLY]
+	cp $7e
+	call nc, DelayFrame
+.waitNoHBlank
+	ld a, [rSTAT]
+	and %10
+	jr z, .waitNoHBlank
+.waitHBlank
+	ld a, [rSTAT]
+	and %10
+	jr nz, .waitHBlank
+	di
+; copy 4 bytes per ly
+	ld a, [hli]
+	ld [de], a
+	inc e
+	ld a, [hli]
+	ld [de], a
+	inc e
+	ld a, [hli]
+	ld [de], a
+	inc e
+	ld a, [hli]
+	ld [de], a
+	ei
+	inc de
+	dec b
+	jr nz, .innerLoop
+	dec c
+	jr nz, .outerLoop
+	pop af
+	ld [H_LOADEDROMBANK], a
+	ld [MBC1RomBank], a
+	ret
