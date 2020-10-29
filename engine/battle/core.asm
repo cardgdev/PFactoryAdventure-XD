@@ -5281,9 +5281,13 @@ MetronomePickMove:
 	call BattleRandom
 	and a
 	jr z,.pickMoveLoop
-	cp a,NUM_ATTACKS + 1 ; max normal move number + 1 (this is Struggle's move number)
+	cp a, HURRICANE + 1 ; max normal move number + 1 (changed to hurricane because that's the last new move with struggle added as an edge case)
 	jr nc,.pickMoveLoop
 	cp a,METRONOME
+	jr z,.pickMoveLoop
+	cp a,TRANSFORM ; so the palette visual bug won't happen lol
+	jr z,.pickMoveLoop
+	cp a,STRUGGLE
 	jr z,.pickMoveLoop
 	ld [hl],a
 	jr ReloadMoveData
