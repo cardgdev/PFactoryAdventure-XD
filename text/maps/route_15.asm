@@ -89,7 +89,7 @@ _Route15BattleText6::
 	text "Just because I"
 	line "live alone with"
 	cont "my #MON"
-	cont "dosen't mean I'm"
+	cont "doesn't mean I'm"
 	cont "crazy!"
 	done
 

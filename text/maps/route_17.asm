@@ -115,7 +115,7 @@ _Route17EndBattleText7::
 
 _Route17AfterBattleText7::
 	text "Just because I'm"
-	line "big dosen't make"
+	line "big doesn't make"
 	cont "me slow, but I"
 	cont "love catching"
 	cont "skinny weaklings"

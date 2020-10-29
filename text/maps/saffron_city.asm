@@ -63,7 +63,7 @@ _SaffronCityText7::
 	line "in here from"
 	cont "FUSCHIA CITY to"
 	cont "make a ruckus and"
-	cont "delegitimatize"
+	cont "delegitimize the"
 	cont "real protesters!"
 	done
 
