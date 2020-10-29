@@ -353,7 +353,7 @@ LoadSpinnerArrowTiles:
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	call CopyVideoData
+	call SpinnerCopyVideoData
 	pop bc
 	ld a, $6
 	add c
