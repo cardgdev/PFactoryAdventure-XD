@@ -37,11 +37,18 @@ EnterMap::
 	set 6, [hl]
 	xor a
 	ld [wJoyIgnore], a
+	ld a, 2
+	ld [hOverworldDelay], a
 
 OverworldLoop::
-	call DelayFrame
-OverworldLoopLessDelay::
-	call DelayFrame
+	ld a, [hOverworldDelay]
+	ld c, a
+	and a
+	call nz, DelayFrames
+	ld a, 2
+	ld [hOverworldDelay], a
+
+OverworldLoopAfterDelay:
 	call LoadGBPal
 	ld a,[wd736]
 	bit 6,a ; jumping down a ledge?
@@ -706,7 +713,7 @@ CheckMapConnections::
 ; $C2XE without loading any tile patterns.
 	callba InitMapSprites
 	call LoadTileBlockMap
-	jp OverworldLoopLessDelay
+	jp OverworldLoop
 
 .didNotEnterConnectedMap
 	jp OverworldLoop

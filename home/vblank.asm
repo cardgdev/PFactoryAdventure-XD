@@ -50,6 +50,13 @@ VBlank::
 	ld [H_FRAMECOUNTER], a
 
 .skipDec
+	ld a, [hOverworldDelay]
+	and a
+	jr z, .noOverworldDelay
+	dec a
+	ld [hOverworldDelay], a
+.noOverworldDelay
+
 	call FadeOutAudio
 
 	ld a, [wAudioROMBank] ; music ROM bank
