@@ -23,7 +23,7 @@ _LavenderTownText_44146::
 	done
 
 _LavenderTownText2::
-	text "Stange figures"
+	text "Strange figures"
 	line "started to rise"
 	cont "from the graves"
 	cont "in #MON TOWER."
