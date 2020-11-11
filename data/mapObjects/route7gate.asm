@@ -5,7 +5,7 @@ Route7GateObject:
 	db $3, $0, $3, $ff
 	db $4, $0, $3, $ff
 	db $3, $5, $0, $ff
-	db $4, $5, $1, $ff
+	db $4, $5, $0, $ff
 
 	db $0 ; signs
 

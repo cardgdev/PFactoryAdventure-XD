@@ -12,10 +12,10 @@ INCBIN "pic/pfmon/clammler.pic",0,1 ; 55, sprite dimensions
 dw ClammlerPicFront
 dw ClammlerPicBack
 ; attacks known at lvl 0
-db TWINEEDLE
-db TACKLE
-db WATER_GUN
 db WITHDRAW
+db SUPERSONIC
+db CLAMP
+db AURORA_BEAM
 db 5 ; growth rate
 ; learnset
 	tmlearn 4,6

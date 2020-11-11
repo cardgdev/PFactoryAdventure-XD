@@ -422,6 +422,7 @@ ParalyzeOrSleepMoves:
 	db HYPNOSIS
 	db LOVELY_KISS
 	db SPORE
+	db COMATOSE
 	db $ff
 	
 SmartAI:
@@ -662,6 +663,7 @@ LightBuffStatusMoves:
     db FLASH
     db SHARPEN
     db SAND_ATTACK
+	db INVISIBILITY
     db $FF
 
 HeavyBuffStatusMoves:
@@ -677,6 +679,7 @@ HeavyBuffStatusMoves:
     db GLARE
     db CONFUSE_RAY
     db SUPERSONIC
+	db COMATOSE
     db $FF
     
 HealingMoves:
@@ -688,6 +691,8 @@ HealingMoves:
 ExplosionMoves:
 	db EXPLOSION
 	db SELFDESTRUCT
+	db H_BOMB
+	db SHROOM_BOOM
 	db $FF
 	
 AlterMovePriority:

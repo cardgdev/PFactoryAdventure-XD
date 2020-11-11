@@ -568,10 +568,10 @@ FoleonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, ABSORB
-	db 37, STUN_SPORE
-	db 40, BITE
+	db 14, QUICK_ATTACK
+	db 20, ABSORB
+	db 31, STUN_SPORE
+	db 35, BITE
 	db 42, MEGA_DRAIN
 	db 44, LEECH_SEED
 	db 48, DOUBLE_EDGE
@@ -582,10 +582,10 @@ BugeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, PIN_MISSILE
-	db 37, SCREECH
-	db 40, BITE
+	db 14, QUICK_ATTACK
+	db 20, PIN_MISSILE
+	db 31, SCREECH
+	db 35, BITE
 	db 42, TWINEEDLE
 	db 44, TOXIC
 	db 48, DOUBLE_EDGE
@@ -596,10 +596,10 @@ LunareonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, ROCK_THROW
-	db 37, HYPNOSIS
-	db 40, BITE
+	db 14, QUICK_ATTACK
+	db 20, ROCK_THROW
+	db 31, HYPNOSIS
+	db 35, BITE
 	db 42, SWIFT
 	db 44, LIGHT_SCREEN
 	db 48, DOUBLE_EDGE
@@ -610,10 +610,10 @@ MeweeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, CONFUSION
-	db 37, BARRIER
-	db 40, BITE
+	db 14, QUICK_ATTACK
+	db 20, CONFUSION
+	db 31, BARRIER
+	db 35, BITE
 	db 42, PSYCHIC_M
 	db 44, REFLECT
 	db 48, TRI_ATTACK
@@ -720,7 +720,7 @@ FeliflameEvosMoves:
 	; bite
 	; screech
 	db 30, EMBER
-	db 51, REDHOT_CLAW
+	db 50, REDHOT_CLAW
 	db 0
 	
 NinetimesEvosMoves:
@@ -754,6 +754,7 @@ AlactrodeEvosMoves:
 	; tackle
 	; screech
 	; sonicboom
+	db 40, THUNDERBOLT
 	db 50, H_BOMB
 	db 0
 	
@@ -764,10 +765,11 @@ StarmishEvosMoves:
 	;tackle
 	;water gun
 	;harden
-	db 37, EMBER
-	db 42, LIGHT_SCREEN
-	db 47, PSYBEAM
-	db 52, FIREWALL
+	db 21, EMBER
+	db 30, FIRE_SPIN
+	db 35, LIGHT_SCREEN
+	db 45, PSYBEAM
+	db 50, FIREWALL
 	db 0
 	
 ClammlerEvosMoves:
@@ -948,6 +950,7 @@ CutiepieEvosMoves:
 	;doubleslap
 	;metronome
 	;rest
+	db 34, BODY_SLAM
 	db 42, MINIMIZE
 	db 0
 	
