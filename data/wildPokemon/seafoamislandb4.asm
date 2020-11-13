@@ -6,6 +6,7 @@ IslandMonsB4:
 	db 29,ICEPICK
 	db 31,ERCHIN
 	db 31,FROZONE
+	db 31,ERCHIN
 	db 29,FROZONE
 	db 39,MEWBLU
 	db 32,MEWBLU
