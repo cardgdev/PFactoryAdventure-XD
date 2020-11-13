@@ -7,7 +7,7 @@ PlateauMons2:
 	db 39,GORK
 	db 42,MAROWAK
 	db 41,MAZILLA
-	db 40,KILIANSH
+	db 40,HUNTER
 	db 40,DOOMSAY
 	db 43,DOOMSAY
 	db $00

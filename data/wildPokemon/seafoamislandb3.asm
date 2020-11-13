@@ -9,5 +9,5 @@ IslandMonsB3:
 	db 31,ICEPICK
 	db 29,ICEPICK
 	db 39,FREEZAP
-	db 37,FREEZAP	
+	db 37,WENDIGO	
 	db $00

@@ -2,7 +2,7 @@ TowerMons6:
 	db $0F
 	db 21,GHOSTLY
 	db 22,GHOSTLY
-	db 23,GHOSTLY
+	db 23,PSYTHING
 	db 24,SPIROCATE
 	db 20,KRUNO
 	db 28,SPIROCATE

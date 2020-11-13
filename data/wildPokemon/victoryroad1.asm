@@ -6,8 +6,8 @@ PlateauMons1:
 	db 36,GRANITE
 	db 39,GORK
 	db 42,GRANITE
-	db 41,GORK
+	db 41,MAROWAK
 	db 41,MECHTROID
-	db 42,KILIANSH
-	db 43,MAROWAK
+	db 42,HUNTER
+	db 43,HUNTER
 	db $00

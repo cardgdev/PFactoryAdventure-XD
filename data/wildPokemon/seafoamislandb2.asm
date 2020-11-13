@@ -8,6 +8,6 @@ IslandMonsB2:
 	db 30,STARYU
 	db 30,FREEZY
 	db 28,SHELLDER
-	db 30,FREEZY
-	db 37,ICEPICK	
+	db 30,FREEZAP
+	db 37,FREEZAP	
 	db $00
