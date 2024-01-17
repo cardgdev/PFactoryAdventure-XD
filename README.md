@@ -1,8 +1,4 @@
-# Pokemon Factory Adventure
-A romhack based on Roaming Red that features fakemon from the Pokemon Factory's generation 1 archive.
+# rom hack of a rom hack of a rom hack
+Small balance changes to PFA.
 
-Yeah, those ones.
-
-Based on pret/pokered
-
-Secondarily Based on https://github.com/tshadowknight/Pokemon-Roaming-Red
+Original repo: https://github.com/CameruptQDX/PF-Roaming-Red
