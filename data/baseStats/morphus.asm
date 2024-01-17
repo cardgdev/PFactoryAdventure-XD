@@ -5,7 +5,7 @@ db 60 ; base defense
 db 65 ; base speed
 db 100 ; base special
 db POISON ; species type 1
-db POISON ; species type 2
+db NORMAL ; species type 2
 db 150 ; catch rate
 db 130 ; base exp yield
 INCBIN "pic/pfmon/morphus.pic",0,1 ; 55, sprite dimensions
