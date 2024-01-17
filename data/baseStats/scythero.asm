@@ -5,7 +5,7 @@ db 80 ; base defense
 db 105 ; base speed
 db 80 ; base special
 db BUG ; species type 1
-db BUG ; species type 2
+db NORMAL ; species type 2
 db 90 ; catch rate
 db 130 ; base exp yield
 INCBIN "pic/pfmon/scythero.pic",0,1 ; 55, sprite dimensions
