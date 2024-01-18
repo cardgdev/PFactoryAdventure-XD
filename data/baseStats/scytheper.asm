@@ -1,9 +1,9 @@
 db DEX_SCYTHEPER ; pokedex id
 db 70 ; base hp
-db 110 ; base attack
-db 80 ; base defense
+db 90 ; base attack
+db 100 ; base defense
 db 105 ; base speed
-db 80 ; base special
+db 60 ; base special
 db BUG ; species type 1
 db FLYING ; species type 2
 db 80 ; catch rate
