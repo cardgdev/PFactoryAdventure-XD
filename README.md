@@ -22,6 +22,6 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 ## Other changes:
 
-- HM moves can be forgotten. Be careful not to softlock yourself!
+- HM moves can be forgotten. Softlocking should be impossible since Cinnebar is accessible by foot, and everywhere else you can always black out.
 - "Mew under the truck" event.
 - Increased TM availability.
