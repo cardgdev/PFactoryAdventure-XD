@@ -5,6 +5,8 @@ ModifyLevelWild:
 	push hl
 	Call DetermineReferenceLevel
 	ld a, [wReferenceLevel]
+;fix wild level scaling by halving the reference level
+	sra a
 	ld d, a
 	call Random
 	and %0011
@@ -17,7 +19,13 @@ ModifyLevelWild:
 	cp 0
 	jp nz, .notZero
 	add 1
-.notZero	
+.notZero
+; max out wild level to 35
+	ld b $35
+	cp b
+	jr c, .doNotThrottleLevel
+	ld a, $35 
+.doNotThrottleLevel
 	ld [wCurEnemyLVL],a
 	pop hl
 	pop de
