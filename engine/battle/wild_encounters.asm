@@ -129,12 +129,12 @@ TryDoWildEncounter:
 	farcall RandomizeWildMon
 	ld a, [wcf91]
 	ld [wEnemyMonSpecies2], a
-	call Random
-	and 1
-	jr nz, .noEvoStageModification	
-	farcall ModifyEvoStage
-	ld a, [wcf91]
-	ld [wEnemyMonSpecies2], a
+;	call Random
+;	and 1
+;	jr nz, .noEvoStageModification	
+;	farcall ModifyEvoStage
+;	ld a, [wcf91]
+;	ld [wEnemyMonSpecies2], a
 .noEvoStageModification	
 	ld a, [wRepelRemainingSteps]
 	and a
