@@ -216,3 +216,7 @@ MoveEnd:
 	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        0, UNKNOWN,    100, 15
 	move ROCK_SLIDE,       SPEED_DOWN_SIDE_EFFECT,      70, ROCK,    100, 15 ; tombstoner
 	move GUST,    CONFUSION_SIDE_EFFECT,   110, FLYING,    70, 10
+	;exoblade
+	;poison fang
+	;DNA burst
+	;bloom
