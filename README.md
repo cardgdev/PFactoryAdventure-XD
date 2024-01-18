@@ -8,13 +8,16 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 ## System changes
 
 - Wild mons no longer scale their evolution. This is to incentivize their usage and training from lower tiers. Wild mon levels still scale and trainer battles still scale evos.
+- HM moves can be forgotten. Softlocking should be impossible since Cinnebar is accessible by foot, and everywhere else you can always black out.
 
 ## Type changes:
 
-| Pokemon   | Original Type |  New Type |
-|----------|:-------------:|:------:|
-| Scythero | Bug | Bug/Normal |
-| Morphus |  Poison |  Poison/Normal |
+| Pokemon   | Original Type |  New Type | Reasoning |
+|----------|:-------------:|:------:|:------:|
+| Scythero | Bug | Bug/Normal | Differentiate more from Scyther |
+| Morphus |  Poison |  Poison/Normal | Differentiate more from Zubat |
+| Laprince | Water/Ice | Rock/Ice | Differentiate more from Lapras, Rock-type fits with the dex entry |
+
 
 ## Encounter changes:
 
@@ -22,6 +25,5 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 ## Other changes:
 
-- HM moves can be forgotten. Softlocking should be impossible since Cinnebar is accessible by foot, and everywhere else you can always black out.
 - "Mew under the truck" event.
 - Increased TM availability.
