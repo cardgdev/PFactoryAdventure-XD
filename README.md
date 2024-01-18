@@ -5,6 +5,8 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 # Change summary
 
+PFA is an excellent, underappreciated rom hack. So many PF fakemons are so charming and cool that the hack demands multiple replays in order to use lots of different mons -- this patch is meant to help facilitate that experience.
+
 Many of the changes to this patch actually reduce the scope of wild encounters to create a more fun experience. This is because the wild level scaling features of PF-Roaming-Red disincentivize certain aspects of gameplay, such as using weak mons early, training weak mons, working towards evolving to stronger stages, etc. For example, is no need to struggle to train up a Magikarp if you can just quickly catch Gyarados after some evo scaling. These changes are fine for a hack of vanilla Red, which everyone has already played. But the main purpose of Pokemon Factory Adventure is to use the fakemons. So to incentivize actually using the fakemons, the wild encounter system of PF-Roaming-Red has been restricted, while still preserving the fun of a dynamic adventure. Additionally, evo stones can no longer be purchased in Celedon and must be found in the overworld.
 
 Items in the overworld are improved, mostly replaced with TMs and Evo stones. In a dynamic region where you can start anywhere, there is no need to have Potions in Viridian Forest and Max Potions in the Safari Zone.
