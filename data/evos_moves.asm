@@ -2357,14 +2357,14 @@ LaprinceEvosMoves:
 ; evolutions
 	db 0
 ; learnset
-	;water gun
-	;growl
-	db 20, SING
+	;rock throw
+	;sing
+	db 20, CONFUSION
 	db 25, MIST
-	db 31, BODY_SLAM
+	db 31, AURORA_BEAM
 	db 38, CONFUSE_RAY
-	db 46, ICE_BEAM
-	db 51, HYDRO_PUMP
+	db 46, ROCK_SLIDE
+	db 51, BLIZZARD
 	db 0
 	
 DimotriteEvosMoves:
