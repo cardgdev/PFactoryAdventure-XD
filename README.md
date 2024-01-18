@@ -34,5 +34,5 @@ Many of the fakemons from Pokemon Factory, like Scytheper and Laprince, seem to 
 
 ## Other changes:
 
-- Try to fix trainer payouts? Need to check the logic for how viable this is.
+- Trainers now payout a static +500$ extra, to avoid situations early game where weak trainers pay out very little dispite their difficulty.
 - "Mew under the truck" event.
