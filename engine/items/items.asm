@@ -1950,7 +1950,7 @@ RodResponse:
 	call Random
 	and 1
 	jr nz, .noRodEvoScaling
-	call ModifyEvoStageItems
+;	call ModifyEvoStageItems
 .noRodEvoScaling	
 	ld a, [wcf91]
 	ld [wCurOpponent], a
