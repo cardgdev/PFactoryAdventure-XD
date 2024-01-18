@@ -12,10 +12,10 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 ## Type changes:
 
-| Pokemon   | Original Type |  New Type | Reasoning |
+| Pokemon   | Original Type |  New Type | Notes |
 |----------|:-------------:|:------:|:------:|
-| Scythero | Bug | Bug/Normal | Differentiate more from Scyther |
-| Morphus |  Poison |  Poison/Normal | Differentiate more from Zubat |
+| Scythero | Bug | Bug/Normal |  |
+| Morphus |  Poison |  Poison/Normal |  |
 | Laprince | Water/Ice | Rock/Ice | Differentiate more from Lapras, Rock-type fits with the dex entry |
 
 
