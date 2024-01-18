@@ -34,4 +34,5 @@ Many of the fakemons from Pokemon Factory, like Scytheper and Laprince, seem to 
 
 ## Other changes:
 
+- Increase trainer payouts.
 - "Mew under the truck" event.
