@@ -1628,12 +1628,12 @@ ScytheperEvosMoves:
 ; learnset
 	; quick attack
 	; leer
-	db 17, WING_ATTACK 
-	db 20, FOCUS_ENERGY
-	db 24, DOUBLE_TEAM
-	db 29, SLASH
-	db 35, SWORDS_DANCE
-	db 42, AGILITY
+	db 17, FURY_SWIPES 
+	db 20, COUNTER
+	db 24, WING_ATTACK
+	db 29, AGILITY
+	db 35, SLASH
+	db 42, SWORDS_DANCE
 	db 0
 	
 SlashaEvosMoves:
@@ -1642,9 +1642,9 @@ SlashaEvosMoves:
 ; learnset
 	; quick attack
 	; leer
-	db 17, WING_ATTACK 
-	db 20, FOCUS_ENERGY
-	db 24, DOUBLE_TEAM
+;	db 17, WING_ATTACK 
+;	db 20, FOCUS_ENERGY
+;	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
 	db 40, MEGACUT
@@ -1659,7 +1659,7 @@ IcepickEvosMoves:
 	;wing attack
 	;focus energy
 	db 40, ICE_BLADE
-	db 45, AGILITY
+	db 45, SWORDS_DANCE
 	db 0
 	
 WendigoEvosMoves:
@@ -1833,9 +1833,9 @@ ExploEvosMoves:
 ; learnset
 	;ember
 	;poison gas
-	db 27, SMOKESCREEN
-	db 32, SELFDESTRUCT
-	db 37, SMOG
+	db 17, SMOKESCREEN
+	db 25, SELFDESTRUCT
+	db 31, SMOG
 	db 42, HAZE
 	db 48, EXPLOSION
 	db 50, FLAMETHROWER
