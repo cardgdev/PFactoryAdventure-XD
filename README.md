@@ -16,7 +16,7 @@ Many of the fakemons from Pokemon Factory, like Scytheper and Laprince, seem to 
 ## System changes
 
 - Wild mons no longer scale their evolution. Trainer battles still scale evolution.
-- Wild mon level scaling is reduced and capped at level 35.
+- Wild mon level scaling is halved and capped at level 35.
 - HM moves can be forgotten. Softlocking should be impossible since Cinnebar is accessible by foot, and everywhere else you can always black out.
 
 ## Type changes:
