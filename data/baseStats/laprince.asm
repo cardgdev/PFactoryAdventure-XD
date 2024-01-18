@@ -1,10 +1,10 @@
 db DEX_LAPRINCE ; pokedex id
 db 130 ; base hp
 db 95 ; base attack
-db 85 ; base defense
-db 60 ; base speed
+db 105 ; base defense
+db 40 ; base speed
 db 80 ; base special
-db WATER ; species type 1
+db ROCK ; species type 1
 db ICE ; species type 2
 db 45 ; catch rate
 db 210 ; base exp yield
@@ -12,8 +12,8 @@ INCBIN "pic/pfmon/laprince.pic",0,1 ; 55, sprite dimensions
 dw LaprincePicFront
 dw LaprincePicBack
 ; attacks known at lvl 0
-db WATER_GUN
-db GROWL
+db ROCK_THROW
+db SING
 db 0
 db 0
 db 5 ; growth rate
