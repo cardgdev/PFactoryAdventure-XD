@@ -19,5 +19,6 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 ## Other changes:
 
-- "Mew under the truck" event
-- Increased TM availability
+- HM moves can be forgotten. Be careful not to softlock yourself!
+- "Mew under the truck" event.
+- Increased TM availability.
