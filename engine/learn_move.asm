@@ -169,7 +169,7 @@ TryingToLearn:
 	pop bc
 	pop de
 	ld a, d
-	jr c, .hm
+;	jr c, .hm <- Removed to allow HMs to be forgotten
 	pop hl
 	add hl, bc
 	and a
