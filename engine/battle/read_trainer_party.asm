@@ -334,6 +334,15 @@ ReadTrainer:
 	inc de
 	dec b
 	jr nz,.LastLoop ; repeat wCurEnemyLVL times
+;let's see if this fixes the low money issue! TODO: needs testing
+	ld hl, 1F4
+        ld c,2 ; wAmountMoneyWon is a 3-byte number
+        push bc
+        predef AddBCDPredef
+        pop bc
+        inc de
+        inc de
+        dec b
 	ret
 
 
