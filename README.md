@@ -23,7 +23,7 @@ Many of the fakemons from Pokemon Factory, like Scytheper and Laprince, seem to 
 |----------|:-------------:|:------:|:------:|
 | Scythero | Bug | Bug/Normal |  |
 | Morphus |  Poison |  Poison/Normal |  |
-| Laprince | Water/Ice | Rock/Ice | Differentiate more from Lapras, Rock-type fits with the dex entry |
+| Laprince | Water/Ice | Rock/Ice | Differentiate more from Lapras, Rock-type fits because the dex entry says this is effectively a fossil mon |
 
 ## Encounter changes:
 
