@@ -5,6 +5,10 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 # Changelist
 
+## System changes
+
+- Wild mons no longer scale their evolution. This is to incentivize their usage and training from lower tiers. Wild mon levels still scale and trainer battles still scale evos.
+
 ## Type changes:
 
 | Pokemon   | Original Type |  New Type |
@@ -14,8 +18,7 @@ Fork of: https://github.com/CameruptQDX/PF-Roaming-Red
 
 ## Encounter changes:
 
-- Wakkazoid no longer found in Safari Zone to make the static encounters more hype.
-- Ideally removing all stone-evolution wild encounters to incentivize usage and training of their pre-evos. Will need to check the PF-Roaming-Red scaling encounter changes to see how feasible.
+- Wakkazoid no longer found in Safari Zone to make the static encounter more special.
 
 ## Other changes:
 
