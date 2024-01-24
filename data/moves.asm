@@ -220,3 +220,4 @@ MoveEnd:
 	;poison fang
 	;DNA burst
 	;bloom
+	;change some types to ground
